@@ -5,6 +5,7 @@ import Equipments from "@/components/Home/Equipments/Equipments";
 import Experts from "@/components/Home/Experts/Experts";
 import Features from "@/components/Home/Features/Features";
 import Hero from "@/components/Home/Hero/Hero";
+import Inovate from "@/components/Home/Inovate/Inovate";
 import Manufacturers from "@/components/Home/Manufacturers/Manufacturers";
 import RecentWork from "@/components/Home/RecentWork/RecentWork";
 import Teams from "@/components/Home/Teams/Teams";
@@ -33,6 +34,8 @@ export default function Home() {
         <TryIt className="my-20" />
 
         <Features className="my-20" />
+
+        <Inovate className="my-20" />
 
         <Equipments className="my-20" />
 
