@@ -59,13 +59,7 @@ const companyInfoLinks = [
 
 export default function Footer() {
   return (
-    <footer
-      style={{
-        backgroundImage:
-          "linear-gradient(180deg, rgba(19, 114, 196, 0.60) 0%, rgba(10, 10, 45, 0.80) 100%)",
-      }}
-      className="mt-20 py-12"
-    >
+    <footer className="mt-20 py-12 bg-black">
       <ResponsiveContainer>
         <div className="flex-start-between w-full flex-col gap-y-5 lg:flex-row">
           <Link to="/">

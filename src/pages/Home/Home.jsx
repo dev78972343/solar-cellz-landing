@@ -7,12 +7,12 @@ import Equipments from "@/components/Home/Equipments/Equipments";
 import Experts from "@/components/Home/Experts/Experts";
 import Features from "@/components/Home/Features/Features";
 import Hero from "@/components/Home/Hero/Hero";
+import Inovate from "@/components/Home/Inovate/Inovate";
 import Manufacturers from "@/components/Home/Manufacturers/Manufacturers";
 import RecentWork from "@/components/Home/RecentWork/RecentWork";
 import Teams from "@/components/Home/Teams/Teams";
 import Testimonials from "@/components/Home/Testimonials/Testimonials";
 import TopSeller from "@/components/Home/TopSellers/TopSeller";
-import Projects from "@/components/Projects/Projects";
 import DynamicHelmet from "@/components/shared/DynamicHelmet/DynamicHelmet";
 import { Separator } from "@/components/ui/separator";
 
@@ -32,11 +32,7 @@ export default function Home() {
 
         <About />
 
-        <About2 />
-
         <Features className="my-20" />
-
-        <Projects />
 
         <Equipments className="my-20" />
 
