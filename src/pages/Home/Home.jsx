@@ -9,12 +9,15 @@ import Features from "@/components/Home/Features/Features";
 import Hero from "@/components/Home/Hero/Hero";
 import Inovate from "@/components/Home/Inovate/Inovate";
 import Manufacturers from "@/components/Home/Manufacturers/Manufacturers";
+import Projects from "@/components/Home/Projects/Projects";
 import RecentWork from "@/components/Home/RecentWork/RecentWork";
 import Teams from "@/components/Home/Teams/Teams";
 import Testimonials from "@/components/Home/Testimonials/Testimonials";
 import TopSeller from "@/components/Home/TopSellers/TopSeller";
 import DynamicHelmet from "@/components/shared/DynamicHelmet/DynamicHelmet";
 import { Separator } from "@/components/ui/separator";
+
+import "../../css/embla.css";
 
 export default function Home() {
   return (
@@ -37,6 +40,8 @@ export default function Home() {
         <Inovate />
 
         <Features className="my-20" />
+
+        <Projects />
 
         <Equipments className="my-20" />
 
