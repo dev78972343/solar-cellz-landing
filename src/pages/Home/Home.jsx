@@ -32,6 +32,10 @@ export default function Home() {
 
         <About />
 
+        <About2 />
+
+        <Inovate />
+
         <Features className="my-20" />
 
         <Equipments className="my-20" />
