@@ -41,21 +41,21 @@ const EmblaCarousel = (props) => {
 
               <div className="embla__slide__inner">
                 <img
-                  className="absolute left-14 top-10"
+                  className="absolute left-14 top-10 hidden sm:block"
                   src={slide.logo}
                   alt="Your alt text"
                 />
 
-                <div className="absolute bottom-10 left-14 right-10 flex items-center gap-6 rounded-md border border-gray-300 p-6 text-white">
-                  <p className="order-0 flex flex-grow flex-col gap-4">
+                <div className="absolute bottom-2 left-6 right-2 flex items-center gap-6 rounded-md border border-gray-300 p-2 text-white sm:bottom-10 sm:left-14 sm:right-10 sm:p-4 lg:p-6">
+                  <p className="order-0 hidden flex-grow flex-col gap-4 md:flex">
                     <span className="text-6xl font-semibold">{slide.stat}</span>
-                    {slide.description}
+                    <span>{slide.description}</span>
                   </p>
 
-                  <div className="order-1 flex flex-grow-0 flex-col justify-between gap-12">
-                    <p className="text-lg font-medium">{`"${slide.quote}"`}</p>
+                  <div className="order-1 flex flex-grow-0 flex-col justify-between gap-4 md:gap-8 lg:gap-12">
+                    <p className="sm:text-md text-sm font-medium xl:text-lg">{`"${slide.quote}"`}</p>
 
-                    <div className="flex items-center justify-between">
+                    <div className="sm:text-md flex items-center justify-between text-sm">
                       <p className="">{slide.author}</p>
 
                       <a
