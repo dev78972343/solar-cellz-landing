@@ -4,7 +4,7 @@ import avatar1 from "@/assets/images/hero/user-avatar-1.jpg";
 import avatar2 from "@/assets/images/hero/user-avatar-2.jpg";
 import avatar3 from "@/assets/images/hero/user-avatar-3.jpg";
 import { AvatarGroup } from "@/components/ui/avatarGroup";
-import { Heart, Plus, Star } from "lucide-react";
+import { Bell, Heart, Plus, Search, Star, User, UserRound } from "lucide-react";
 import ResponsiveContainer from "@/components/ResponsiveContainer/ResponsiveContainer";
 
 // Static data for AvatarGroup
@@ -26,6 +26,16 @@ const users = [
   },
 ];
 
+const bars = [
+  { count: "50%" }, 
+  { count: "80%" }, 
+  { count: "70%" },
+  { count: "60%" },
+  { count: "40%" },
+  { count: "50%" },
+  // { count: "70%" },
+];
+
 const Inovate = () => {
   return (
     <ResponsiveContainer>
@@ -33,11 +43,12 @@ const Inovate = () => {
       <h1 className="text-5xl font-bold text-center -mb-6">
         Innovate & Integrate <br/> for Your Work
       </h1>
+     
       <div className="grid grid-cols-6 gap-4">
         {/* Left Section */}
         <div className="col-span-1 flex flex-col space-y-4">
           {/* Active Users */}
-          <div className="bg-blue-200 p-4 rounded-xl shadow">
+          <div className="bg-blue-300 p-4 rounded-xl shadow">
             <p className="text-black font-bold text-lg">1M+</p>
             <p className="text-gray-700 text-sm">Active users worldwide</p>
             <div className="flex items-start space-x-2 mt-4">
@@ -58,17 +69,21 @@ const Inovate = () => {
             </div>
           </div>
            {/* Active Users */}
-           <div className="bg-blue-200 p-4 rounded-xl shadow">
-            <p className="text-black font-bold text-lg">1M+</p>
-            <p className="text-gray-700 text-sm">Active users worldwide</p>
-            <div className="flex items-start space-x-2 mt-4">
-              <div className="w-fit bg-white rounded-full p-2">
-              <AvatarGroup users={users} className={{root: "space-x-0", avatar: "h-6 w-6 md:h-8 md:w-8 lg:h-9 lg:w-9" }}/>
-              </div>
-              <div className="bg-white flex items-center justify-center rounded-full size-6">
-                <Heart className="size-3"/>
-              </div>
-
+           <div className="bg-fuchsia-400 p-4 rounded-xl shadow flex flex-col">
+            <div className="self-end bg-white w-20 flex items-center justify-center rounded-full py-1.5 ">
+              <Bell className="size-5"/>
+            </div>
+            <p className="text-black font-bold text-lg">93%</p>
+            <p className="text-gray-700 text-sm">Average Completion</p>
+            <div className="flex gap-3 mt-4">
+              {bars.map((bar, index) => (
+                <div key={index} className="overflow-hidden h-20 w-3.5 rounded-full bg-gray-300 relative">
+                  <div
+                    style={{ height: bar.count }}
+                    className="overflow-hidden w-3.5 rounded-full bg-white absolute bottom-0"
+                  ></div>
+                </div>
+              ))}
             </div>
           </div>
         </div>
@@ -133,7 +148,15 @@ const Inovate = () => {
         {/* Right Section */}
         <div className="col-span-1 flex flex-col space-y-4">
           <div className="bg-yellow-300 p-4 rounded-xl shadow">
-            <p>Experiance more Integrate growth as our digital tools adapts to every of your project needs</p>
+            <div className="flex items-center justify-end">
+            <div className="bg-white flex items-center justify-center rounded-full size-10">
+              <UserRound  className="size-4"/>
+            </div>
+            <div className="bg-white flex items-center justify-center rounded-full size-10">
+              <Search  className="size-4"/>
+            </div>
+            </div>
+            <p className="mt-[100px]">Experiance more Integrate growth as our digital tools adapts to every of your project needs</p>
             <button className="mt-4 rounded-3xl bg-gray-900 w-full py-3 text-white text-nowrap font-semibold">
               Get Started
             </button>
