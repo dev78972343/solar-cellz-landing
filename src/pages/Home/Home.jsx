@@ -36,13 +36,13 @@ export default function Home() {
 
         <Separator className="my-20 w-full" />
 
-        <About />
-
-        <About2 />
+        <About className="my-20" />
 
         <About3 className="my-20" />
+        
+        <Separator className="my-20 w-full" />
 
-        <Inovate />
+        <Inovate className="my-20" />
 
         <TryIt className="my-20" />
 

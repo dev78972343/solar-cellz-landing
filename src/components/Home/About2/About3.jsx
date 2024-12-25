@@ -80,13 +80,11 @@ const aboutData = [
 
 export default function About3({ className }) {
   return (
-    <ResponsiveContainer
-      classes={cn(
-        "flex-stretch-start lg:flex-row flex-col gap-x-5 gap-y-8",
-        className,
-      )}
-    >
-      {/* Top selling items carousel */}
+    <ResponsiveContainer classes={cn("bg-blue-50 rounded-xl",className)}>
+      <div className="flex flex-col gap-5 p-8">
+      <h2 className="text-left text-3xl font-bold text-gray-800 md:text-4xl">
+          Complete solar solution <br /> with repair services
+        </h2>
       <div className="relative">
         <Carousel
           opts={{
@@ -135,6 +133,9 @@ export default function About3({ className }) {
           </div>
         </Carousel>
       </div>
+      </div>
+      {/* Top selling items carousel */}
+      
     </ResponsiveContainer>
   );
 }
@@ -143,12 +144,12 @@ function AboutCard({ card, index }) {
   return (
     <div
       key={index}
-      className="relative flex w-full max-w-[350px] flex-col gap-4 rounded-xl bg-white p-6 pt-[90px]"
+      className="relative flex w-full max-w-[350px] flex-col gap-4 rounded-xl bg-white p-6"
     >
-      <div className="absolute top-0 flex h-16 w-16 items-center justify-center rounded-lg bg-green-400 p-3 text-white">
+      <div className="flex h-16 w-16 items-center justify-center rounded-lg bg-green-400 p-3 text-white">
         {card.icon}
       </div>
-      <h3 className="text-gray-9 00 text-xl font-medium">{card.title}</h3>
+      <h3 className="text-gray-900 text-xl font-medium">{card.title}</h3>
       <p className="text-gray-500">{card.description}</p>
       <ul className="list-inside list-disc space-y-2 font-medium text-gray-900">
         {card.features.map((feature, i) => (
