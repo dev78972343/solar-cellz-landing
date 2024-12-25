@@ -53,11 +53,6 @@ export default function About2() {
               className="relative flex w-full max-w-[350px] flex-col gap-4 rounded-xl bg-white p-6 pt-[72px]"
             >
               <div className="absolute -top-5 flex h-16 w-16 items-center justify-center rounded-lg bg-green-400 p-3 text-white">
-                {/* <img
-                  src={card.icon}
-                  alt={`${card.title} icon`}
-                  className="h-full w-full"
-                /> */}
                 {card.icon}
               </div>
               <h3 className="text-gray-9 00 text-xl font-medium">

@@ -20,6 +20,7 @@ import { Separator } from "@/components/ui/separator";
 
 import "../../css/embla.css";
 import Stats from "@/components/Home/Stats/Stats";
+import About3 from "@/components/Home/About2/About3";
 
 export default function Home() {
   return (
@@ -38,6 +39,8 @@ export default function Home() {
         <About />
 
         <About2 />
+
+        <About3 className="my-20" />
 
         <Inovate />
 
