@@ -19,6 +19,7 @@ import DynamicHelmet from "@/components/shared/DynamicHelmet/DynamicHelmet";
 import { Separator } from "@/components/ui/separator";
 
 import "../../css/embla.css";
+import Stats from "@/components/Home/Stats/Stats";
 
 export default function Home() {
   return (
@@ -45,6 +46,8 @@ export default function Home() {
         <Features className="my-20" />
 
         <Projects />
+
+        <Stats className="my-20" />
 
         <Equipments className="my-20" />
 
