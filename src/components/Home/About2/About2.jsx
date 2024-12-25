@@ -1,5 +1,11 @@
 import ResponsiveContainer from "@/components/ResponsiveContainer/ResponsiveContainer";
-import { ChevronRightIcon } from "lucide-react";
+import {
+  ArrowRight,
+  BatteryCharging,
+  Cable,
+  ChevronRightIcon,
+  Eclipse,
+} from "lucide-react";
 
 const aboutData = [
   {
@@ -11,7 +17,7 @@ const aboutData = [
       "Renewable Consulting",
       "Home Solar Integration",
     ],
-    icon: "/path-to-icon1.svg",
+    icon: <BatteryCharging size={36} />,
   },
   {
     title: "Household solar panel",
@@ -22,14 +28,14 @@ const aboutData = [
       "Solar Energy Saving System",
       "Bio Electricity Supply",
     ],
-    icon: "/path-to-icon2.svg",
+    icon: <Cable size={36} />,
   },
   {
     title: "Solar Panel Cleaning",
     description:
       "By generating your own electricity from solar energy, you can significantly reduce your monthly utility bills.",
     features: ["Non-Toxic Agents", "Water Efficient", "Safe Panel Surfaces"],
-    icon: "/path-to-icon3.svg",
+    icon: <Eclipse size={36} />,
   },
 ];
 
@@ -46,12 +52,13 @@ export default function About2() {
               key={index}
               className="relative flex w-full max-w-[350px] flex-col gap-4 rounded-xl bg-white p-6 pt-[72px]"
             >
-              <div className="absolute -top-5 flex h-16 w-16 items-center justify-center rounded-lg bg-green-400 p-3">
-                <img
+              <div className="absolute -top-5 flex h-16 w-16 items-center justify-center rounded-lg bg-green-400 p-3 text-white">
+                {/* <img
                   src={card.icon}
                   alt={`${card.title} icon`}
                   className="h-full w-full"
-                />
+                /> */}
+                {card.icon}
               </div>
               <h3 className="text-gray-9 00 text-xl font-medium">
                 {card.title}
@@ -68,7 +75,7 @@ export default function About2() {
               <button className="mt-4 flex items-center justify-between gap-2 rounded-3xl border px-[3px] py-[3px] uppercase text-gray-900 hover:underline">
                 <span className="ml-5 text-sm font-medium">View More</span>
                 <div className="flex h-9 w-9 items-center justify-center rounded-full bg-gray-900">
-                  <ChevronRightIcon className="size-4" />
+                  <ArrowRight size={16} className="text-white" />
                 </div>
               </button>
             </div>

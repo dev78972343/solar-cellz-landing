@@ -40,7 +40,7 @@ export default function Home() {
 
         <Inovate />
 
-        <TryIt className="my-20"/>
+        <TryIt className="my-20" />
 
         <Features className="my-20" />
 
