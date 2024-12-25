@@ -90,7 +90,7 @@ export default function Teams({ className }) {
               {team.map((member, index) => (
                 <CarouselItem
                   key={index}
-                  className="basis-1 sm:basis-1/2 md:basis-1/4 lg:basis-1/6"
+                  className="basis-full sm:basis-1/2 md:basis-1/4 lg:basis-1/6"
                 >
                   <TeamCard member={member} />
                 </CarouselItem>
