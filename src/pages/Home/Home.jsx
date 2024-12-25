@@ -68,9 +68,9 @@ export default function Home() {
 
         <TopSeller className="my-10 lg:my-32" />
 
-        <Experts className="my-20" />
+        {/* <Experts className="my-20" /> */}
 
-        <Teams className="my-20" />
+        <Teams className="my-20 lg:my-32" />
 
         <Demo />
 
