@@ -14,6 +14,7 @@ import RecentWork from "@/components/Home/RecentWork/RecentWork";
 import Teams from "@/components/Home/Teams/Teams";
 import Testimonials from "@/components/Home/Testimonials/Testimonials";
 import TopSeller from "@/components/Home/TopSellers/TopSeller";
+import TryIt from "@/components/Home/TryIt/TryIt";
 import DynamicHelmet from "@/components/shared/DynamicHelmet/DynamicHelmet";
 import { Separator } from "@/components/ui/separator";
 
@@ -38,6 +39,8 @@ export default function Home() {
         <About2 />
 
         <Inovate />
+
+        <TryIt className="my-20"/>
 
         <Features className="my-20" />
 
