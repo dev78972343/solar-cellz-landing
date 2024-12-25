@@ -81,8 +81,8 @@ const aboutData = [
 export default function About3({ className }) {
   return (
     <ResponsiveContainer classes={cn("bg-blue-50 rounded-xl", className)}>
-      <div className="flex flex-col gap-5 p-8">
-        <h2 className="text-left text-3xl font-bold text-gray-800 md:text-4xl">
+      <div className="flex flex-col gap-5 py-8 md:px-8">
+        <h2 className="text-center lg:text-left text-3xl font-bold text-gray-800 md:text-4xl">
           Complete solar solution <br /> with repair services
         </h2>
         <div className="relative">
@@ -124,7 +124,7 @@ export default function About3({ className }) {
             </div>
 
             {/* Mobile device navigation */}
-            <div className="absolute -bottom-10 left-1/2 block lg:hidden">
+            {/* <div className="absolute -bottom-10 left-1/2 block lg:hidden">
               <CarouselNext
                 className="size-10 bg-normal-blue-500 text-white"
                 icon={<ArrowRight size={18} />}
@@ -133,7 +133,7 @@ export default function About3({ className }) {
                 className="size-10 bg-normal-blue-500 text-white"
                 icon={<ArrowLeft size={18} />}
               />
-            </div>
+            </div> */}
           </Carousel>
         </div>
       </div>

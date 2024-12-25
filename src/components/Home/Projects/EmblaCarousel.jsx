@@ -17,10 +17,10 @@ const EmblaCarousel = (props) => {
   } = usePrevNextButtons(emblaApi);
 
   return (
-    <section className="embla">
+    <section className="embla rounded-xl">
       <div className="embla__controls">
-        <h2 className="text-3xl font-semibold">
-          The best companies <br /> say about us
+        <h2 className="text-left text-3xl font-bold text-gray-800 md:text-4xl">
+        The best companies <br /> say about us
         </h2>
 
         <div className="embla__buttons">

@@ -32,14 +32,14 @@ export default function Home() {
       />
 
       <div className="mt-6">
-        <Hero />
+        {/* <Hero /> */}
 
         <Separator className="my-20 w-full" />
 
         <About className="my-20" />
 
         <About3 className="my-20" />
-        
+
         <Separator className="my-20 w-full" />
 
         <Inovate className="my-20" />

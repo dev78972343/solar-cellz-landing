@@ -39,7 +39,7 @@ const bars = [
 const Inovate = () => {
   return (
     <ResponsiveContainer>
-    <div className="bg-white p-8">
+    <div className="bg-white px-8">
       <h1 className="text-3xl md:text-4xl text-gray-800 font-bold text-center mb-6 lg:-mb-6">
         Innovate & Integrate <br/> for Your Work
       </h1>
