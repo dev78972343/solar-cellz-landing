@@ -80,62 +80,64 @@ const aboutData = [
 
 export default function About3({ className }) {
   return (
-    <ResponsiveContainer classes={cn("bg-blue-50 rounded-xl",className)}>
+    <ResponsiveContainer classes={cn("bg-blue-50 rounded-xl", className)}>
       <div className="flex flex-col gap-5 p-8">
-      <h2 className="text-left text-3xl font-bold text-gray-800 md:text-4xl">
+        <h2 className="text-left text-3xl font-bold text-gray-800 md:text-4xl">
           Complete solar solution <br /> with repair services
         </h2>
-      <div className="relative">
-        <Carousel
-          opts={{
-            loop: false,
-            duration: 60,
-            align: "start",
-          }}
-          plugins={[
-            Autoplay({
-              delay: 4000,
-              stopOnInteraction: false,
-              stopOnMouseEnter: true,
-            }),
-          ]}
-        >
-          <CarouselContent className="p-1.5">
-            {aboutData?.map((aboutInfo, idx) => (
-              <CarouselItem key={idx} className="h-full lg:basis-1/3">
-                <AboutCard card={aboutInfo} index={idx} />
-              </CarouselItem>
-            ))}
-          </CarouselContent>
+        <div className="relative">
+          <Carousel
+            opts={{
+              loop: false,
+              duration: 60,
+              align: "start",
+            }}
+            plugins={[
+              Autoplay({
+                delay: 4000,
+                stopOnInteraction: false,
+                stopOnMouseEnter: true,
+              }),
+            ]}
+          >
+            <CarouselContent className="p-1.5">
+              {aboutData?.map((aboutInfo, idx) => (
+                <CarouselItem
+                  key={idx}
+                  className="h-full sm:basis-1/2 lg:basis-1/3"
+                >
+                  <AboutCard card={aboutInfo} index={idx} />
+                </CarouselItem>
+              ))}
+            </CarouselContent>
 
-          {/* Desktop device navigation */}
-          <div className="absolute -top-10 right-10 hidden lg:block">
-            <CarouselNext
-              className="size-10 bg-normal-blue-500 text-white"
-              icon={<ArrowRight size={18} />}
-            />
-            <CarouselPrevious
-              className="size-10 bg-normal-blue-500 text-white"
-              icon={<ArrowLeft size={18} />}
-            />
-          </div>
+            {/* Desktop device navigation */}
+            <div className="absolute -top-10 right-10 hidden lg:block">
+              <CarouselNext
+                className="size-10 bg-normal-blue-500 text-white"
+                icon={<ArrowRight size={18} />}
+              />
+              <CarouselPrevious
+                className="size-10 bg-normal-blue-500 text-white"
+                icon={<ArrowLeft size={18} />}
+              />
+            </div>
 
-          {/* Mobile device navigation */}
-          <div className="absolute -bottom-10 left-1/2 block lg:hidden">
-            <CarouselNext
-              className="size-10 bg-normal-blue-500 text-white"
-              icon={<ArrowRight size={18} />}
-            />
-            <CarouselPrevious
-              className="size-10 bg-normal-blue-500 text-white"
-              icon={<ArrowLeft size={18} />}
-            />
-          </div>
-        </Carousel>
-      </div>
+            {/* Mobile device navigation */}
+            <div className="absolute -bottom-10 left-1/2 block lg:hidden">
+              <CarouselNext
+                className="size-10 bg-normal-blue-500 text-white"
+                icon={<ArrowRight size={18} />}
+              />
+              <CarouselPrevious
+                className="size-10 bg-normal-blue-500 text-white"
+                icon={<ArrowLeft size={18} />}
+              />
+            </div>
+          </Carousel>
+        </div>
       </div>
       {/* Top selling items carousel */}
-      
     </ResponsiveContainer>
   );
 }
@@ -149,7 +151,7 @@ function AboutCard({ card, index }) {
       <div className="flex h-16 w-16 items-center justify-center rounded-lg bg-green-400 p-3 text-white">
         {card.icon}
       </div>
-      <h3 className="text-gray-900 text-xl font-medium">{card.title}</h3>
+      <h3 className="text-xl font-medium text-gray-900">{card.title}</h3>
       <p className="text-gray-500">{card.description}</p>
       <ul className="list-inside list-disc space-y-2 font-medium text-gray-900">
         {card.features.map((feature, i) => (
