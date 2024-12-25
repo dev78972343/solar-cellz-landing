@@ -44,9 +44,9 @@ const Inovate = () => {
         Innovate & Integrate <br/> for Your Work
       </h1>
      
-      <div className="grid col-span-3 lg:grid-cols-6 gap-4">
+      <div className="grid grid-cols-1 lg:grid-cols-6 gap-4">
         {/* Left Section */}
-        <div className="col-span-1 lg:col-span-1 flex flex-col gap-4">
+        <div className="col-span-1 flex flex-col gap-4">
           {/* Active Users */}
           <div className="bg-blue-300 p-4 rounded-xl shadow">
             <p className="text-black font-bold text-lg">1M+</p>
@@ -55,7 +55,7 @@ const Inovate = () => {
               <div className="w-fit bg-white rounded-full p-2">
               <AvatarGroup users={users} className={{root: "space-x-0", avatar: "h-6 w-6 md:h-8 md:w-8 lg:h-9 lg:w-9" }}/>
               </div>
-              <div className="bg-white flex items-center justify-center rounded-full size-6">
+              <div className="bg-white flex shrink-0 items-center justify-center rounded-full size-6">
                 <Heart className="size-3"/>
               </div>
 
@@ -94,19 +94,19 @@ const Inovate = () => {
             <img
               src={"https://picsum.photos/200/300"}
               alt="Team Management"
-              className="object-cover w-full h-full rounded-xl"
+              className="object-cover object-center size-full rounded-xl"
             />
             <p className="absolute top-4 right-4 bg-white text-gray-800 px-3 py-1 rounded-full shadow">
               Management
             </p>
-            <p className="absolute bottom-0 left-0 bg-yellow-100 text-xl font-bold text-gray-800 px-6 py-4 rounded-tr-full shadow">
-              Improving With <br/> System integration
+            <p className="absolute bottom-0 left-0 bg-yellow-100 text-xl font-bold text-gray-800 px-6 py-4 w-fit rounded-tr-full shadow">
+              Improving With System integration
             </p>
         </div>
         </div>
 
         {/* Right  Section */}
-          <div className="col-span-1 lg:col-span-1 flex flex-col gap-4">
+          <div className="col-span-1 flex flex-col gap-4">
             {/* Image */}
             <div className="relative bg-gray-100 rounded-xl overflow-hidden">
               <img
