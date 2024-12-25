@@ -1,5 +1,7 @@
 /* eslint-disable no-undef */
 /** @type {import('tailwindcss').Config} */
+import tailwindcssAnimate from "tailwindcss-animate";
+import tailwindScrollbar from "tailwind-scrollbar";
 export default {
   darkMode: ["class"],
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
@@ -38,8 +40,5 @@ export default {
       },
     },
   },
-  plugins: [
-    require("tailwindcss-animate"),
-    require("tailwind-scrollbar")({ nocompatible: true }),
-  ],
+  plugins: [tailwindcssAnimate, tailwindScrollbar({ nocompatible: true })],
 };
