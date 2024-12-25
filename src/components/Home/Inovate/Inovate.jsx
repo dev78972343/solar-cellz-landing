@@ -40,13 +40,13 @@ const Inovate = () => {
   return (
     <ResponsiveContainer>
     <div className="bg-white p-8">
-      <h1 className="text-5xl font-bold text-center -mb-6">
+      <h1 className="text-5xl font-bold text-center mb-6 lg:-mb-6">
         Innovate & Integrate <br/> for Your Work
       </h1>
      
-      <div className="grid grid-cols-6 gap-4">
+      <div className="grid col-span-3 lg:grid-cols-6 gap-4">
         {/* Left Section */}
-        <div className="col-span-1 flex flex-col space-y-4">
+        <div className="col-span-1 lg:col-span-1 flex flex-col gap-4">
           {/* Active Users */}
           <div className="bg-blue-300 p-4 rounded-xl shadow">
             <p className="text-black font-bold text-lg">1M+</p>
@@ -88,29 +88,25 @@ const Inovate = () => {
           </div>
         </div>
 
-        {/* left Center Section */}
-        <div className="col-span-3 grid grid-rows-12 relative overflow-hidden">
-          {/* Main Image */}
-          <div className="row-start-3 row-end-12 relative bg-gray-100 rounded-xl overflow-hidden">
+        {/*  Center Section */}
+       <div className="col-span-1 lg:col-span-4 lg:grid lg:grid-rows-12">
+        <div className="lg:row-start-3 lg:row-end-12 relative bg-gray-100 rounded-xl h-[360px]">
             <img
               src={"https://picsum.photos/200/300"}
               alt="Team Management"
-              className="object-cover w-full h-64"
+              className="object-cover w-full h-full rounded-xl"
             />
             <p className="absolute top-4 right-4 bg-white text-gray-800 px-3 py-1 rounded-full shadow">
               Management
             </p>
-          </div>
-          {/* Caption */}
-          <p className="z-10 absolute bottom-0 left-0  text-gray-800 font-bold px-4 py-2 rounded-tr-lg">
-            Improving with system integration
-          </p>
-          <div className="absolute -bottom-1/2 -left-1/4 bg-yellow-400 size-64 rounded-full shadow"></div>
+            <p className="absolute bottom-0 left-0 bg-yellow-100 text-xl font-bold text-gray-800 px-6 py-4 rounded-tr-full shadow">
+              Improving With <br/> System integration
+            </p>
+        </div>
         </div>
 
-        {/* Right Center Section */}
-        <div className="col-span-1 grid grid-rows-12">
-          <div className="row-start-3 row-end-12 flex flex-col space-y-4">
+        {/* Right  Section */}
+          <div className="col-span-1 lg:col-span-1 flex flex-col gap-4">
             {/* Image */}
             <div className="relative bg-gray-100 rounded-xl overflow-hidden">
               <img
@@ -142,26 +138,17 @@ const Inovate = () => {
                 }
               </div>
             </div>
-          </div>
-        </div>
-
-        {/* Right Section */}
+        {/* Right Bottom Section */}
+       
         <div className="col-span-1 flex flex-col space-y-4">
           <div className="bg-yellow-300 p-4 rounded-xl shadow">
-            <div className="flex items-center justify-end">
-            <div className="bg-white flex items-center justify-center rounded-full size-10">
-              <UserRound  className="size-4"/>
-            </div>
-            <div className="bg-white flex items-center justify-center rounded-full size-10">
-              <Search  className="size-4"/>
-            </div>
-            </div>
-            <p className="mt-[100px]">Experiance more Integrate growth as our digital tools adapts to every of your project needs</p>
-            <button className="mt-4 rounded-3xl bg-gray-900 w-full py-3 text-white text-nowrap font-semibold">
+            <p>Experiance more Integrate growth</p>
+            <button className="mt-5 rounded-3xl bg-gray-900 w-full py-2 text-white text-nowrap font-semibold">
               Get Started
             </button>
           </div>
         </div>
+          </div>
       </div>
     </div>
     </ResponsiveContainer>
