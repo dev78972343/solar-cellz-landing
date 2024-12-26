@@ -1,3 +1,8 @@
+import { motion } from "motion/react";
+import {
+  slideUpChildVariants,
+  slideUpParentVariants,
+} from "@/utils/sharedMotionVariants";
 import ResponsiveContainer from "@/components/ResponsiveContainer/ResponsiveContainer";
 
 export default function Stats({ className }) {
@@ -24,11 +29,21 @@ export default function Stats({ className }) {
 
   return (
     <ResponsiveContainer classes={className}>
-      <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-8 border-gray-200 md:flex-row md:gap-4 md:border-t">
+      <motion.div
+        variants={slideUpParentVariants()}
+        transition={{
+          delay: 2,
+        }}
+        initial="initial"
+        whileInView="animate"
+        viewport={{ once: true }}
+        className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-8 border-gray-200 md:flex-row md:gap-4 md:border-t"
+      >
         {stats.map((stat, index) => (
-          <div
-            key={index}
+          <motion.div
+            variants={slideUpChildVariants}
             className="relative p-8 text-center md:flex-1 md:text-left"
+            key={index}
           >
             {/* Line Separator */}
             {index > 0 && (
@@ -44,9 +59,9 @@ export default function Stats({ className }) {
             </h2>
             <h3 className="text-lg font-medium text-gray-700">{stat.title}</h3>
             <p className="mt-2 text-sm text-gray-600">{stat.description}</p>
-          </div>
+          </motion.div>
         ))}
-      </div>
+      </motion.div>
     </ResponsiveContainer>
   );
 }

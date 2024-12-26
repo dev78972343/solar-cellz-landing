@@ -16,6 +16,11 @@ import {
 import { cn } from "@/lib/utils";
 import Autoplay from "embla-carousel-autoplay";
 import ResponsiveContainer from "@/components/ResponsiveContainer/ResponsiveContainer";
+import {
+  slideUpChildVariants,
+  slideUpParentVariants,
+} from "@/utils/sharedMotionVariants";
+import { motion } from "motion/react";
 
 const aboutData = [
   {
@@ -82,10 +87,19 @@ export default function About3({ className }) {
   return (
     <ResponsiveContainer classes={cn("bg-blue-50 rounded-xl", className)}>
       <div className="flex flex-col gap-5 py-8 md:px-8">
-        <h2 className="text-center lg:text-left text-3xl font-bold text-gray-800 md:text-4xl">
+        <h2 className="text-center text-3xl font-bold text-gray-800 md:text-4xl lg:text-left">
           Complete solar solution <br /> with repair services
         </h2>
-        <div className="relative">
+        <motion.section
+          variants={slideUpParentVariants()}
+          transition={{
+            delay: 2,
+          }}
+          initial="initial"
+          whileInView="animate"
+          viewport={{ once: true }}
+          className="relative"
+        >
           <Carousel
             opts={{
               loop: false,
@@ -135,7 +149,7 @@ export default function About3({ className }) {
               />
             </div> */}
           </Carousel>
-        </div>
+        </motion.section>
       </div>
       {/* Top selling items carousel */}
     </ResponsiveContainer>
@@ -144,7 +158,8 @@ export default function About3({ className }) {
 
 function AboutCard({ card, index }) {
   return (
-    <div
+    <motion.div
+      variants={slideUpChildVariants}
       key={index}
       className="relative flex w-full max-w-[350px] flex-col gap-4 rounded-xl bg-white p-6"
     >
@@ -167,6 +182,6 @@ function AboutCard({ card, index }) {
           <ArrowRight size={16} className="text-white" />
         </div>
       </button>
-    </div>
+    </motion.div>
   );
 }

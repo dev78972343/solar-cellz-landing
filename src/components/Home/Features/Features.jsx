@@ -1,5 +1,10 @@
-import ResponsiveContainer from "@/components/ResponsiveContainer/ResponsiveContainer";
 import { cn } from "@/lib/utils";
+import { motion } from "motion/react";
+import {
+  slideUpChildVariants,
+  slideUpParentVariants,
+} from "@/utils/sharedMotionVariants";
+import ResponsiveContainer from "@/components/ResponsiveContainer/ResponsiveContainer";
 
 // Static features data
 const features = [
@@ -33,17 +38,30 @@ export default function Features({ className }) {
   return (
     <div className={cn("border-t bg-white py-12 text-gray-900", className)}>
       <ResponsiveContainer classes="flex-center-between gap-x-20 lg:flex-row flex-col gap-y-10">
-        <div className="container mx-auto px-4">
+        <motion.section
+          variants={slideUpParentVariants()}
+          transition={{
+            delay: 2,
+          }}
+          initial="initial"
+          whileInView="animate"
+          viewport={{ once: true }}
+          className="container mx-auto px-4"
+        >
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {features.map((feature, index) => (
-              <div key={index} className="rounded-lg p-6">
+              <motion.div
+                variants={slideUpChildVariants}
+                key={index}
+                className="rounded-lg p-6"
+              >
                 <div className="mb-4 text-4xl">{feature.icon}</div>
                 <h3 className="mb-2 text-lg font-semibold">{feature.title}</h3>
                 <p className="text-sm text-gray-400">{feature.description}</p>
-              </div>
+              </motion.div>
             ))}
           </div>
-        </div>
+        </motion.section>
       </ResponsiveContainer>
     </div>
   );
