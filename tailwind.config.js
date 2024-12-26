@@ -15,6 +15,7 @@ export default {
         "gray-normal-active": "var(--gray-normal-active)",
         "normal-green-500": "var(--normal-green-500)",
         "dark-blue-500": "var(--dark-blue-500)",
+        "dark-blue-400": "var(--dark-blue-400)",
         "normal-blue-500": "var(--normal-blue-500)",
         "light-blue-500": "var(--light-blue-500)",
         "sky-blue-200": "var(--sky-blue-200)",

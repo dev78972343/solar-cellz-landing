@@ -1,17 +1,16 @@
-import PrimaryButton from "@/components/buttons/PrimaryButton/PrimaryButton";
-import ResponsiveContainer from "@/components/ResponsiveContainer/ResponsiveContainer";
+import { useState } from "react";
+import { motion } from "motion/react";
+import { Link } from "react-router-dom";
 import logo from "@/assets/logos/logo.png";
+import { AlignJustify } from "lucide-react";
+import { useTranslation } from "react-i18next";
+import TopNavMenu from "./_components/TopNavMenu";
+import MobileSidebar from "./_components/MobileSidebar";
 import { ChevronRight, ShoppingCart } from "lucide-react";
 import { NavSearchBar } from "./_components/NavSearchBar";
-import TopNavMenu from "./_components/TopNavMenu";
-import BottomNavMenu from "./_components/BottomNavMenu";
-import { motion } from "motion/react";
 import MobileSearchBar from "./_components/MobileSearchBar";
-import { AlignJustify } from "lucide-react";
-import { useState } from "react";
-import MobileSidebar from "./_components/MobileSidebar";
-import { Link } from "react-router-dom";
-import { useTranslation } from "react-i18next";
+import PrimaryButton from "@/components/buttons/PrimaryButton/PrimaryButton";
+import ResponsiveContainer from "@/components/ResponsiveContainer/ResponsiveContainer";
 
 // Motion Variants
 const slideLeftToRightVariants = {
@@ -77,10 +76,10 @@ export default function Navbar() {
   const { t } = useTranslation();
 
   return (
-    <nav className="bg-dark-blue-500 py-5 text-white lg:py-8">
+    <nav className="bg-dark-blue-500 text-white">
       <ResponsiveContainer>
         {/* Top Row - Logo + Sign in */}
-        <section className="flex-center-between">
+        <section className="flex-center-between py-3">
           <Link to="/">
             <motion.img
               src={logo}
@@ -92,6 +91,14 @@ export default function Navbar() {
             />
           </Link>
 
+          <motion.div
+            key={"nav-search"}
+            variants={bounceDownVariants}
+            className="relative z-10 mx-auto"
+          >
+            <NavSearchBar />
+          </motion.div>
+
           {/* On Desktop */}
           <motion.div
             className="hidden items-center justify-start gap-x-5 lg:flex"
@@ -102,7 +109,7 @@ export default function Navbar() {
           >
             <PrimaryButton
               icon={<ChevronRight size={20} />}
-              className="border-white"
+              className="border-white py-4"
             >
               {t("navbar.Account Sign In")}
             </PrimaryButton>
@@ -129,13 +136,13 @@ export default function Navbar() {
       </ResponsiveContainer>
 
       {/* Bottom Row -  Search + Nav Menu*/}
-      <section className="w-full">
+      <section className="bg-dark-blue-400 w-full py-2">
         {/* ------------------ Desktop Devices ------------------ */}
         <motion.section
           variants={bounceDownVariants}
           initial="initial"
           animate="animate"
-          className="relative z-[9999] mt-8 hidden w-full space-y-8 lg:block"
+          className="relative z-[9999] hidden w-full space-y-8 lg:block"
         >
           <motion.div
             key={"top-menu"}
@@ -145,21 +152,13 @@ export default function Navbar() {
             <TopNavMenu />
           </motion.div>
 
-          <motion.div
-            key={"nav-search"}
-            variants={bounceDownVariants}
-            className="relative z-10 mx-auto"
-          >
-            <NavSearchBar />
-          </motion.div>
-
-          <motion.div
+          {/* <motion.div
             key={"bottom-menu"}
             variants={bounceDownVariants}
             className="relative z-[9999] mx-auto max-w-max"
           >
             <BottomNavMenu />
-          </motion.div>
+          </motion.div> */}
         </motion.section>
       </section>
 

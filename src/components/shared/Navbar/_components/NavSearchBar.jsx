@@ -29,7 +29,7 @@ export function NavSearchBar() {
         />
       </div>
 
-      <PrimaryButton className="h-12 border-black">
+      <PrimaryButton className="h-0 border-black py-4">
         {t("navbar.Search")}
       </PrimaryButton>
     </div>
