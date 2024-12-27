@@ -137,21 +137,21 @@ function TeamCard({ member }) {
           />
           <div className="absolute bottom-2 right-2 size-8 rounded-full bg-white p-1">
             <button className="flex h-full w-full items-center justify-center rounded-full bg-green-500 text-white hover:text-white">
-              <Share2 size={14} />
+              <Share2 className="size-4" />
             </button>
           </div>
           <div className="absolute left-1/2 top-1/2 flex -translate-x-1/2 -translate-y-1/2 transform gap-1 opacity-0 transition-all duration-300 group-hover:opacity-100">
-            <div className="flex size-8 cursor-pointer items-center justify-center rounded-full bg-white p-2 hover:bg-green-600 hover:text-white">
-              <Facebook className="size-4 text-green-600 hover:text-white" />
+            <div className="flex size-8 cursor-pointer items-center justify-center rounded-full group/facebook bg-white p-2 hover:bg-green-600 hover:text-white">
+              <Facebook className="size-4 text-green-600 group-hover/facebook:text-white" />
             </div>
-            <div className="flex size-8 cursor-pointer items-center justify-center rounded-full bg-white p-2 hover:bg-green-600 hover:text-white">
-              <Twitter className="size-4 text-green-600 hover:text-white" />
+            <div className="flex size-8 cursor-pointer items-center justify-center rounded-full group/twitter bg-white p-2 hover:bg-green-600 hover:text-white">
+              <Twitter className="size-4 text-green-600 group-hover/twitter:text-white" />
             </div>
-            <div className="flex size-8 cursor-pointer items-center justify-center rounded-full bg-white p-2 hover:bg-green-600 hover:text-white">
-              <Linkedin className="size-4 text-green-600 hover:text-white" />
+            <div className="flex size-8 cursor-pointer items-center justify-center rounded-full group/linkedin bg-white p-2 hover:bg-green-600 hover:text-white">
+              <Linkedin className="size-4 text-green-600 group-hover/linkedin:text-white" />
             </div>
-            <div className="flex size-8 cursor-pointer items-center justify-center rounded-full bg-white p-2 hover:bg-green-600 hover:text-white">
-              <Youtube className="size-4 text-green-600 hover:text-white" />
+            <div className="flex size-8 cursor-pointer items-center justify-center rounded-full group/youtube bg-white p-2 hover:bg-green-600 hover:text-white">
+              <Youtube className="size-4 text-green-600 group-hover/youtube:text-white" />
             </div>
           </div>
         </div>

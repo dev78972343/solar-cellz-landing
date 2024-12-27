@@ -43,14 +43,14 @@ export default function TryIt({ className }) {
           initial="initial"
           whileInView="animate"
           viewport={{ once: true }}
-          className="scroll-hide mx-auto grid grid-cols-1 gap-8 overflow-auto rounded-lg bg-gray-500 p-12 text-white lg:grid-cols-[45%,55%] 2xl:w-3/4"
-        >
+          className="scroll-hide mx-auto grid grid-cols-1 gap-8 overflow-auto rounded-lg bg-black/90 p-16 text-white lg:grid-cols-[45%,55%]"
+        >  
           <header className="flex flex-col gap-5">
             <motion.h3
               variants={slideUpChildVariants}
               className="text-4xl font-bold xl:text-5xl xl:leading-snug"
             >
-              Try It For free
+              Try it For free
             </motion.h3>
             <motion.div variants={slideUpChildVariants}>
               <PrimaryButton arrow className="w-fit">

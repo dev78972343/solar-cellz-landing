@@ -41,7 +41,7 @@ export default function Home() {
 
         <About3 className="my-20" />
 
-        <Separator className="my-20 w-full" />
+        {/* <Separator className="my-20 w-full" /> */}
 
         <Inovate className="my-20" />
 
@@ -65,7 +65,7 @@ export default function Home() {
 
         <Manufacturers />
 
-        <Separator className="w-full lg:my-20" />
+        {/* <Separator className="w-full lg:my-20" /> */}
 
         <TopSeller className="my-10 lg:my-32" />
 
@@ -75,7 +75,7 @@ export default function Home() {
 
         <Demo />
 
-        <Separator className="w-full lg:my-20" />
+        {/* <Separator className="w-full lg:my-20" /> */}
 
         <Contact className="my-20" />
       </div>

@@ -14,7 +14,7 @@ export default function Demo() {
       initial="initial"
       whileInView="animate"
       viewport={{ once: true }}
-      className="bg-gradient-to-br from-sky-blue-50 via-sky-blue-200 to-light-blue-500 py-[120px] text-center"
+      className="bg-gradient-to-br from-sky-blue-50 via-sky-blue-200 to-light-blue-500 py-[150px] text-center"
     >
       <motion.h1 variants={slideUpChildVariants} className="text-5xl font-bold">
         Design—Powering Solar Solutions in Harmony
