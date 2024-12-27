@@ -25,6 +25,15 @@ export default {
         // Scrollbar customization
         "track-color": "rgba(161, 218, 254, 0.627)",
         "thumb-color": "var(--normal-blue-500)",
+
+        // Custom colors
+        amazon_blue: "#131921",
+        amazon_light: "#232F3E",
+        amazon_yellow: "#febd69",
+        whiteText: "#ffffff",
+        lightText: "#ccc",
+        quantity_box: "#F0F2F2",
+        footerBottom: "#131A22",
       },
       backgroundImage: {
         "primary-button-gradient":

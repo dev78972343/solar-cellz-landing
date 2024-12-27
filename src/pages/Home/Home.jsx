@@ -19,7 +19,7 @@ import "../../css/embla.css";
 import Stats from "@/components/Home/Stats/Stats";
 import About3 from "@/components/Home/About2/About3";
 import Hero from "@/components/Home/Hero/Hero";
-import Navbar from "@/components/shared/Navbar/Navbar";
+import Header from "@/components/Home/Header/Header";
 
 export default function Home() {
   return (
@@ -30,7 +30,9 @@ export default function Home() {
         desc="This is the home page of Solar Cellz USA"
       />
 
-      <Navbar />
+      {/* <Navbar /> */}
+
+      <Header />
 
       <div className="mt-6">
         <Hero />
