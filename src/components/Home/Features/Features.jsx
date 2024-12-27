@@ -36,7 +36,7 @@ const features = [
 
 export default function Features({ className }) {
   return (
-    <div className={cn("border-t bg-white py-12 text-gray-900", className)}>
+    <div className={cn("bg-white py-12 text-gray-900", className)}>
       <ResponsiveContainer classes="flex-center-between gap-x-20 lg:flex-row flex-col gap-y-10">
         <motion.section
           variants={slideUpParentVariants()}

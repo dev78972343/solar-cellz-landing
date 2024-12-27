@@ -161,9 +161,9 @@ function AboutCard({ card, index }) {
     <motion.div
       variants={slideUpChildVariants}
       key={index}
-      className="relative flex w-full max-w-[350px] flex-col gap-4 rounded-xl bg-white p-6"
+      className="relative flex w-full max-w-[350px] flex-col gap-4 rounded-xl bg-white p-6 shadow-md"
     >
-      <div className="flex h-16 w-16 items-center justify-center rounded-lg bg-green-400 p-3 text-white">
+      <div className="flex h-16 w-16 items-center justify-center rounded-lg bg-light-blue-500 p-3 text-white">
         {card.icon}
       </div>
       <h3 className="text-xl font-medium text-gray-900">{card.title}</h3>

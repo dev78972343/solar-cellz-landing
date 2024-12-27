@@ -6,29 +6,27 @@ import seiaLogo from "../../../assets/images/partners/seia.png";
 import Marquee from "react-fast-marquee";
 
 // Static partners logo
-const partnersLogos = [beyGoodLogo, ncSustainableLogo, nmsdcLogo, seiaLogo];
+const partnersLogos = [beyGoodLogo, ncSustainableLogo, nmsdcLogo, seiaLogo, beyGoodLogo, ncSustainableLogo, nmsdcLogo,];
 
 export default function BrandsLogoCarousel() {
   return (
-    <div className="mt-20">
-      {/* Partner Logos */}
+    
       <Marquee
         gradient
         pauseOnHover
         speed={80}
         gradientWidth={100}
-        gradientColor="var(--light-blue-500)"
+        // gradientColor="var(--light-blue-500)"
       >
         {partnersLogos?.map((logo) => (
-          <div key={logo} className="mr-32">
+          <div key={logo} className="mr-10">
             <img
               src={logo}
               alt={`partner brand Logo`}
-              className="h-28 w-auto"
+              className="h-16 w-auto"
             />
           </div>
         ))}
       </Marquee>
-    </div>
   );
 }
