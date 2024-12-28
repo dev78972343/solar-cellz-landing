@@ -1,13 +1,17 @@
 import { motion } from "framer-motion";
-import { SideNavContent } from "./SideNavContent";
 import MenuIcon from "@mui/icons-material/Menu";
+import { menuData } from "@/constants/menu-data";
 import CloseIcon from "@mui/icons-material/Close";
+import { SideNavContent } from "./SideNavContent";
 import { useEffect, useRef, useState } from "react";
+import { NestedSideNavContent } from "./NestedSideNavContent";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 
 export function HeaderBottom() {
   const ref = useRef();
   const [sidebar, setSidebar] = useState(false);
+  const [activeMenu, setActiveMenu] = useState(null);
+
   useEffect(() => {
     document.body.addEventListener("click", (e) => {
       if (e.target.contains(ref.current)) {
@@ -15,9 +19,9 @@ export function HeaderBottom() {
       }
     });
   }, [ref, sidebar]);
+
   return (
-    <div className="bg-amazon_light flex h-[36px] w-full items-center px-4 text-white">
-      {/* ============ ListItems Start here ============ */}
+    <div className="flex h-[36px] w-full items-center bg-amazon_light px-4 text-white">
       <ul className="flex items-center gap-4 text-sm tracking-wide">
         <li
           onClick={() => setSidebar(true)}
@@ -32,10 +36,9 @@ export function HeaderBottom() {
         <li className="headerHover">Registry</li>
         <li className="headerHover">Sell</li>
       </ul>
-      {/* ============ ListItems End here ============== */}
-      {/* ============ sideNav Start here ============== */}
+
       {sidebar && (
-        <div className="bg-amazon_blue fixed left-0 top-0 h-screen w-full bg-opacity-50 text-black">
+        <div className="fixed left-0 top-0 h-screen w-full bg-amazon_blue bg-opacity-50 text-black">
           <div className="relative h-full w-full">
             <motion.div
               ref={ref}
@@ -44,36 +47,37 @@ export function HeaderBottom() {
               transition={{ duration: 0.5 }}
               className="h-full w-[350px] border border-black bg-white"
             >
-              <div className="bg-amazon_light flex w-full items-center gap-4 px-6 py-2 text-white">
+              <div className="flex w-full items-center gap-4 bg-amazon_light px-6 py-2 text-white">
                 <AccountCircleIcon />
                 <h3 className="font-titleFont text-lg font-bold tracking-wide">
                   Hello, Sign In
                 </h3>
               </div>
-              <SideNavContent
-                title="Digital Content & Devices"
-                one="Amazon Music"
-                two="Kindle E-readers & Books"
-                three="Amazon Appstore"
-              />
-              <SideNavContent
-                title="Shop By Department"
-                one="Electronics"
-                two="Computers"
-                three="Smart Home"
-              />
-              <SideNavContent
-                title="Programs & Features"
-                one="Gift Cards"
-                two="Amazon live"
-                three="International Shopping"
-              />
-              <SideNavContent
-                title="Help & Settings"
-                one="Your Account"
-                two="Customer Service"
-                three="Contact us"
-              />
+
+              {!activeMenu &&
+                menuData.map((menu) => (
+                  <SideNavContent
+                    key={menu.title}
+                    title={menu.title}
+                    items={menu.items}
+                    setActiveMenu={setActiveMenu}
+                  />
+                ))}
+
+              {activeMenu &&
+                menuData.map((menu) =>
+                  menu.items
+                    .filter((item) => item.label === activeMenu)
+                    .map((subMenu) => (
+                      <NestedSideNavContent
+                        key={subMenu.label}
+                        title={subMenu.label}
+                        items={subMenu.subItems}
+                        setActiveMenu={setActiveMenu}
+                      />
+                    )),
+                )}
+
               <span
                 onClick={() => setSidebar(false)}
                 className="absolute left-[360px] top-0 flex h-10 w-10 cursor-pointer items-center justify-center border bg-gray-200 text-black duration-300 hover:bg-red-500 hover:text-white"
@@ -84,7 +88,6 @@ export function HeaderBottom() {
           </div>
         </div>
       )}
-      {/* ============ sideNav End here ================ */}
     </div>
   );
 }
