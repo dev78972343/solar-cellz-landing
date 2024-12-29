@@ -20,6 +20,7 @@ import Stats from "@/components/Home/Stats/Stats";
 import About3 from "@/components/Home/About2/About3";
 import Hero from "@/components/Home/Hero/Hero";
 import Header from "@/components/Home/Header/Header";
+import Slider from "@/components/Home/Slider/Slider";
 
 export default function Home() {
   return (
@@ -51,8 +52,10 @@ export default function Home() {
         <Equipments className="my-20" />
 
         <Testimonials className="my-20" />
-        
+
         <Manufacturers />
+
+        <Slider className="my-20" />
 
         <TopSeller className="my-10 lg:my-32" />
 
