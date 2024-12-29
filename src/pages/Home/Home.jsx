@@ -24,32 +24,25 @@ import Header from "@/components/Home/Header/Header";
 export default function Home() {
   return (
     <>
-      {/* Page Title */}
       <DynamicHelmet
         title="Home || Solar Cellz USA"
         desc="This is the home page of Solar Cellz USA"
       />
 
-      {/* <Navbar /> */}
-
       <Header />
 
       <div className="mt-6">
-        <Hero />
-
-        <Separator className="my-20 w-full" />
-
-        <About className="my-20" />
-
-        <About3 className="my-20" />
+        {/* <Hero /> */}
 
         {/* <Separator className="my-20 w-full" /> */}
 
-        <Inovate className="my-20" />
-
-        <TryIt className="my-20" />
+        <Brands className="my-20" />
 
         <Features className="my-20" />
+
+        <About3 className="my-20" />
+
+        <TryIt className="my-20" />
 
         <Projects />
 
@@ -57,27 +50,17 @@ export default function Home() {
 
         <Equipments className="my-20" />
 
-        <RecentWork className="my-20" />
-
-        <Brands className="my-20" />
+        <Manufacturers />
 
         <Testimonials className="my-20" />
 
-        <Separator className="w-full lg:my-20" />
-
-        <Manufacturers />
-
-        {/* <Separator className="w-full lg:my-20" /> */}
-
         <TopSeller className="my-10 lg:my-32" />
 
-        {/* <Experts className="my-20" /> */}
+        <Inovate className="my-20" />
 
         <Teams className="my-20 lg:my-32" />
 
         <Demo />
-
-        {/* <Separator className="w-full lg:my-20" /> */}
 
         <Contact className="my-20" />
       </div>

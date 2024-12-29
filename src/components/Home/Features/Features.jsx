@@ -46,14 +46,14 @@ export default function Features({ className }) {
           initial="initial"
           whileInView="animate"
           viewport={{ once: true }}
-          className="container mx-auto px-4"
+          className="container mx-auto"
         >
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {features.map((feature, index) => (
               <motion.div
                 variants={slideUpChildVariants}
                 key={index}
-                className="rounded-lg p-6"
+                className="rounded-lg"
               >
                 <div className="mb-4 text-4xl">{feature.icon}</div>
                 <h3 className="mb-2 text-lg font-semibold">{feature.title}</h3>

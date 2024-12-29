@@ -55,11 +55,11 @@ export default function Testimonials({ className }) {
       />
 
       {/* Section Banner */}
-      <img
+      {/* <img
         src={testimonialsBanner}
         alt="Testimonials section banner"
         className="mx-auto my-10 block md:h-[500px] h-[300px] 2xl:h-[700px] w-auto rounded-xl"
-      />
+      /> */}
 
       {/* Testimonials Carousel */}
       <div className="mt-20">
