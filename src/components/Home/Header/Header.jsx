@@ -45,7 +45,7 @@ export default function Header() {
             className="h-full flex-grow border-none px-2 text-base text-dark-blue-500 outline-none"
             type="text"
           />
-          <span className="flex h-full w-12 cursor-pointer items-center justify-center rounded-br-md rounded-tr-md bg-amazon_yellow text-dark-blue-500 duration-300 hover:bg-[#f3a847]">
+          <span className="flex h-full w-12 cursor-pointer items-center justify-center rounded-br-md rounded-tr-md bg-primary-button-gradient text-white duration-300">
             <SearchIcon />
           </span>
         </div>
