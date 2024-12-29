@@ -62,7 +62,7 @@ export default function Contact() {
       </div>
 
       {/* Form Section */}
-      <div className="w-full rounded-lg bg-[#dff2fe] p-6 md:w-1/2">
+      <div className="w-full rounded-lg bg-[#dff2fe] p-8 shadow md:w-1/2">
         <h2 className="mb-4 text-2xl font-bold">Fill the form</h2>
 
         <form className="space-y-4">

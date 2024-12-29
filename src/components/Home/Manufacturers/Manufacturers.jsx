@@ -198,7 +198,7 @@ export default function Manufacturers() {
           ))}
         </Marquee> */}
 
-        <div className="flex flex-wrap gap-x-8 justify-center gap-y-10">
+        <div className="flex flex-wrap gap-10 justify-center">
         {manufacturersLogos?.map((logo) => (
             <div key={logo}>
               <img
