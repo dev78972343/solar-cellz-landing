@@ -160,7 +160,7 @@ export default function Manufacturers() {
       {/* Manufacturers Logo Carousel */}
       <section className="my-16 space-y-10 lg:my-20">
         {/* 1st Row */}
-        <Marquee gradient speed={80} gradientWidth={100} direction="right">
+        {/* <Marquee gradient speed={80} gradientWidth={100} direction="right">
           {manufacturersLogos?.slice(0, 25)?.map((logo) => (
             <div key={logo} className="mr-32">
               <img
@@ -170,10 +170,10 @@ export default function Manufacturers() {
               />
             </div>
           ))}
-        </Marquee>
+        </Marquee> */}
 
         {/* 2nd Row */}
-        <Marquee gradient speed={80} gradientWidth={100} direction="left">
+        {/* <Marquee gradient speed={80} gradientWidth={100} direction="left">
           {manufacturersLogos?.slice(25, 50)?.map((logo) => (
             <div key={logo} className="mr-32">
               <img
@@ -183,10 +183,10 @@ export default function Manufacturers() {
               />
             </div>
           ))}
-        </Marquee>
+        </Marquee> */}
 
         {/* 3rd Row */}
-        <Marquee gradient speed={80} gradientWidth={100} direction="right">
+        {/* <Marquee gradient speed={80} gradientWidth={100} direction="right">
           {manufacturersLogos?.slice(50)?.map((logo) => (
             <div key={logo} className="mr-32">
               <img
@@ -196,7 +196,19 @@ export default function Manufacturers() {
               />
             </div>
           ))}
-        </Marquee>
+        </Marquee> */}
+
+        <div className="flex flex-wrap gap-x-8 justify-center gap-y-10">
+        {manufacturersLogos?.map((logo) => (
+            <div key={logo}>
+              <img
+                src={logo}
+                alt={`manufacturers partner brand Logo`}
+                className="aspect-square h-auto w-auto"
+              />
+             </div>
+          ))}
+          </div>
       </section>
     </div>
   );

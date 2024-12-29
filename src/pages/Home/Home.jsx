@@ -50,9 +50,9 @@ export default function Home() {
 
         <Equipments className="my-20" />
 
-        <Manufacturers />
-
         <Testimonials className="my-20" />
+        
+        <Manufacturers />
 
         <TopSeller className="my-10 lg:my-32" />
 
