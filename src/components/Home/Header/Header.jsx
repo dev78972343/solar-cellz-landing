@@ -11,7 +11,7 @@ export default function Header() {
 
   return (
     <div style={{ zIndex: 99999 }} className="relative w-full">
-      <div className="flex w-full items-center gap-4 bg-amazon_blue px-4 py-3 text-white">
+      <div className="flex w-full items-center gap-4 bg-dark-blue-500 px-4 py-3 text-white">
         {/* ============ Image Start here ================ */}
         <div className="headerHover">
           <img className="mt-2 w-24" src={logo} alt="logo" />
@@ -22,17 +22,17 @@ export default function Header() {
         <div className="relative flex h-10 flex-grow rounded-md">
           <span
             onClick={() => setShowAll(!showAll)}
-            className="font-titleFont flex h-full w-14 cursor-pointer items-center justify-center rounded-bl-md rounded-tl-md border-2 bg-gray-200 text-sm text-amazon_blue duration-300 hover:bg-gray-300"
+            className="font-titleFont flex h-full w-14 cursor-pointer items-center justify-center rounded-bl-md rounded-tl-md border-2 bg-gray-200 text-sm text-dark-blue-500 duration-300 hover:bg-gray-300"
           >
             All <span></span>
             <ArrowDropDownOutlinedIcon />
           </span>
           {showAll && (
             <div>
-              <ul className="absolute left-0 top-10 z-50 flex h-80 w-56 flex-col gap-1 overflow-x-hidden overflow-y-scroll border-[1px] border-amazon_blue bg-white p-2 text-black">
+              <ul className="absolute left-0 top-10 z-50 flex h-80 w-56 flex-col gap-1 overflow-x-hidden overflow-y-scroll border-[1px] border-dark-blue-500 bg-white p-2 text-black">
                 {allItems.map((item) => (
                   <li
-                    className="font-titleFont cursor-pointer border-b-[1px] border-b-transparent text-sm tracking-wide duration-200 hover:border-b-amazon_blue"
+                    className="font-titleFont cursor-pointer border-b-[1px] border-b-transparent text-sm tracking-wide duration-200 hover:border-b-dark-blue-500"
                     key={item._id}
                   >
                     {item.title}
@@ -42,10 +42,10 @@ export default function Header() {
             </div>
           )}
           <input
-            className="h-full flex-grow border-none px-2 text-base text-amazon_blue outline-none"
+            className="h-full flex-grow border-none px-2 text-base text-dark-blue-500 outline-none"
             type="text"
           />
-          <span className="flex h-full w-12 cursor-pointer items-center justify-center rounded-br-md rounded-tr-md bg-amazon_yellow text-amazon_blue duration-300 hover:bg-[#f3a847]">
+          <span className="flex h-full w-12 cursor-pointer items-center justify-center rounded-br-md rounded-tr-md bg-amazon_yellow text-dark-blue-500 duration-300 hover:bg-[#f3a847]">
             <SearchIcon />
           </span>
         </div>
@@ -68,7 +68,7 @@ export default function Header() {
           <ShoppingCartIcon />
           <p className="mt-3 text-xs font-semibold text-whiteText">
             Cart{" "}
-            <span className="absolute -top-1 left-6 flex h-4 items-center justify-center rounded-full bg-[#f3a847] p-1 text-xs font-semibold text-amazon_blue">
+            <span className="absolute -top-1 left-6 flex h-4 items-center justify-center rounded-full bg-[#f3a847] p-1 text-xs font-semibold text-dark-blue-500">
               0
             </span>
           </p>

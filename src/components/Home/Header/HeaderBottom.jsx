@@ -21,7 +21,7 @@ export function HeaderBottom() {
   }, [ref, sidebar]);
 
   return (
-    <div className="flex h-[36px] w-full items-center bg-amazon_light px-4 text-white">
+    <div className="flex h-[36px] w-full items-center bg-dark-blue-400 px-4 text-white">
       <ul className="flex items-center gap-4 text-sm tracking-wide">
         <li
           onClick={() => setSidebar(true)}
@@ -47,7 +47,7 @@ export function HeaderBottom() {
               transition={{ duration: 0.5 }}
               className="h-full w-[350px] border border-black bg-white"
             >
-              <div className="flex w-full items-center gap-4 bg-amazon_light px-6 py-2 text-white">
+              <div className="flex w-full items-center gap-4 bg-dark-blue-400 px-6 py-2 text-white">
                 <AccountCircleIcon />
                 <h3 className="font-titleFont text-lg font-bold tracking-wide">
                   Hello, Sign In
@@ -80,7 +80,7 @@ export function HeaderBottom() {
 
               <span
                 onClick={() => setSidebar(false)}
-                className="absolute left-[360px] top-0 flex h-10 w-10 cursor-pointer items-center justify-center border bg-gray-200 text-black duration-300 hover:bg-red-500 hover:text-white"
+                className="absolute left-[354px] top-1 flex h-10 w-10 cursor-pointer items-center justify-center rounded-md border-2 bg-transparent text-white duration-300"
               >
                 <CloseIcon />
               </span>

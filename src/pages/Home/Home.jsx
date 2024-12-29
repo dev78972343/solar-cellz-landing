@@ -1,4 +1,3 @@
-import About from "@/components/Home/About/About";
 import Brands from "@/components/Home/Brands/Brands";
 import Contact from "@/components/Home/Contact/Contact";
 import Demo from "@/components/Home/Demo/Demo";
@@ -7,18 +6,16 @@ import Features from "@/components/Home/Features/Features";
 import Inovate from "@/components/Home/Inovate/Inovate";
 import Manufacturers from "@/components/Home/Manufacturers/Manufacturers";
 import Projects from "@/components/Home/Projects/Projects";
-import RecentWork from "@/components/Home/RecentWork/RecentWork";
 import Teams from "@/components/Home/Teams/Teams";
 import Testimonials from "@/components/Home/Testimonials/Testimonials";
 import TopSeller from "@/components/Home/TopSellers/TopSeller";
 import TryIt from "@/components/Home/TryIt/TryIt";
 import DynamicHelmet from "@/components/shared/DynamicHelmet/DynamicHelmet";
-import { Separator } from "@/components/ui/separator";
 
 import "../../css/embla.css";
 import Stats from "@/components/Home/Stats/Stats";
 import About3 from "@/components/Home/About2/About3";
-import Hero from "@/components/Home/Hero/Hero";
+import Hero from "@/components/Home/Hero/Hero2";
 import Header from "@/components/Home/Header/Header";
 import Slider from "@/components/Home/Slider/Slider";
 
@@ -32,10 +29,8 @@ export default function Home() {
 
       <Header />
 
-      <div className="mt-6">
-        {/* <Hero /> */}
-
-        {/* <Separator className="my-20 w-full" /> */}
+      <div>
+        <Hero />
 
         <Brands className="my-20" />
 

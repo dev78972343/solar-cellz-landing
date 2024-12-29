@@ -1,7 +1,7 @@
 import EmblaCarousel from "./EmblaCarousel";
 import ResponsiveContainer from "@/components/ResponsiveContainer/ResponsiveContainer";
 
-const OPTIONS = {};
+const OPTIONS = { loop: true };
 const SLIDES = [
   {
     video:
