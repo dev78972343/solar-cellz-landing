@@ -8,15 +8,20 @@ import { cn } from "@/lib/utils";
 import Autoplay from "embla-carousel-autoplay";
 import SectionHeader from "@/components/shared/SectionHeader/SectionHeader";
 import ResponsiveContainer from "@/components/ResponsiveContainer/ResponsiveContainer";
+import imageOne from "@/assets/images/slider/D1.png";
+import imageTwo from "@/assets/images/slider/D2.png";
+import imageThree from "@/assets/images/slider/D3.png";
+import imageFour from "@/assets/images/slider/D4.png";
+import imageFive from "@/assets/images/slider/D5.png";
+import imageSix from "@/assets/images/slider/D6.png";
 
 const slidersImages = [
-  "https://picsum.photos/600/350?v=1",
-  "https://picsum.photos/600/350?v=2",
-  "https://picsum.photos/600/350?v=3",
-  "https://picsum.photos/600/350?v=4",
-  "https://picsum.photos/600/350?v=5",
-  "https://picsum.photos/600/350?v=6",
-  "https://picsum.photos/600/350?v=7",
+  imageOne,
+  imageTwo,
+  imageThree,
+  imageFour,
+  imageFive,
+  imageSix,
 ];
 
 export default function Slider({ className }) {
@@ -48,7 +53,7 @@ export default function Slider({ className }) {
           <CarouselContent>
             {slidersImages.map((img, idx) => (
               <CarouselItem key={idx} className="lg:basis-100">
-                <div className="flex items-center justify-center overflow-hidden rounded-md">
+                <div className="flex items-center justify-center overflow-hidden rounded-xl">
                   <img
                     src={img}
                     alt="Testimonial reviewer"
