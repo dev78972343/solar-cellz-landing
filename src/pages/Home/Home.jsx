@@ -27,8 +27,6 @@ export default function Home() {
         desc="This is the home page of Solar Cellz USA"
       />
 
-      <Header />
-
       <div>
         <Hero />
 
