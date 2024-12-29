@@ -10,14 +10,13 @@ import SectionHeader from "@/components/shared/SectionHeader/SectionHeader";
 import ResponsiveContainer from "@/components/ResponsiveContainer/ResponsiveContainer";
 
 const slidersImages = [
-  "https://cdn.prod.website-files.com/66e88746834b80507cdf7933/66ec7faad1ba5dcf377b861c_outliant-bg.webp",
-  "https://cdn.prod.website-files.com/66e88746834b80507cdf7933/66ec7faa88e83cdb12efc5b3_lattice-bg.webp",
-  "https://cdn.prod.website-files.com/66e88746834b80507cdf7933/66ec7faad1ba5dcf377b861c_outliant-bg.webp",
-  "https://cdn.prod.website-files.com/66e88746834b80507cdf7933/66ec7faa27a66d51bf3038ee_vanta-bg.webp",
-  "https://cdn.prod.website-files.com/66e88746834b80507cdf7933/66ec7faa88e83cdb12efc5b3_lattice-bg.webp",
-  "https://cdn.prod.website-files.com/66e88746834b80507cdf7933/66ec7faa88e83cdb12efc5b3_lattice-bg.webp",
-  "https://cdn.prod.website-files.com/66e88746834b80507cdf7933/66ec7faad1ba5dcf377b861c_outliant-bg.webp",
-  "https://cdn.prod.website-files.com/66e88746834b80507cdf7933/66ec7faa27a66d51bf3038ee_vanta-bg.webp",
+  "https://picsum.photos/600/350?v=1",
+  "https://picsum.photos/600/350?v=2",
+  "https://picsum.photos/600/350?v=3",
+  "https://picsum.photos/600/350?v=4",
+  "https://picsum.photos/600/350?v=5",
+  "https://picsum.photos/600/350?v=6",
+  "https://picsum.photos/600/350?v=7",
 ];
 
 export default function Slider({ className }) {
@@ -49,8 +48,12 @@ export default function Slider({ className }) {
           <CarouselContent>
             {slidersImages.map((img, idx) => (
               <CarouselItem key={idx} className="lg:basis-100">
-                <div className="flex items-center justify-center">
-                  <img src={img} alt="Testimonial reviewer" className="" />
+                <div className="flex items-center justify-center overflow-hidden rounded-md">
+                  <img
+                    src={img}
+                    alt="Testimonial reviewer"
+                    className="w-full"
+                  />
                 </div>
               </CarouselItem>
             ))}
