@@ -11,10 +11,14 @@ export default function Header() {
 
   return (
     <div style={{ zIndex: 99999 }} className="relative w-full">
-      <div className="flex w-full items-center gap-2 md:gap-4 bg-dark-blue-500 px-2 py-3 text-white">
+      <div className="flex w-full items-center gap-2 bg-dark-blue-500 px-2 py-3 text-white md:gap-4">
         {/* ============ Image Start here ================ */}
         <div className="headerHover">
-          <img className="mt-2 max-w-48 min-w-[100px] w-full" src={logo} alt="logo" />
+          <img
+            className="mt-2 w-full min-w-[100px] max-w-48"
+            src={logo}
+            alt="logo"
+          />
         </div>
         {/* ============ Image End here ================== */}
 
@@ -42,7 +46,7 @@ export default function Header() {
             </div>
           )}
           <input
-            className="h-full flex-grow border-none px-2 text-base text-dark-blue-500 outline-none"
+            className="h-full w-full flex-grow border-none px-2 text-base text-dark-blue-500 outline-none"
             type="text"
           />
           <span className="flex h-full w-12 cursor-pointer items-center justify-center rounded-br-md rounded-tr-md bg-primary-button-gradient text-white duration-300">
@@ -52,7 +56,7 @@ export default function Header() {
         {/* ============ Search End here ================= */}
         {/* ============ Signin Start here =============== */}
 
-        <div className="headerHover hidden md:flex flex-col items-start justify-center">
+        <div className="headerHover hidden flex-col items-start justify-center md:flex">
           <p className="text-xs font-light text-lightText">Hello, sign in</p>
           <p className="-mt-1 text-sm font-semibold text-whiteText">
             Accounts & Lists{" "}

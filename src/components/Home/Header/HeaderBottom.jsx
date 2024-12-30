@@ -32,9 +32,9 @@ export function HeaderBottom() {
         </li>
         <li className="headerHover">Today&apos;s Deals</li>
         <li className="headerHover">Customer Service</li>
-        <li className="headerHover">Gift Cards</li>
-        <li className="headerHover">Registry</li>
-        <li className="headerHover">Sell</li>
+        <li className="headerHover hidden sm:block">Gift Cards</li>
+        <li className="headerHover hidden sm:block">Registry</li>
+        <li className="headerHover hidden sm:block">Sell</li>
       </ul>
 
       {sidebar && (
