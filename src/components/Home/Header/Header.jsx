@@ -11,15 +11,15 @@ export default function Header() {
 
   return (
     <div style={{ zIndex: 99999 }} className="relative w-full">
-      <div className="flex w-full items-center gap-4 bg-dark-blue-500 px-4 py-3 text-white">
+      <div className="flex w-full items-center gap-2 md:gap-4 bg-dark-blue-500 px-2 py-3 text-white">
         {/* ============ Image Start here ================ */}
         <div className="headerHover">
-          <img className="mt-2 w-24" src={logo} alt="logo" />
+          <img className="mt-2 max-w-48 min-w-[100px] w-full" src={logo} alt="logo" />
         </div>
         {/* ============ Image End here ================== */}
 
         {/* ============ Search Start here =============== */}
-        <div className="relative flex h-10 flex-grow rounded-md">
+        <div className="relative flex h-10 grow rounded-md">
           <span
             onClick={() => setShowAll(!showAll)}
             className="font-titleFont flex h-full w-14 cursor-pointer items-center justify-center rounded-bl-md rounded-tl-md border-2 bg-gray-200 text-sm text-dark-blue-500 duration-300 hover:bg-gray-300"
@@ -52,7 +52,7 @@ export default function Header() {
         {/* ============ Search End here ================= */}
         {/* ============ Signin Start here =============== */}
 
-        <div className="headerHover flex flex-col items-start justify-center">
+        <div className="headerHover hidden md:flex flex-col items-start justify-center">
           <p className="text-xs font-light text-lightText">Hello, sign in</p>
           <p className="-mt-1 text-sm font-semibold text-whiteText">
             Accounts & Lists{" "}
