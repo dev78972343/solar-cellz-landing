@@ -59,7 +59,7 @@ const Inovate = () => {
             {/* Active Users */}
             <motion.div
               variants={slideUpChildVariants}
-              className="rounded-xl bg-blue-300 p-4 shadow"
+              className="rounded-xl bg-sky-blue-200 p-4 shadow"
             >
               <p className="text-lg font-bold text-black">1M+</p>
               <p className="text-sm text-gray-700">Active users worldwide</p>
@@ -91,13 +91,13 @@ const Inovate = () => {
             {/* Active Users */}
             <motion.div
               variants={slideUpChildVariants}
-              className="flex flex-col rounded-xl bg-fuchsia-400 p-4 shadow"
+              className="flex flex-col rounded-xl bg-normal-blue-500 p-4 shadow"
             >
               <div className="flex w-20 items-center justify-center self-end rounded-full bg-white py-1.5">
                 <Bell className="size-5" />
               </div>
-              <p className="text-lg font-bold text-black">93%</p>
-              <p className="text-sm text-gray-700">Average Completion</p>
+              <p className="text-lg font-bold text-white">93%</p>
+              <p className="text-sm text-gray-300">Average Completion</p>
               <div className="mt-4 flex gap-3">
                 {bars.map((bar, index) => (
                   <div
@@ -156,7 +156,7 @@ const Inovate = () => {
             {/* Get Started */}
             <motion.div
               variants={slideUpChildVariants}
-              className="rounded-xl bg-blue-200 p-6 shadow"
+              className="rounded-xl bg-sky-blue-200 p-6 shadow"
             >
               <p className="text-lg font-bold text-black">1000+</p>
               <p className="text-sm text-gray-700">Customer Reviews</p>
@@ -172,8 +172,8 @@ const Inovate = () => {
               variants={slideUpChildVariants}
               className="col-span-1 flex flex-col space-y-4"
             >
-              <div className="rounded-xl bg-yellow-300 p-4 shadow">
-                <p>Experiance more Integrate growth</p>
+              <div className="rounded-xl bg-normal-blue-500 p-4 shadow">
+                <p className="text-gray-200">Experiance more Integrate growth</p>
                 <button className="mt-5 w-full text-nowrap rounded-3xl bg-gray-900 py-2 font-semibold text-white">
                   Get Started
                 </button>
