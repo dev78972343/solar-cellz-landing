@@ -42,7 +42,7 @@ export const PrevButton = (props) => {
 
   return (
     <button
-      className={cn("embla__button embla__button--prev , !w-10 !h-10 !bg-blue-700 hover:!bg-gray-300 hover:!text-black !text-white",
+      className={cn("embla__button embla__button--prev , !w-10 !h-10 !bg-primary-button-gradient hover:!bg-gray-300 hover:!text-white !text-white",
         disabled && "opacity-60",
       )}
       type="button"
@@ -60,7 +60,7 @@ export const NextButton = (props) => {
 
   return (
     <button
-    className={cn("embla__button embla__button--next , !w-10 !h-10 !bg-blue-700 hover:!bg-gray-300 hover:!text-black !text-white",
+    className={cn("embla__button embla__button--next , !w-10 !h-10 !bg-primary-button-gradient hover:!text-white  !text-white",
       disabled && "opacity-60",
     )}
       type="button"

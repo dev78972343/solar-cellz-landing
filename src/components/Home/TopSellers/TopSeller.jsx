@@ -135,11 +135,11 @@ export default function TopSeller({ className }) {
           {/* Desktop device navigation */}
           <div className="absolute -top-10 right-10 hidden lg:block">
             <CarouselNext
-              className="size-10 bg-normal-blue-500 text-white"
+              className="size-10 bg-primary-button-gradient text-white hover:text-white"
               icon={<ArrowRight size={18} />}
             />
             <CarouselPrevious
-              className="size-10 bg-normal-blue-500 text-white"
+              className="size-10 bg-primary-button-gradient text-white hover:text-white"
               icon={<ArrowLeft size={18} />}
             />
           </div>

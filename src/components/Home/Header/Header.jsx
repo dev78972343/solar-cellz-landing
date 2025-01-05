@@ -11,7 +11,7 @@ export default function Header() {
 
   return (
     <div style={{ zIndex: 99999 }} className="relative w-full">
-      <div className="flex w-full items-center gap-2 bg-dark-blue-500 px-2 py-3 text-white md:gap-4">
+      <div className="flex w-full items-center justify-between gap-2 bg-dark-blue-500 px-4 py-3 text-white md:gap-4">
         {/* ============ Image Start here ================ */}
         <div className="headerHover">
           <img
@@ -23,7 +23,7 @@ export default function Header() {
         {/* ============ Image End here ================== */}
 
         {/* ============ Search Start here =============== */}
-        <div className="relative flex h-10 grow rounded-md">
+        <div className="relative flex h-10 grow rounded-md max-w-3xl">
           <span
             onClick={() => setShowAll(!showAll)}
             className="font-titleFont flex h-full w-14 cursor-pointer items-center justify-center rounded-bl-md rounded-tl-md border-2 bg-gray-200 text-sm text-dark-blue-500 duration-300 hover:bg-gray-300"
@@ -56,28 +56,30 @@ export default function Header() {
         {/* ============ Search End here ================= */}
         {/* ============ Signin Start here =============== */}
 
-        <div className="headerHover hidden flex-col items-start justify-center md:flex">
-          <p className="text-xs font-light text-lightText">Hello, sign in</p>
-          <p className="-mt-1 text-sm font-semibold text-whiteText">
-            Accounts & Lists{" "}
-            <span>
-              <ArrowDropDownOutlinedIcon />
-            </span>
-          </p>
-        </div>
-        {/* ============ Signin End here ================= */}
+        <div className="flex items-center gap-2">
+          <div className="headerHover hidden flex-col items-start justify-center md:flex">
+            <p className="text-xs font-light text-lightText">Hello, sign in</p>
+            <p className="-mt-1 text-sm font-semibold text-whiteText">
+              Accounts & Lists{" "}
+              <span>
+                <ArrowDropDownOutlinedIcon />
+              </span>
+            </p>
+          </div>
+          {/* ============ Signin End here ================= */}
 
-        {/* ============ Cart Start here ================= */}
-        <div className="headerHover relative flex items-start justify-center">
-          <ShoppingCartIcon />
-          <p className="mt-3 text-xs font-semibold text-whiteText">
-            Cart{" "}
-            <span className="absolute -top-1 left-6 flex h-4 items-center justify-center rounded-full bg-[#f3a847] p-1 text-xs font-semibold text-dark-blue-500">
-              0
-            </span>
-          </p>
-        </div>
-        {/* ============ Cart End here =================== */}
+          {/* ============ Cart Start here ================= */}
+          <div className="headerHover relative flex items-start justify-center">
+            <ShoppingCartIcon />
+            <p className="mt-3 text-xs font-semibold text-whiteText">
+              Cart{" "}
+              <span className="absolute -top-1 left-6 flex h-4 items-center justify-center rounded-full bg-[#f3a847] p-1 text-xs font-semibold text-dark-blue-500">
+                0
+              </span>
+            </p>
+          </div>
+          {/* ============ Cart End here =================== */}
+          </div>
       </div>
       <HeaderBottom />
     </div>

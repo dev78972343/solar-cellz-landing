@@ -128,11 +128,11 @@ export default function About3({ className }) {
             {/* Desktop device navigation */}
             <div className="absolute -top-10 right-10 hidden lg:block">
               <CarouselNext
-                className="size-10 bg-normal-blue-500 text-white"
+                className="size-10 bg-primary-button-gradient text-white hover:text-white"
                 icon={<ArrowRight size={18} />}
               />
               <CarouselPrevious
-                className="size-10 bg-normal-blue-500 text-white"
+                className="size-10 bg-primary-button-gradient text-white hover:text-white"
                 icon={<ArrowLeft size={18} />}
               />
             </div>
@@ -176,13 +176,11 @@ function AboutCard({ card, index }) {
           </li>
         ))}
       </ul>
-      <button className="mt-4 flex items-center justify-between gap-2 rounded-3xl border px-[3px] py-[3px] group uppercase text-gray-900  transition-all duration-300  hover:bg-secondary-button-gradient">
+      <button className="mt-4 flex items-center justify-between gap-2 rounded-3xl border p-2 px-4 group uppercase text-gray-900  transition-all duration-300  hover:bg-primary-button-gradient">
   <span className="ml-5 text-sm font-medium group-hover:text-white">
     View More
   </span>
-  <div className="flex h-9 w-9 items-center justify-center rounded-full bg-gray-900 group-hover:bg-white transition-colors duration-300">
-    <ArrowRight size={16} className="text-white group-hover:text-black" />
-  </div>
+    <ArrowRight className="size-4 text-black group-hover:text-white group-hover:translate-x-1" />
 </button>
 
     </motion.div>
