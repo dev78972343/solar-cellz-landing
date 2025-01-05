@@ -83,7 +83,7 @@ const EmblaCarousel = (props) => {
           The best companies <br /> say about us
         </h2>
 
-        <div className="embla__buttons">
+        <div className="!hidden lg:flex embla__buttons">
           <PrevButton onClick={onPrevButtonClick} disabled={prevBtnDisabled} />
           <NextButton onClick={onNextButtonClick} disabled={nextBtnDisabled} />
         </div>

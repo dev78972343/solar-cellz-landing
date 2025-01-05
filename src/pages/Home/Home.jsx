@@ -29,33 +29,33 @@ export default function Home() {
       <div>
         <Hero />
 
-        <Brands className="my-10 lg:my-20"/>
+        <Brands className="my-10 md:my-28"/>
 
-        <Features className="my-10 lg:my-20" />
+        <Features className="my-10 md:my-28" />
 
-        <About3 className="my-10 lg:my-20" />
+        <About3 className="my-10 md:my-28" />
 
-        <TryIt className="my-10 lg:my-20" />
+        <TryIt className="my-10 md:my-28" />
 
-        <Projects className="my-10 lg:my-20" />
+        <Projects className="my-10 md:my-28" />
 
-        <Stats className="my-20" />
+        <Stats className="my-10 md:my-28" />
 
-        <Equipments className="my-20" />
+        <Equipments className="my-10 md:my-28" />
 
-        <Testimonials className="my-20" />
+        <Testimonials className="my-10 md:my-28" />
 
-        <Manufacturers />
+        <Manufacturers className="my-10 md:my-28" />
 
-        <Slider className="my-10 lg:my-20" />
+        <Slider className="my-10 md:my-28" />
 
-        <TopSeller className="my-10 lg:my-20" />
+        <TopSeller className="my-10 md:my-28" />
 
         <Teams className="my-20 lg:my-20" />
 
-        <Demo className="my-10 lg:my-20" />
+        <Demo className="my-10 md:my-28" />
 
-        <Contact className="my-10 lg:my-20" />
+        <Contact className="my-10 md:my-28" />
       </div>
     </>
   );

@@ -72,6 +72,7 @@ import teslaLogo from "../../../assets/images/manufacturers/Tesla-1-logo 1.png";
 import teslaBatteryLogo from "../../../assets/images/manufacturers/Tesla-Battery-Logo-1 1.png";
 import victronEnergy from "../../../assets/images/manufacturers/Victron-Energy 1.png";
 import wallboxLogo from "../../../assets/images/manufacturers/Wallbox_Logo 1.png";
+import { cn } from "@/lib/utils";
 
 // Manufacturers Logo
 const manufacturersLogos = [
@@ -147,9 +148,9 @@ const manufacturersLogos = [
   wallboxLogo,
 ];
 
-export default function Manufacturers() {
+export default function Manufacturers({ className }) {
   return (
-    <div>
+    <div className={cn(className)}>
       <SectionHeader
         heading="Our Franchised Manufacturer Partners"
         subHeading="Franchises"
