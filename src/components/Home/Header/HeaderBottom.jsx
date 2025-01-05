@@ -25,16 +25,16 @@ export function HeaderBottom() {
       <ul className="flex items-center gap-4 text-sm tracking-wide">
         <li
           onClick={() => setSidebar(true)}
-          className="headerHover flex items-center gap-1"
+          className="headerHover flex items-center gap-1 cursor-pointer"
         >
           <MenuIcon />
           All
         </li>
-        <li className="headerHover">Today&apos;s Deals</li>
-        <li className="headerHover">Customer Service</li>
-        <li className="headerHover hidden sm:block">Gift Cards</li>
-        <li className="headerHover hidden sm:block">Registry</li>
-        <li className="headerHover hidden sm:block">Sell</li>
+        <li className="headerHover cursor-pointer">Today&apos;s Deals</li>
+        <li className="headerHover cursor-pointer">Customer Service</li>
+        <li className="headerHover cursor-pointer hidden sm:block">Gift Cards</li>
+        <li className="headerHover cursor-pointer hidden sm:block">Registry</li>
+        <li className="headerHover cursor-pointer hidden sm:block">Sell</li>
       </ul>
 
       {sidebar && (
