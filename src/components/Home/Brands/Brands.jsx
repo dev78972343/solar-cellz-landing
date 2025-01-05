@@ -6,7 +6,7 @@ export default function Brands({ className }) {
   return (
     <div className={cn(className)}>
       <ResponsiveContainer>
-        <div className="flex md:flex-row flex-col gap-6 items-center">
+        <div className="py-5 flex md:flex-row flex-col gap-6 items-center">
           <h3 className="text-2xl font-bold text-black-600">Liquidity Supported by:</h3>
          <BrandsLogoCarousel />
         </div>

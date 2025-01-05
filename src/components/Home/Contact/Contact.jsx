@@ -6,10 +6,90 @@ import { Home } from "lucide-react";
 import { PhoneCall } from "lucide-react";
 import { MapPin } from "lucide-react";
 import { Textarea } from "@/components/ui/textarea";
+import { cn } from "@/lib/utils";
 
-export default function Contact() {
+export default function Contact({ className }) {
   return (
-    <ResponsiveContainer classes="flex flex-col items-start justify-center gap-10 p-10 md:flex-row">
+    <ResponsiveContainer classes={cn(className,"flex flex-col items-start justify-center gap-10 p-10 md:flex-row")}>
+
+       {/* Form Section */}
+       <div className="w-full rounded-lg bg-[#dff2fe] p-8 shadow md:w-1/2">
+        <h2 className="mb-4 text-2xl font-bold">Fill the form</h2>
+
+        <form className="grid grid-cols-2 gap-4">
+  {/* First Name */}
+  <div>
+    <label htmlFor="firstName" className="mb-1 block text-sm text-gray-700">
+      First Name
+    </label>
+    <Input
+      id="firstName"
+      type="text"
+      placeholder="First Name"
+      className="h-11 w-full border-[#545454] bg-white text-black"
+    />
+  </div>
+
+  {/* Last Name */}
+  <div>
+    <label htmlFor="lastName" className="mb-1 block text-sm text-gray-700">
+      Last Name
+    </label>
+    <Input
+      id="lastName"
+      type="text"
+      placeholder="Last Name"
+      className="h-11 w-full border-[#545454] bg-white text-black"
+    />
+  </div>
+
+  {/* Phone Number */}
+  <div>
+    <label htmlFor="phone" className="mb-1 block text-sm text-gray-700">
+      Phone Number
+    </label>
+    <Input
+      id="phone"
+      type="text"
+      placeholder="Your Phone Number"
+      className="h-11 w-full border-[#545454] bg-white text-black"
+    />
+  </div>
+
+  {/* Email */}
+  <div>
+    <label htmlFor="email" className="mb-1 block text-sm text-gray-700">
+      Email Address
+    </label>
+    <Input
+      id="email"
+      type="email"
+      placeholder="Your email address"
+      className="h-11 w-full border-[#545454] bg-white text-black"
+    />
+  </div>
+
+  {/* Message */}
+  <div className="col-span-2">
+    <label htmlFor="message" className="mb-1 block text-sm text-gray-700">
+      Message
+    </label>
+    <Textarea
+      id="message"
+      rows="4"
+      placeholder="Your message"
+      className="w-full resize-none border-[#545454] bg-white text-black"
+    />
+  </div>
+
+  {/* Submit Button */}
+  <div className="col-span-2">
+    <PrimaryButton className="h-11 w-full">Submit</PrimaryButton>
+  </div>
+</form>
+
+      </div>
+
       {/* Contact Info Section */}
       <div className="w-full space-y-5 md:w-1/2">
         <h2 className="text-2xl font-bold">Contact Us</h2>
@@ -61,40 +141,7 @@ export default function Contact() {
         </div>
       </div>
 
-      {/* Form Section */}
-      <div className="w-full rounded-lg bg-[#dff2fe] p-8 shadow md:w-1/2">
-        <h2 className="mb-4 text-2xl font-bold">Fill the form</h2>
-
-        <form className="space-y-4">
-          <Input
-            id="name"
-            type="text"
-            placeholder="Your Name"
-            className="h-11 border-[#545454] bg-white text-black"
-          />
-          <Input
-            id="phone"
-            type="text"
-            placeholder="Your Phone Number"
-            className="h-11 border-[#545454] bg-white text-black"
-          />
-          <Input
-            id="email"
-            type="email"
-            placeholder="Your email address"
-            className="h-11 border-[#545454] bg-white text-black"
-          />
-
-          <Textarea
-            id="message"
-            rows="4"
-            placeholder="Your message"
-            className="resize-none border-[#545454] bg-white text-black"
-          />
-
-          <PrimaryButton className="h-11 w-full">Submit</PrimaryButton>
-        </form>
-      </div>
+     
     </ResponsiveContainer>
   );
 }

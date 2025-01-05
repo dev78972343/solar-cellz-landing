@@ -176,12 +176,15 @@ function AboutCard({ card, index }) {
           </li>
         ))}
       </ul>
-      <button className="mt-4 flex items-center justify-between gap-2 rounded-3xl border px-[3px] py-[3px] uppercase text-gray-900 hover:underline">
-        <span className="ml-5 text-sm font-medium">View More</span>
-        <div className="flex h-9 w-9 items-center justify-center rounded-full bg-gray-900">
-          <ArrowRight size={16} className="text-white" />
-        </div>
-      </button>
+      <button className="mt-4 flex items-center justify-between gap-2 rounded-3xl border px-[3px] py-[3px] group uppercase text-gray-900  transition-all duration-300  hover:bg-secondary-button-gradient">
+  <span className="ml-5 text-sm font-medium group-hover:text-white">
+    View More
+  </span>
+  <div className="flex h-9 w-9 items-center justify-center rounded-full bg-gray-900 group-hover:bg-white transition-colors duration-300">
+    <ArrowRight size={16} className="text-white group-hover:text-black" />
+  </div>
+</button>
+
     </motion.div>
   );
 }

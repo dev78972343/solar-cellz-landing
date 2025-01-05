@@ -3,7 +3,6 @@ import Contact from "@/components/Home/Contact/Contact";
 import Demo from "@/components/Home/Demo/Demo";
 import Equipments from "@/components/Home/Equipments/Equipments";
 import Features from "@/components/Home/Features/Features";
-import Inovate from "@/components/Home/Inovate/Inovate";
 import Manufacturers from "@/components/Home/Manufacturers/Manufacturers";
 import Projects from "@/components/Home/Projects/Projects";
 import Teams from "@/components/Home/Teams/Teams";
@@ -30,15 +29,15 @@ export default function Home() {
       <div>
         <Hero />
 
-        <Brands className="my-20" />
+        <Brands />
 
-        <Features className="my-20" />
+        <Features className="my-10 lg:my-20" />
 
-        <About3 className="my-20" />
+        <About3 className="my-10 lg:my-20" />
 
-        <TryIt className="my-20" />
+        <TryIt className="my-10 lg:my-20" />
 
-        <Projects />
+        <Projects className="my-10 lg:my-20" />
 
         <Stats className="my-20" />
 
@@ -48,17 +47,15 @@ export default function Home() {
 
         <Manufacturers />
 
-        <Slider className="my-20" />
+        <Slider className="my-10 lg:my-20" />
 
-        <TopSeller className="my-10 lg:my-32" />
+        <TopSeller className="my-10 lg:my-20" />
 
-        <Inovate className="my-20" />
+        <Teams className="my-20 lg:my-20" />
 
-        <Teams className="my-20 lg:my-32" />
+        <Demo className="my-10 lg:my-20" />
 
-        <Demo />
-
-        <Contact className="my-20" />
+        <Contact className="my-10 lg:my-20" />
       </div>
     </>
   );

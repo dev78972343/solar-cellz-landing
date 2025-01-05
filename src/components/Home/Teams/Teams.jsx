@@ -127,7 +127,7 @@ export default function Teams({ className }) {
 
 function TeamCard({ member }) {
   return (
-    <motion.div variants={slideUpChildVariants} className="group text-center">
+    <motion.div variants={slideUpChildVariants} className="group text-center border border-gray-200 shadow-md p-4 rounded-xl bg-white hover:shadow-lg transition-shadow duration-300">
       <div className="relative flex justify-center">
         <div className="relative size-40">
           <img
@@ -141,34 +141,80 @@ function TeamCard({ member }) {
             </button>
           </div>
           <div className="absolute left-1/2 top-1/2 flex -translate-x-1/2 -translate-y-1/2 transform gap-1 opacity-0 transition-all duration-300 group-hover:opacity-100">
-            <div className="flex size-8 cursor-pointer items-center justify-center rounded-full group/facebook bg-white p-2 hover:bg-green-600 hover:text-white">
+            <div className="flex size-8 cursor-pointer items-center justify-center rounded-full group/facebook shadow bg-white p-2 hover:bg-green-600 hover:text-white">
               <Facebook className="size-4 text-green-600 group-hover/facebook:text-white" />
             </div>
-            <div className="flex size-8 cursor-pointer items-center justify-center rounded-full group/twitter bg-white p-2 hover:bg-green-600 hover:text-white">
+            <div className="flex size-8 cursor-pointer items-center justify-center rounded-full group/twitter shadow bg-white p-2 hover:bg-green-600 hover:text-white">
               <Twitter className="size-4 text-green-600 group-hover/twitter:text-white" />
             </div>
-            <div className="flex size-8 cursor-pointer items-center justify-center rounded-full group/linkedin bg-white p-2 hover:bg-green-600 hover:text-white">
+            <div className="flex size-8 cursor-pointer items-center justify-center rounded-full group/linkedin shadow bg-white p-2 hover:bg-green-600 hover:text-white">
               <Linkedin className="size-4 text-green-600 group-hover/linkedin:text-white" />
             </div>
-            <div className="flex size-8 cursor-pointer items-center justify-center rounded-full group/youtube bg-white p-2 hover:bg-green-600 hover:text-white">
+            <div className="flex size-8 cursor-pointer items-center justify-center rounded-full group/youtube shadow bg-white p-2 hover:bg-green-600 hover:text-white">
               <Youtube className="size-4 text-green-600 group-hover/youtube:text-white" />
             </div>
           </div>
         </div>
       </div>
-      <h3 className="text-lg font-semibold">{member.name}</h3>
-      <p className="text-sm text-green-500">{member.role}</p>
-      <div className="mt-4 flex justify-center gap-4">
-        {member.social.map((platform, idx) => (
-          <a
-            key={idx}
-            href={`#${platform}`}
-            className="text-green-500 hover:text-green-600"
-          >
-            <i className={`fab fa-${platform}`}></i>
-          </a>
-        ))}
+      <div className="mt-3">
+      <p className="text-lg font-semibold">{member.name}</p>
+      <span className="text-sm text-green-500">{member.role}</span>
       </div>
     </motion.div>
+
+//     <motion.div
+//   variants={slideUpChildVariants}
+//   className="group text-center border border-gray-200 shadow-md p-6 rounded-xl bg-white hover:shadow-lg transition-shadow duration-300"
+// >
+//   {/* Profile Image */}
+//   <div className="relative flex justify-center">
+//     <div className="relative w-20 h-20">
+//       <img
+//         src={member.image}
+//         alt={member.name}
+//         className="w-full h-full rounded-full object-cover shadow-sm"
+//       />
+//       {/* Share Button */}
+//       <button
+//         className="absolute bottom-1 right-1 w-8 h-8 flex items-center justify-center rounded-full bg-green-500 text-white shadow-lg hover:bg-green-600 transition-colors"
+//         aria-label="Share"
+//       >
+//         <Share2 className="w-4 h-4" />
+//       </button>
+//       {/* Social Media Icons on Hover */}
+//       <div className="absolute inset-0 flex items-center justify-center gap-2 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+//         {['facebook', 'twitter', 'linkedin', 'youtube'].map((platform, idx) => (
+//           <a
+//             key={idx}
+//             href={`#${platform}`}
+//             className="w-8 h-8 flex items-center justify-center rounded-full bg-white shadow hover:bg-green-600 hover:text-white transition-all"
+//             aria-label={platform}
+//           >
+//             <i className={`fab fa-${platform} text-green-500 group-hover:text-white`}></i>
+//           </a>
+//         ))}
+//       </div>
+//     </div>
+//   </div>
+
+//   {/* Member Name & Role */}
+//   <h3 className="mt-4 text-lg font-semibold text-gray-800">{member.name}</h3>
+//   <p className="text-sm text-green-500">{member.role}</p>
+
+//   {/* Additional Social Links */}
+//   <div className="mt-4 flex justify-center gap-4">
+//     {member.social.map((platform, idx) => (
+//       <a
+//         key={idx}
+//         href={`#${platform}`}
+//         className="text-green-500 hover:text-green-600 transition-colors"
+//         aria-label={platform}
+//       >
+//         <i className={`fab fa-${platform}`}></i>
+//       </a>
+//     ))}
+//   </div>
+// </motion.div>
+
   );
 }

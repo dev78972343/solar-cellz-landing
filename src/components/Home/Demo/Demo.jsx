@@ -1,10 +1,11 @@
+import { cn } from "@/lib/utils";
 import {
   slideUpChildVariants,
   slideUpParentVariants,
 } from "@/utils/sharedMotionVariants";
 import { motion } from "motion/react";
 
-export default function Demo() {
+export default function Demo({ className }) {
   return (
     <motion.section
       variants={slideUpParentVariants()}
@@ -14,7 +15,7 @@ export default function Demo() {
       initial="initial"
       whileInView="animate"
       viewport={{ once: true }}
-      className="bg-gradient-to-br from-sky-blue-50 via-sky-blue-200 to-light-blue-500 py-[150px] text-center"
+      className={cn(className, "bg-gradient-to-br from-sky-blue-50 via-sky-blue-200 to-light-blue-500 py-[150px] text-center")}
     >
       <motion.h1 variants={slideUpChildVariants} className="text-5xl font-bold">
         Design—Powering Solar Solutions in Harmony

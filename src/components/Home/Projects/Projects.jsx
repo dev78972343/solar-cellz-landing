@@ -1,3 +1,4 @@
+import { cn } from "@/lib/utils";
 import EmblaCarousel from "./EmblaCarousel";
 import ResponsiveContainer from "@/components/ResponsiveContainer/ResponsiveContainer";
 
@@ -70,10 +71,12 @@ const SLIDES = [
   },
 ];
 
-export default function Projects() {
+export default function Projects({ className }) {
   return (
+    <div className={cn(className)}>
     <ResponsiveContainer>
       <EmblaCarousel slides={SLIDES} options={OPTIONS} />
     </ResponsiveContainer>
+    </div>
   );
 }

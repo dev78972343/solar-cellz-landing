@@ -59,7 +59,7 @@ const companyInfoLinks = [
 
 export default function Footer() {
   return (
-    <footer className="mt-20 py-12 bg-black">
+    <footer className="py-12 bg-black">
       <ResponsiveContainer>
         <div className="flex-start-between w-full flex-col gap-y-5 lg:flex-row">
           <Link to="/">

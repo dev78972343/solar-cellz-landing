@@ -38,6 +38,8 @@ export default {
       backgroundImage: {
         "primary-button-gradient":
           "linear-gradient(90deg, #0A0A2D 41%, #1372C4 100%)",
+        "secondary-button-gradient": "linear-gradient(90deg, #9fc4ee 41%, #1372C4 100%)",
+
       },
 
       fontFamily: {
