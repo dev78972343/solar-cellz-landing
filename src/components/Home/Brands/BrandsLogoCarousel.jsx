@@ -16,7 +16,8 @@ export default function BrandsLogoCarousel() {
         pauseOnHover
         speed={80}
         gradientWidth={100}
-        // gradientColor="var(--light-blue-500)"
+        gradientColor="rgb(243 244 246)"
+        
       >
         {partnersLogos?.map((logo) => (
           <div key={logo} className="mr-10">

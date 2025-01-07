@@ -4,9 +4,9 @@ import { cn } from "@/lib/utils";
 
 export default function Brands({ className }) {
   return (
-    <div className={cn(className)}>
+    <div className={cn(className, "bg-gray-100")}>
       <ResponsiveContainer>
-        <div className="py-5 flex md:flex-row flex-col gap-6 items-center">
+        <div className="py-10 flex md:flex-row flex-col gap-6 items-center">
           <h3 className="text-2xl font-bold text-black-600">Liquidity Supported by:</h3>
          <BrandsLogoCarousel />
         </div>

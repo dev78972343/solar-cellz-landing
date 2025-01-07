@@ -84,7 +84,7 @@ export default function Hero() {
       <Carousel
         opts={{
           loop: true,
-          duration: 50,
+          duration: 100,
           align: "center",
         }}
         plugins={[

@@ -29,7 +29,7 @@ export default function Home() {
       <div>
         <Hero />
 
-        <Brands className="my-10 md:my-28"/>
+        <Brands className="mb-10 mb:my-28"/>
 
         <Features className="my-10 md:my-28" />
 
