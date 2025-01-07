@@ -5,8 +5,10 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import { slideUpChildVariants, slideUpParentVariants } from "@/utils/sharedMotionVariants";
 import Autoplay from "embla-carousel-autoplay";
 import { ArrowLeft, ArrowRight } from "lucide-react";
+import { motion } from "motion/react";
 
 const datas = [
   {
@@ -82,7 +84,7 @@ export default function Hero() {
       <Carousel
         opts={{
           loop: true,
-          duration: 200,
+          duration: 50,
           align: "center",
         }}
         plugins={[
@@ -108,14 +110,22 @@ export default function Hero() {
                 <div className="absolute inset-0 bg-black/40"></div>
 
                 {/* Content */}
-                <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white">
-                  <h1 className="text-4xl font-bold sm:text-5xl lg:text-6xl">
+                <motion.div 
+                variants={slideUpParentVariants()}
+                transition={{
+                  delay: 4,
+                }}
+                initial="initial"
+                whileInView="animate"
+               viewport={{ once: false }} 
+               className="absolute inset-0 flex flex-col items-center justify-center text-center text-white">
+                  <motion.h1 variants={slideUpChildVariants} className="text-4xl font-bold sm:text-5xl lg:text-6xl">
                     {item.title}
-                  </h1>
-                  <p className="mt-4 max-w-2xl text-lg sm:text-xl lg:text-2xl">
+                  </motion.h1>
+                  <motion.p variants={slideUpChildVariants} className="mt-4 max-w-2xl text-lg sm:text-xl lg:text-2xl">
                     {item.description}
-                  </p>
-                  <div className="mt-6 flex gap-4">
+                  </motion.p>
+                  <motion.div  variants={slideUpChildVariants} className="mt-6 flex gap-4">
                     {item.buttons.map((button, idx) => (
                       <a
                         key={idx}
@@ -129,8 +139,8 @@ export default function Hero() {
                         {button.name}
                       </a>
                     ))}
-                  </div>
-                </div>
+                  </motion.div>
+                </motion.div>
               </div>
             </CarouselItem>
           ))}
