@@ -48,7 +48,7 @@ export default function Features({ className }) {
           viewport={{ once: true }}
           className="container mx-auto"
         >
-          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
             {features.map((feature, index) => (
               <motion.div
                 variants={slideUpChildVariants}
