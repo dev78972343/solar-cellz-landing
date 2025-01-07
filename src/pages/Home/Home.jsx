@@ -17,6 +17,8 @@ import About3 from "@/components/Home/About2/About3";
 import Hero from "@/components/Home/Hero/Hero2";
 import Header from "@/components/Home/Header/Header";
 import Slider from "@/components/Home/Slider/Slider";
+import { Divide } from "lucide-react";
+import { Separator } from "@/components/ui/separator";
 
 export default function Home() {
   return (
@@ -45,7 +47,11 @@ export default function Home() {
 
         <Testimonials className="my-10 md:my-28" />
 
+        <Separator />
+
         <Manufacturers className="my-10 md:my-28" />
+
+        <Separator />
 
         <Slider className="my-10 md:my-28" />
 
