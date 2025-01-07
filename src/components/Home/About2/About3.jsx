@@ -161,28 +161,48 @@ function AboutCard({ card, index }) {
     <motion.div
       variants={slideUpChildVariants}
       key={index}
-      className="relative flex w-full max-w-[350px] flex-col gap-4 rounded-xl bg-white p-6 shadow-md"
+      className="relative group/card overflow-hidden flex w-full max-w-[350px] flex-col gap-6 rounded-lg bg-white p-6 shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-xl"
     >
-      <div className="flex h-16 w-16 items-center justify-center rounded-lg bg-light-blue-500 p-3 text-white">
+      {/* Icon Wrapper */}
+      <div className="flex h-16 w-16 items-center justify-center rounded-full bg-light-blue-500 text-white shadow-md">
         {card.icon}
       </div>
-      <h3 className="text-xl font-medium text-gray-900">{card.title}</h3>
-      <p className="text-gray-500">{card.description}</p>
-      <ul className="list-inside list-disc space-y-2 font-medium text-gray-900">
+      
+      {/* Title */}
+      <h3 className="text-xl font-semibold text-gray-800">{card.title}</h3>
+      
+      {/* Description */}
+      <p className="text-gray-600">{card.description}</p>
+      
+      {/* Features List */}
+      <ul className="list-inside list-disc space-y-2 text-gray-700">
         {card.features.map((feature, i) => (
           <li key={i} className="flex items-center gap-2">
-            <ChevronRightIcon className="size-4 font-semibold" />
+            <ChevronRightIcon className="h-4 w-4 text-primary" />
             <span>{feature}</span>
           </li>
         ))}
       </ul>
-      <button className="mt-4 flex items-center justify-between gap-2 rounded-3xl border p-2 px-4 group uppercase text-gray-900  transition-all duration-300  hover:bg-primary-button-gradient">
-  <span className="ml-5 text-sm font-medium group-hover:text-white">
-    View More
-  </span>
-    <ArrowRight className="size-4 text-black group-hover:text-white group-hover:translate-x-1" />
-</button>
+      
+      {/* Call to Action Button */}
+      {/* <button className="group mt-4 flex items-center justify-between gap-2 rounded-full border border-gray-300 bg-gradient-to-r from-white to-white bg-[length:200%] bg-left p-3 px-6 text-gray-800 transition-all duration-300 hover:bg-[length:200%] hover:bg-right hover:from-dark-blue-500 hover:to-light-blue-500 hover:text-white hover:shadow-lg">
+        <span className="text-sm font-medium">
+          View More
+        </span>
+        <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-2" />
+      </button> */}
+      <button className="relative mt-4 flex items-center justify-between gap-2 group overflow-hidden rounded-full border border-gray-300 p-3 px-6 text-gray-800 transition-all duration-300 hover:text-white">
+        {/* Progress Effect */}
+        <span className="absolute inset-0 -z-10 bg-gradient-to-r from-dark-blue-500 to-light-blue-500 transition-transform duration-500 ease-in-out group-hover:translate-x-0 translate-x-[-100%]"></span>
+        <span className="text-sm font-medium transition-all duration-300 group-hover:translate-x-1">
+          View More
+        </span>
+        <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-2" />
+      </button>
 
+      {/* Animated Bottom Bar */}
+    <div className="absolute bottom-0 left-0 h-1 w-full translate-x-[-100%] bg-gradient-to-r from-dark-blue-500 to-light-blue-500 transition-transform duration-500 ease-in-out group-hover/card:translate-x-0"></div>
     </motion.div>
   );
 }
+

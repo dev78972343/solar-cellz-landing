@@ -12,6 +12,8 @@ export default {
         "3xl": "1700px",
       },
       colors: {
+        "primary": "var(--primary)",
+        "secondary": "var(--secondary)",
         "gray-normal-active": "var(--gray-normal-active)",
         "normal-green-500": "var(--normal-green-500)",
         "dark-blue-500": "var(--dark-blue-500)",

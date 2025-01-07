@@ -11,6 +11,8 @@
   --font-dm-sans: "DM Sans", sans-serif;
 
   /* Colors */
+  --primary: #3498db; /* Blue */
+  --secondary: #2ecc71; /* Green */
   --gray-normal-active: #c6c8ca;
   --normal-green-500: #d5ee36;
   --dark-blue-500: #0a0a2d;
