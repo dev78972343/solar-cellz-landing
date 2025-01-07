@@ -5,6 +5,7 @@ import { HeaderBottom } from "./HeaderBottom";
 import SearchIcon from "@mui/icons-material/Search";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import ArrowDropDownOutlinedIcon from "@mui/icons-material/ArrowDropDownOutlined";
+import ResponsiveContainer from "@/components/ResponsiveContainer/ResponsiveContainer";
 
 export default function Header() {
   const [showAll, setShowAll] = useState(false);
@@ -26,7 +27,9 @@ export default function Header() {
 
   return (
     <div className="relative w-full z-40">
-      <div className="flex w-full items-center justify-between gap-2 bg-dark-blue-500 px-4 py-3 text-white md:gap-4">
+      <div className="bg-dark-blue-500">
+        <ResponsiveContainer>
+      <div className="flex w-full items-center justify-between gap-2 px-4 py-3 text-white md:gap-4">
         {/* ============ Image Start here ================ */}
         <div className="headerHover">
           <img
@@ -103,6 +106,8 @@ export default function Header() {
           </div>
           {/* ============ Cart End here =================== */}
         </div>
+      </div>
+      </ResponsiveContainer>
       </div>
       <HeaderBottom />
     </div>

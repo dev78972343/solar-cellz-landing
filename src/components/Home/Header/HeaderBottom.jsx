@@ -6,6 +6,7 @@ import { SideNavContent } from "./SideNavContent";
 import { useEffect, useRef, useState } from "react";
 import { NestedSideNavContent } from "./NestedSideNavContent";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
+import ResponsiveContainer from "@/components/ResponsiveContainer/ResponsiveContainer";
 
 export function HeaderBottom() {
   const ref = useRef();
@@ -21,7 +22,9 @@ export function HeaderBottom() {
   }, [ref, sidebar]);
 
   return (
-    <div className="flex h-[36px] w-full items-center bg-dark-blue-400 px-4 text-white">
+    <div className="bg-dark-blue-400">
+    <ResponsiveContainer>
+    <div className="flex h-[36px] w-full items-center px-4 text-white">
       <ul className="flex items-center gap-4 text-sm tracking-wide">
         <li
           onClick={() => setSidebar(true)}
@@ -88,6 +91,8 @@ export function HeaderBottom() {
           </div>
         </div>
       )}
+    </div>
+    </ResponsiveContainer>
     </div>
   );
 }
