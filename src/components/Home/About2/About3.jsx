@@ -184,13 +184,6 @@ function AboutCard({ card, index }) {
         ))}
       </ul>
       
-      {/* Call to Action Button */}
-      {/* <button className="group mt-4 flex items-center justify-between gap-2 rounded-full border border-gray-300 bg-gradient-to-r from-white to-white bg-[length:200%] bg-left p-3 px-6 text-gray-800 transition-all duration-300 hover:bg-[length:200%] hover:bg-right hover:from-dark-blue-500 hover:to-light-blue-500 hover:text-white hover:shadow-lg">
-        <span className="text-sm font-medium">
-          View More
-        </span>
-        <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-2" />
-      </button> */}
       <button className="relative mt-4 flex items-center justify-between gap-2 group overflow-hidden rounded-full border border-gray-300 p-3 px-6 text-gray-800 transition-all duration-300 hover:text-white">
         {/* Progress Effect */}
         <span className="absolute inset-0 -z-10 bg-gradient-to-r from-dark-blue-500 to-light-blue-500 transition-transform duration-500 ease-in-out group-hover:translate-x-0 translate-x-[-100%]"></span>

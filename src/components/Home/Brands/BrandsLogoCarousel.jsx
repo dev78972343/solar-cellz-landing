@@ -1,5 +1,5 @@
 // Static partners logo
-import beyGoodLogo from "../../../assets/images/partners/bey-good.webp";
+import beyGoodLogo from "../../../assets/images/partners/bey-good.png";
 import ncSustainableLogo from "../../../assets/images/partners/nc-sustainable.png";
 import nmsdcLogo from "../../../assets/images/partners/nmsdc.png";
 import seiaLogo from "../../../assets/images/partners/seia.png";
