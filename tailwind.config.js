@@ -41,7 +41,9 @@ export default {
         "primary-button-gradient":
           "linear-gradient(90deg, #0A0A2D 41%, #1372C4 100%)",
         "secondary-button-gradient": "linear-gradient(90deg, #9fc4ee 41%, #1372C4 100%)",
-        "tartiary-gradient": "linear-gradient(90deg, #4C4C71 41%, #4D97D6 100%)",
+        "tartiary-gradient": "linear-gradient(90deg, #0A0A2D 41%, #3B4A85 100%)",
+        "marquee-gradient": "radial-gradient(at center center, #141A27 0%, #111722 100%)",
+        
       },
 
       fontFamily: {

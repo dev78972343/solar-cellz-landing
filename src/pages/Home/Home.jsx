@@ -19,6 +19,7 @@ import Header from "@/components/Home/Header/Header";
 import Slider from "@/components/Home/Slider/Slider";
 import { Divide } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
+import Partners from "@/components/Home/Partners/Partner";
 
 export default function Home() {
   return (
@@ -58,7 +59,7 @@ export default function Home() {
         <TopSeller className="my-10 md:my-28" />
 
         <Teams className="my-20 lg:my-20" />
-
+        <Partners className="my-10 md:my-28" />
         <Demo className="my-10 md:my-28" />
 
         <Contact className="my-10 md:my-28" />
