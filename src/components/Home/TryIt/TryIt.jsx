@@ -9,7 +9,6 @@ import PrimaryButton from "@/components/buttons/PrimaryButton/PrimaryButton";
 import { ArrowRight } from "lucide-react";
 import { cn } from "@/lib/utils";
 
-// Static Try It data
 const tryItData = [
   {
     title: "Contact sales",
@@ -37,61 +36,61 @@ export default function TryIt({ className }) {
       <ResponsiveContainer>
         <motion.section
           variants={slideUpParentVariants()}
-          transition={{
-            delay: 2,
-          }}
           initial="initial"
           whileInView="animate"
           viewport={{ once: true }}
           className="scroll-hide mx-auto grid grid-cols-1 gap-8 overflow-auto rounded-lg opacity-10  bg-tartiary-gradient px-8 py-12 text-white lg:grid-cols-[45%,55%]"
-        >  
-          <header className="flex flex-col gap-5">
+        >
+          
+          <div className="px-8 py-4 flex flex-col gap-6">
             <motion.h3
               variants={slideUpChildVariants}
-              className="text-4xl font-bold xl:text-5xl xl:leading-snug"
+              className="text-3xl font-bold sm:text-4xl lg:text-5xl"
             >
-              Try it For free
+              Try it For Free
             </motion.h3>
             <motion.div variants={slideUpChildVariants}>
               <PrimaryButton arrow className="w-fit">
                 Get Started - Free
               </PrimaryButton>
             </motion.div>
-          </header>
-          <main>
-            <motion.div
+          </div>
+
+          <div className="p-4">
+            <motion.p
               variants={slideUpChildVariants}
-              className="text-lg text-white/90"
+              className="mb-6 text-lg text-white/80"
             >
               Try Webflow for as long as you like with our free Starter plan.
               Purchase a paid Site plan to publish, host, and unlock additional
               features.
-            </motion.div>
-            <Separator className="my-5" />
-            <div className="flex flex-col gap-3">
+            </motion.p>
+            <Separator className="my-5 opacity-50" />
+
+            <div className="flex flex-col gap-6">
               {tryItData.map((item, index) => (
                 <motion.div
                   variants={slideUpChildVariants}
                   key={index}
-                  className="flex flex-col gap-3"
+                  className="flex flex-col gap-4"
                 >
-                  <h4 className="text-2xl font-bold">{item.title}</h4>
-                  <p className="text-white/90">{item.description}</p>
+                  <h4 className="text-xl font-semibold sm:text-2xl">
+                    {item.title}
+                  </h4>
+                  <p className="text-white/80">{item.description}</p>
                   <a
                     href={item.button.link}
-                    className="group/icon flex items-center"
+                    className="group flex items-center gap-2 text-sm font-medium text-white/90 transition hover:text-white"
                     aria-label={`Navigate to ${item.button.text}`}
                   >
                     {item.button.text}
-                    <span className="ml-2 mt-0.5">
-                      <ArrowRight className="h-4 w-4 transition-all duration-300 ease-in-out group-hover/icon:translate-x-2" />
-                    </span>
+                    <ArrowRight className="h-5 w-5 transition-transform duration-300 group-hover:translate-x-2" />
                   </a>
-                  {index === 0 && <Separator className="my-5" />}
+                  {index === 0 && <Separator className="my-4 opacity-50" />}
                 </motion.div>
               ))}
             </div>
-          </main>
+          </div>
         </motion.section>
       </ResponsiveContainer>
     </div>
