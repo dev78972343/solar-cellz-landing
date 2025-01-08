@@ -43,7 +43,7 @@ export default function TryIt({ className }) {
           initial="initial"
           whileInView="animate"
           viewport={{ once: true }}
-          className="scroll-hide mx-auto grid grid-cols-1 gap-8 overflow-auto rounded-lg opacity-10  bg-tartiary-gradient p-16 text-white lg:grid-cols-[45%,55%]"
+          className="scroll-hide mx-auto grid grid-cols-1 gap-8 overflow-auto rounded-lg opacity-10  bg-tartiary-gradient px-8 py-12 text-white lg:grid-cols-[45%,55%]"
         >  
           <header className="flex flex-col gap-5">
             <motion.h3

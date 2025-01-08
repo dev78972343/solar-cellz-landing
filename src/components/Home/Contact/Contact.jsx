@@ -8,10 +8,10 @@ import { cn } from "@/lib/utils";
 export default function Contact({ className }) {
   return (
     <ResponsiveContainer
-      classes={cn(className, "flex flex-col items-start justify-center gap-10 p-10 md:flex-row")}
+      classes={cn(className, "flex flex-col items-start justify-center gap-10 md:flex-row")}
     >
       {/* Form Section */}
-      <div className="w-full rounded-lg bg-[#dff2fe] p-8 shadow md:w-1/2">
+      <div className="w-full rounded-lg bg-[#dff2fe] p-4 lg:p-8 shadow md:w-1/2">
         <h2 className="mb-4 text-2xl font-bold">Fill the form</h2>
 
         <form className="grid grid-cols-2 gap-4">

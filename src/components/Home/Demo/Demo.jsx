@@ -15,9 +15,9 @@ export default function Demo({ className }) {
       initial="initial"
       whileInView="animate"
       viewport={{ once: true }}
-      className={cn(className, "bg-gradient-to-br from-sky-blue-50 via-sky-blue-200 to-light-blue-500 py-[150px] text-center")}
+      className={cn(className, "bg-gradient-to-br from-sky-blue-50 via-sky-blue-200 to-light-blue-500 py-20 lg:py-[150px] text-center")}
     >
-      <motion.h1 variants={slideUpChildVariants} className="text-5xl font-bold">
+      <motion.h1 variants={slideUpChildVariants} className="text-3xl lg:text-5xl font-bold">
         Design—Powering Solar Solutions in Harmony
       </motion.h1>
       <motion.button
