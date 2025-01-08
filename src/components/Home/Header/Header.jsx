@@ -29,7 +29,7 @@ export default function Header() {
     <div className="relative w-full z-40">
       <div className="bg-dark-blue-500">
         <ResponsiveContainer>
-      <div className="flex w-full items-center justify-between gap-2 px-4 py-3 text-white md:gap-4">
+      <div className="flex w-full items-center justify-between gap-2 py-3 text-white md:gap-4">
         {/* ============ Image Start here ================ */}
         <div className="headerHover">
           <img

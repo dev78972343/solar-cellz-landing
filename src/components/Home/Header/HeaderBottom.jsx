@@ -24,7 +24,7 @@ export function HeaderBottom() {
   return (
     <div className="bg-dark-blue-400">
     <ResponsiveContainer>
-    <div className="flex h-[36px] w-full items-center px-4 text-white">
+    <div className="flex h-[36px] w-full items-center text-white">
       <ul className="flex items-center gap-4 text-sm tracking-wide">
         <li
           onClick={() => setSidebar(true)}
