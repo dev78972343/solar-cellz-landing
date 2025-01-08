@@ -55,11 +55,10 @@ export default function Home() {
         <Separator />
 
         <Slider className="my-10 md:my-28" />
-
+        <Partners className="my-10 md:my-28" />
         <TopSeller className="my-10 md:my-28" />
 
         <Teams className="my-20 lg:my-20" />
-        <Partners className="my-10 md:my-28" />
         <Demo className="my-10 md:my-28" />
 
         <Contact className="my-10 md:my-28" />
