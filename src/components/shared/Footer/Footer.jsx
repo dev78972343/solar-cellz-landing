@@ -144,7 +144,7 @@ export default function Footer() {
       <Separator className="mb-4 mt-10 bg-gray-400" />
 
       <ResponsiveContainer classes="text-white text-sm font-medium flex-center-between flex-col lg:flex-row gap-y-4">
-        <p>&copy; 2024 Solar Cellz USA, ALL RIGHTS RESERVED.</p>
+        <p>&copy; {new Date().getFullYear()} Solar Cellz USA, ALL RIGHTS RESERVED.</p>
 
         {/* Social Links */}
         <div className="flex-center-start gap-x-3">
