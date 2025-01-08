@@ -54,11 +54,15 @@ export default function Stats({ className }) {
             )}
 
             {/* Content */}
-            <h2 className="text-3xl font-semibold text-gray-900">
+            <h2 className="text-3xl font-semibold text-gray-900 md:text-4xl">
               {stat.value}
             </h2>
-            <h3 className="text-lg font-medium text-gray-700">{stat.title}</h3>
-            <p className="mt-2 text-sm text-gray-600">{stat.description}</p>
+            <h3 className="text-lg font-medium text-gray-700 md:text-xl">
+              {stat.title}
+            </h3>
+            <p className="mt-2 text-sm text-gray-600 md:text-base">
+              {stat.description}
+            </p>
           </motion.div>
         ))}
       </motion.div>
