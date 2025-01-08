@@ -13,6 +13,7 @@ export default function SectionHeader({
   className,
   buttonText = "",
   buttonClassName,
+  classes,
 }) {
   return (
     <motion.div
@@ -31,7 +32,7 @@ export default function SectionHeader({
 
       <motion.h3
         variants={slideUpChildVariants}
-        className="mb-4 mt-1.5 overflow-hidden text-3xl font-bold xl:text-4xl xl:leading-snug"
+        className={cn("mb-4 mt-1.5 overflow-hidden text-3xl font-bold xl:text-4xl xl:leading-snug", classes?.headingClass)}
       >
         {heading}
       </motion.h3>

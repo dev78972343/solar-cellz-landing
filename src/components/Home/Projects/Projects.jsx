@@ -39,7 +39,7 @@ const SLIDES = [
     stat: "20%",
     description: "increase in organic traffic",
     quote:
-      "With Webflow, we’ve significantly improved organic traffic, SEO, and conversions.",
+      "Webflow's visual-first CMS has been very powerful in helping us save time on shipping new pages. Webflow's visual-first CMS has been very powerful in helping us save time on shipping new pages.",
     author: "CMO",
     storyLink: "https://webflow.com/customers/lattice",
   },
@@ -52,7 +52,7 @@ const SLIDES = [
     stat: "$1M+",
     description: "increased revenue",
     quote:
-      "Webflow has the power of custom coded web development but the accessibility of a visual interface. Webflow has the power of custom coded web development but the accessibility of a visual interface.",
+      "Webflow's visual-first CMS has been very powerful in helping us save time on shipping new pages. Webflow's visual-first CMS has been very powerful in helping us save time on shipping new pages.",
     author: "Marcus Jones — COO",
     storyLink: "https://webflow.com/customers/outliant",
   },

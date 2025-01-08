@@ -21,6 +21,7 @@ import {
   slideUpParentVariants,
 } from "@/utils/sharedMotionVariants";
 import { motion } from "motion/react";
+import SectionHeader from "@/components/shared/SectionHeader/SectionHeader";
 
 const aboutData = [
   {
@@ -86,10 +87,13 @@ const aboutData = [
 export default function About3({ className }) {
   return (
     <ResponsiveContainer classes={cn("bg-blue-50 rounded-xl", className)}>
-      <div className="flex flex-col gap-5 py-8 md:px-8">
-        <h2 className="text-center text-3xl font-bold text-gray-800 md:text-4xl lg:text-left">
-          Complete solar solution <br /> with repair services
-        </h2>
+      <div className="flex flex-col gap-8 py-8 md:px-8">
+        <SectionHeader
+                        heading="Complete solar solution with repair services"
+                        classes={{
+                          headingClass:"mb-0 mt-0",
+                        }}
+                      />
         <motion.section
           variants={slideUpParentVariants()}
           transition={{
@@ -126,7 +130,7 @@ export default function About3({ className }) {
             </CarouselContent>
 
             {/* Desktop device navigation */}
-            <div className="absolute -top-10 right-10 hidden lg:block">
+            <div className="absolute -top-11 right-10 hidden md:block">
               <CarouselNext
                 className="size-10 bg-primary-button-gradient text-white hover:text-white"
                 icon={<ArrowRight size={18} />}

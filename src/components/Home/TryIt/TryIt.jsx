@@ -56,7 +56,7 @@ export default function TryIt({ className }) {
             </motion.div>
           </div>
 
-          <div className="p-4">
+          <div className="md:p-4">
             <motion.p
               variants={slideUpChildVariants}
               className="mb-6 text-lg text-white/80"

@@ -5,11 +5,11 @@ import {
   usePrevNextButtons,
 } from "./EmblaCarouselArrowButtons";
 import useEmblaCarousel from "embla-carousel-react";
+import SectionHeader from "@/components/shared/SectionHeader/SectionHeader";
 
 const TWEEN_FACTOR_BASE = 0.84;
 
-const EmblaCarousel = (props) => {
-  const { slides, options } = props;
+const EmblaCarousel = ({ slides, options }) => {
   const [emblaRef, emblaApi] = useEmblaCarousel(options);
   const tweenFactor = useRef(0);
 
@@ -20,118 +20,103 @@ const EmblaCarousel = (props) => {
     onNextButtonClick,
   } = usePrevNextButtons(emblaApi);
 
-  const numberWithinRange = (number, min, max) =>
-    Math.min(Math.max(number, min), max);
+  const calculateTweenFactor = useCallback(
+    (emblaApi) => {
+      tweenFactor.current = TWEEN_FACTOR_BASE * emblaApi.scrollSnapList().length;
+    },
+    []
+  );
 
-  const setTweenFactor = useCallback((emblaApi) => {
-    tweenFactor.current = TWEEN_FACTOR_BASE * emblaApi.scrollSnapList().length;
-  }, []);
+  const updateSlideOpacity = useCallback(
+    (emblaApi, eventName) => {
+      const engine = emblaApi.internalEngine();
+      const scrollProgress = emblaApi.scrollProgress();
+      const slidesInView = emblaApi.slidesInView();
+      const isScrollEvent = eventName === "scroll";
 
-  const tweenOpacity = useCallback((emblaApi, eventName) => {
-    const engine = emblaApi.internalEngine();
-    const scrollProgress = emblaApi.scrollProgress();
-    const slidesInView = emblaApi.slidesInView();
-    const isScrollEvent = eventName === "scroll";
+      emblaApi.scrollSnapList().forEach((scrollSnap, snapIndex) => {
+        let diffToTarget = scrollSnap - scrollProgress;
+        const slidesInSnap = engine.slideRegistry[snapIndex];
 
-    emblaApi.scrollSnapList().forEach((scrollSnap, snapIndex) => {
-      let diffToTarget = scrollSnap - scrollProgress;
-      const slidesInSnap = engine.slideRegistry[snapIndex];
+        slidesInSnap.forEach((slideIndex) => {
+          if (isScrollEvent && !slidesInView.includes(slideIndex)) return;
 
-      slidesInSnap.forEach((slideIndex) => {
-        if (isScrollEvent && !slidesInView.includes(slideIndex)) return;
-
-        if (engine.options.loop) {
-          engine.slideLooper.loopPoints.forEach((loopItem) => {
-            const target = loopItem.target();
-
-            if (slideIndex === loopItem.index && target !== 0) {
-              const sign = Math.sign(target);
-
-              if (sign === -1) {
-                diffToTarget = scrollSnap - (1 + scrollProgress);
+          if (engine.options.loop) {
+            engine.slideLooper.loopPoints.forEach((loopItem) => {
+              const target = loopItem.target();
+              if (slideIndex === loopItem.index && target !== 0) {
+                diffToTarget =
+                  scrollSnap + Math.sign(target) * (1 - Math.abs(scrollProgress));
               }
-              if (sign === 1) {
-                diffToTarget = scrollSnap + (1 - scrollProgress);
-              }
-            }
-          });
-        }
+            });
+          }
 
-        const tweenValue = 1 - Math.abs(diffToTarget * tweenFactor.current);
-        const opacity = numberWithinRange(tweenValue, 0.4, 1).toString();
-        emblaApi.slideNodes()[slideIndex].style.opacity = opacity;
+          const opacity = Math.max(0.4, 1 - Math.abs(diffToTarget * tweenFactor.current));
+          emblaApi.slideNodes()[slideIndex].style.opacity = opacity.toString();
+        });
       });
-    });
-  }, []);
+    },
+    []
+  );
 
   useEffect(() => {
     if (!emblaApi) return;
 
-    setTweenFactor(emblaApi);
-    tweenOpacity(emblaApi);
+    calculateTweenFactor(emblaApi);
+    updateSlideOpacity(emblaApi);
     emblaApi
-      .on("reInit", setTweenFactor)
-      .on("reInit", tweenOpacity)
-      .on("scroll", tweenOpacity)
-      .on("slideFocus", tweenOpacity);
-  }, [emblaApi, tweenOpacity]);
+      .on("reInit", calculateTweenFactor)
+      .on("reInit", updateSlideOpacity)
+      .on("scroll", updateSlideOpacity)
+      .on("slideFocus", updateSlideOpacity);
+  }, [emblaApi, calculateTweenFactor, updateSlideOpacity]);
 
   return (
-    <section className="embla rounded-xl">
-      <div className="embla__controls">
-        <h2 className="text-left text-3xl font-bold text-gray-800 md:text-4xl">
-          The best companies <br /> say about us
-        </h2>
-
-        <div className="!hidden lg:!flex embla__buttons">
+    <section className="embla rounded-lg bg-gray-50  flex flex-col gap-8 p-4 md:p-8">
+      <div className="embla__controls !my-0 flex items-center justify-between px-4">
+        <SectionHeader
+                heading=" The best companies say about us"
+              />
+        <div className="hidden lg:flex space-x-4">
           <PrevButton onClick={onPrevButtonClick} disabled={prevBtnDisabled} />
           <NextButton onClick={onNextButtonClick} disabled={nextBtnDisabled} />
         </div>
       </div>
-
       <div className="embla__viewport" ref={emblaRef}>
-        <div className="embla__container">
+        <div className="embla__container flex">
           {slides.map((slide, index) => (
             <div className="embla__slide" key={index}>
-              <img
-                className="embla__slide__img"
-                src={`https://picsum.photos/600/350?v=${index}`}
-                alt="Your alt text"
-              />
-
-              <div className="embla__slide__inner">
+              <div className="relative rounded-lg bg-white shadow-md">
                 <img
-                  className="absolute left-4 top-4 w-20 sm:left-14 sm:top-10 sm:block sm:w-24 lg:w-32"
-                  src={slide.logo}
-                  alt="Your alt text"
+                  className="h-48 w-full rounded-t-lg object-cover"
+                  src={`https://picsum.photos/600/350?v=${index}`}
+                  alt={`Slide ${index}`}
                 />
-
-                <div className="absolute bottom-2 left-6 right-2 flex items-center gap-6 rounded-md border border-gray-300 p-2 text-white sm:bottom-10 sm:left-14 sm:right-10 sm:p-4 lg:p-6">
-                  <p className="order-0 hidden flex-col gap-4 sm:flex">
-                    <span className="md:text-4x text-lg font-semibold sm:text-2xl lg:text-6xl">
+                <div className="p-6">
+                  <img
+                    className="absolute top-4 left-4 w-16 sm:w-20"
+                    src={slide.logo}
+                    alt="Company Logo"
+                  />
+                  <div className="mt-6">
+                    <p className="text-lg font-semibold text-gray-800">
                       {slide.stat}
-                    </span>
-                    <span className="sm:text-md text-sm">
-                      {slide.description}
-                    </span>
-                  </p>
-
-                  <div className="order-1 flex flex-grow-0 flex-col justify-between gap-2 sm:gap-4 md:gap-8 lg:gap-12">
-                    <p className="sm:text-md line-clamp-2 text-sm font-medium sm:line-clamp-none xl:text-lg">{`"${slide.quote}"`}</p>
-
-                    <div className="sm:text-md flex items-center justify-between text-sm">
-                      <p className="">{slide.author}</p>
-
-                      <a
-                        className="flex items-center gap-2"
-                        href={slide.storyLink}
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <span>Read the story</span>
-                        <span>&rarr;</span>
-                      </a>
-                    </div>
+                    </p>
+                    <p className="mt-2 text-gray-600">{slide.description}</p>
+                  </div>
+                  <blockquote className="mt-4 italic text-gray-500">
+                    "{slide.quote}"
+                  </blockquote>
+                  <div className="mt-6 flex flex-col gap-y-3 md:flex-row  justify-between text-sm text-gray-700">
+                    <p>{slide.author}</p>
+                    <a
+                      href={slide.storyLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center text-blue-500 hover:underline"
+                    >
+                      Read the story <span className="ml-1">&rarr;</span>
+                    </a>
                   </div>
                 </div>
               </div>
