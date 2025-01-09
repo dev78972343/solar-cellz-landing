@@ -76,6 +76,7 @@ const EmblaCarousel = ({ slides, options }) => {
       <div className="embla__controls !my-0 flex items-center justify-between px-4">
         <SectionHeader
                 heading=" The best companies say about us"
+                
               />
         <div className="hidden lg:flex space-x-4">
           <PrevButton onClick={onPrevButtonClick} disabled={prevBtnDisabled} />

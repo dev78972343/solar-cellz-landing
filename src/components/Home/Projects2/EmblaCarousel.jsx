@@ -5,6 +5,7 @@ import {
   usePrevNextButtons,
 } from "./EmblaCarouselArrowButtons";
 import useEmblaCarousel from "embla-carousel-react";
+import SectionHeader from "@/components/shared/SectionHeader/SectionHeader";
 
 const TWEEN_FACTOR_BASE = 0.84;
 
@@ -79,10 +80,12 @@ const EmblaCarousel = (props) => {
   return (
     <section className="embla rounded-xl">
       <div className="embla__controls">
-        <h2 className="text-left text-3xl font-bold text-gray-800 md:text-4xl">
-          The best companies <br /> say about us
-        </h2>
-
+ <SectionHeader
+                        heading="The best companies say about us"
+                        classes={{
+                          headingClass:"mb-0 mt-0 text-center md:text-left",
+                        }}
+                      />
         <div className="!hidden lg:!flex embla__buttons">
           <PrevButton onClick={onPrevButtonClick} disabled={prevBtnDisabled} />
           <NextButton onClick={onNextButtonClick} disabled={nextBtnDisabled} />

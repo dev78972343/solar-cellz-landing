@@ -58,7 +58,8 @@ export default function Equipments({ className }) {
             subHeading="Solar Equipment"
             desc="You would need to build an on-grid, off-grid, or hybrid solar system, EV charging including the following:"
             buttonText="Explore"
-            buttonClassName="mx-0"
+            buttonClassName="mx-auto md:mx-0"
+            className="mx-auto w-full text-center md:text-left"
           />
         </div>
 

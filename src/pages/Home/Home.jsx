@@ -41,7 +41,7 @@ export default function Home() {
 
         <TryIt className="my-10 md:my-28" />
 
-        <Projects className="my-10 md:my-28" />
+        {/* <Projects className="my-10 md:my-28" /> */}
 
         <Projects2 className="my-10 md:my-28" />
 
@@ -50,15 +50,16 @@ export default function Home() {
         <Equipments className="my-10 md:my-28" />
 
         <Testimonials className="my-10 md:my-28" />
+        <Partners className="my-10 md:my-28" />
 
-        <Separator />
+        {/* <Separator /> */}
 
         <Manufacturers className="my-10 md:my-28" />
 
-        <Separator />
+        {/* <Separator /> */}
 
         <Slider className="my-10 md:my-28" />
-        <Partners className="my-10 md:my-28" />
+       
         <TopSeller className="my-10 md:my-28" />
 
         <Teams className="my-20 lg:my-20" />
