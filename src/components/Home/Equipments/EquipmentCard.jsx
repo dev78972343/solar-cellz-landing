@@ -7,7 +7,7 @@ export default function EquipmentCard({ equipment }) {
         className="mx-auto block h-[130px] w-auto"
       />
 
-      <p className="mt-5 text-center text-xl font-semibold">
+      <p className="mt-5 text-center text-base md:text-xl font-semibold">
         {equipment?.name}
       </p>
     </div>

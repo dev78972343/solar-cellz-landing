@@ -53,7 +53,7 @@ export default function Features({ className }) {
               <motion.div
                 variants={slideUpChildVariants}
                 key={index}
-                className="rounded-lg"
+                className="rounded-lg flex flex-col items-center md:items-start"
               >
                 <div className="mb-4 text-4xl">{feature.icon}</div>
                 <h3 className="mb-2 text-lg font-semibold">{feature.title}</h3>

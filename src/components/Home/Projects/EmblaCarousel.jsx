@@ -72,7 +72,7 @@ const EmblaCarousel = ({ slides, options }) => {
   }, [emblaApi, calculateTweenFactor, updateSlideOpacity]);
 
   return (
-    <section className="embla rounded-lg bg-gray-50  flex flex-col gap-8 p-4 md:p-8">
+    <section className="embla rounded-lg bg-gray-50  flex flex-col gap-8 px-0 py-4 md:px-8 md:py-8">
       <div className="embla__controls !my-0 flex items-center justify-between px-4">
         <SectionHeader
                 heading=" The best companies say about us"
