@@ -21,7 +21,7 @@ export default function SectionHeader({
       initial="initial"
       whileInView={"animate"}
       viewport={{ once: true }}
-      className={cn("overflow-hidden flex flex-col items-center md:items-start", className)}
+      className={cn("overflow-hidden", className)}
     >
       <motion.p
         variants={slideUpChildVariants}
@@ -32,7 +32,7 @@ export default function SectionHeader({
 
       <motion.h3
         variants={slideUpChildVariants}
-        className={cn("mb-4 mt-1.5 text-center md:text-left overflow-hidden text-3xl font-bold xl:text-4xl xl:leading-snug", classes?.headingClass)}
+        className={cn("mb-4 mt-1.5 overflow-hidden text-3xl font-bold xl:text-4xl xl:leading-snug", classes?.headingClass)}
       >
         {heading}
       </motion.h3>
@@ -40,7 +40,7 @@ export default function SectionHeader({
       {desc && (
         <motion.p
           variants={slideUpChildVariants}
-          className="overflow-hidden text-left text-base text-gray-600 lg:text-lg"
+          className="overflow-hidden text-base text-gray-600 lg:text-lg"
         >
           {desc}
         </motion.p>
