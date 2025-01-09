@@ -20,6 +20,7 @@ import Slider from "@/components/Home/Slider/Slider";
 import { Divide } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
 import Partners from "@/components/Home/Partners/Partner";
+import Projects2 from "@/components/Home/Projects2/Projects2";
 
 export default function Home() {
   return (
@@ -41,6 +42,8 @@ export default function Home() {
         <TryIt className="my-10 md:my-28" />
 
         <Projects className="my-10 md:my-28" />
+
+        <Projects2 className="my-10 md:my-28" />
 
         <Stats className="my-10 md:my-28" />
 
