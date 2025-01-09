@@ -23,7 +23,7 @@ export function HeaderBottom() {
 
   return (
     <div className="bg-dark-blue-400">
-    <ResponsiveContainer>
+    <ResponsiveContainer classes="px-2">
     <div className="flex h-[36px] w-full items-center text-white">
       <ul className="flex items-center gap-4 text-sm tracking-wide">
         <li
@@ -48,7 +48,7 @@ export function HeaderBottom() {
               initial={{ x: -500, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.5 }}
-              className="h-full w-[350px] border border-black bg-white"
+              className="relative h-full w-[300px] md:w-[350px] border border-black bg-white"
             >
               <div className="flex w-full items-center gap-4 bg-dark-blue-400 px-6 py-2 text-white">
                 <AccountCircleIcon />
@@ -83,7 +83,7 @@ export function HeaderBottom() {
 
               <span
                 onClick={() => setSidebar(false)}
-                className="absolute left-[354px] top-1 flex h-10 w-10 cursor-pointer items-center justify-center rounded-md border-2 bg-transparent text-white duration-300"
+                className="absolute -right-12 top-1 flex h-10 w-10 cursor-pointer items-center justify-center rounded-md border-2 bg-transparent text-white duration-300"
               >
                 <CloseIcon />
               </span>

@@ -28,7 +28,7 @@ export default function Header() {
   return (
     <div className="relative w-full z-40">
       <div className="bg-dark-blue-500">
-        <ResponsiveContainer>
+        <ResponsiveContainer classes="px-2">
       <div className="flex w-full items-center justify-between gap-2 py-3 text-white md:gap-4">
         {/* ============ Image Start here ================ */}
         <div className="headerHover">
@@ -75,7 +75,7 @@ export default function Header() {
             type="text"
             placeholder="Search..."
           />
-          <span className="flex h-full w-12 cursor-pointer items-center justify-center rounded-br-md rounded-tr-md bg-primary-button-gradient text-white duration-300">
+          <span className="flex shrink-0 h-full w-10 md:w-12 cursor-pointer items-center justify-center rounded-br-md rounded-tr-md bg-primary-button-gradient text-white duration-300">
             <SearchIcon />
           </span>
         </div>
