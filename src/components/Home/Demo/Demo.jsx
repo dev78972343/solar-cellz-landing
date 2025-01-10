@@ -17,14 +17,20 @@ export default function Demo({ className }) {
       viewport={{ once: true }}
       className={cn(className, "bg-gradient-to-br from-[#d4dee6] via-[#91C4E4] to-[#105FA8] py-20 lg:py-[150px] text-center")}
     >
-      <motion.h1 variants={slideUpChildVariants} className="text-3xl lg:text-5xl font-bold">
-        Design—Powering Solar Solutions in Harmony
+      <motion.h1 variants={slideUpChildVariants} className="px-3 text-3xl lg:text-5xl font-bold">
+        Solar Power, Designed for the Future
       </motion.h1>
+      <motion.p
+        variants={slideUpChildVariants}
+        className="mt-4 px-3 text-lg lg:text-xl text-gray-800"
+      >
+        Discover innovative solar solutions that optimize energy efficiency, sustainability, and performance for homes and businesses.
+      </motion.p>
       <motion.button
         variants={slideUpChildVariants}
-        className="mt-8 rounded-3xl bg-gray-900 px-10 py-3 text-white"
+        className="mt-8 rounded-3xl bg-primary-button-gradient px-10 py-3 text-white"
       >
-        Try out online demo
+        Explore Our Demo
       </motion.button>
     </motion.section>
   );
