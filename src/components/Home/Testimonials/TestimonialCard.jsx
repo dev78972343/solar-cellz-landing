@@ -2,7 +2,7 @@ import { Star } from "lucide-react";
 
 export default function TestimonialCard({ data }) {
   return (
-    <div className="relative group overflow-hidden flex flex-col items-start gap-x-6 gap-y-5 rounded-lg border border-gray-200 bg-white p-6 shadow-sm transition-shadow hover:shadow-lg lg:flex-row lg:items-center">
+    <div className="relative group bg-[#dddddd40] overflow-hidden flex flex-col items-start gap-x-6 gap-y-5 rounded-lg border border-gray-200 bg-white p-6 shadow-sm transition-shadow hover:shadow-xl lg:flex-row lg:items-center">
       {/* Image Section */}
       <div className="relative w-full overflow-hidden rounded-lg bg-gray-100 lg:h-[200px] lg:w-[200px]">
         {data?.image ? (

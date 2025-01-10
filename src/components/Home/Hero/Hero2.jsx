@@ -125,10 +125,10 @@ export default function Hero() {
                 whileInView="animate"
                viewport={{ once: false }} 
                className="absolute inset-0 flex flex-col items-center justify-center text-center text-white">
-                  <motion.h1 variants={slideUpChildVariants} className="text-4xl font-bold sm:text-5xl lg:text-6xl">
+                  <motion.h1 variants={slideUpChildVariants} className="text-4xl font-bold lg:text-6xl">
                     {item.title}
                   </motion.h1>
-                  <motion.p variants={slideUpChildVariants} className="mt-4 max-w-2xl text-lg sm:text-xl lg:text-2xl">
+                  <motion.p variants={slideUpChildVariants} className="mt-4 max-w-[80%] text-lg lg:text-2xl">
                     {item.description}
                   </motion.p>
                   <motion.div  variants={slideUpChildVariants} className="mt-6 flex gap-4">

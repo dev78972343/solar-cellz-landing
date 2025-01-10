@@ -110,8 +110,8 @@ const EmblaCarousel = (props) => {
                   alt=""
                 />
 
-                <div className="absolute bottom-4 left-4 right-4 flex flex-col md:flex-row md:items-center gap-6 rounded-md border border-gray-300 p-2 text-white sm:bottom-10 sm:left-14 sm:right-10 sm:p-4 lg:p-6">
-                  <p className="flex flex-row md:flex-col gap-x-2 gap-y-4">
+                <div className="bg-[#050f188f] absolute overflow-hidden bottom-4 left-4 right-4 flex flex-col md:flex-row md:items-center gap-6 rounded-md border border-gray-300 p-2 text-white sm:bottom-10 sm:left-14 sm:right-10 sm:p-4 lg:p-6">
+                  <p className="flex flex-row md:flex-col gap-x-2 gap-y-4 truncate">
                     <span className="text-xl md:text-3xl font-bold">
                       {slide.stat}
                     </span>
@@ -121,7 +121,7 @@ const EmblaCarousel = (props) => {
                   </p>
 
                   <div className="flex flex-col gap-4">
-                    <p className="line-clamp-4 text-base font-medium md:text-lg">{`"${slide.quote}"`}</p>
+                    <p className="line-clamp-none lg:line-clamp-3 text-base font-medium md:text-lg">{`"${slide.quote}"`}</p>
 
                     <div className="text-base md:text-lg flex flex-col gap-2 md:flex-row md:items-center justify-between">
                       <p className="">{slide.author}</p>

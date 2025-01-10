@@ -91,7 +91,7 @@ export default function About3({ className }) {
         <SectionHeader
                         heading="Complete solar solution with repair services"
                         classes={{
-                          headingClass:"mb-0 mt-0",
+                          headingClass:"mb-0 mt-0 text-center lg:text-left",
                         }}
                       />
         <motion.section

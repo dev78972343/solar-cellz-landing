@@ -38,7 +38,7 @@ const SLIDES = [
     poster:company3,
     logo: "https://cdn.prod.website-files.com/66e88746834b80507cdf7933/66e9c8c8c31654c494fcc596_Frame.svg",
     stat: "20%",
-    description: "increase in organic traffic",
+    description: "increase traffic",
     quote:
       "With Webflow, we’ve significantly improved organic traffic, SEO, and conversions.",
     author: "CMO",

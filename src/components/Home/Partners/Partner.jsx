@@ -33,7 +33,7 @@ export default function Partners({ className }) {
         {partners?.map((partner, idx) => (
           <div key={idx} className="mr-10">
             <li
-              className="uppercase tracking-[1px] text-4xl text-transparent font-bold"
+              className="uppercase tracking-[1px] text-5xl text-transparent font-bold"
               style={{
                 WebkitTextStroke: "1px #757575",
                 strokeWidth: "1px",
