@@ -6,6 +6,7 @@ import {
 } from "./EmblaCarouselArrowButtons";
 import useEmblaCarousel from "embla-carousel-react";
 import SectionHeader from "@/components/shared/SectionHeader/SectionHeader";
+import { ArrowRightIcon } from "lucide-react";
 
 const TWEEN_FACTOR_BASE = 0.84;
 
@@ -97,43 +98,44 @@ const EmblaCarousel = (props) => {
           {slides.map((slide, index) => (
             <div className="embla__slide" key={index}>
               <img
-                className="embla__slide__img"
+                className="embla__slide__img h-[600px] w-full object-cover"
                 src={`https://picsum.photos/600/350?v=${index}`}
-                alt="Your alt text"
+                alt=""
               />
 
               <div className="embla__slide__inner">
                 <img
-                  className="absolute left-4 top-4 w-20 sm:left-14 sm:top-10 sm:block sm:w-24 lg:w-32"
+                  className="absolute left-4 top-4 w-24 sm:left-14 sm:top-10 sm:block sm:w-24 lg:w-32"
                   src={slide.logo}
-                  alt="Your alt text"
+                  alt=""
                 />
 
-                <div className="absolute bottom-2 left-6 right-2 flex items-center gap-6 rounded-md border border-gray-300 p-2 text-white sm:bottom-10 sm:left-14 sm:right-10 sm:p-4 lg:p-6">
-                  <p className="order-0 hidden flex-col gap-4 sm:flex">
-                    <span className="md:text-4x text-lg font-semibold sm:text-2xl lg:text-6xl">
+                <div className="absolute bottom-4 left-4 right-4 flex flex-col md:flex-row md:items-center gap-6 rounded-md border border-gray-300 p-2 text-white sm:bottom-10 sm:left-14 sm:right-10 sm:p-4 lg:p-6">
+                  <p className="flex flex-row md:flex-col gap-x-2 gap-y-4">
+                    <span className="text-xl md:text-3xl font-bold">
                       {slide.stat}
                     </span>
-                    <span className="sm:text-md text-sm">
+                    <span className="text-xl md:text-xl text-nowrap">
                       {slide.description}
                     </span>
                   </p>
 
-                  <div className="order-1 flex flex-grow-0 flex-col justify-between gap-2 sm:gap-4 md:gap-8 lg:gap-12">
-                    <p className="sm:text-md line-clamp-2 text-sm font-medium sm:line-clamp-none xl:text-lg">{`"${slide.quote}"`}</p>
+                  <div className="flex flex-col gap-4">
+                    <p className="line-clamp-4 text-base font-medium md:text-lg">{`"${slide.quote}"`}</p>
 
-                    <div className="sm:text-md flex items-center justify-between text-sm">
+                    <div className="text-base md:text-lg flex flex-col gap-2 md:flex-row md:items-center justify-between">
                       <p className="">{slide.author}</p>
 
                       <a
-                        className="flex items-center gap-2"
-                        href={slide.storyLink}
+                        className="flex items-center gap-2 group/read text-base font-semibold"
+                        href="#"
                         target="_blank"
                         rel="noreferrer"
                       >
-                        <span>Read the story</span>
-                        <span>&rarr;</span>
+                        <span>Read the story </span>
+                        <ArrowRightIcon className="h-4 w-4 group-hover:translate-x-1 transition-all duration-300" />
                       </a>
+
                     </div>
                   </div>
                 </div>
