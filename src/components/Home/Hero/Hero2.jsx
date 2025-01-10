@@ -17,6 +17,22 @@ import heroFour from '@/assets/images/hero2/hero4.jpg';
 const datas = [
   {
     id: 1,
+    image: heroThree,
+    title: "Green Technology Solutions",
+    description: "Innovative technologies for a sustainable future.",
+    buttons: [
+      {
+        name: "Explore Features",
+        link: "#",
+      },
+      {
+        name: "Contact Us",
+        link: "#",
+      },
+    ],
+  },
+  {
+    id: 2,
     image: heroOne,
     title: "Fronius Solar.web",
     description: "Better Understanding of Solar Power",
@@ -32,7 +48,7 @@ const datas = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     image: heroTwo,
     title: "Eco-friendly Energy",
     description: "Learn how to make the most of renewable energy sources.",
@@ -47,22 +63,7 @@ const datas = [
       },
     ],
   },
-  {
-    id: 3,
-    image: heroThree,
-    title: "Green Technology Solutions",
-    description: "Innovative technologies for a sustainable future.",
-    buttons: [
-      {
-        name: "Explore Features",
-        link: "#",
-      },
-      {
-        name: "Contact Us",
-        link: "#",
-      },
-    ],
-  },
+  
   {
     id: 4,
     image: heroFour,
