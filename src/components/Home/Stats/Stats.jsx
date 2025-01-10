@@ -9,21 +9,21 @@ export default function Stats({ className }) {
   const stats = [
     {
       value: "20+",
-      title: "Employees",
+      title: "Solar Experts",
       description:
-        "We have 20+ amazing expert solar experts for repair & installation.",
+        "We have a team of 20+ expert solar engineers specializing in repair, installation, and system optimization.",
     },
     {
       value: "100%",
       title: "Client Satisfaction",
       description:
-        "We achieved 100% of our client satisfaction through our work.",
+        "Our commitment to excellence has earned us a 100% client satisfaction rate in providing renewable energy solutions.",
     },
     {
       value: "5k+",
-      title: "Installation",
+      title: "Installations Completed",
       description:
-        "We have 20 years of experience in installing panels for our clients.",
+        "With over 5,000 successful solar panel installations, we have extensive experience in delivering reliable, sustainable energy.",
     },
   ];
 

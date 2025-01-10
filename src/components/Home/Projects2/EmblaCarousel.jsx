@@ -110,12 +110,12 @@ const EmblaCarousel = (props) => {
                   alt=""
                 />
 
-                <div className="bg-[#050f188f] absolute overflow-hidden bottom-4 left-4 right-4 flex flex-col md:flex-row md:items-center gap-6 rounded-md border border-gray-300 p-2 text-white sm:bottom-10 sm:left-14 sm:right-10 sm:p-4 lg:p-6">
-                  <p className="flex flex-row md:flex-col gap-x-2 gap-y-4 truncate">
+                <div className="bg-[#050f188f]  absolute overflow-hidden bottom-4 left-4 right-4 flex flex-col xl:flex-row xl:items-center gap-6 rounded-md border border-gray-300 p-2 text-white sm:bottom-10 sm:left-14 sm:right-10 sm:p-4 lg:p-6">
+                  <p className="min-w-[28%] flex flex-row flex-wrap md:flex-col gap-x-2 gap-y-2 md:gap-y-4 truncate">
                     <span className="text-xl md:text-3xl font-bold">
                       {slide.stat}
                     </span>
-                    <span className="text-xl md:text-xl text-nowrap">
+                    <span className="text-xl md:text-xl text-wrap">
                       {slide.description}
                     </span>
                   </p>

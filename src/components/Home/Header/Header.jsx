@@ -61,10 +61,10 @@ export default function Header() {
             >
               {allItems.map((item) => (
                 <li
-                  key={item._id}
+                  key={item.id}
                   className="cursor-pointer rounded-md px-2 py-1 text-sm text-gray-700 hover:bg-gray-100 hover:text-dark-blue-500"
                 >
-                  {item.title}
+                  {item.label}
                 </li>
               ))}
             </ul>

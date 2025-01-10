@@ -25,61 +25,69 @@ import SectionHeader from "@/components/shared/SectionHeader/SectionHeader";
 
 const aboutData = [
   {
-    title: "Solar Power System",
+    title: "Solar Power Systems",
     description:
-      "By generating your own electricity from solar energy, you can significantly reduce your monthly utility bills.",
+      "Reduce energy costs and increase independence by installing solar power systems for both residential and commercial use. Harness the power of the sun to fuel your needs.",
     features: [
       "Solar Backup Systems",
-      "Renewable Consulting",
-      "Home Solar Integration",
+      "Renewable Energy Consulting",
+      "Solar System Integration",
     ],
     icon: <BatteryCharging size={36} />,
   },
   {
-    title: "Household solar panel",
+    title: "Home Solar Panel Installation",
     description:
-      "By generating your own electricity from solar energy, you can significantly reduce your monthly utility bills.",
+      "Save on electricity bills and enjoy sustainable energy with our expert home solar panel installation. We ensure an efficient setup for maximum energy conversion.",
     features: [
-      "Solar Panel Installation",
-      "Solar Energy Saving System",
-      "Bio Electricity Supply",
+      "High-Efficiency Panels",
+      "Energy Cost Reduction",
+      "Long-Term Durability",
     ],
     icon: <Cable size={36} />,
   },
   {
     title: "Solar Panel Cleaning",
     description:
-      "By generating your own electricity from solar energy, you can significantly reduce your monthly utility bills.",
-    features: ["Non-Toxic Agents", "Water Efficient", "Safe Panel Surfaces"],
+      "Ensure maximum efficiency of your solar panels with our professional cleaning services. We use non-toxic agents and water-efficient methods to maintain your solar panels.",
+    features: [
+      "Non-Toxic Cleaning Agents",
+      "Water-Efficient Process",
+      "Protects Panel Surface Integrity",
+    ],
     icon: <Eclipse size={36} />,
   },
   {
-    title: "Solar Power System",
+    title: "Solar Power Backup Solutions",
     description:
-      "By generating your own electricity from solar energy, you can significantly reduce your monthly utility bills.",
+      "Our solar backup solutions provide a reliable energy source during power outages, ensuring that you always have access to electricity.",
     features: [
-      "Solar Backup Systems",
-      "Renewable Consulting",
-      "Home Solar Integration",
+      "Reliable Backup Energy",
+      "Seamless Integration",
+      "Customizable Systems",
     ],
     icon: <BatteryCharging size={36} />,
   },
   {
-    title: "Household solar panel",
+    title: "Solar Energy Consulting",
     description:
-      "By generating your own electricity from solar energy, you can significantly reduce your monthly utility bills.",
+      "Our consulting services help you evaluate the best solar energy solutions for your home or business. Get expert advice tailored to your needs.",
     features: [
-      "Solar Panel Installation",
-      "Solar Energy Saving System",
-      "Bio Electricity Supply",
+      "Energy Efficiency Audits",
+      "Tailored Solar Solutions",
+      "Comprehensive Support",
     ],
     icon: <Cable size={36} />,
   },
   {
-    title: "Solar Panel Cleaning",
+    title: "Commercial Solar Solutions",
     description:
-      "By generating your own electricity from solar energy, you can significantly reduce your monthly utility bills.",
-    features: ["Non-Toxic Agents", "Water Efficient", "Safe Panel Surfaces"],
+      "Unlock the potential of solar energy for your business. Our commercial solar solutions reduce operational costs and contribute to sustainability goals.",
+    features: [
+      "Custom Commercial Installations",
+      "Cost-Effective Solutions",
+      "Increased Energy Efficiency",
+    ],
     icon: <Eclipse size={36} />,
   },
 ];
@@ -89,11 +97,11 @@ export default function About3({ className }) {
     <ResponsiveContainer classes={cn("bg-blue-50 rounded-xl", className)}>
       <div className="flex flex-col gap-8 py-8 md:px-8">
         <SectionHeader
-                        heading="Complete solar solution with repair services"
-                        classes={{
-                          headingClass:"mb-0 mt-0 text-center lg:text-left",
-                        }}
-                      />
+          heading="Complete Solar Solutions with Maintenance Services"
+          classes={{
+            headingClass: "mb-0 mt-0 text-center lg:text-left",
+          }}
+        />
         <motion.section
           variants={slideUpParentVariants()}
           transition={{
@@ -140,22 +148,9 @@ export default function About3({ className }) {
                 icon={<ArrowLeft size={18} />}
               />
             </div>
-
-            {/* Mobile device navigation */}
-            {/* <div className="absolute -bottom-10 left-1/2 block lg:hidden">
-              <CarouselNext
-                className="size-10 bg-normal-blue-500 text-white"
-                icon={<ArrowRight size={18} />}
-              />
-              <CarouselPrevious
-                className="size-10 bg-normal-blue-500 text-white"
-                icon={<ArrowLeft size={18} />}
-              />
-            </div> */}
           </Carousel>
         </motion.section>
       </div>
-      {/* Top selling items carousel */}
     </ResponsiveContainer>
   );
 }
@@ -192,14 +187,13 @@ function AboutCard({ card, index }) {
         {/* Progress Effect */}
         <span className="absolute inset-0 -z-10 bg-gradient-to-r from-dark-blue-500 to-light-blue-500 transition-transform duration-500 ease-in-out group-hover:translate-x-0 translate-x-[-100%]"></span>
         <span className="text-sm font-medium transition-all duration-300 group-hover:translate-x-1">
-          View More
+          Learn More
         </span>
         <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-2" />
       </button>
 
       {/* Animated Bottom Bar */}
-    <div className="absolute bottom-0 left-0 h-1 w-full translate-x-[-100%] bg-gradient-to-r from-dark-blue-500 to-light-blue-500 transition-transform duration-500 ease-in-out group-hover/card:translate-x-0"></div>
+      <div className="absolute bottom-0 left-0 h-1 w-full translate-x-[-100%] bg-gradient-to-r from-dark-blue-500 to-light-blue-500 transition-transform duration-500 ease-in-out group-hover/card:translate-x-0"></div>
     </motion.div>
   );
 }
-

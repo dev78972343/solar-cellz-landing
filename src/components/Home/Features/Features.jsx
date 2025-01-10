@@ -9,28 +9,28 @@ import ResponsiveContainer from "@/components/ResponsiveContainer/ResponsiveCont
 // Static features data
 const features = [
   {
-    title: "Design and build",
+    title: "Solar Panel Installation",
     description:
-      "Designers can take control of HTML, CSS, and JavaScript in visual canvases while marketers can work with pre-made, design-approved building blocks.",
-    icon: "🖌️",
+      "Efficient solar panel installation services to harness renewable energy, with expert guidance from site assessment to final setup.",
+    icon: "🔋",
   },
   {
-    title: "Publish and edit",
+    title: "Solar Energy Storage",
     description:
-      "Choose how you want to add, edit, and update content at scale with CMS tools virtually or programmatically through APIs.",
-    icon: "📝",
+      "Store solar energy with high-quality batteries to ensure power availability even during the night or cloudy days.",
+    icon: "🔋",
   },
   {
-    title: "Analyze and optimize",
+    title: "Solar Maintenance & Support",
     description:
-      "Transform your site into your most valuable marketing asset with native tools for A/B testing, SEO, and more.",
-    icon: "📊",
+      "Routine maintenance and on-demand support to keep your solar systems running at optimal performance.",
+    icon: "⚙️",
   },
   {
-    title: "Scale and collaborate",
+    title: "Energy Optimization",
     description:
-      "50,000 websites are published with confidence using our hosting tools for security, compliance, and integrations.",
-    icon: "🌐",
+      "Advanced solutions to optimize your energy usage and reduce costs, ensuring maximum efficiency from your solar system.",
+    icon: "💡",
   },
 ];
 

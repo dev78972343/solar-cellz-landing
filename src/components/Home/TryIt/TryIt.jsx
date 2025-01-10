@@ -11,20 +11,20 @@ import { cn } from "@/lib/utils";
 
 const tryItData = [
   {
-    title: "Contact sales",
+    title: "Request a Free Consultation",
     description:
-      "Interested in Webflow Enterprise? Get in touch with our sales team to receive a free personalized demo.",
+      "Need advice on solar energy solutions for your home or business? Contact us for a free consultation to determine the best solar system for you.",
     button: {
-      text: "Contact Sales",
+      text: "Request Consultation",
       link: "#",
     },
   },
   {
-    title: "Hire a Certified Partner",
+    title: "Get a Solar Quote",
     description:
-      "Extend the power of your team by hiring a Certified Webflow Partner — we'll match you with the best in the business.",
+      "Get a customized solar quote based on your energy needs and location. Our team will work with you to design an optimal solution for your energy goals.",
     button: {
-      text: "Browse Partners",
+      text: "Get Quote",
       link: "#",
     },
   },
@@ -39,19 +39,18 @@ export default function TryIt({ className }) {
           initial="initial"
           whileInView="animate"
           viewport={{ once: true }}
-          className="scroll-hide mx-auto grid grid-cols-1 gap-8 overflow-auto rounded-lg opacity-10  bg-tartiary-gradient px-8 py-12 text-white lg:grid-cols-[45%,55%]"
+          className="scroll-hide mx-auto grid grid-cols-1 gap-8 overflow-auto rounded-lg opacity-10 bg-tartiary-gradient px-8 py-12 text-white lg:grid-cols-[45%,55%]"
         >
-          
           <div className="px-8 py-4 flex flex-col items-center lg:items-start gap-6">
             <motion.h3
               variants={slideUpChildVariants}
               className="text-center lg:text-left text-3xl font-bold sm:text-4xl lg:text-5xl"
             >
-              Try it For Free
+              Get Started Today
             </motion.h3>
             <motion.div variants={slideUpChildVariants}>
               <PrimaryButton arrow className="w-fit">
-                Get Started - Free
+                Request a Free Consultation
               </PrimaryButton>
             </motion.div>
           </div>
@@ -61,9 +60,7 @@ export default function TryIt({ className }) {
               variants={slideUpChildVariants}
               className="mb-6 text-lg text-white/80"
             >
-              Try Webflow for as long as you like with our free Starter plan.
-              Purchase a paid Site plan to publish, host, and unlock additional
-              features.
+              Start your journey to clean and renewable energy with Solar Cellz. We provide customized solar energy solutions for homes and businesses.
             </motion.p>
             <Separator className="my-5 opacity-50" />
 
