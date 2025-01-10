@@ -44,7 +44,7 @@ const team = [
   },
   {
     name: "Donny Evans",
-    role: "System Engineer",
+    role: "Solar Energy Specialist",
     image: expert3Img,
     social: ["facebook", "twitter", "linkedin"],
   },
@@ -86,7 +86,7 @@ export default function Teams({ className }) {
             variants={slideUpChildVariants}
             className="mb-8 text-3xl font-bold text-green-600"
           >
-            Meet With Our <span className="text-gray-800">Experts</span>
+            Meet Our <span className="text-gray-800">Solar Experts</span>
           </motion.h2>
           <Carousel
             opts={{
@@ -103,7 +103,6 @@ export default function Teams({ className }) {
             ]}
           >
             <CarouselContent>
-              {/* <div className="flex flex-wrap items-center justify-center gap-6"> */}
               {team.map((member, index) => (
                 <CarouselItem
                   key={index}
@@ -112,7 +111,6 @@ export default function Teams({ className }) {
                   <TeamCard member={member} />
                 </CarouselItem>
               ))}
-              {/* </div> */}
             </CarouselContent>
 
             <div className="mt-4">
@@ -157,64 +155,9 @@ function TeamCard({ member }) {
         </div>
       </div>
       <div className="mt-3">
-      <p className="text-lg font-semibold">{member.name}</p>
-      <span className="text-sm text-green-500">{member.role}</span>
+        <p className="text-lg font-semibold">{member.name}</p>
+        <span className="text-sm text-green-500">{member.role}</span>
       </div>
     </motion.div>
-
-//     <motion.div
-//   variants={slideUpChildVariants}
-//   className="group text-center border border-gray-200 shadow-md p-6 rounded-xl bg-white hover:shadow-lg transition-shadow duration-300"
-// >
-//   {/* Profile Image */}
-//   <div className="relative flex justify-center">
-//     <div className="relative w-20 h-20">
-//       <img
-//         src={member.image}
-//         alt={member.name}
-//         className="w-full h-full rounded-full object-cover shadow-sm"
-//       />
-//       {/* Share Button */}
-//       <button
-//         className="absolute bottom-1 right-1 w-8 h-8 flex items-center justify-center rounded-full bg-green-500 text-white shadow-lg hover:bg-green-600 transition-colors"
-//         aria-label="Share"
-//       >
-//         <Share2 className="w-4 h-4" />
-//       </button>
-//       {/* Social Media Icons on Hover */}
-//       <div className="absolute inset-0 flex items-center justify-center gap-2 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-//         {['facebook', 'twitter', 'linkedin', 'youtube'].map((platform, idx) => (
-//           <a
-//             key={idx}
-//             href={`#${platform}`}
-//             className="w-8 h-8 flex items-center justify-center rounded-full bg-white shadow hover:bg-green-600 hover:text-white transition-all"
-//             aria-label={platform}
-//           >
-//             <i className={`fab fa-${platform} text-green-500 group-hover:text-white`}></i>
-//           </a>
-//         ))}
-//       </div>
-//     </div>
-//   </div>
-
-//   {/* Member Name & Role */}
-//   <h3 className="mt-4 text-lg font-semibold text-gray-800">{member.name}</h3>
-//   <p className="text-sm text-green-500">{member.role}</p>
-
-//   {/* Additional Social Links */}
-//   <div className="mt-4 flex justify-center gap-4">
-//     {member.social.map((platform, idx) => (
-//       <a
-//         key={idx}
-//         href={`#${platform}`}
-//         className="text-green-500 hover:text-green-600 transition-colors"
-//         aria-label={platform}
-//       >
-//         <i className={`fab fa-${platform}`}></i>
-//       </a>
-//     ))}
-//   </div>
-// </motion.div>
-
   );
 }

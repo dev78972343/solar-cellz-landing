@@ -12,7 +12,7 @@ const features = [
     title: "Solar Panel Installation",
     description:
       "Efficient solar panel installation services to harness renewable energy, with expert guidance from site assessment to final setup.",
-    icon: "🔋",
+    icon: "🌞",
   },
   {
     title: "Solar Energy Storage",
