@@ -9,11 +9,15 @@ import { slideUpChildVariants, slideUpParentVariants } from "@/utils/sharedMotio
 import Autoplay from "embla-carousel-autoplay";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { motion } from "motion/react";
+import heroOne from '@/assets/images/hero2/hero1.jpg';
+import heroTwo from '@/assets/images/hero2/hero2.jpg';
+import heroThree from '@/assets/images/hero2/hero3.jpg';
+import heroFour from '@/assets/images/hero2/hero4.jpg';
 
 const datas = [
   {
     id: 1,
-    image: "https://picsum.photos/1920/1080?v=1",
+    image: heroOne,
     title: "Fronius Solar.web",
     description: "Better Understanding of Solar Power",
     buttons: [
@@ -29,7 +33,7 @@ const datas = [
   },
   {
     id: 2,
-    image: "https://picsum.photos/1920/1080?v=2",
+    image: heroTwo,
     title: "Eco-friendly Energy",
     description: "Learn how to make the most of renewable energy sources.",
     buttons: [
@@ -45,7 +49,7 @@ const datas = [
   },
   {
     id: 3,
-    image: "https://picsum.photos/1920/1080?v=3",
+    image: heroThree,
     title: "Green Technology Solutions",
     description: "Innovative technologies for a sustainable future.",
     buttons: [
@@ -61,7 +65,7 @@ const datas = [
   },
   {
     id: 4,
-    image: "https://picsum.photos/1920/1080?v=4",
+    image: heroFour,
     title: "Smart Home Automation",
     description: "Control your home devices with smart automation systems.",
     buttons: [
