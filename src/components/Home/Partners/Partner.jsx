@@ -29,6 +29,7 @@ export default function Partners({ className }) {
         speed={80}
         gradientWidth={100}
         gradientColor="#111722"
+        className="overflow-hidden"
       >
         {partners?.map((partner, idx) => (
           <div key={idx} className="mr-10">
