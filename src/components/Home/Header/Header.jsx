@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from "react";
-import logo from "@/assets/logos/logo.png";
+import logo from "@/assets/logos/SollarCellz-logo.svg";
+import smLogo from "@/assets/logos/sm-logo.png";
 import { allItems } from "@/constants/items";
 import { HeaderBottom } from "./HeaderBottom";
 import SearchIcon from "@mui/icons-material/Search";
@@ -31,15 +32,18 @@ export default function Header() {
         <ResponsiveContainer classes="px-2">
       <div className="flex w-full items-center justify-between gap-2 py-3 text-white md:gap-4">
         {/* ============ Image Start here ================ */}
-        <div className="headerHover">
+        <a href="/" className="">
+        <div className="hidden md:block headerHover">
           <img
             className="mt-2 w-full min-w-[100px] max-w-48"
             src={logo}
             alt="logo"
           />
         </div>
+        <img className="md:hidden w-12" src={smLogo} alt="logo" />
+        </a>
         {/* ============ Image End here ================== */}
-
+        
         {/* ============ Search Start here =============== */}
         <div className="relative flex h-10 grow rounded-md max-w-3xl">
           {/* Dropdown Button */}
