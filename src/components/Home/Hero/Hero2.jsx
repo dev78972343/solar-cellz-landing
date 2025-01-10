@@ -33,22 +33,6 @@ const datas = [
   },
   {
     id: 2,
-    image: heroOne,
-    title: "Fronius Solar.web",
-    description: "Better Understanding of Solar Power",
-    buttons: [
-      {
-        name: "View Demo",
-        link: "#",
-      },
-      {
-        name: "Get Started Now",
-        link: "#",
-      },
-    ],
-  },
-  {
-    id: 3,
     image: heroTwo,
     title: "Eco-friendly Energy",
     description: "Learn how to make the most of renewable energy sources.",
@@ -63,6 +47,23 @@ const datas = [
       },
     ],
   },
+  {
+    id: 3,
+    image: heroOne,
+    title: "Fronius Solar.web",
+    description: "Better Understanding of Solar Power",
+    buttons: [
+      {
+        name: "View Demo",
+        link: "#",
+      },
+      {
+        name: "Get Started Now",
+        link: "#",
+      },
+    ],
+  },
+  
   
   {
     id: 4,
