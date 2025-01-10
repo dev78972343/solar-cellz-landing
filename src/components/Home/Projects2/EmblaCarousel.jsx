@@ -99,7 +99,7 @@ const EmblaCarousel = (props) => {
             <div className="embla__slide" key={index}>
               <img
                 className="embla__slide__img h-[600px] w-full object-cover"
-                src={`https://picsum.photos/600/350?v=${index}`}
+                src={slide.poster}
                 alt=""
               />
 
