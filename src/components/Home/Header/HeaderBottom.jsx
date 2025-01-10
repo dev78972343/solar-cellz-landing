@@ -33,11 +33,10 @@ export function HeaderBottom() {
           <MenuIcon />
           All
         </li>
-        <li className="headerHover cursor-pointer">Today&apos;s Deals</li>
-        <li className="headerHover cursor-pointer">Customer Service</li>
-        <li className="headerHover cursor-pointer hidden sm:block">Gift Cards</li>
-        <li className="headerHover cursor-pointer hidden sm:block">Registry</li>
-        <li className="headerHover cursor-pointer hidden sm:block">Sell</li>
+        <li className="headerHover cursor-pointer">Enable Accessibility</li>
+        <li className="headerHover cursor-pointer">Find a Branch</li>
+        <li className="headerHover cursor-pointer hidden sm:block">List</li>
+        <li className="headerHover cursor-pointer hidden sm:block">Event</li>
       </ul>
 
       {sidebar && (
