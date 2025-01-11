@@ -125,7 +125,7 @@ export default function TopNavMenu() {
     <div className="mt-0.5 flex-center flex-wrap gap-5">
       <button>Enable Accessibility</button>
 
-<div className="hidden md:block">
+<div className="hidden lg:block">
       <NavigationMenu>
         <NavigationMenuList>
           {/* Language Switcher */}
