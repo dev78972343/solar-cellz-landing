@@ -34,9 +34,13 @@ export function HeaderBottom() {
           All
         </li>
         <li className="headerHover cursor-pointer">Enable Accessibility</li>
-        <li className="headerHover cursor-pointer">Find a Branch</li>
+        <li className="headerHover cursor-pointer">Partners Program</li>
+        <li className="headerHover cursor-pointer hidden sm:block">My Account</li>
+        <li className="headerHover cursor-pointer hidden sm:block">Find a Branch</li>
         <li className="headerHover cursor-pointer hidden sm:block">List</li>
         <li className="headerHover cursor-pointer hidden sm:block">Event</li>
+        <li className="headerHover cursor-pointer hidden sm:block">Careers</li>
+        <li className="headerHover cursor-pointer hidden sm:block">Contact Us</li>
       </ul>
 
       {sidebar && (
