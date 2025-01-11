@@ -7,6 +7,7 @@ import { useEffect, useRef, useState } from "react";
 import { NestedSideNavContent } from "./NestedSideNavContent";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import ResponsiveContainer from "@/components/ResponsiveContainer/ResponsiveContainer";
+import TopNavMenu from "@/components/shared/Navbar/_components/TopNavMenu";
 
 export function HeaderBottom() {
   const ref = useRef();
@@ -33,14 +34,7 @@ export function HeaderBottom() {
           <MenuIcon />
           All
         </li>
-        <li className="headerHover cursor-pointer">Enable Accessibility</li>
-        <li className="headerHover cursor-pointer">Partners Program</li>
-        <li className="headerHover cursor-pointer hidden sm:block">My Account</li>
-        <li className="headerHover cursor-pointer hidden sm:block">Find a Branch</li>
-        <li className="headerHover cursor-pointer hidden sm:block">List</li>
-        <li className="headerHover cursor-pointer hidden sm:block">Event</li>
-        <li className="headerHover cursor-pointer hidden sm:block">Careers</li>
-        <li className="headerHover cursor-pointer hidden sm:block">Contact Us</li>
+        <TopNavMenu/>
       </ul>
 
       {sidebar && (

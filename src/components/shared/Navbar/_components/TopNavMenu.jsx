@@ -122,9 +122,10 @@ export default function TopNavMenu() {
   }, [currentLanguage]);
 
   return (
-    <div className="flex-center flex-wrap gap-5">
+    <div className="mt-0.5 flex-center flex-wrap gap-5">
       <button>Enable Accessibility</button>
 
+<div className="hidden md:block">
       <NavigationMenu>
         <NavigationMenuList>
           {/* Language Switcher */}
@@ -169,13 +170,16 @@ export default function TopNavMenu() {
           ))}
         </NavigationMenuList>
       </NavigationMenu>
+      </div>
 
+<div className="hidden md:flex items-center gap-5 ">
       {/* Static Menu Items */}
       {staticMenuItem.map((item) => (
         <Link key={item.key} to={item.href}>
           {item.label}
         </Link>
       ))}
+    </div>
     </div>
   );
 }
