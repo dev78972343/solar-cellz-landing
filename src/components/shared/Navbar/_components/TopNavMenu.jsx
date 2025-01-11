@@ -129,7 +129,7 @@ export default function TopNavMenu() {
       <NavigationMenu>
         <NavigationMenuList>
           {/* Language Switcher */}
-          <NavigationMenuItem>
+          {/* <NavigationMenuItem>
             <NavigationMenuTrigger className="flex-center-start w-max gap-x-2">
               {selectedLanguage?.flag}
               <span>{selectedLanguage?.label}</span>
@@ -147,7 +147,7 @@ export default function TopNavMenu() {
                 </button>
               ))}
             </NavigationMenuContent>
-          </NavigationMenuItem>
+          </NavigationMenuItem> */}
 
           {/* Partners Program + My Account */}
           {dropdownMenuItems.map((menuItem) => (
