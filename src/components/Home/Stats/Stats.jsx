@@ -37,7 +37,7 @@ export default function Stats({ className }) {
         initial="initial"
         whileInView="animate"
         viewport={{ once: true }}
-        className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-8 border-gray-200 md:flex-row md:gap-4 md:border-t"
+        className="mx-auto flex max-w-6xl flex-col items-center justify-between border-gray-200 md:flex-row gap-4 md:border-t"
       >
         {stats.map((stat, index) => (
           <motion.div

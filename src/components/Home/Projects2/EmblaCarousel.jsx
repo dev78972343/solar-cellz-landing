@@ -98,19 +98,19 @@ const EmblaCarousel = (props) => {
           {slides.map((slide, index) => (
             <div className="embla__slide" key={index}>
               <img
-                className="embla__slide__img h-[600px] w-full object-cover"
+                className="embla__slide__img h-[550px] w-full object-cover"
                 src={slide.poster}
                 alt=""
               />
 
               <div className="embla__slide__inner">
                 <img
-                  className="absolute left-4 top-4 w-24 sm:left-14 sm:top-10 sm:block sm:w-24 lg:w-32"
+                  className="absolute left-4 top-5 w-24 sm:left-14 sm:top-10 sm:block sm:w-24 lg:w-32"
                   src={slide.logo}
                   alt=""
                 />
 
-                <div className="bg-[#050f188f]  absolute overflow-hidden bottom-4 left-4 right-4 flex flex-col xl:flex-row xl:items-center gap-6 rounded-md border border-gray-300 p-2 text-white sm:bottom-10 sm:left-14 sm:right-10 sm:p-4 lg:p-6">
+                <div className="bg-[#050f188f]  absolute overflow-hidden bottom-3 md:bottom-4 left-3 md:left-4 right-3 md:right-4 flex flex-col xl:flex-row xl:items-center gap-4 rounded-md border border-gray-300 p-2 text-white sm:bottom-10 sm:left-14 sm:right-10 sm:p-4 lg:p-6">
                   <p className="min-w-[28%] flex flex-row flex-wrap md:flex-col gap-x-2 gap-y-2 md:gap-y-4 truncate">
                     <span className="text-xl md:text-3xl font-bold">
                       {slide.stat}
@@ -121,9 +121,9 @@ const EmblaCarousel = (props) => {
                   </p>
 
                   <div className="flex flex-col gap-4">
-                    <p className="line-clamp-none lg:line-clamp-3 text-base font-medium md:text-lg">{`"${slide.quote}"`}</p>
+                    <p className="line-clamp-4 lg:line-clamp-3 text-base font-medium md:text-lg">{`"${slide.quote}"`}</p>
 
-                    <div className="text-base md:text-lg flex flex-col gap-2 md:flex-row md:items-center justify-between">
+                    <div className="text-sm md:text-lg flex flex-col gap-2 md:flex-row md:items-center justify-between">
                       <p className="">{slide.author}</p>
 
                       <a

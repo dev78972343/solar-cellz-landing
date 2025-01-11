@@ -19,7 +19,7 @@ const testimonials = [
     key: 1,
     image: reviewImg1,
     comment:
-      "I had Solar Cellz Energy install solar panels on my home, and the process was smooth from start to finish. Their team was professional and answered all my questions. My energy bills have dropped significantly! Highly recommend them.",
+      "I had Solar Cellz Energy install solar panels on my home, and the process was smooth from start to finish. Their team was professional and answered all my questions. Highly recommend them.",
     rating: 5,
     reviewerName: "John Doe",
     reviewerPosition: "Manager @ XYZ Company",
@@ -85,7 +85,7 @@ export default function Testimonials({ className }) {
             ))}
           </CarouselContent>
 
-          <div className="mt-16">
+          <div className="mt-10 md:mt-16">
             <CarouselDots />
           </div>
         </Carousel>

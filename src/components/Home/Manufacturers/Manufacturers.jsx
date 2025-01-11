@@ -159,11 +159,11 @@ export default function Manufacturers({ className }) {
       />
 
       {/* Manufacturers Logo Carousel */}
-      <section className="my-16 space-y-10 lg:my-20">
+      <section className="my-16 space-y-8 lg:my-20">
         {/* 1st Row */}
         <Marquee gradient speed={80} gradientWidth={100} direction="right">
           {manufacturersLogos?.slice(0, 25)?.map((logo) => (
-            <div key={logo} className="mr-32">
+            <div key={logo} className="mr-10 md:mr-24">
               <img
                 src={logo}
                 alt={`manufacturers partner brand Logo`}
@@ -176,7 +176,7 @@ export default function Manufacturers({ className }) {
         {/* 2nd Row */}
         <Marquee gradient speed={80} gradientWidth={100} direction="left">
           {manufacturersLogos?.slice(25, 50)?.map((logo) => (
-            <div key={logo} className="mr-32">
+            <div key={logo} className="mr-10 md:mr-24">
               <img
                 src={logo}
                 alt={`manufacturers partner brand Logo`}
@@ -189,7 +189,7 @@ export default function Manufacturers({ className }) {
         {/* 3rd Row */}
         <Marquee gradient speed={80} gradientWidth={100} direction="right">
           {manufacturersLogos?.slice(50)?.map((logo) => (
-            <div key={logo} className="mr-32">
+            <div key={logo} className="mr-10 md:mr-24">
               <img
                 src={logo}
                 alt={`manufacturers partner brand Logo`}

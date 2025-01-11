@@ -16,6 +16,7 @@ import {
   slideUpParentVariants,
 } from "@/utils/sharedMotionVariants";
 import { motion } from "motion/react";
+import SectionHeader from "@/components/shared/SectionHeader/SectionHeader";
 
 const team = [
   {
@@ -82,12 +83,7 @@ export default function Teams({ className }) {
           viewport={{ once: true }}
           className="container mx-auto text-center"
         >
-          <motion.h2
-            variants={slideUpChildVariants}
-            className="mb-8 text-3xl font-bold text-green-600"
-          >
-            Meet Our <span className="text-gray-800">Solar Experts</span>
-          </motion.h2>
+          <SectionHeader heading="Meet Our Team" subHeading="Our Experts" className="mb-8" />
           <Carousel
             opts={{
               loop: false,
@@ -113,7 +109,7 @@ export default function Teams({ className }) {
               ))}
             </CarouselContent>
 
-            <div className="mt-4">
+            <div className="mt-10 md:mt-16">
               <CarouselDots />
             </div>
           </Carousel>
@@ -134,29 +130,29 @@ function TeamCard({ member }) {
             className="mx-auto mb-4 size-full rounded-full"
           />
           <div className="absolute bottom-2 right-2 size-8 rounded-full bg-white p-1">
-            <button className="flex h-full w-full items-center justify-center rounded-full bg-green-500 text-white hover:text-white">
+            <button className="flex h-full w-full items-center justify-center rounded-full bg-normal-blue-500 text-white hover:text-white">
               <Share2 className="size-4" />
             </button>
           </div>
           <div className="absolute left-1/2 top-1/2 flex -translate-x-1/2 -translate-y-1/2 transform gap-1 opacity-0 transition-all duration-300 group-hover:opacity-100">
-            <div className="flex size-8 cursor-pointer items-center justify-center rounded-full group/facebook shadow bg-white p-2 hover:bg-green-600 hover:text-white">
-              <Facebook className="size-4 text-green-600 group-hover/facebook:text-white" />
+            <div className="flex size-8 cursor-pointer items-center justify-center rounded-full group/facebook shadow bg-white p-2 hover:bg-normal-blue-500 hover:text-white">
+              <Facebook className="size-4 text-light-blue-500 group-hover/facebook:text-white" />
             </div>
-            <div className="flex size-8 cursor-pointer items-center justify-center rounded-full group/twitter shadow bg-white p-2 hover:bg-green-600 hover:text-white">
-              <Twitter className="size-4 text-green-600 group-hover/twitter:text-white" />
+            <div className="flex size-8 cursor-pointer items-center justify-center rounded-full group/twitter shadow bg-white p-2 hover:bg-normal-blue-500 hover:text-white">
+              <Twitter className="size-4 text-light-blue-500 group-hover/twitter:text-white" />
             </div>
-            <div className="flex size-8 cursor-pointer items-center justify-center rounded-full group/linkedin shadow bg-white p-2 hover:bg-green-600 hover:text-white">
-              <Linkedin className="size-4 text-green-600 group-hover/linkedin:text-white" />
+            <div className="flex size-8 cursor-pointer items-center justify-center rounded-full group/linkedin shadow bg-white p-2 hover:bg-normal-blue-500 hover:text-white">
+              <Linkedin className="size-4 text-light-blue-500 group-hover/linkedin:text-white" />
             </div>
-            <div className="flex size-8 cursor-pointer items-center justify-center rounded-full group/youtube shadow bg-white p-2 hover:bg-green-600 hover:text-white">
-              <Youtube className="size-4 text-green-600 group-hover/youtube:text-white" />
+            <div className="flex size-8 cursor-pointer items-center justify-center rounded-full group/youtube shadow bg-white p-2 hover:bg-normal-blue-500 hover:text-white">
+              <Youtube className="size-4 text-light-blue-500 group-hover/youtube:text-white" />
             </div>
           </div>
         </div>
       </div>
       <div className="mt-3">
         <p className="text-lg font-semibold">{member.name}</p>
-        <span className="text-sm text-green-500">{member.role}</span>
+        <span className="text-sm text-gray-500">{member.role}</span>
       </div>
     </motion.div>
   );

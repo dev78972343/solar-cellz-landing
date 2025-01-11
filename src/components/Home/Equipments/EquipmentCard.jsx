@@ -1,13 +1,13 @@
 export default function EquipmentCard({ equipment }) {
   return (
-    <div className="rounded-2xl border border-normal-blue-500 bg-white px-4 py-7 shadow-lg transition-all duration-300 ease-in-out">
+    <div className="h-[230px] flex flex-col justify-center items-center gap-5 rounded-2xl border border-normal-blue-500 bg-white px-4 py-7 shadow-lg transition-all duration-300 ease-in-out">
       <img
         src={equipment?.image}
         alt={"Image of " + equipment?.name}
-        className="mx-auto block h-[130px] w-auto"
+        className="mx-auto block w-24"
       />
 
-      <p className="mt-5 text-center text-base md:text-xl font-semibold">
+      <p className="text-center text-[13px] md:text-xl font-semibold">
         {equipment?.name}
       </p>
     </div>

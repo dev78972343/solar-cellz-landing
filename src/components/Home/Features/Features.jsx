@@ -57,7 +57,7 @@ export default function Features({ className }) {
               >
                 <div className="mb-4 text-4xl">{feature.icon}</div>
                 <h3 className="mb-2 text-lg font-semibold">{feature.title}</h3>
-                <p className="text-sm text-gray-400">{feature.description}</p>
+                <p className="text-center md:text-left text-sm text-gray-400">{feature.description}</p>
               </motion.div>
             ))}
           </div>
