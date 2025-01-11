@@ -93,7 +93,7 @@ const EmblaCarousel = (props) => {
         </div>
       </div>
 
-      <div className="embla__viewport" ref={emblaRef}>
+      <div className="embla__viewport md:overflow-hidden" ref={emblaRef}>
         <div className="embla__container">
           {slides.map((slide, index) => (
             <div className="embla__slide" key={index}>
@@ -133,7 +133,7 @@ const EmblaCarousel = (props) => {
                         rel="noreferrer"
                       >
                         <span>Read the story </span>
-                        <ArrowRightIcon className="h-4 w-4 group-hover:translate-x-1 transition-all duration-300" />
+                        <ArrowRightIcon className="h-4 w-4 group-hover/read:translate-x-1 transition-all duration-300" />
                       </a>
 
                     </div>

@@ -18,15 +18,15 @@ const datas = [
   {
     id: 1,
     image: heroThree,
-    title: "Green Technology Solutions",
-    description: "Innovative technologies for a sustainable future.",
+    title: "Revolutionize Your Energy Consumption",
+    description: "Join the movement toward a sustainable future with cutting-edge solar solutions.",
     buttons: [
       {
-        name: "Explore Features",
+        name: "Start Saving Now",
         link: "#",
       },
       {
-        name: "Contact Us",
+        name: "Get a Free Quote",
         link: "#",
       },
     ],
@@ -34,15 +34,15 @@ const datas = [
   {
     id: 2,
     image: heroTwo,
-    title: "Eco-friendly Energy",
-    description: "Learn how to make the most of renewable energy sources.",
+    title: "Switch to Clean, Renewable Energy",
+    description: "Discover the benefits of solar power and reduce your carbon footprint.",
     buttons: [
       {
         name: "Learn More",
         link: "#",
       },
       {
-        name: "Subscribe Now",
+        name: "Get Started Today",
         link: "#",
       },
     ],
@@ -50,33 +50,31 @@ const datas = [
   {
     id: 3,
     image: heroOne,
-    title: "Fronius Solar.web",
-    description: "Better Understanding of Solar Power",
+    title: "Solar Power Simplified",
+    description: "Harness the sun's power for an eco-friendly, cost-effective energy solution.",
     buttons: [
       {
-        name: "View Demo",
+        name: "Explore Solutions",
         link: "#",
       },
       {
-        name: "Get Started Now",
+        name: "View Case Studies",
         link: "#",
       },
     ],
   },
-  
-  
   {
     id: 4,
     image: heroFour,
-    title: "Smart Home Automation",
-    description: "Control your home devices with smart automation systems.",
+    title: "Smart Automation Meets Solar Power",
+    description: "Integrate smart systems to optimize your solar energy usage.",
     buttons: [
       {
-        name: "Discover More",
+        name: "Discover Automation",
         link: "#",
       },
       {
-        name: "Get Started",
+        name: "Upgrade Your Home",
         link: "#",
       },
     ],
@@ -136,7 +134,7 @@ export default function Hero() {
                       <a
                         key={idx}
                         href={button.link}
-                        className={`flex w-40 items-center text-nowrap justify-center rounded-lg px-5 py-2.5 text-lg font-medium ${
+                        className={`flex w-36 md:w-48 items-center text-nowrap justify-center rounded-lg px-5 py-2.5 text-sm md:text-lg font-medium ${
                           idx === 0
                             ? "bg-primary-button-gradient text-white hover:opacity-90"
                             : "border border-white bg-transparent text-white hover:bg-white hover:text-black"

@@ -30,7 +30,7 @@ export default function Home() {
         desc="This is the home page of Solar Cellz USA"
       />
 
-      <div>
+      <div className="overflow-hidden">
         <Hero />
 
         <Brands className="mb-10 mb:my-28"/>
