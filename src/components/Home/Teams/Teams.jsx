@@ -1,11 +1,11 @@
 import { cn } from "@/lib/utils";
 import ResponsiveContainer from "@/components/ResponsiveContainer/ResponsiveContainer";
-import expert1Img from "@/assets/images/experts/expert-1.jpg";
-import expert2Img from "@/assets/images/experts/expert-2.jpg";
-import expert3Img from "@/assets/images/experts/expert-3.jpg";
-import expert4Img from "@/assets/images/experts/expert-4.jpg";
-import expert5Img from "@/assets/images/experts/expert-5.jpg";
-import expert6Img from "@/assets/images/experts/expert-6.jpg";
+import expert1Img from "@/assets/images/experts/expert-1.png";
+import expert2Img from "@/assets/images/experts/expert-2.png";
+import expert3Img from "@/assets/images/experts/expert-3.png";
+import expert4Img from "@/assets/images/experts/expert-4.png";
+import expert5Img from "@/assets/images/experts/expert-5.png";
+import expert6Img from "@/assets/images/experts/expert-6.png";
 import { Facebook, Linkedin, Share2, Twitter, Youtube } from "lucide-react";
 import {
   Carousel,
@@ -118,7 +118,7 @@ function TeamCard({ member }) {
           <img
             src={member.image}
             alt={member.name}
-            className="mx-auto mb-4 size-full rounded-full"
+            className="mx-auto mb-4 size-full rounded-full border border-gray-200"
           />
           <div className="absolute bottom-2 right-2 size-8 rounded-full bg-white p-1">
             <button className="flex h-full w-full items-center justify-center rounded-full bg-normal-blue-500 text-white hover:text-white">
