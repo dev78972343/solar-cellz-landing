@@ -58,18 +58,6 @@ const team = [
     image: expert6Img,
     social: ["facebook", "twitter", "linkedin"],
   },
-  {
-    name: "James Anderson",
-    role: "Project Manager",
-    image: expert1Img,
-    social: ["facebook", "twitter", "linkedin"],
-  },
-  {
-    name: "Emma Roberts",
-    role: "CEO & Founder",
-    image: expert2Img,
-    social: ["facebook", "twitter", "linkedin"],
-  },
 ];
 
 export default function Teams({ className }) {
@@ -89,7 +77,7 @@ export default function Teams({ className }) {
           <SectionHeader heading="Meet Our Team" subHeading="Our Experts" className="mb-8" />
           <Carousel
             opts={{
-              loop: false,
+              loop: true,
               duration: 60,
               align: "start",
             }}
@@ -105,7 +93,7 @@ export default function Teams({ className }) {
               {team.map((member, index) => (
                 <CarouselItem
                   key={index}
-                  className="basis-full sm:basis-1/2 md:basis-1/4 lg:basis-1/6"
+                  className="basis-full sm:basis-1/2 md:basis-1/3 lg:basis-1/4 xl:basis-1/5"
                 >
                   <TeamCard member={member} />
                 </CarouselItem>
