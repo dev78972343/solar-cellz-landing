@@ -1,8 +1,11 @@
 import { cn } from "@/lib/utils";
 import ResponsiveContainer from "@/components/ResponsiveContainer/ResponsiveContainer";
-import expert1Img from "@/assets/images/experts/expert-1.png";
-import expert2Img from "@/assets/images/experts/expert-2.png";
-import expert3Img from "@/assets/images/experts/expert-3.png";
+import expert1Img from "@/assets/images/experts/expert-1.jpg";
+import expert2Img from "@/assets/images/experts/expert-2.jpg";
+import expert3Img from "@/assets/images/experts/expert-3.jpg";
+import expert4Img from "@/assets/images/experts/expert-4.jpg";
+import expert5Img from "@/assets/images/experts/expert-5.jpg";
+import expert6Img from "@/assets/images/experts/expert-6.jpg";
 import { Facebook, Linkedin, Share2, Twitter, Youtube } from "lucide-react";
 import {
   Carousel,
@@ -20,51 +23,51 @@ import SectionHeader from "@/components/shared/SectionHeader/SectionHeader";
 
 const team = [
   {
-    name: "Rodrigues Christy",
+    name: "James Anderson",
     role: "Project Manager",
     image: expert1Img,
     social: ["facebook", "twitter", "linkedin"],
   },
   {
-    name: "Matthew Hong",
+    name: "Emma Roberts",
     role: "CEO & Founder",
     image: expert2Img,
     social: ["facebook", "twitter", "linkedin"],
   },
   {
-    name: "Anita Bentley",
+    name: "Michael Johnson",
     role: "Marketing Manager",
     image: expert3Img,
     social: ["facebook", "twitter", "linkedin"],
   },
   {
-    name: "Beverly Dyer",
+    name: "William Davis",
     role: "System Engineer",
-    image: expert2Img,
+    image: expert4Img,
     social: ["facebook", "twitter", "linkedin"],
   },
   {
-    name: "Donny Evans",
+    name: "Olivia Smith",
     role: "Solar Energy Specialist",
-    image: expert3Img,
+    image: expert5Img,
     social: ["facebook", "twitter", "linkedin"],
   },
   {
-    name: "Rodrigues Christy",
+    name: "Sophia Brown",
+    role: "Project Manager",
+    image: expert6Img,
+    social: ["facebook", "twitter", "linkedin"],
+  },
+  {
+    name: "James Anderson",
     role: "Project Manager",
     image: expert1Img,
     social: ["facebook", "twitter", "linkedin"],
   },
   {
-    name: "Matthew Hong",
+    name: "Emma Roberts",
     role: "CEO & Founder",
     image: expert2Img,
-    social: ["facebook", "twitter", "linkedin"],
-  },
-  {
-    name: "Anita Bentley",
-    role: "Marketing Manager",
-    image: expert3Img,
     social: ["facebook", "twitter", "linkedin"],
   },
 ];
