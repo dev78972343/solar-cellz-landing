@@ -22,5 +22,6 @@
       "description": "Integrate smart systems to optimize your solar energy usage.",
       "buttons": ["Discover Automation", "Upgrade Your Home"]
     }
-  }
+  },
+  "brands" : {"title":"Liquidity Supported by"}
 }

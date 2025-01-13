@@ -22,5 +22,8 @@
       "description": "Integra sistemas inteligentes para optimizar el uso de tu energía solar.",
       "buttons": ["Descubre la automatización", "Mejora tu hogar"]
     }
+  },
+  "brands" : {
+    "title":"Liquidez respaldada por"
   }
 }
