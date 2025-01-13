@@ -25,5 +25,27 @@
   },
   "brands" : {
     "title":"Liquidez respaldada por"
-  }
+  },
+  "feat": {
+      "1":
+      {
+        "title": "Instalación de Paneles Solares",
+        "description": "Servicios eficientes de instalación de paneles solares para aprovechar la energía renovable, con orientación experta desde la evaluación del sitio hasta la instalación final."
+      },
+      "2":
+      {
+        "title": "Almacenamiento de Energía Solar",
+        "description": "Almacene energía solar con baterías de alta calidad para garantizar la disponibilidad de energía incluso durante la noche o en días nublados."
+      },
+      "3":
+      {
+        "title": "Mantenimiento y Soporte Solar",
+        "description": "Mantenimiento rutinario y soporte bajo demanda para mantener sus sistemas solares funcionando con un rendimiento óptimo."
+      },
+      "4":
+      {
+        "title": "Optimización de Energía",
+        "description": "Soluciones avanzadas para optimizar su uso de energía y reducir costos, garantizando la máxima eficiencia de su sistema solar."
+      }
+        }
 }
