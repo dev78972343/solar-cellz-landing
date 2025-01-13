@@ -63,7 +63,7 @@ export default function Footer() {
       <ResponsiveContainer>
         <div className="flex-start-between w-full flex-col gap-y-5 lg:flex-row">
           <Link to="/">
-            <img src={logo} alt="Logo of Sollar Cellz USA" />
+            <img src={logo} alt="Logo of Solar Cellz USA" />
           </Link>
 
           <div className="relative w-full lg:w-[90%] 2xl:w-1/3">

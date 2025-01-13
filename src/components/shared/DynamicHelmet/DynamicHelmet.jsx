@@ -6,7 +6,7 @@ export default function DynamicHelmet({ title, desc, url }) {
       <title>{title}</title>
       <link
         rel="canonical"
-        href={url || "https://sollar-cellz-website.vercel.app/"}
+        href={url || "https://Solar-cellz-website.vercel.app/"}
       />
       <meta name="description" content={desc} />
     </Helmet>

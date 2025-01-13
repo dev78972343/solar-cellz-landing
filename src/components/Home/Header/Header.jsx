@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import logo from "@/assets/logos/SollarCellz-logo.svg";
+import logo from "@/assets/logos/SolarCellz-logo.svg";
 import smLogo from "@/assets/logos/sm-logo.png";
 import { allItems } from "@/constants/items";
 import { HeaderBottom } from "./HeaderBottom";

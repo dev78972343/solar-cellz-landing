@@ -154,7 +154,7 @@ export default function Manufacturers({ className }) {
       <SectionHeader
         heading="Our Franchised Manufacturer Partners"
         subHeading="Franchises"
-        desc="Sollar Cellz USA is a leading provider of high-quality solar energy solutions, collaborating with a network of trusted franchised manufacturer partners. Together, we innovate and deliver cutting-edge solar products that empower businesses and homeowners to harness sustainable energy efficiently."
+        desc="Solar Cellz USA is a leading provider of high-quality solar energy solutions, collaborating with a network of trusted franchised manufacturer partners. Together, we innovate and deliver cutting-edge solar products that empower businesses and homeowners to harness sustainable energy efficiently."
         className="mx-auto w-full px-5 text-center md:w-10/12 md:px-0 lg:w-3/4 2xl:w-2/3"
       />
 

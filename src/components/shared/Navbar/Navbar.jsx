@@ -83,7 +83,7 @@ export default function Navbar() {
           <Link to="/">
             <motion.img
               src={logo}
-              alt="Sollar Cellz Logo"
+              alt="Solar Cellz Logo"
               variants={slideLeftToRightVariants}
               initial="initial"
               whileInView="animate"
