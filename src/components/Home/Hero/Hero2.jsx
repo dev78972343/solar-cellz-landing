@@ -13,6 +13,7 @@ import heroOne from '@/assets/images/hero2/hero1.jpg';
 import heroTwo from '@/assets/images/hero2/hero2.jpg';
 import heroThree from '@/assets/images/hero2/hero3.jpg';
 import heroFour from '@/assets/images/hero2/hero4.jpg';
+import { useTranslation } from "react-i18next";
 
 const datas = [
   {
@@ -82,6 +83,7 @@ const datas = [
 ];
 
 export default function Hero() {
+  const { t } = useTranslation();
   return (
     <div>
       {/* Hero Carousel */}
@@ -124,23 +126,24 @@ export default function Hero() {
                viewport={{ once: false }} 
                className="absolute inset-0 flex flex-col items-center justify-center text-center text-white">
                   <motion.h1 variants={slideUpChildVariants} className="text-4xl font-bold lg:text-6xl">
-                    {item.title}
+                    {t(`hero.${item.id}.title`)}
+                    
                   </motion.h1>
                   <motion.p variants={slideUpChildVariants} className="mt-4 max-w-[80%] text-lg lg:text-2xl">
-                    {item.description}
+                    {t(`hero.${item.id}.description`)}
                   </motion.p>
-                  <motion.div  variants={slideUpChildVariants} className="mt-6 flex gap-4">
+                  <motion.div  variants={slideUpChildVariants} className="mt-6 flex flex-wrap items-center justify-center gap-4">
                     {item.buttons.map((button, idx) => (
                       <a
                         key={idx}
                         href={button.link}
-                        className={`flex w-36 md:w-48 items-center text-nowrap justify-center rounded-lg px-5 py-2.5 text-sm md:text-lg font-medium ${
+                        className={`flex w-fit items-center text-nowrap justify-center rounded-lg px-5 py-2.5 text-sm md:text-lg font-medium ${
                           idx === 0
                             ? "bg-primary-button-gradient text-white hover:opacity-90"
                             : "border border-white bg-transparent text-white hover:bg-white hover:text-black"
                         }`}
                       >
-                        {button.name}
+                        {t(`hero.${item.id}.buttons.${idx}`)}
                       </a>
                     ))}
                   </motion.div>

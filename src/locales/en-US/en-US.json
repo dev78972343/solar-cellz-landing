@@ -1,12 +1,26 @@
 {
   "navbar": {
-    "Account Sign In": "Account Sign In",
-    "What can we help you find?": "What can we help you find?",
-    "City, State or ZIP": "City, State or ZIP",
-    "Search": "Search"
   },
   "hero": {
-    "clients across industries": "clients across industries",
-    "Leading provider of innovative solar energy solutions for residential, commercial, and industrial clients": "Leading provider of innovative solar energy solutions for residential, commercial, and industrial clients"
+    "1": {
+      "title": "Revolutionize Your Energy Consumption",
+      "description": "Join the movement toward a sustainable future with cutting-edge solar solutions.",
+      "buttons": ["Start Saving Now", "Get a Free Quote"]
+    },
+    "2": {
+      "title": "Switch to Clean, Renewable Energy",
+      "description": "Discover the benefits of solar power and reduce your carbon footprint.",
+      "buttons": ["Learn More", "Get Started Today"]
+    },
+    "3": {
+      "title": "Solar Power Simplified",
+      "description": "Harness the sun's power for an eco-friendly, cost-effective energy solution.",
+      "buttons": ["Explore Solutions", "View Case Studies"]
+    },
+    "4": {
+      "title": "Smart Automation Meets Solar Power",
+      "description": "Integrate smart systems to optimize your solar energy usage.",
+      "buttons": ["Discover Automation", "Upgrade Your Home"]
+    }
   }
 }

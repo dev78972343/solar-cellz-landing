@@ -1,12 +1,26 @@
 {
   "navbar": {
-    "Account Sign In": "Iniciar sesión en la cuenta",
-    "What can we help you find?": "Que podemos ayudarte a encontrar?",
-    "City, State or ZIP": "Ciudad, Estado o ZIP",
-    "Search": "Buscar"
   },
   "hero": {
-    "clients across industries": "clientes a lo largo de las industrias",
-    "Leading provider of innovative solar energy solutions for residential, commercial, and industrial clients": "Proveedor líder de soluciones de energía solar innovadoras para clientes residenciales, comerciales y industriales"
+    "1": {
+      "title": "Revoluciona tu consumo de energía",
+      "description": "Únete al movimiento hacia un futuro sostenible con soluciones solares de vanguardia.",
+      "buttons": ["Empieza a ahorrar ahora", "Obtén una cotización gratuita"]
+    },
+    "2": {
+      "title": "Cambia a energía limpia y renovable",
+      "description": "Descubre los beneficios de la energía solar y reduce tu huella de carbono.",
+      "buttons": ["Aprende más", "Comienza hoy"]
+    },
+    "3": {
+      "title": "Energía solar simplificada",
+      "description": "Aprovecha el poder del sol para una solución energética ecológica y rentable.",
+      "buttons": ["Explora soluciones", "Ver estudios de caso"]
+    },
+    "4": {
+      "title": "Automatización inteligente y energía solar",
+      "description": "Integra sistemas inteligentes para optimizar el uso de tu energía solar.",
+      "buttons": ["Descubre la automatización", "Mejora tu hogar"]
+    }
   }
 }
