@@ -26,7 +26,7 @@ export function HeaderBottom() {
     <div className="bg-dark-blue-400">
     <ResponsiveContainer classes="px-2">
     <div className="flex h-[36px] w-full items-center text-white">
-      <ul className="flex items-center gap-4 text-sm tracking-wide">
+      <ul className="w-full flex items-center justify-between sm:justify-start gap-4 text-sm tracking-wide">
         <li
           onClick={() => setSidebar(true)}
           className="headerHover flex items-center gap-1 cursor-pointer"

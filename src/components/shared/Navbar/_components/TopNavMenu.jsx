@@ -123,9 +123,7 @@ export default function TopNavMenu() {
 
   return (
     <div className="mt-0.5 flex-center flex-wrap gap-5">
-      <button>Enable Accessibility</button>
-
-<div className="hidden sm:block">
+      <button className="">Enable Accessibility</button>
       <NavigationMenu>
         <NavigationMenuList>
           {/* Language Switcher */}
@@ -135,11 +133,11 @@ export default function TopNavMenu() {
               <span>{selectedLanguage?.label}</span>
             </NavigationMenuTrigger>
 
-            <NavigationMenuContent className="!min-w-[200px] space-y-1 p-3">
+            <NavigationMenuContent className="w-fit sm:!min-w-[200px] space-y-1 p-3">
               {languages.map((language) => (
                 <button
                   key={language.value}
-                  className="flex-center-start w-full gap-x-2 rounded p-1 text-base hover:bg-slate-100"
+                  className="flex-center-start text-nowrap w-full gap-x-2 rounded p-1 text-base hover:bg-slate-100"
                   onClick={() => changeLanguage(language?.value)}
                 >
                   {language.flag}
@@ -150,6 +148,7 @@ export default function TopNavMenu() {
           </NavigationMenuItem>
 
           {/* Partners Program + My Account */}
+          <div className="hidden sm:flex items-center flex-wrap gap-5">
           {dropdownMenuItems.map((menuItem) => (
             <NavigationMenuItem key={menuItem.key}>
               <NavigationMenuTrigger>
@@ -168,9 +167,9 @@ export default function TopNavMenu() {
               </NavigationMenuContent>
             </NavigationMenuItem>
           ))}
+          </div>
         </NavigationMenuList>
       </NavigationMenu>
-      </div>
 
 <div className="hidden lg:flex items-center gap-5 ">
       {/* Static Menu Items */}
