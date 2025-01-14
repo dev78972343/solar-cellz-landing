@@ -4,7 +4,6 @@ import Demo from "@/components/Home/Demo/Demo";
 import Equipments from "@/components/Home/Equipments/Equipments";
 import Features from "@/components/Home/Features/Features";
 import Manufacturers from "@/components/Home/Manufacturers/Manufacturers";
-import Projects from "@/components/Home/Projects/Projects";
 import Teams from "@/components/Home/Teams/Teams";
 import Testimonials from "@/components/Home/Testimonials/Testimonials";
 import TopSeller from "@/components/Home/TopSellers/TopSeller";
@@ -40,8 +39,6 @@ export default function Home() {
         <About3 className="my-10 md:my-28" />
 
         <TryIt className="my-10 md:my-28" />
-
-        {/* <Projects className="my-10 md:my-28" /> */}
 
         <Projects2 className="my-10 md:my-28" />
 

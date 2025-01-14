@@ -9,8 +9,7 @@ import company3 from "@/assets/images/project2/company-three.jpg";
 const OPTIONS = { loop: true };
 const SLIDES = [
   {
-    video:
-      "https://dhygzobemt712.cloudfront.net/Web/home/2024-wxp/customers/outliant.mp4",
+    id: 1,
     poster: company1,
     logo: "https://cdn.prod.website-files.com/66e88746834b80507cdf7933/66ec7ff7808fef2aeecfff1b_Outliant.svg",
     stat: "$1M+",
@@ -21,8 +20,7 @@ const SLIDES = [
     storyLink: "https://solarcellz.com/customers/sustainable-energy",
   },
   {
-    video:
-      "https://dhygzobemt712.cloudfront.net/Web/home/2024-wxp/customers/vanta.mp4",
+    id: 2,
     poster: company2,
     logo: "https://cdn.prod.website-files.com/66e88746834b80507cdf7933/66ec7ff723543705ff82037b_Vanta.svg",
     stat: "100+",
@@ -33,8 +31,7 @@ const SLIDES = [
     storyLink: "https://solarcellz.com/customers/greentech-solutions",
   },
   {
-    video:
-      "https://dhygzobemt712.cloudfront.net/Web/home/2024-wxp/customers/lattice.mp4",
+    id: 3,
     poster: company3,
     logo: "https://cdn.prod.website-files.com/66e88746834b80507cdf7933/66e9c8c8c31654c494fcc596_Frame.svg",
     stat: "40%",
@@ -45,7 +42,6 @@ const SLIDES = [
     storyLink: "https://solarcellz.com/customers/ecopower-corp",
   },
 ];
-
 
 export default function Projects2({ className }) {
   return (

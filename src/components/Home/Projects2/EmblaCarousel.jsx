@@ -7,10 +7,12 @@ import {
 import useEmblaCarousel from "embla-carousel-react";
 import SectionHeader from "@/components/shared/SectionHeader/SectionHeader";
 import { ArrowRightIcon } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const TWEEN_FACTOR_BASE = 0.84;
 
 const EmblaCarousel = (props) => {
+  const { t } = useTranslation();
   const { slides, options } = props;
   const [emblaRef, emblaApi] = useEmblaCarousel(options);
   const tweenFactor = useRef(0);
@@ -82,11 +84,11 @@ const EmblaCarousel = (props) => {
     <section className="embla rounded-xl">
       <div className="embla__controls">
  <SectionHeader
-                        heading="The best companies say about us"
-                        classes={{
-                          headingClass:"mb-0 mt-0 text-center md:text-left",
-                        }}
-                      />
+    heading={t("bestCompanySays.heading")}
+    classes={{
+      headingClass:"mb-0 mt-0 text-center md:text-left",
+    }}
+  />
         <div className="!hidden lg:!flex embla__buttons">
           <PrevButton onClick={onPrevButtonClick} disabled={prevBtnDisabled} />
           <NextButton onClick={onNextButtonClick} disabled={nextBtnDisabled} />
@@ -116,15 +118,17 @@ const EmblaCarousel = (props) => {
                       {slide.stat}
                     </span>
                     <span className="text-xl md:text-xl text-wrap">
-                      {slide.description}
+                      {t(`bestCompanySays.companies.${index}.description`)}
                     </span>
                   </p>
 
                   <div className="flex flex-col gap-4">
-                    <p className="line-clamp-4 lg:line-clamp-3 text-base font-medium md:text-lg">{`"${slide.quote}"`}</p>
+                    <p className="line-clamp-4 lg:line-clamp-3 text-base font-medium md:text-lg">
+                      "{t(`bestCompanySays.companies.${index}.quote`)}"
+                    </p>
 
                     <div className="text-sm md:text-lg flex flex-col gap-2 md:flex-row md:items-center justify-between">
-                      <p className="">{slide.author}</p>
+                      <p className="">{t(`bestCompanySays.companies.${index}.author`)}</p>
 
                       <a
                         className="flex items-center gap-2 group/read text-base font-semibold"
@@ -132,10 +136,9 @@ const EmblaCarousel = (props) => {
                         target="_blank"
                         rel="noreferrer"
                       >
-                        <span>Read the story </span>
+                        <span>{t(`bestCompanySays.companies.${index}.button`)}</span>
                         <ArrowRightIcon className="h-4 w-4 group-hover/read:translate-x-1 transition-all duration-300" />
                       </a>
-
                     </div>
                   </div>
                 </div>

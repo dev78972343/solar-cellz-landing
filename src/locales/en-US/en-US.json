@@ -128,5 +128,33 @@
             "buttonText": "Get Quote"
           }
         }
-      }
-    }
+      },
+        "bestCompanySays": {
+          "heading": "The best companies say about us",
+          "companies": [
+            {
+              "stat": "$1M+",
+              "description": "Increased energy savings",
+              "quote": "Solar Cellz revolutionized the way we think about sustainable energy. With their cutting-edge technology, we have reduced our energy costs by over 30%.",
+              "author": "Marcus Jones — COO, Sustainable Energy Inc.",
+              "button": "Read More"
+            },
+            {
+              "stat": "100+",
+              "description": "Enhanced green energy adoption",
+              "quote": "Solar Cellz's innovative solutions have empowered our transition to green energy. Their reliable and efficient products have accelerated our sustainability efforts.",
+              "author": "Jenny Thai — Head of Operations, GreenTech Solutions",
+              "button": "Read More"
+            },
+            {
+              "stat": "40%",
+              "description": "Sustainable growth through innovation",
+              "quote": "Solar Cellz has been a game-changer for our operations. Their renewable energy solutions have helped us reduce our carbon footprint and increase efficiency by 40%.",
+              "author": "CMO, EcoPower Corp.",
+              "button": "Read More"
+            }
+          ]
+        }
+                
+}
+
