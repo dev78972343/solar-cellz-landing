@@ -4,28 +4,11 @@ import {
   slideUpParentVariants,
 } from "@/utils/sharedMotionVariants";
 import ResponsiveContainer from "@/components/ResponsiveContainer/ResponsiveContainer";
+import stats from "./constant";
+import { useTranslation } from "react-i18next";
 
 export default function Stats({ className }) {
-  const stats = [
-    {
-      value: "20+",
-      title: "Solar Experts",
-      description:
-        "We have a team of 20+ expert solar engineers specializing in repair, installation, and system optimization.",
-    },
-    {
-      value: "100%",
-      title: "Client Satisfaction",
-      description:
-        "Our commitment to excellence has earned us a 100% client satisfaction rate in providing renewable energy solutions.",
-    },
-    {
-      value: "5k+",
-      title: "Installations Completed",
-      description:
-        "With over 5,000 successful solar panel installations, we have extensive experience in delivering reliable, sustainable energy.",
-    },
-  ];
+  const { t } = useTranslation();
 
   return (
     <ResponsiveContainer classes={className}>
@@ -39,7 +22,7 @@ export default function Stats({ className }) {
         viewport={{ once: true }}
         className="mx-auto flex max-w-6xl flex-col items-center justify-between border-gray-200 md:flex-row gap-4 md:border-t"
       >
-        {stats.map((stat, index) => (
+        {stats.map((_, index) => (
           <motion.div
             variants={slideUpChildVariants}
             className="relative p-8 text-center md:flex-1 md:text-left"
@@ -55,13 +38,13 @@ export default function Stats({ className }) {
 
             {/* Content */}
             <h2 className="text-3xl font-semibold text-gray-900 md:text-4xl">
-              {stat.value}
+              {t(`stats.${index}.value`)}
             </h2>
             <h3 className="text-lg font-medium text-gray-700 md:text-xl">
-              {stat.title}
+              {t(`stats.${index}.title`)}
             </h3>
             <p className="mt-2 text-sm text-gray-600 md:text-base">
-              {stat.description}
+              {t(`stats.${index}.description`)}
             </p>
           </motion.div>
         ))}

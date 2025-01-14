@@ -155,6 +155,22 @@
         "button": "Leer más"
       }
     ]
-  }
-
+  },
+  "stats": [
+    {
+      "value": "20+",
+      "title": "Expertos en energía solar",
+      "description": "Contamos con un equipo de más de 20 ingenieros solares expertos en reparación, instalación y optimización de sistemas."
+    },
+    {
+      "value": "100%",
+      "title": "Satisfacción del cliente",
+      "description": "Nuestro compromiso con la excelencia nos ha ganado una tasa de satisfacción del cliente del 100% en la provisión de soluciones de energía renovable."
+    },
+    {
+      "value": "5k+",
+      "title": "Instalaciones completadas",
+      "description": "Con más de 5,000 instalaciones exitosas de paneles solares, tenemos una amplia experiencia en la entrega de energía sostenible y confiable."
+    }
+  ]
 }
