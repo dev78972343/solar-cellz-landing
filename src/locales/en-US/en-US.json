@@ -49,7 +49,7 @@
   },
   "about": {
       "title":"Complete Solar Solutions with Maintenance Services",
-      "0": {
+      "1": {
         "title": "Solar Power Systems",
         "description": "Reduce energy costs and increase independence by installing solar power systems for both residential and commercial use. Harness the power of the sun to fuel your needs.",
         "features": [
@@ -59,7 +59,7 @@
         ],
         "button": {"text":"Learn More"}
       },
-      "1": {
+      "2": {
         "title": "Home Solar Panel Installation",
         "description": "Save on electricity bills and enjoy sustainable energy with our expert home solar panel installation. We ensure an efficient setup for maximum energy conversion.",
         "features": [
@@ -69,7 +69,7 @@
         ],
         "button": {"text":"Learn More"}
       },
-      "2": {
+      "3": {
         "title": "Solar Panel Cleaning",
         "description": "Ensure maximum efficiency of your solar panels with our professional cleaning services. We use non-toxic agents and water-efficient methods to maintain your solar panels.",
         "features": [
@@ -79,7 +79,7 @@
         ],
         "button": {"text":"Learn More"}
       },
-      "3": {
+      "4": {
         "title": "Solar Power Backup Solutions",
         "description": "Our solar backup solutions provide a reliable energy source during power outages, ensuring that you always have access to electricity.",
         "features": [
@@ -89,7 +89,7 @@
         ],
         "button": {"text":"Learn More"}
       },
-      "4": {
+      "5": {
         "title": "Solar Energy Consulting",
         "description": "Our consulting services help you evaluate the best solar energy solutions for your home or business. Get expert advice tailored to your needs.",
         "features": [
@@ -99,7 +99,7 @@
         ],
         "button": {"text":"Learn More"}
       },
-      "5": {
+      "6": {
         "title": "Commercial Solar Solutions",
         "description": "Unlock the potential of solar energy for your business. Our commercial solar solutions reduce operational costs and contribute to sustainability goals.",
         "features": [
@@ -109,5 +109,24 @@
         ],
         "button": {"text":"Learn More"}
       }
-  } 
-}
+  },
+  "tryIt": {
+        "sectionTitle": "Get Started Today",
+        "buttonText":"Request a Free Consultation",
+        "introText": "Start your journey to clean and renewable energy with Solar Cellz. We provide customized solar energy solutions for homes and businesses.",
+        "cards": {
+       "1":
+          {
+            "title": "Request a Free Consultation",
+            "description": "Need advice on solar energy solutions for your home or business? Contact us for a free consultation to determine the best solar system for you.",
+            "buttonText": "Request Consultation"
+          },
+          "2":
+          {
+            "title": "Get a Solar Quote",
+            "description": "Get a customized solar quote based on your energy needs and location. Our team will work with you to design an optimal solution for your energy goals.",
+            "buttonText": "Get Quote"
+          }
+        }
+      }
+    }

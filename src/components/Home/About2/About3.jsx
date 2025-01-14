@@ -23,7 +23,6 @@ import {
 import { motion } from "motion/react";
 import SectionHeader from "@/components/shared/SectionHeader/SectionHeader";
 import { useTranslation } from "react-i18next";
-import { t } from "i18next";
 
 const aboutData = [
   {
