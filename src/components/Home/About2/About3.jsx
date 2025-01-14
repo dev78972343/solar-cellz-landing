@@ -22,9 +22,12 @@ import {
 } from "@/utils/sharedMotionVariants";
 import { motion } from "motion/react";
 import SectionHeader from "@/components/shared/SectionHeader/SectionHeader";
+import { useTranslation } from "react-i18next";
+import { t } from "i18next";
 
 const aboutData = [
   {
+    id: 1,
     title: "Solar Power Systems",
     description:
       "Reduce energy costs and increase independence by installing solar power systems for both residential and commercial use. Harness the power of the sun to fuel your needs.",
@@ -36,6 +39,7 @@ const aboutData = [
     icon: <BatteryCharging size={36} />,
   },
   {
+    id: 2,
     title: "Home Solar Panel Installation",
     description:
       "Save on electricity bills and enjoy sustainable energy with our expert home solar panel installation. We ensure an efficient setup for maximum energy conversion.",
@@ -47,6 +51,7 @@ const aboutData = [
     icon: <Cable size={36} />,
   },
   {
+    id: 3,
     title: "Solar Panel Cleaning",
     description:
       "Ensure maximum efficiency of your solar panels with our professional cleaning services. We use non-toxic agents and water-efficient methods to maintain your solar panels.",
@@ -58,6 +63,7 @@ const aboutData = [
     icon: <Eclipse size={36} />,
   },
   {
+    id: 4,
     title: "Solar Power Backup Solutions",
     description:
       "Our solar backup solutions provide a reliable energy source during power outages, ensuring that you always have access to electricity.",
@@ -69,6 +75,7 @@ const aboutData = [
     icon: <BatteryCharging size={36} />,
   },
   {
+    id: 5,
     title: "Solar Energy Consulting",
     description:
       "Our consulting services help you evaluate the best solar energy solutions for your home or business. Get expert advice tailored to your needs.",
@@ -80,6 +87,7 @@ const aboutData = [
     icon: <Cable size={36} />,
   },
   {
+    id: 6,
     title: "Commercial Solar Solutions",
     description:
       "Unlock the potential of solar energy for your business. Our commercial solar solutions reduce operational costs and contribute to sustainability goals.",
@@ -93,11 +101,12 @@ const aboutData = [
 ];
 
 export default function About3({ className }) {
+  const { t } = useTranslation();
   return (
     <ResponsiveContainer classes={cn("bg-blue-50 rounded-xl", className)}>
       <div className="flex flex-col gap-8 py-8 md:px-8">
         <SectionHeader
-          heading="Complete Solar Solutions with Maintenance Services"
+          heading={t("about.title")}
           classes={{
             headingClass: "mb-0 mt-0 text-center lg:text-left",
           }}
@@ -127,12 +136,12 @@ export default function About3({ className }) {
             ]}
           >
             <CarouselContent className="p-1.5">
-              {aboutData?.map((aboutInfo, idx) => (
+              {aboutData?.map((aboutInfo) => (
                 <CarouselItem
-                  key={idx}
+                  key={aboutInfo.id}
                   className="h-full sm:basis-1/2 lg:basis-1/3"
                 >
-                  <AboutCard card={aboutInfo} index={idx} />
+                  <AboutCard card={aboutInfo} key={aboutInfo.id}/>
                 </CarouselItem>
               ))}
             </CarouselContent>
@@ -155,11 +164,11 @@ export default function About3({ className }) {
   );
 }
 
-function AboutCard({ card, index }) {
+function AboutCard({ card }) {
+   const { t } = useTranslation();
   return (
     <motion.div
       variants={slideUpChildVariants}
-      key={index}
       className="relative group/card overflow-hidden flex w-full max-w-[350px] flex-col gap-6 rounded-lg bg-white p-6 shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-xl"
     >
       {/* Icon Wrapper */}
@@ -168,17 +177,17 @@ function AboutCard({ card, index }) {
       </div>
       
       {/* Title */}
-      <h3 className="text-xl font-semibold text-gray-800">{card.title}</h3>
+      <h3 className="text-xl font-semibold text-gray-800">{t(`about.${card.id}.title`)}</h3>
       
       {/* Description */}
-      <p className="text-gray-600">{card.description}</p>
+      <p className="text-gray-600">{t(`about.${card.id}.description`)}</p>
       
       {/* Features List */}
       <ul className="list-inside list-disc space-y-2 text-gray-700">
-        {card.features.map((feature, i) => (
+        {card.features.map((_, i) => (
           <li key={i} className="flex items-center gap-2">
             <ChevronRightIcon className="h-4 w-4 text-primary" />
-            <span>{feature}</span>
+            {t(`about.${card.id}.features.${i}`)}
           </li>
         ))}
       </ul>
@@ -187,7 +196,7 @@ function AboutCard({ card, index }) {
         {/* Progress Effect */}
         <span className="absolute inset-0 -z-10 bg-gradient-to-r from-dark-blue-500 to-light-blue-500 transition-transform duration-500 ease-in-out group-hover:translate-x-0 translate-x-[-100%]"></span>
         <span className="text-sm font-medium transition-all duration-300 group-hover:translate-x-1">
-          Learn More
+          {t(`about.${card.id}.button.text`)}
         </span>
         <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-2" />
       </button>

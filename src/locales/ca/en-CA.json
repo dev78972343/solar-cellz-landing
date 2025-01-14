@@ -45,6 +45,68 @@
         "title": "Energy Optimization",
         "description": "Advanced solutions to optimize your energy usage and reduce costs, ensuring maximum efficiency from your solar system."
       }
+    },
+  "about": {
+      "title":"Complete Solar Solutions with Maintenance Services",
+        "0": {
+          "title": "Solar Power Systems",
+          "description": "Reduce energy costs and increase independence by installing solar power systems for both residential and commercial use. Harness the power of the sun to fuel your needs.",
+          "features": [
+            "Solar Backup Systems",
+            "Renewable Energy Consulting",
+            "Solar System Integration"
+          ],
+          "button": {"text":"Learn More"}
+        },
+        "1": {
+          "title": "Home Solar Panel Installation",
+          "description": "Save on electricity bills and enjoy sustainable energy with our expert home solar panel installation. We ensure an efficient setup for maximum energy conversion.",
+          "features": [
+            "High-Efficiency Panels",
+            "Energy Cost Reduction",
+            "Long-Term Durability"
+          ],
+          "button": {"text":"Learn More"}
+        },
+        "2": {
+          "title": "Solar Panel Cleaning",
+          "description": "Ensure maximum efficiency of your solar panels with our professional cleaning services. We use non-toxic agents and water-efficient methods to maintain your solar panels.",
+          "features": [
+            "Non-Toxic Cleaning Agents",
+            "Water-Efficient Process",
+            "Protects Panel Surface Integrity"
+          ],
+          "button": {"text":"Learn More"}
+        },
+        "3": {
+          "title": "Solar Power Backup Solutions",
+          "description": "Our solar backup solutions provide a reliable energy source during power outages, ensuring that you always have access to electricity.",
+          "features": [
+            "Reliable Backup Energy",
+            "Seamless Integration",
+            "Customizable Systems"
+          ],
+          "button": {"text":"Learn More"}
+        },
+        "4": {
+          "title": "Solar Energy Consulting",
+          "description": "Our consulting services help you evaluate the best solar energy solutions for your home or business. Get expert advice tailored to your needs.",
+          "features": [
+            "Energy Efficiency Audits",
+            "Tailored Solar Solutions",
+            "Comprehensive Support"
+          ],
+          "button": {"text":"Learn More"}
+        },
+        "5": {
+          "title": "Commercial Solar Solutions",
+          "description": "Unlock the potential of solar energy for your business. Our commercial solar solutions reduce operational costs and contribute to sustainability goals.",
+          "features": [
+            "Custom Commercial Installations",
+            "Cost-Effective Solutions",
+            "Increased Energy Efficiency"
+          ],
+          "button": {"text":"Learn More"}
+        }
     }
-    
 }

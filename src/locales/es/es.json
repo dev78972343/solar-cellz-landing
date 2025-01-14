@@ -47,5 +47,68 @@
         "title": "Optimización de Energía",
         "description": "Soluciones avanzadas para optimizar su uso de energía y reducir costos, garantizando la máxima eficiencia de su sistema solar."
       }
-        }
+        },
+  "about": {
+    "title":"Soluciones solares completas con servicios de mantenimiento",
+            "0": {
+              "title": "Sistemas de Energía Solar",
+              "description": "Reduzca los costos de energía y aumente la independencia instalando sistemas de energía solar tanto para uso residencial como comercial. Aproveche el poder del sol para satisfacer sus necesidades.",
+              "features": [
+                "Sistemas de Respaldo Solar",
+                "Consultoría de Energía Renovable",
+                "Integración de Sistemas Solares"
+              ],
+              "button":{"text":"Aprender más"}
+            },
+            "1": {
+              "title": "Instalación de Paneles Solares en el Hogar",
+              "description": "Ahorre en las facturas de electricidad y disfrute de energía sostenible con nuestra instalación experta de paneles solares en el hogar. Aseguramos una configuración eficiente para una conversión máxima de energía.",
+              "features": [
+                "Paneles de Alta Eficiencia",
+                "Reducción de Costos Energéticos",
+                "Durabilidad a Largo Plazo"
+              ],
+              "button":{"text":"Aprender más"}
+            },
+            "2": {
+              "title": "Limpieza de Paneles Solares",
+              "description": "Asegure la máxima eficiencia de sus paneles solares con nuestros servicios de limpieza profesional. Utilizamos agentes no tóxicos y métodos de ahorro de agua para mantener sus paneles solares.",
+              "features": [
+                "Agentes de Limpieza No Tóxicos",
+                "Proceso Eficiente en Agua",
+                "Protege la Integridad de la Superficie del Panel"
+              ],
+              "button":{"text":"Aprender más"}
+            },
+            "3": {
+              "title": "Soluciones de Respaldo de Energía Solar",
+              "description": "Nuestras soluciones de respaldo solar proporcionan una fuente de energía confiable durante cortes de energía, asegurando que siempre tenga acceso a electricidad.",
+              "features": [
+                "Energía de Respaldo Confiable",
+                "Integración Perfecta",
+                "Sistemas Personalizables"
+              ],
+              "button":{"text":"Aprender más"}
+            },
+            "4": {
+              "title": "Consultoría de Energía Solar",
+              "description": "Nuestros servicios de consultoría lo ayudan a evaluar las mejores soluciones de energía solar para su hogar o negocio. Obtenga asesoramiento experto adaptado a sus necesidades.",
+              "features": [
+                "Auditorías de Eficiencia Energética",
+                "Soluciones Solares Personalizadas",
+                "Soporte Integral"
+              ],
+             "button":{"text":"Aprender más"}
+            },
+            "5": {
+              "title": "Soluciones Solares Comerciales",
+              "description": "Desbloquee el potencial de la energía solar para su negocio. Nuestras soluciones solares comerciales reducen los costos operativos y contribuyen a los objetivos de sostenibilidad.",
+              "features": [
+                "Instalaciones Comerciales Personalizadas",
+                "Soluciones Rentables",
+                "Mayor Eficiencia Energética"
+              ],
+              "button":{"text":"Aprender más"}
+            }
+  }
 }
