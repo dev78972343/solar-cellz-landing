@@ -171,7 +171,19 @@
       "title": "Installations Completed",
       "description": "With over 5,000 successful solar panel installations, we have extensive experience in delivering reliable, sustainable energy."
     }
-  ]    
-                
+  ] ,
+  "equipments": {
+    "heading":"We Carry Every Piece of Solar Equipments",
+    "subHeading":"Solar Equipment",
+    "desc":"You would need to build an on-grid, off-grid, or hybrid solar system, EV charging including the following:",
+    "buttonText":"Explore",
+    "cards": ["Wholesale Solar Inverters",
+    "Home Solar Battery Banks",
+    "Combiner Boxes",
+    "Solar Panels",
+    "EV Chargers",
+    "Utility Scale Inverters"
+    ]
+   }          
 }
 

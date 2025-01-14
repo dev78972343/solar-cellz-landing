@@ -172,5 +172,19 @@
       "title": "Instalaciones completadas",
       "description": "Con más de 5,000 instalaciones exitosas de paneles solares, tenemos una amplia experiencia en la entrega de energía sostenible y confiable."
     }
-  ]
+  ],
+    "equipments": {
+      "heading": "Llevamos Todo Tipo de Equipos Solares",
+      "subHeading": "Equipos Solares",
+      "desc": "Necesitarías para construir un sistema solar conectado a la red, fuera de la red o híbrido, incluyendo la carga de vehículos eléctricos con lo siguiente:",
+      "buttonText": "Explorar",
+      "cards": [
+        "Inversores solares al por mayor",
+        "Bancos de baterías solares para el hogar",
+        "Cajas combinadoras",
+        "Paneles solares",
+        "Cargadores de vehículos eléctricos",
+        "Inversores a escala de utilidad"
+      ]
+    }  
 }
