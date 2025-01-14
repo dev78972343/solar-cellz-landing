@@ -186,5 +186,27 @@
         "Cargadores de vehículos eléctricos",
         "Inversores a escala de utilidad"
       ]
-    }  
+    },
+    "testimonials": {
+    "heading": "Clientes Exigiendo Cambio",
+    "subHeading": "Testimonios",
+    "desc": "Ahora más que nunca, los clientes muestran su aprecio a las empresas que se deshacen de la energía sucia que causa enfermedades y la gestión de energía. SolarCellz USA se enorgullece de ser uno de los líderes de la industria en el país y espera llevar su experiencia y conocimientos a usted.",
+    "cards": [
+      {
+        "name": "John Doe",
+        "comment": "Hice que Solar Cellz Energy instalara paneles solares en mi casa, y el proceso fue fluido de principio a fin. Su equipo fue profesional y respondió todas mis preguntas. ¡Los recomiendo mucho!",
+        "position": "Gerente @ XYZ Company"
+      },
+      {
+        "name": "Myrtle Kempton",
+        "comment": "Cambiar a Solar Cellz Energy fue un cambio de juego para mi familia. No solo estamos ahorrando dinero, sino que también estamos contribuyendo a un entorno más limpio. ¡Su atención al cliente es excelente!",
+        "position": "Gerente @ ABC Company"
+      },
+      {
+        "name": "Myrtle Kempton",
+        "comment": "Cambiar a Solar Cellz Energy fue un cambio de juego para mi familia. No solo estamos ahorrando dinero, sino que también estamos contribuyendo a un entorno más limpio. ¡Su atención al cliente es excelente!",
+        "position": "Gerente @ ABC Company"
+      }
+    ]
+  }  
 }

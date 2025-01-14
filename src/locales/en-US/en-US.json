@@ -184,6 +184,28 @@
     "EV Chargers",
     "Utility Scale Inverters"
     ]
-   }          
+   },
+   "testimonials": {
+    "heading":"Customers Demanding Change",
+    "subHeading":"Testimonials",
+    "desc":"Now more than ever, customers show their appreciation to businesses that divest themselves of disease-causing dirty energy & energy management. SolarCellz USA prides themselves as one of the industry leaders in the county and look forward to bringing their experience and expertise to you.",
+    "cards":[
+      {
+        "name":"John Doe",
+        "comment":"I had Solar Cellz Energy install solar panels on my home, and the process was smooth from start to finish. Their team was professional and answered all my questions. Highly recommend them.",
+        "position":"Manager @ XYZ Company"
+      },
+      {
+        "name":"Myrtle Kempton",
+        "comment":"Switching to Solar Cellz Energy was a game-changer for my family. Not only are we saving money, but we're also contributing to a cleaner environment. Their customer support is top-notch!",
+        "position":"Manager @ ABC Company"
+      },
+      {
+        "name":"Myrtle Kempton",
+        "comment":"Switching to Solar Cellz Energy was a game-changer for my family. Not only are we saving money, but we're also contributing to a cleaner environment. Their customer support is top-notch!",
+        "position":"Manager @ ABC Company"
+      }
+    ]
+   }         
 }
 

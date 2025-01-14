@@ -1,21 +1,17 @@
 import { Star } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
-export default function TestimonialCard({ data }) {
+export default function TestimonialCard({ data, idx }) {
+  const { t } = useTranslation();
   return (
     <div className="m-2 relative group bg-[#dddddd40] overflow-hidden flex flex-col items-start gap-x-6 gap-y-5 rounded-lg border border-gray-200 bg-white p-6 transition-shadow hover:shadow-md lg:flex-row lg:items-center">
       {/* Image Section */}
       <div className="relative w-full overflow-hidden rounded-lg bg-gray-100 lg:h-[200px] lg:w-[200px]">
-        {data?.image ? (
           <img
             src={data?.image}
-            alt={data?.reviewerName || "Reviewer Image"}
+            alt={data?.name}
             className="h-full w-full object-cover"
           />
-        ) : (
-          <div className="flex h-full items-center justify-center text-gray-400">
-            No Image
-          </div>
-        )}
       </div>
 
       {/* Content Section */}
@@ -36,13 +32,13 @@ export default function TestimonialCard({ data }) {
 
         {/* Comment */}
         <p className="mb-4 text-gray-700 leading-relaxed italic">
-          “{data?.comment}”
+          “{t(`testimonials.cards.${idx}.comment`)}”
         </p>
 
         {/* Reviewer Info */}
         <div>
-          <p className="font-semibold text-gray-900">{data?.reviewerName}</p>
-          <p className="text-sm text-gray-500">{data?.reviewerPosition}</p>
+          <p className="font-semibold text-gray-900">{t(`testimonials.cards.${idx}.name`)}</p>
+          <p className="text-sm text-gray-500">{t(`testimonials.cards.${idx}.position`)}</p>
         </div>
       </div>
 
