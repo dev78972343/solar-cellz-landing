@@ -244,8 +244,37 @@
       "name": "Tragbarer Solar-Generator"
     }
     ]
+ },
+ "teams": {
+  "heading": "Lernen Sie Unser Team Kennen",
+  "subHeading": "Unsere Experten",
+  "members": [
+    {
+      "name": "James Anderson",
+      "position": "Projektmanager"
+    },
+    {
+      "name": "Emma Roberts",
+      "position": "CEO & Gründerin"
+    },
+    {
+      "name": "Michael Johnson",
+      "position": "Marketing Manager"
+    },
+    {
+      "name": "William Davis",
+      "position": "Systemingenieur"
+    },
+    {
+      "name": "Olivia Smith",
+      "position": "Spezialistin für Solartechnologie"
+    },
+    {
+      "name": "Sophia Brown",
+      "position": "Projektmanagerin"
+    }
+  ]
  }
-
 
 }
   

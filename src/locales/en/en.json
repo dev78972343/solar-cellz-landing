@@ -252,6 +252,36 @@
         "name":"Portable Solar Generator"
       }
     ]
+  },
+  "teams":{
+    "heading":"Meet Our Team",
+    "subHeading":"Our Experts",
+    "members":[
+      {
+       "name":"James Anderson",
+       "position":"Project Manager"
+      },
+      {
+        "name":"Emma Roberts",
+        "position":"CEO & Founder"
+      },
+      {
+        "name":"Michael Johnson",
+        "position":"Marketing Manager"
+      },
+      {
+        "name":"William Davis",
+        "position":"System Engineer"
+      },
+      {
+        "name":"Olivia Smith",
+        "position":"Solar Energy Specialist"
+      },
+      {
+        "name":"Sophia Brown",
+        "position":"Project Manager"
+      }
+    ]
   }
 }
 

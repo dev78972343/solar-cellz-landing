@@ -245,6 +245,35 @@
       "name": "Generador Solar Portátil"
     }
   ]
+ },
+ "teams": {
+  "heading": "Conoce a Nuestro Equipo",
+  "subHeading": "Nuestros Expertos",
+  "members": [
+    {
+      "name": "James Anderson",
+      "position": "Gerente de Proyecto"
+    },
+    {
+      "name": "Emma Roberts",
+      "position": "CEO y Fundadora"
+    },
+    {
+      "name": "Michael Johnson",
+      "position": "Gerente de Marketing"
+    },
+    {
+      "name": "William Davis",
+      "position": "Ingeniero de Sistemas"
+    },
+    {
+      "name": "Olivia Smith",
+      "position": "Especialista en Energía Solar"
+    },
+    {
+      "name": "Sophia Brown",
+      "position": "Gerente de Proyecto"
+    }
+  ]
  }
-
 }
