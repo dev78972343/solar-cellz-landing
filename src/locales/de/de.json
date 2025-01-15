@@ -44,7 +44,141 @@
           "Kontakt"
         ]
       },
-      "sidenav": {}
+      "sidenav": {
+        "heading": "Hallo",
+        "signin": "Anmelden",
+        "menus": [
+          {
+            "title": "Solarprodukte und -dienstleistungen",
+            "items": [
+              {
+                "label": "Solarbetrieb und -wartung",
+                "subItems": [
+                  { "label": "Standorterfassung" },
+                  { "label": "Fernbetrieb" },
+                  { "label": "Leistungsoptimierung" },
+                  { "label": "Vorbeugende und korrigierende Wartung" },
+                  { "label": "Drohneninspektion" },
+                  { "label": "Vegetationsmanagement" },
+                  { "label": "Technische Unterstützung" },
+                  { "label": "Kommerzielle Produkte" }
+                ]
+              },
+              {
+                "label": "Solarmodule",
+                "subItems": [
+                  { "label": "Monokristalline Solarmodule" },
+                  { "label": "Polykristalline Solarmodule" },
+                  { "label": "Dünnschicht-Solarmodule" },
+                  { "label": "PERC-Solarmodule" },
+                  { "label": "Bifaziale Solarmodule" },
+                  { "label": "Gebäudeintegrierte Solarmodule" },
+                  { "label": "Konzentrierte Solarmodule" },
+                  { "label": "Hybride Solarmodule" }
+                ]
+              },
+              {
+                "label": "Solar-Montagesysteme",
+                "subItems": [
+                  { "label": "Dachmontagesysteme" },
+                  { "label": "Bodenmontagesysteme" },
+                  { "label": "Poly-Montagesysteme" },
+                  { "label": "Hybrid-Montagesysteme" },
+                  { "label": "Schwimmende Montagesysteme" },
+                  { "label": "Solar-Carport-Montagesysteme" },
+                  { "label": "Solardachziegel" },
+                  { "label": "Solar-Nachführsysteme" },
+                  { "label": "Solardach-Montagesysteme" }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Energielösungen",
+            "items": [
+              {
+                "label": "Solarbatterien",
+                "subItems": [
+                  { "label": "Lithium-Ionen-Batterien (Li-Ion)" },
+                  { "label": "Mikrowechselrichter" },
+                  { "label": "Blei-Säure-Batterien" },
+                  { "label": "Salzwasserbatterien" },
+                  { "label": "Flussbatterien" },
+                  { "label": "Nickel-Cadmium-Batterien (NiCd)" },
+                  { "label": "Lithium-Eisenphosphat-Batterien (LiFePO4)" },
+                  { "label": "Zink-Luft-Batterien" }
+                ]
+              },
+              {
+                "label": "Solar-Wechselrichter",
+                "subItems": [
+                  { "label": "String-Wechselrichter" },
+                  { "label": "Mikrowechselrichter" },
+                  { "label": "Leistungsoptimierer" },
+                  { "label": "Zentrale Wechselrichter" },
+                  { "label": "Hybrid-Wechselrichter" },
+                  { "label": "Netzgebundene Wechselrichter" },
+                  { "label": "Dreiphasen-Wechselrichter" },
+                  { "label": "Hybrid-DC-AC-Wechselrichter" }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Werkzeuge, Ausrüstung und Sicherheit",
+            "items": [
+              {
+                "label": "Solarwerkzeuge",
+                "subItems": [
+                  { "label": "Werkzeuge für die Installation von Solarmodulen" },
+                  { "label": "Elektrische Werkzeuge" },
+                  { "label": "Werkzeuge für Montage- und Befestigungssysteme" },
+                  { "label": "Solarüberwachungswerkzeuge" },
+                  { "label": "Sonstige Werkzeuge" }
+                ]
+              },
+              {
+                "label": "Sicherheit",
+                "subItems": [
+                  { "label": "Persönliche Schutzausrüstung (PSA)" },
+                  { "label": "Fallschutzsysteme" },
+                  { "label": "Elektrische Sicherheitsausrüstung" },
+                  { "label": "Brandschutzausrüstung" },
+                  { "label": "Erste-Hilfe-Ausrüstung" },
+                  { "label": "Arbeitsschutzmaßnahmen" }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Außenanlagen und Outdoor-Leben",
+            "items": [
+              {
+                "label": "Pflastersteine",
+                "subItems": [
+                  { "label": "Betonpflastersteine" },
+                  { "label": "Ziegelpflastersteine" }
+                ]
+              },
+              {
+                "label": "Stützmauern",
+                "subItems": [
+                  { "label": "Block-Stützmauern" },
+                  { "label": "Natursteinmauern" }
+                ]
+              },
+              {
+                "label": "Outdoor-Leben",
+                "subItems": [
+                  { "label": "Feuerstellen" },
+                  { "label": "Außenküchen" }
+                ]
+              }
+            ]
+          }
+        ]
+ }
+
     },  
     "hero": {
       "1": {

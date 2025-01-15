@@ -52,7 +52,7 @@ export function HeaderBottom() {
               <div className="flex w-full items-center gap-4 bg-dark-blue-400 px-6 py-2 text-white">
                 <AccountCircleIcon />
                 <h3 className="font-titleFont text-lg font-bold tracking-wide">
-                  Hello, Sign In
+                  {t("navbar.sidenav.heading")}, {t("navbar.sidenav.signin")}
                 </h3>
               </div>
 

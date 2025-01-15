@@ -44,7 +44,140 @@
           "Contactez-nous"
         ]
       },
-      "sidenav": {}
+        "sidenav": {
+            "heading": "Bonjour",
+            "signin": "Se Connecter",
+            "menus": [
+              {
+                "title": "Produits et Services Solaires",
+                "items": [
+                  {
+                    "label": "Exploitation et Maintenance Solaires",
+                    "subItems": [
+                      { "label": "Capture de site" },
+                      { "label": "Opérations à distance" },
+                      { "label": "Ingénierie de performance" },
+                      { "label": "Maintenance préventive et corrective" },
+                      { "label": "Inspection par drone" },
+                      { "label": "Gestion de la végétation" },
+                      { "label": "Support technique" },
+                      { "label": "Produits commerciaux" }
+                    ]
+                  },
+                  {
+                    "label": "Panneaux Solaires",
+                    "subItems": [
+                      { "label": "Panneaux solaires monocristallins" },
+                      { "label": "Panneaux solaires polycristallins" },
+                      { "label": "Panneaux solaires à film mince" },
+                      { "label": "Panneaux solaires PERC" },
+                      { "label": "Panneaux solaires bifaces" },
+                      { "label": "Panneaux solaires intégrés aux bâtiments" },
+                      { "label": "Panneaux solaires concentrés" },
+                      { "label": "Panneaux solaires hybrides" }
+                    ]
+                  },
+                  {
+                    "label": "Approvisionnement en Supports Solaires",
+                    "subItems": [
+                      { "label": "Supports pour toit" },
+                      { "label": "Supports au sol" },
+                      { "label": "Supports polymères" },
+                      { "label": "Supports hybrides" },
+                      { "label": "Supports flottants" },
+                      { "label": "Supports de carport solaire" },
+                      { "label": "Tuiles solaires" },
+                      { "label": "Suivi solaire" },
+                      { "label": "Supports montés sur toit" }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Solutions Énergétiques",
+                "items": [
+                  {
+                    "label": "Batteries d'Énergie Solaire",
+                    "subItems": [
+                      { "label": "Batteries Lithium-ion (li-ion)" },
+                      { "label": "Micro-onduleurs" },
+                      { "label": "Batteries au plomb-acide" },
+                      { "label": "Batteries à eau salée" },
+                      { "label": "Batteries à flux" },
+                      { "label": "Batteries Nickel-Cadmium (NiCd)" },
+                      { "label": "Batteries Lithium Fer Phosphate (LiFePO4)" },
+                      { "label": "Batteries Zinc-Air" }
+                    ]
+                  },
+                  {
+                    "label": "Onduleurs Solaires",
+                    "subItems": [
+                      { "label": "Onduleurs en chaîne" },
+                      { "label": "Micro-onduleurs" },
+                      { "label": "Optimiseurs de puissance" },
+                      { "label": "Onduleurs centraux" },
+                      { "label": "Onduleurs hybrides" },
+                      { "label": "Onduleurs raccordés au réseau" },
+                      { "label": "Onduleurs triphasés" },
+                      { "label": "Onduleurs hybrides DC-AC" }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Outils, Équipements et Sécurité",
+                "items": [
+                  {
+                    "label": "Outils d'Énergie Solaire",
+                    "subItems": [
+                      { "label": "Outils d'installation de panneaux solaires" },
+                      { "label": "Outils électriques" },
+                      { "label": "Outils de support et de montage solaires" },
+                      { "label": "Outils de surveillance solaire" },
+                      { "label": "Outils divers" }
+                    ]
+                  },
+                  {
+                    "label": "Sécurité",
+                    "subItems": [
+                      { "label": "Équipement de protection individuelle (EPI)" },
+                      { "label": "Équipement de protection contre les chutes" },
+                      { "label": "Équipement de sécurité électrique" },
+                      { "label": "Équipement de sécurité incendie" },
+                      { "label": "Équipement de premiers secours" },
+                      { "label": "Mesures de sécurité sur le site" }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Aménagements Extérieurs et Vie en Plein Air",
+                "items": [
+                  {
+                    "label": "Pavés",
+                    "subItems": [
+                      { "label": "Pavés en béton" },
+                      { "label": "Pavés en briques" }
+                    ]
+                  },
+                  {
+                    "label": "Murs de Soutènement",
+                    "subItems": [
+                      { "label": "Murs de soutènement en blocs" },
+                      { "label": "Murs en pierres naturelles" }
+                    ]
+                  },
+                  {
+                    "label": "Vie en Plein Air",
+                    "subItems": [
+                      { "label": "Foyers extérieurs" },
+                      { "label": "Cuisines extérieures" }
+                    ]
+                  }
+                ]
+              }
+            ]
+        }      
     },  
     "hero": {
       "1": {

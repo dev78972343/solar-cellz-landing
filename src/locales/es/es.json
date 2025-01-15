@@ -45,8 +45,141 @@
             "Contacto"
           ]
         },
-        "sidenav": {}
-      },    
+        "sidenav": {
+          "heading": "Hola",
+          "signin": "Iniciar Sesión",
+          "menus": [
+            {
+              "title": "Productos y Servicios Solares",
+              "items": [
+                {
+                  "label": "Operación y Mantenimiento Solar",
+                  "subItems": [
+                    { "label": "Captura del sitio" },
+                    { "label": "Operaciones remotas" },
+                    { "label": "Ingeniería de rendimiento" },
+                    { "label": "Mantenimiento preventivo y correctivo" },
+                    { "label": "Inspección con drones" },
+                    { "label": "Gestión de vegetación" },
+                    { "label": "Soporte técnico" },
+                    { "label": "Productos comerciales" }
+                  ]
+                },
+                {
+                  "label": "Paneles Solares",
+                  "subItems": [
+                    { "label": "Paneles solares monocristalinos" },
+                    { "label": "Paneles solares policristalinos" },
+                    { "label": "Paneles solares de capa delgada" },
+                    { "label": "Paneles solares PERC" },
+                    { "label": "Paneles solares bifaciales" },
+                    { "label": "Paneles solares integrados en edificios" },
+                    { "label": "Paneles solares concentrados" },
+                    { "label": "Paneles solares híbridos" }
+                  ]
+                },
+                {
+                  "label": "Suministro de Estructuras Solares",
+                  "subItems": [
+                    { "label": "Estructuras para techos" },
+                    { "label": "Estructuras para suelo" },
+                    { "label": "Estructuras de polímero" },
+                    { "label": "Estructuras híbridas" },
+                    { "label": "Estructuras flotantes" },
+                    { "label": "Estructuras para cocheras solares" },
+                    { "label": "Tejas solares" },
+                    { "label": "Seguimiento solar" },
+                    { "label": "Estructuras montadas en techo" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Soluciones Energéticas",
+              "items": [
+                {
+                  "label": "Baterías Solares",
+                  "subItems": [
+                    { "label": "Baterías de iones de litio (li-ion)" },
+                    { "label": "Microinversores" },
+                    { "label": "Baterías de plomo-ácido" },
+                    { "label": "Baterías de agua salada" },
+                    { "label": "Baterías de flujo" },
+                    { "label": "Baterías de níquel-cadmio (NiCd)" },
+                    { "label": "Baterías de fosfato de hierro y litio (LiFePO4)" },
+                    { "label": "Baterías de zinc-aire" }
+                  ]
+                },
+                {
+                  "label": "Inversores Solares",
+                  "subItems": [
+                    { "label": "Inversores en cadena" },
+                    { "label": "Microinversores" },
+                    { "label": "Optimizadores de potencia" },
+                    { "label": "Inversores centrales" },
+                    { "label": "Inversores híbridos" },
+                    { "label": "Inversores conectados a la red" },
+                    { "label": "Inversores trifásicos" },
+                    { "label": "Inversores híbridos DC-AC" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Herramientas, Equipos y Seguridad",
+              "items": [
+                {
+                  "label": "Herramientas Solares",
+                  "subItems": [
+                    { "label": "Herramientas para la instalación de paneles solares" },
+                    { "label": "Herramientas eléctricas" },
+                    { "label": "Herramientas de montaje y soporte solar" },
+                    { "label": "Herramientas de monitoreo solar" },
+                    { "label": "Otras herramientas" }
+                  ]
+                },
+                {
+                  "label": "Seguridad",
+                  "subItems": [
+                    { "label": "Equipo de protección personal (EPP)" },
+                    { "label": "Equipo de protección contra caídas" },
+                    { "label": "Equipo de seguridad eléctrica" },
+                    { "label": "Equipo de seguridad contra incendios" },
+                    { "label": "Equipo de primeros auxilios" },
+                    { "label": "Medidas de seguridad en el sitio" }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Jardinería y Vida al Aire Libre",
+              "items": [
+                {
+                  "label": "Adoquines",
+                  "subItems": [
+                    { "label": "Adoquines de concreto" },
+                    { "label": "Adoquines de ladrillo" }
+                  ]
+                },
+                {
+                  "label": "Muros de Contención",
+                  "subItems": [
+                    { "label": "Muros de contención de bloques" },
+                    { "label": "Muros de piedra natural" }
+                  ]
+                },
+                {
+                  "label": "Vida al Aire Libre",
+                  "subItems": [
+                    { "label": "Hogares al aire libre" },
+                    { "label": "Cocinas al aire libre" }
+                  ]
+                }
+              ]
+            }
+          ]
+      } 
+},    
     "hero": {
       "1": {
         "title": "Revoluciona Tu Consumo de Energía",

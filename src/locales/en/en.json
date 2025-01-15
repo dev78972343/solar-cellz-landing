@@ -117,7 +117,140 @@
         "Contact Us"
       ]
     },
-    "sidenav":{}
+    "sidenav":{
+      "heading":"Hello",
+      "signin":"Sign In",
+        "menus": [
+          {
+            "title": "Solar Products & Services",
+            "items": [
+              {
+                "label": "Solar Operation & Maintenance",
+                "subItems": [
+                  { "label": "Site capture" },
+                  { "label": "Remote Operations" },
+                  { "label": "Performance Engineering" },
+                  { "label": "Preventive and corrective maintenance" },
+                  { "label": "Drone Inspection" },
+                  { "label": "Vegetation Management" },
+                  { "label": "Technical Support" },
+                  { "label": "Comertial Products" }
+                ]
+              },
+              {
+                "label": "Solar Panels",
+                "subItems": [
+                  { "label": "Monocrystalline Solar Panels" },
+                  { "label": "Polycrystalline Solar Panels" },
+                  { "label": "Thin Film Solar Panels" },
+                  { "label": "PERC Solar Panels" },
+                  { "label": "Bifasics Solar Panels" },
+                  { "label": "Building-Integrated Solar Panels" },
+                  { "label": "Concentrated Solar Panels" },
+                  { "label": "Hybrid Solar Panels" }
+                ]
+              },
+              {
+                "label": "Solar Racking Supply",
+                "subItems": [
+                  { "label": "Roof Mount Racking" },
+                  { "label": "Grood Mount Racking" },
+                  { "label": "Poly Mount Racking" },
+                  { "label": "Hybrid Mount Racking" },
+                  { "label": "Floating Solar Racking" },
+                  { "label": "Solar Carport Racking" },
+                  { "label": "Solar Roof Tiles" },
+                  { "label": "Solar Tracking" },
+                  { "label": "Solar Roof Mount" }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Energy Solutions",
+            "items": [
+              {
+                "label": "Solar Energy Batteries",
+                "subItems": [
+                  { "label": "Lithium-lon (li-ion) Batteries" },
+                  { "label": "Microinverters" },
+                  { "label": "Lead Acid Batteries" },
+                  { "label": "SaultWater Batteries" },
+                  { "label": "Flow Batteries" },
+                  { "label": "Nickel-Cadmium (NiCd) Batteries" },
+                  { "label": "Lithium Iron Phosphate (LiFePO4) Batteries" },
+                  { "label": "Zinc-Air Batteries" }
+                ]
+              },
+              {
+                "label": "Solar Energy Inverters",
+                "subItems": [
+                  { "label": "String Inverters" },
+                  { "label": "Microinverters" },
+                  { "label": "Power Optimizers" },
+                  { "label": "Central Inverters" },
+                  { "label": "Hybrid Inverters" },
+                  { "label": "Grid-Tie Inverters" },
+                  { "label": "Three-Phase Inverters" },
+                  { "label": "DC-AC Hybrid Inverters" }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Tools Equipment & Safety",
+            "items": [
+              {
+                "label": "Solar Energy Tools",
+                "subItems": [
+                  { "label": "Solar Panel Installation Tools" },
+                  { "label": "Electrical Tools" },
+                  { "label": "Solar Racking and Mounting Tools" },
+                  { "label": "Solar Monitoring Tools" },
+                  { "label": "Miscellaneous Tools" }
+                ]
+              },
+              {
+                "label": "Safety",
+                "subItems": [
+                  { "label": "Personal Protective Equipment (PPE)" },
+                  { "label": "Fall Protection Equipment" },
+                  { "label": "Electrical Safety Equipment" },
+                  { "label": "Fire Safety Equipment" },
+                  { "label": "First Aid Equipment" },
+                  { "label": "Worksite Safety Measures" }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Hardscapes & Outdoor Living",
+            "items": [
+              {
+                "label": "Pavers",
+                "subItems": [
+                  { "label": "Concreate Pavers" },
+                  { "label": "Brick Pavers" }
+                ]
+              },
+              {
+                "label": "Retaining Walls",
+                "subItems": [
+                  { "label": "Block Retaining Walls" },
+                  { "label": "Natural Stone Walls" }
+                ]
+              },
+              {
+                "label": "Outdoor Living",
+                "subItems": [
+                  { "label": "Fire Pits" },
+                  { "label": "Outdoor Kitchens" }
+                ]
+              }
+            ]
+          }
+        ]
+      }      
   },
   "hero": {
     "1": {
