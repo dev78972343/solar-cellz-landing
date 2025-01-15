@@ -338,6 +338,76 @@
           }
         ]
       }
-    }
+    },
+      "footer": {
+        "logoAltText":"Logo",
+        "subscribeInputPlaceholder": "Enter your email address",
+        "subscribeButton": "Subscribe",
+        "companyService": {
+          "title": "Company Service",
+          "links": [
+            "Contact Us",
+            "Direct Sales",
+            "Returns",
+            "Privacy Policy",
+            "Manufacturers",
+            "Request an Online Account",
+            "Testimonials",
+            "Accessibility Statement",
+            "Mobile App"
+          ]
+        },
+        "solarElectricalContractorServices": {
+          "title": "Solar Electrical Contractor Services",
+          "links": [
+            "About Us",
+            "Engineer Design Services",
+            "Line of Credit",
+            "Solar Cellz W-9 Form",
+            "Green Technology",
+            "Solar Energy Direct",
+            "Supplier Self Service Portal",
+            "Partners Program"
+          ]
+        },
+        "toolsResources": {
+          "title": "Tools & Resources",
+          "links": [
+            "Online Store",
+            "Business Resource",
+            "Multimeter Calibration Settings",
+            "Events",
+            "Homeowners",
+            "Installation Manual Search",
+            "Solar Energy Learning Center",
+            "Storage Products",
+            "Installation Video Series",
+            "Solar Project Calculators",
+            "Solar System Maintenance Calendars"
+          ]
+        },
+        "companyInfo": {
+          "title": "Company Info",
+          "links": [
+            "Investor Relations",
+            "Careers",
+            "Franchised Manufacturers",
+            "Financing",
+            "Terms & Conditions"
+          ]
+        },
+        "downloadApp": {
+          "title": "Download Our App",
+          "badges": [
+            {
+              "platform": "Play Store"
+            },
+            {
+              "platform": "App Store"
+            }
+          ]
+        },
+        "copyright": "Solar Cellz USA, ALL RIGHTS RESERVED."
+      }    
   }
 

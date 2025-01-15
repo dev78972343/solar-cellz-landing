@@ -331,5 +331,75 @@
         }
       ]
     }
-  }
+  },
+    "footer": {
+      "logoAltText": "Logo",
+      "subscribeInputPlaceholder": "Ingresa tu correo electrónico",
+      "subscribeButton": "Suscribirse",
+      "companyService": {
+        "title": "Servicio de la Empresa",
+        "links": [
+          "Contáctanos",
+          "Ventas Directas",
+          "Devoluciones",
+          "Política de Privacidad",
+          "Fabricantes",
+          "Solicitar una Cuenta en Línea",
+          "Testimonios",
+          "Declaración de Accesibilidad",
+          "Aplicación Móvil"
+        ]
+      },
+      "solarElectricalContractorServices": {
+        "title": "Servicios del Contratista Eléctrico Solar",
+        "links": [
+          "Sobre Nosotros",
+          "Servicios de Diseño de Ingenieros",
+          "Línea de Crédito",
+          "Formulario W-9 de Solar Cellz",
+          "Tecnología Verde",
+          "Energía Solar Directa",
+          "Portal de Autoservicio para Proveedores",
+          "Programa de Socios"
+        ]
+      },
+      "toolsResources": {
+        "title": "Herramientas y Recursos",
+        "links": [
+          "Tienda en Línea",
+          "Recurso Empresarial",
+          "Configuraciones de Calibración del Multímetro",
+          "Eventos",
+          "Propietarios de Viviendas",
+          "Búsqueda de Manuales de Instalación",
+          "Centro de Aprendizaje de Energía Solar",
+          "Productos de Almacenamiento",
+          "Serie de Videos de Instalación",
+          "Calculadoras de Proyectos Solares",
+          "Calendarios de Mantenimiento de Sistemas Solares"
+        ]
+      },
+      "companyInfo": {
+        "title": "Información de la Empresa",
+        "links": [
+          "Relaciones con Inversores",
+          "Carreras",
+          "Fabricantes Franquiciados",
+          "Financiamiento",
+          "Términos y Condiciones"
+        ]
+      },
+      "downloadApp": {
+        "title": "Descarga Nuestra App",
+        "badges": [
+          {
+            "platform": "Play Store"
+          },
+          {
+            "platform": "App Store"
+          }
+        ]
+      },
+      "copyright": "Solar Cellz USA, TODOS LOS DERECHOS RESERVADOS."
+    }  
 }

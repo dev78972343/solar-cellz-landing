@@ -330,6 +330,76 @@
           }
         ]
       }
-    }
+    },
+        "footer": {
+          "logoAltText": "Logo",
+          "subscribeInputPlaceholder": "Geben Sie Ihre E-Mail-Adresse ein",
+          "subscribeButton": "Abonnieren",
+          "companyService": {
+            "title": "Unternehmensservice",
+            "links": [
+              "Kontaktieren Sie uns",
+              "Direktverkauf",
+              "Rücksendungen",
+              "Datenschutzbestimmungen",
+              "Hersteller",
+              "Fordern Sie ein Online-Konto an",
+              "Kundenerfahrungen",
+              "Erklärung zur Barrierefreiheit",
+              "Mobile App"
+            ]
+          },
+          "solarElectricalContractorServices": {
+            "title": "Solar Elektriker Dienstleistungen",
+            "links": [
+              "Über uns",
+              "Ingenieurdienstleistungen",
+              "Kreditlinie",
+              "Solar Cellz W-9 Formular",
+              "Grüne Technologie",
+              "Direkte Solarenergie",
+              "Self-Service-Portal für Lieferanten",
+              "Partnerprogramm"
+            ]
+          },
+          "toolsResources": {
+            "title": "Werkzeuge & Ressourcen",
+            "links": [
+              "Online-Shop",
+              "Geschäftsressourcen",
+              "Multimeter-Kalibrierungseinstellungen",
+              "Veranstaltungen",
+              "Hausbesitzer",
+              "Installationshandbuch-Suche",
+              "Solarenergie-Lernzentrum",
+              "Speicherprodukte",
+              "Installationsvideo-Serie",
+              "Solarprojekt-Rechner",
+              "Wartungskalender für Solarsysteme"
+            ]
+          },
+          "companyInfo": {
+            "title": "Unternehmensinformationen",
+            "links": [
+              "Investor Relations",
+              "Karriere",
+              "Franchisenehmer",
+              "Finanzierung",
+              "Allgemeine Geschäftsbedingungen"
+            ]
+          },
+          "downloadApp": {
+            "title": "Laden Sie unsere App herunter",
+            "badges": [
+              {
+                "platform": "Play Store"
+              },
+              {
+                "platform": "App Store"
+              }
+            ]
+          },
+          "copyright": "Solar Cellz USA, ALLE RECHTE VORBEHALTEN."
+        }      
 }
   
