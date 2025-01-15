@@ -1,5 +1,51 @@
 {
-    "navbar": {},
+    "navbar": {
+      "topnav": {
+        "logoAltText": "Logo",
+        "search": {
+          "placeholder": "Suchen...",
+          "all": "Alle",
+          "menus": []
+        },
+        "account": {
+          "hello": "Hallo",
+          "signin": "Anmelden",
+          "signup": "Registrieren",
+          "title": "Konten & Listen"
+        },
+        "cart": {
+          "title": "Warenkorb"
+        }
+      },
+      "bottomnav": {
+        "all": "Alle",
+        "btn": "Barrierefreiheit aktivieren",
+        "language": [
+          "Englisch",
+          "Spanisch",
+          "Französisch",
+          "Deutsch"
+        ],
+        "dropdownitems": [
+          {
+            "title": "Partnerprogramm",
+            "items": ["Meine Punkte anzeigen", "Programmübersicht", "Programmbegünstigungen"]
+          },
+          {
+            "title": "Mein Konto",
+            "items": ["Kontodashboard", "Wieder kaufen", "Meine Bestellungen"]
+          }
+        ],
+        "links": [
+          "Filiale finden",
+          "Liste",
+          "Veranstaltungen",
+          "Karriere",
+          "Kontakt"
+        ]
+      },
+      "sidenav": {}
+    },  
     "hero": {
       "1": {
         "title": "Revolutioniere Deinen Energieverbrauch",

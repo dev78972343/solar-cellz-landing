@@ -1,5 +1,51 @@
 {
-    "navbar": {},
+    "navbar": {
+      "topnav": {
+        "logoAltText": "Logo",
+        "search": {
+          "placeholder": "Rechercher...",
+          "all": "Tout",
+          "menus": []
+        },
+        "account": {
+          "hello": "Bonjour",
+          "signin": "Se connecter",
+          "signup": "S'inscrire",
+          "title": "Comptes et Listes"
+        },
+        "cart": {
+          "title": "Panier"
+        }
+      },
+      "bottomnav": {
+        "all": "Tout",
+        "btn": "Activer l'accessibilité",
+        "language": [
+          "Anglais",
+          "Espagnol",
+          "Français",
+          "Allemand"
+        ],
+        "dropdownitems": [
+          {
+            "title": "Programme Partenaires",
+            "items": ["Voir mes points", "Présentation du programme", "Avantages du programme"]
+          },
+          {
+            "title": "Mon Compte",
+            "items": ["Tableau de bord du compte", "Acheter à nouveau", "Mes commandes"]
+          }
+        ],
+        "links": [
+          "Trouver une agence",
+          "Liste",
+          "Événements",
+          "Carrières",
+          "Contactez-nous"
+        ]
+      },
+      "sidenav": {}
+    },  
     "hero": {
       "1": {
         "title": "Révolutionnez Votre Consommation Énergétique",

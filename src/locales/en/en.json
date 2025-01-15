@@ -1,5 +1,124 @@
 {
-  "navbar": {},
+  "navbar": {
+    "topnav":{
+      "logoAltText":"Logo",
+      "search":{
+        "placeholder":"Search...",
+        "all":"All",
+        "menus":[]
+      },
+        "allmenus": [
+          "Solar Products & Services",
+          "Solar Operation & Maintenance",
+          "Site capture",
+          "Remote Operations",
+          "Performance Engineering",
+          "Preventive and corrective maintenance",
+          "Drone Inspection",
+          "Vegetation Management",
+          "Technical Support",
+          "Comertial Products",
+          "Solar Panels",
+          "Monocrystalline Solar Panels",
+          "Polycrystalline Solar Panels",
+          "Thin Film Solar Panels",
+          "PERC Solar Panels",
+          "Bifasics Solar Panels",
+          "Building-Integrated Solar Panels",
+          "Concentrated Solar Panels",
+          "Hybrid Solar Panels",
+          "Solar Racking Supply",
+          "Roof Mount Racking",
+          "Grood Mount Racking",
+          "Poly Mount Racking",
+          "Hybrid Mount Racking",
+          "Floating Solar Racking",
+          "Solar Carport Racking",
+          "Solar Roof Tiles",
+          "Solar Tracking",
+          "Solar Roof Mount",
+          "Energy Solutions",
+          "Solar Energy Batteries",
+          "Lithium-lon (li-ion) Batteries",
+          "Microinverters",
+          "Lead Acid Batteries",
+          "SaultWater Batteries",
+          "Flow Batteries",
+          "Nickel-Cadmium (NiCd) Batteries",
+          "Lithium Iron Phosphate (LiFePO4) Batteries",
+          "Zinc-Air Batteries",
+          "Solar Energy Inverters",
+          "String Inverters",
+          "Power Optimizers",
+          "Central Inverters",
+          "Hybrid Inverters",
+          "Grid-Tie Inverters",
+          "Three-Phase Inverters",
+          "DC-AC Hybrid Inverters",
+          "Tools Equipment & Safety",
+          "Solar Energy Tools",
+          "Solar Panel Installation Tools",
+          "Electrical Tools",
+          "Solar Racking and Mounting Tools",
+          "Solar Monitoring Tools",
+          "Miscellaneous Tools",
+          "Safety",
+          "Personal Protective Equipment (PPE)",
+          "Fall Protection Equipment",
+          "Electrical Safety Equipment",
+          "Fire Safety Equipment",
+          "First Aid Equipment",
+          "Worksite Safety Measures",
+          "Hardscapes & Outdoor Living",
+          "Pavers",
+          "Concreate Pavers",
+          "Brick Pavers",
+          "Retaining Walls",
+          "Block Retaining Walls",
+          "Natural Stone Walls",
+          "Outdoor Living",
+          "Fire Pits",
+          "Outdoor Kitchens"
+        ],      
+      "account":{
+        "hello":"Hello",
+        "signin":"Sign In",
+        "signup":"Sign Up",
+        "title":"Accounts & Lists"
+      },
+      "cart":{
+        "title":"Cart"
+      }
+    },
+    "bottomnav":{
+      "all":"All",
+      "btn":"Enable Accessibility",
+      "language":[
+        "English",
+        "Spanish",
+        "French",
+        "German"
+      ],
+      "dropdownitems":[
+        {
+          "title":"Partners Program",
+          "items":["See My Points","Program Overview","Program Perks"]
+        },
+        {
+          "title":"My Account",
+          "items":["Account Dashboard","Buy Again","My Orders"]
+        }
+      ],
+      "links":[
+        "Find a Branch",
+        "List",
+        "Events",
+        "Careers",
+        "Contact Us"
+      ]
+    },
+    "sidenav":{}
+  },
   "hero": {
     "1": {
       "title": "Revolutionize Your Energy Consumption",

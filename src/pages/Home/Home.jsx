@@ -14,10 +14,7 @@ import "../../css/embla.css";
 import Stats from "@/components/Home/Stats/Stats";
 import About3 from "@/components/Home/About2/About3";
 import Hero from "@/components/Home/Hero/Hero2";
-import Header from "@/components/Home/Header/Header";
 import Slider from "@/components/Home/Slider/Slider";
-import { Divide } from "lucide-react";
-import { Separator } from "@/components/ui/separator";
 import Projects2 from "@/components/Home/Projects2/Projects2";
 import Highlights from "@/components/Home/Highlights/Highlights";
 
@@ -47,19 +44,17 @@ export default function Home() {
         <Equipments className="my-10 md:my-28" />
 
         <Testimonials className="my-10 md:my-28" />
+
         <Highlights className="my-10 md:my-28" />
 
-        {/* <Separator /> */}
-
         <Manufacturers className="my-10 md:my-28" />
-
-        {/* <Separator /> */}
 
         <Slider className="my-10 md:my-28" />
        
         <TopSeller className="my-10 md:my-28" />
 
         <Teams className="my-20 lg:my-20" />
+        
         <Demo className="my-10 md:my-28" />
 
         <Contact className="my-10 md:my-28" />

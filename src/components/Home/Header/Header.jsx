@@ -7,8 +7,10 @@ import SearchIcon from "@mui/icons-material/Search";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import ArrowDropDownOutlinedIcon from "@mui/icons-material/ArrowDropDownOutlined";
 import ResponsiveContainer from "@/components/ResponsiveContainer/ResponsiveContainer";
+import { useTranslation } from "react-i18next";
 
 export default function Header() {
+  const { t } = useTranslation();
   const [showAll, setShowAll] = useState(false);
   const dropdownRef = useRef(null);
 
@@ -37,10 +39,10 @@ export default function Header() {
           <img
             className="mt-2 w-full min-w-[100px] max-w-48"
             src={logo}
-            alt="logo"
+            alt={t("navbar.topnav.logoAltText")}
           />
         </div>
-        <img className="md:hidden w-12" src={smLogo} alt="logo" />
+        <img className="md:hidden w-12" src={smLogo} alt={t("navbar.topnav.logoAltText")}/>
         </a>
         {/* ============ Image End here ================== */}
         
@@ -49,9 +51,9 @@ export default function Header() {
           {/* Dropdown Button */}
           <span
             onClick={() => setShowAll(!showAll)}
-            className="flex w-14 cursor-pointer items-center px-1.5 justify-center rounded-bl-md rounded-tl-md bg-gray-100 text-sm text-dark-blue-500 hover:bg-gray-200 duration-200"
+            className="flex w-16 cursor-pointer items-center px-1.5 justify-center rounded-bl-md rounded-tl-md bg-gray-100 text-sm text-dark-blue-500 hover:bg-gray-200 duration-200"
           >
-            All
+            {t("navbar.topnav.search.all")}
             <ArrowDropDownOutlinedIcon />
           </span>
 
@@ -63,12 +65,12 @@ export default function Header() {
               onClick={(e) => e.stopPropagation()} 
               onWheel={(e) => e.stopPropagation()} 
             >
-              {allItems.map((item) => (
+              {allItems.map((item, idx) => (
                 <li
                   key={item.id}
                   className="cursor-pointer rounded-md px-2 py-1 text-sm text-gray-700 hover:bg-gray-100 hover:text-dark-blue-500"
                 >
-                  {item.label}
+                  {t(`navbar.topnav.allmenus.${idx}`)}
                 </li>
               ))}
             </ul>
@@ -77,7 +79,7 @@ export default function Header() {
           <input
             className="h-full w-full flex-grow border-none px-2 text-base text-dark-blue-500 outline-none"
             type="text"
-            placeholder="Search..."
+            placeholder={t("navbar.topnav.search.placeholder")}
           />
           <span className="flex shrink-0 h-full w-10 md:w-12 cursor-pointer items-center justify-center rounded-br-md rounded-tr-md bg-primary-button-gradient text-white duration-300">
             <SearchIcon />
@@ -88,9 +90,9 @@ export default function Header() {
         {/* ============ Signin Start here =============== */}
         <div className="flex items-center gap-2">
           <div className="headerHover hidden flex-col items-start justify-center md:flex">
-            <p className="text-xs font-light text-lightText">Hello, sign in</p>
+            <p className="text-xs font-light text-lightText">{t("navbar.topnav.account.hello")}, {t("navbar.topnav.account.signin")}</p>
             <p className="-mt-1 text-sm font-semibold text-whiteText">
-              Accounts & Lists{" "}
+              {t("navbar.topnav.account.title")}
               <span>
                 <ArrowDropDownOutlinedIcon />
               </span>
@@ -102,7 +104,7 @@ export default function Header() {
           <div className="headerHover relative flex items-start justify-center">
             <ShoppingCartIcon />
             <p className="mt-3 text-xs font-semibold text-whiteText">
-              Cart{" "}
+             {t("navbar.topnav.cart.title")}
               <span className="absolute -top-1 left-6 flex h-4 items-center justify-center rounded-full bg-[#f3a847] p-1 text-xs font-semibold text-dark-blue-500">
                 0
               </span>

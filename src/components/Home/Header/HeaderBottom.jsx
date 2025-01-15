@@ -8,8 +8,10 @@ import { NestedSideNavContent } from "./NestedSideNavContent";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import ResponsiveContainer from "@/components/ResponsiveContainer/ResponsiveContainer";
 import TopNavMenu from "@/components/shared/Navbar/_components/TopNavMenu";
+import { useTranslation } from "react-i18next";
 
 export function HeaderBottom() {
+  const { t } = useTranslation();
   const ref = useRef();
   const [sidebar, setSidebar] = useState(false);
   const [activeMenu, setActiveMenu] = useState(null);
@@ -32,7 +34,7 @@ export function HeaderBottom() {
           className="headerHover flex items-center gap-1 cursor-pointer"
         >
           <MenuIcon />
-          All
+         {t("navbar.bottomnav.all")}
         </li>
         <TopNavMenu/>
       </ul>

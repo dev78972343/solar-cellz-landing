@@ -1,6 +1,52 @@
 
   {
-    "navbar": {},
+      "navbar": {
+        "topnav": {
+          "logoAltText": "Logo",
+          "search": {
+            "placeholder": "Buscar...",
+            "all": "Todo",
+            "menus": []
+          },
+          "account": {
+            "hello": "Hola",
+            "signin": "Iniciar sesión",
+            "signup": "Registrarse",
+            "title": "Cuentas y Listas"
+          },
+          "cart": {
+            "title": "Carrito"
+          }
+        },
+        "bottomnav": {
+          "all": "Todo",
+          "btn": "Habilitar accesibilidad",
+          "language": [
+            "Inglés",
+            "Español",
+            "Francés",
+            "Alemán"
+          ],
+          "dropdownitems": [
+            {
+              "title": "Programa de socios",
+              "items": ["Ver mis puntos", "Resumen del programa", "Beneficios del programa"]
+            },
+            {
+              "title": "Mi cuenta",
+              "items": ["Panel de control de la cuenta", "Comprar nuevamente", "Mis pedidos"]
+            }
+          ],
+          "links": [
+            "Encontrar una sucursal",
+            "Lista",
+            "Eventos",
+            "Carreras",
+            "Contacto"
+          ]
+        },
+        "sidenav": {}
+      },    
     "hero": {
       "1": {
         "title": "Revoluciona Tu Consumo de Energía",

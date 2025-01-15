@@ -16,6 +16,7 @@ import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { useLanguages } from "@/hook/useLanguage";
 import { LANGUAGES } from "@/constants/supported-languages";
+import { useTranslation } from "react-i18next";
 
 // Supported Languages
 const languages = [
@@ -110,6 +111,7 @@ const staticMenuItem = [
 ];
 
 export default function TopNavMenu() {
+  const { t } = useTranslation();
   const [selectedLanguage, setSelectedLanguage] = useState(null); // change language
   const { currentLanguage, changeLanguage } = useLanguages();
 
@@ -125,7 +127,7 @@ export default function TopNavMenu() {
 
   return (
     <div className="mt-0.5 flex-center flex-wrap gap-5">
-      <button className="">Enable Accessibility</button>
+      <button>{t("navbar.bottomnav.btn")}</button>
       <NavigationMenu>
         <NavigationMenuList>
           {/* Language Switcher */}
@@ -136,14 +138,14 @@ export default function TopNavMenu() {
             </NavigationMenuTrigger>
 
             <NavigationMenuContent className="w-fit sm:!min-w-[200px] space-y-1 p-3">
-              {languages.map((language) => (
+              {languages.map((language, idx) => (
                 <button
-                  key={language.value}
+                  key={idx}
                   className="flex-center-start text-nowrap w-full gap-x-2 rounded p-1 text-base hover:bg-slate-100"
                   onClick={() => changeLanguage(language?.value)}
                 >
                   {language.flag}
-                  <span>{language.label}</span>
+                  <span>{t(`navbar.bottomnav.language.${idx}`)}</span>
                 </button>
               ))}
             </NavigationMenuContent>
@@ -151,8 +153,8 @@ export default function TopNavMenu() {
 
           {/* Partners Program + My Account */}
           <div className="hidden sm:flex items-center flex-wrap gap-5">
-          {dropdownMenuItems.map((menuItem) => (
-            <NavigationMenuItem key={menuItem.key}>
+          {dropdownMenuItems.map((menuItem, idx) => (
+            <NavigationMenuItem key={idx}>
               <NavigationMenuTrigger>
                 {menuItem?.labelTrigger}
               </NavigationMenuTrigger>
@@ -175,9 +177,9 @@ export default function TopNavMenu() {
 
 <div className="hidden lg:flex items-center gap-5 ">
       {/* Static Menu Items */}
-      {staticMenuItem.map((item) => (
-        <Link key={item.key} to={item.href}>
-          {item.label}
+      {staticMenuItem.map((item, idx) => (
+        <Link key={idx} to={item.href}>
+          {t(`navbar.bottomnav.links.${idx}`)}
         </Link>
       ))}
     </div>
