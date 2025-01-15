@@ -153,19 +153,19 @@ export default function TopNavMenu() {
 
           {/* Partners Program + My Account */}
           <div className="hidden sm:flex items-center flex-wrap gap-5">
-          {dropdownMenuItems.map((menuItem, idx) => (
-            <NavigationMenuItem key={idx}>
+          {dropdownMenuItems.map((menuItem, pIdx) => (
+            <NavigationMenuItem key={pIdx}>
               <NavigationMenuTrigger>
-                {menuItem?.labelTrigger}
+                {t(`navbar.bottomnav.dropdownitems.${pIdx}.title`)}
               </NavigationMenuTrigger>
               <NavigationMenuContent className="!min-w-[200px] space-y-1 p-3 text-base">
-                {menuItem?.items?.map((item) => (
+                {menuItem?.items?.map((item, cIdx) => (
                   <Link
-                    key={item.key}
+                    key={cIdx}
                     to={item.href}
                     className="flex-center-start w-full gap-x-2 rounded p-1 hover:bg-slate-100"
                   >
-                    {item.label}
+                    {t(`navbar.bottomnav.dropdownitems.${pIdx}.items.${cIdx}`)}
                   </Link>
                 ))}
               </NavigationMenuContent>
