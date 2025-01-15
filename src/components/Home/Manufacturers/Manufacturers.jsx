@@ -73,6 +73,7 @@ import teslaBatteryLogo from "../../../assets/images/manufacturers/Tesla-Battery
 import victronEnergy from "../../../assets/images/manufacturers/Victron-Energy 1.png";
 import wallboxLogo from "../../../assets/images/manufacturers/Wallbox_Logo 1.png";
 import { cn } from "@/lib/utils";
+import { useTranslation } from "react-i18next";
 
 // Manufacturers Logo
 const manufacturersLogos = [
@@ -149,12 +150,13 @@ const manufacturersLogos = [
 ];
 
 export default function Manufacturers({ className }) {
+  const { t } = useTranslation();
   return (
     <div className={cn(className)}>
       <SectionHeader
-        heading="Our Franchised Manufacturer Partners"
-        subHeading="Franchises"
-        desc="Solar Cellz USA is a leading provider of high-quality solar energy solutions, collaborating with a network of trusted franchised manufacturer partners. Together, we innovate and deliver cutting-edge solar products that empower businesses and homeowners to harness sustainable energy efficiently."
+        heading={t("manufacturers.heading")}
+        subHeading={t("manufacturers.subHeading")}
+        desc={t("manufacturers.desc")}
         className="mx-auto w-full px-5 text-center md:w-10/12 md:px-0 lg:w-3/4 2xl:w-2/3"
       />
 
