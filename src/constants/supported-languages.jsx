@@ -1,6 +1,7 @@
 export const LANGUAGES = {
-  enUS: "en-US",
+  de: "de",
+  en: "en",
   es: "es",
-  enCA: "en-CA",
-  frCA: "fr-CA",
+  fr: "fr",
+
 };

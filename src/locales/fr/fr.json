@@ -1,0 +1,219 @@
+{
+    "navbar": {},
+    "hero": {
+      "1": {
+        "title": "Révolutionnez Votre Consommation Énergétique",
+        "description": "Rejoignez le mouvement vers un avenir durable avec des solutions solaires de pointe.",
+        "buttons": ["Commencez à Économiser Maintenant", "Obtenez un Devis Gratuit"]
+      },
+      "2": {
+        "title": "Passez à l'Énergie Propre et Renouvelable",
+        "description": "Découvrez les avantages de l'énergie solaire et réduisez votre empreinte carbone.",
+        "buttons": ["En Savoir Plus", "Commencez Aujourd'hui"]
+      },
+      "3": {
+        "title": "L'Énergie Solaire Simplifiée",
+        "description": "Exploitez la puissance du soleil pour une solution énergétique écologique et rentable.",
+        "buttons": ["Explorer les Solutions", "Voir les Études de Cas"]
+      },
+      "4": {
+        "title": "Automatisation Intelligente et Énergie Solaire",
+        "description": "Intégrez des systèmes intelligents pour optimiser l'utilisation de votre énergie solaire.",
+        "buttons": ["Découvrir l'Automatisation", "Améliorez Votre Maison"]
+      }
+    },
+    "brands": {
+      "title": "Soutenu par des Partenaires Fiables"
+    },
+    "feat": {
+      "1": {
+        "title": "Installation de Panneaux Solaires",
+        "description": "Services efficaces pour l'installation de panneaux solaires, avec des conseils d'experts, de l'évaluation du site à la configuration finale."
+      },
+      "2": {
+        "title": "Stockage de l'Énergie Solaire",
+        "description": "Stockez l'énergie solaire avec des batteries de haute qualité pour garantir une disponibilité d'énergie même la nuit ou par temps nuageux."
+      },
+      "3": {
+        "title": "Maintenance et Support Solaires",
+        "description": "Maintenance régulière et support à la demande pour assurer un fonctionnement optimal de vos systèmes solaires."
+      },
+      "4": {
+        "title": "Optimisation de l'Énergie",
+        "description": "Solutions avancées pour optimiser l'utilisation de l'énergie et réduire les coûts, garantissant une efficacité maximale de votre système solaire."
+      }
+    },
+    "about": {
+      "title": "Solutions Solaires Complètes avec Services de Maintenance",
+      "1": {
+        "title": "Systèmes d'Énergie Solaire",
+        "description": "Réduisez vos coûts énergétiques et augmentez votre indépendance avec des systèmes d'énergie solaire pour les résidences et les entreprises. Profitez de la puissance du soleil pour répondre à vos besoins.",
+        "features": [
+          "Systèmes de Secours Solaires",
+          "Consultation en Énergie Renouvelable",
+          "Intégration de Systèmes Solaires"
+        ],
+        "button": {"text": "En Savoir Plus"}
+      },
+      "2": {
+        "title": "Installation de Panneaux Solaires Résidentiels",
+        "description": "Réduisez vos factures d'électricité et adoptez une énergie durable grâce à notre installation experte de panneaux solaires résidentiels. Nous assurons une configuration efficace pour une conversion maximale de l'énergie.",
+        "features": [
+          "Panneaux à Haute Efficacité",
+          "Réduction des Coûts Énergétiques",
+          "Durabilité à Long Terme"
+        ],
+        "button": {"text": "En Savoir Plus"}
+      },
+      "3": {
+        "title": "Nettoyage de Panneaux Solaires",
+        "description": "Assurez une efficacité maximale de vos panneaux solaires grâce à nos services professionnels de nettoyage. Nous utilisons des agents non toxiques et des méthodes économes en eau pour maintenir vos panneaux propres.",
+        "features": [
+          "Agents de Nettoyage Non Toxiques",
+          "Procédé Économe en Eau",
+          "Protection de la Surface des Panneaux"
+        ],
+        "button": {"text": "En Savoir Plus"}
+      },
+      "4": {
+        "title": "Solutions de Secours Solaire",
+        "description": "Nos solutions de secours solaire offrent une source d'énergie fiable pendant les coupures de courant, garantissant que vous avez toujours accès à l'électricité.",
+        "features": [
+          "Énergie de Secours Fiable",
+          "Intégration Harmonieuse",
+          "Systèmes Personnalisables"
+        ],
+        "button": {"text": "En Savoir Plus"}
+      },
+      "5": {
+        "title": "Consultation en Énergie Solaire",
+        "description": "Nos services de consultation vous aident à évaluer les meilleures solutions d'énergie solaire pour votre maison ou votre entreprise. Obtenez des conseils experts adaptés à vos besoins.",
+        "features": [
+          "Audits d'Efficacité Énergétique",
+          "Solutions Solaires Sur Mesure",
+          "Support Complet"
+        ],
+        "button": {"text": "En Savoir Plus"}
+      },
+      "6": {
+        "title": "Solutions Solaires Commerciales",
+        "description": "Explorez le potentiel de l'énergie solaire pour votre entreprise. Nos solutions commerciales réduisent les coûts opérationnels et contribuent à vos objectifs de durabilité.",
+        "features": [
+          "Installations Commerciales Personnalisées",
+          "Solutions Rentables",
+          "Efficacité Énergétique Accrue"
+        ],
+        "button": {"text": "En Savoir Plus"}
+      }
+    },
+    "tryIt": {
+      "sectionTitle": "Commencez Aujourd'hui",
+      "buttonText": "Demandez une Consultation Gratuite",
+      "introText": "Entamez votre transition vers une énergie propre et renouvelable avec Solar Cellz. Nous offrons des solutions solaires personnalisées pour les maisons et les entreprises.",
+      "cards": {
+        "1": {
+          "title": "Demandez une Consultation Gratuite",
+          "description": "Vous avez besoin de conseils sur les solutions d'énergie solaire pour votre maison ou votre entreprise ? Contactez-nous pour une consultation gratuite et découvrez le meilleur système solaire pour vous.",
+          "buttonText": "Demander une Consultation"
+        },
+        "2": {
+          "title": "Obtenez un Devis Solaire",
+          "description": "Recevez un devis solaire personnalisé basé sur vos besoins énergétiques et votre emplacement. Notre équipe travaillera avec vous pour concevoir une solution optimale pour vos objectifs énergétiques.",
+          "buttonText": "Demander un Devis"
+        }
+      }
+    },
+    "bestCompanySays": {
+      "heading": "Ce Que Disent les Meilleures Entreprises de Nous",
+      "companies": [
+        {
+          "stat": "1M+ $",
+          "description": "Économies Énergétiques Augmentées",
+          "quote": "Solar Cellz a révolutionné notre façon de penser l'énergie durable. Grâce à leur technologie avancée, nous avons réduit nos coûts énergétiques de plus de 30 %.",
+          "author": "Marcus Jones — COO, Sustainable Energy Inc.",
+          "button": "En Savoir Plus"
+        },
+        {
+          "stat": "100+",
+          "description": "Adoption de l'Énergie Verte Améliorée",
+          "quote": "Les solutions innovantes de Solar Cellz ont facilité notre transition vers l'énergie verte. Leurs produits fiables et efficaces ont accéléré nos efforts de durabilité.",
+          "author": "Jenny Thai — Chef des Opérations, GreenTech Solutions",
+          "button": "En Savoir Plus"
+        },
+        {
+          "stat": "40 %",
+          "description": "Croissance Durable par l'Innovation",
+          "quote": "Solar Cellz a transformé nos opérations. Leurs solutions d'énergie renouvelable nous ont aidés à réduire notre empreinte carbone et à augmenter l'efficacité de 40 %.",
+          "author": "CMO, EcoPower Corp.",
+          "button": "En Savoir Plus"
+        }
+      ]
+    },
+    "stats": [
+      {
+        "value": "20+",
+        "title": "Experts en Énergie Solaire",
+        "description": "Nous avons une équipe de plus de 20 ingénieurs solaires spécialisés dans la réparation, l'installation et l'optimisation de systèmes."
+      },
+      {
+        "value": "100 %",
+        "title": "Satisfaction Client",
+        "description": "Notre engagement envers l'excellence nous a valu un taux de satisfaction client de 100 % dans la fourniture de solutions d'énergie renouvelable."
+      },
+      {
+        "value": "5k+",
+        "title": "Installations Réussies",
+        "description": "Avec plus de 5 000 installations réussies de panneaux solaires, nous avons une vaste expérience dans l'offre d'énergie durable et fiable."
+      }
+    ],
+    "equipments": {
+      "heading": "Nous Avons Tout l'Équipement Solaire",
+      "subHeading": "Équipements Solaires",
+      "desc": "Tout ce dont vous avez besoin pour construire un système solaire connecté, déconnecté ou hybride, y compris la recharge des véhicules électriques :",
+      "buttonText": "Explorer",
+      "cards": [
+        "Inverseurs Solaires en Gros",
+        "Banques de Batteries Résidentielles",
+        "Boîtes de Connexion",
+        "Panneaux Solaires",
+        "Chargeurs pour Véhicules Électriques",
+        "Inverseurs à Grande Échelle"
+      ]
+    },
+    "testimonials": {
+      "heading": "Clients Exigeant le Changement",
+      "subHeading": "Témoignages",
+      "desc": "Plus que jamais, les clients apprécient les entreprises qui s'éloignent des énergies sales et nocives. Solar Cellz USA est fier de mener le changement et de mettre son expertise à votre service.",
+      "cards": [
+        {
+          "name": "John Doe",
+          "comment": "J'ai engagé Solar Cellz Energy pour installer des panneaux solaires chez moi et le processus a été fluide du début à la fin. Leur équipe d'experts a tout géré avec professionnalisme et attention aux détails."
+        },
+        {
+          "name": "Jane Smith",
+          "comment": "Grâce à Solar Cellz, j'ai considérablement réduit mes factures d'électricité et je contribue à un avenir plus vert. Je les recommanderais à tout le monde."
+        },
+        {
+          "name": "Michael Brown",
+          "comment": "Solar Cellz a rendu ma transition vers l'énergie solaire incroyablement facile. Leur expertise et leur service client sont de premier ordre."
+        }
+      ]
+    },
+    "highlights": [
+    "✓ Installation experte de panneaux solaires",
+    "✓ Satisfaction client à 100%",
+    "✓ Plus de 20 ans d'expérience",
+    "✓ Solutions de stockage d'énergie solaire haut de gamme",
+    "✓ Stratégies personnalisées d'optimisation de l'énergie",
+    "✓ Entretien et support réguliers des systèmes solaires",
+    "✓ Énergie solaire durable et respectueuse de l'environnement",
+    "✓ Services de réparation complets des systèmes solaires",
+    "✓ Technologie et innovation solaire de pointe",
+    "✓ Alimentation fiable même pendant les journées nuageuses",
+    "✓ Solutions solaires efficaces et rentables",
+    "✓ Installation de systèmes solaires dans diverses industries",
+    "✓ Experts et techniciens solaires de premier plan",
+    "✓ Support client 24/7 pour les solutions d'énergie solaire"
+    ]
+  }
+  

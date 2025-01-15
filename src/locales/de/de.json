@@ -1,0 +1,219 @@
+{
+    "navbar": {},
+    "hero": {
+      "1": {
+        "title": "Revolutioniere Deinen Energieverbrauch",
+        "description": "Schließe Dich der Bewegung für eine nachhaltige Zukunft mit modernsten Solarlösungen an.",
+        "buttons": ["Jetzt sparen", "Kostenlose Beratung anfordern"]
+      },
+      "2": {
+        "title": "Wechsle zu sauberer und erneuerbarer Energie",
+        "description": "Entdecke die Vorteile von Solarenergie und reduziere Deinen CO2-Fußabdruck.",
+        "buttons": ["Mehr erfahren", "Heute starten"]
+      },
+      "3": {
+        "title": "Solarenergie leicht gemacht",
+        "description": "Nutze die Kraft der Sonne für eine umweltfreundliche und kosteneffiziente Energielösung.",
+        "buttons": ["Lösungen erkunden", "Erfolgsgeschichten ansehen"]
+      },
+      "4": {
+        "title": "Intelligente Automatisierung und Solarenergie",
+        "description": "Integriere intelligente Systeme, um die Nutzung Deiner Solarenergie zu optimieren.",
+        "buttons": ["Automatisierung entdecken", "Dein Zuhause verbessern"]
+      }
+    },
+    "brands": {
+      "title": "Liquidität unterstützt durch"
+    },
+    "feat": {
+      "1": {
+        "title": "Installation von Solarpanels",
+        "description": "Effiziente Dienstleistungen für die Installation von Solarpanels, um erneuerbare Energie zu nutzen – von der Standortbewertung bis zur Endkonfiguration."
+      },
+      "2": {
+        "title": "Solarenergiespeicherung",
+        "description": "Speichere Solarenergie mit hochwertigen Batterien, um Energie auch nachts oder bei bewölktem Wetter verfügbar zu haben."
+      },
+      "3": {
+        "title": "Wartung und Support für Solaranlagen",
+        "description": "Regelmäßige Wartung und Unterstützung auf Abruf, um sicherzustellen, dass Deine Solaranlage optimal funktioniert."
+      },
+      "4": {
+        "title": "Energieoptimierung",
+        "description": "Fortschrittliche Lösungen zur Optimierung des Energieverbrauchs und Kostensenkung, um maximale Effizienz Deines Solarsystems zu gewährleisten."
+      }
+    },
+    "about": {
+      "title": "Umfassende Solarlösungen mit Wartungsservices",
+      "1": {
+        "title": "Solarenergiesysteme",
+        "description": "Senke Energiekosten und erhöhe Deine Unabhängigkeit durch die Installation von Solarenergiesystemen für private und geschäftliche Nutzung. Nutze die Kraft der Sonne für Deine Bedürfnisse.",
+        "features": [
+          "Solar-Backup-Systeme",
+          "Beratung für erneuerbare Energien",
+          "Integration von Solarsystemen"
+        ],
+        "button": {"text": "Mehr erfahren"}
+      },
+      "2": {
+        "title": "Installation von Solarpanels für Zuhause",
+        "description": "Spare Stromkosten und profitiere von nachhaltiger Energie mit unserer professionellen Installation von Solarpanels für Dein Zuhause. Wir sorgen für eine effiziente Einrichtung für maximale Energieumwandlung.",
+        "features": [
+          "Hocheffiziente Solarpanels",
+          "Reduzierung von Energiekosten",
+          "Langfristige Haltbarkeit"
+        ],
+        "button": {"text": "Mehr erfahren"}
+      },
+      "3": {
+        "title": "Reinigung von Solarpanels",
+        "description": "Sorge für maximale Effizienz Deiner Solarpanels mit unseren professionellen Reinigungsdiensten. Wir verwenden ungiftige Reinigungsmittel und wasserfreundliche Methoden, um Deine Solarpanels zu pflegen.",
+        "features": [
+          "Ungiftige Reinigungsmittel",
+          "Wassereffiziente Prozesse",
+          "Schutz der Oberflächenintegrität der Panels"
+        ],
+        "button": {"text": "Mehr erfahren"}
+      },
+      "4": {
+        "title": "Solar-Backup-Lösungen",
+        "description": "Unsere Solar-Backup-Lösungen bieten eine zuverlässige Energiequelle während Stromausfällen, sodass Du immer Zugang zu Elektrizität hast.",
+        "features": [
+          "Zuverlässige Backup-Energie",
+          "Nahtlose Integration",
+          "Anpassbare Systeme"
+        ],
+        "button": {"text": "Mehr erfahren"}
+      },
+      "5": {
+        "title": "Beratung für Solarenergie",
+        "description": "Unsere Beratungsdienste helfen Dir, die besten Solarlösungen für Dein Zuhause oder Unternehmen zu evaluieren. Erhalte fachkundige Beratung, die auf Deine Bedürfnisse zugeschnitten ist.",
+        "features": [
+          "Energieeffizienz-Audits",
+          "Individuelle Solarlösungen",
+          "Umfassende Unterstützung"
+        ],
+        "button": {"text": "Mehr erfahren"}
+      },
+      "6": {
+        "title": "Solarlösungen für Unternehmen",
+        "description": "Entdecke das Potenzial von Solarenergie für Dein Unternehmen. Unsere kommerziellen Solarlösungen senken Betriebskosten und tragen zu Deinen Nachhaltigkeitszielen bei.",
+        "features": [
+          "Individuelle kommerzielle Installationen",
+          "Kostenwirksame Lösungen",
+          "Höhere Energieeffizienz"
+        ],
+        "button": {"text": "Mehr erfahren"}
+      }
+    },
+    "tryIt": {
+      "sectionTitle": "Starte noch heute",
+      "buttonText": "Kostenlose Beratung anfordern",
+      "introText": "Beginne Deine Reise zu sauberer und erneuerbarer Energie mit Solar Cellz. Wir bieten maßgeschneiderte Solarlösungen für Privathaushalte und Unternehmen.",
+      "cards": {
+        "1": {
+          "title": "Kostenlose Beratung anfordern",
+          "description": "Benötigst Du Beratung zu Solarlösungen für Dein Zuhause oder Unternehmen? Kontaktiere uns für eine kostenlose Beratung und finde das beste Solarsystem für Dich.",
+          "buttonText": "Beratung anfordern"
+        },
+        "2": {
+          "title": "Solarangebot erhalten",
+          "description": "Erhalte ein maßgeschneidertes Solarangebot basierend auf Deinen Energiebedürfnissen und Deinem Standort. Unser Team arbeitet mit Dir zusammen, um eine optimale Lösung für Deine Energieziele zu entwerfen.",
+          "buttonText": "Angebot anfordern"
+        }
+      }
+    },
+    "bestCompanySays": {
+      "heading": "Die besten Unternehmen sprechen über uns",
+      "companies": [
+        {
+          "stat": "$1M+",
+          "description": "Steigerung der Energieeinsparungen",
+          "quote": "Solar Cellz hat unsere Denkweise über nachhaltige Energie revolutioniert. Mit ihrer Spitzentechnologie haben wir unsere Energiekosten um über 30 % reduziert.",
+          "author": "Marcus Jones — COO, Sustainable Energy Inc.",
+          "button": "Mehr erfahren"
+        },
+        {
+          "stat": "100+",
+          "description": "Verbesserte Einführung grüner Energie",
+          "quote": "Die innovativen Lösungen von Solar Cellz haben unseren Übergang zu grüner Energie vorangetrieben. Ihre zuverlässigen und effizienten Produkte haben unsere Nachhaltigkeitsbemühungen beschleunigt.",
+          "author": "Jenny Thai — Betriebsleiterin, GreenTech Solutions",
+          "button": "Mehr erfahren"
+        },
+        {
+          "stat": "40%",
+          "description": "Nachhaltiges Wachstum durch Innovation",
+          "quote": "Solar Cellz war ein Wendepunkt für unsere Abläufe. Ihre Lösungen für erneuerbare Energien haben uns geholfen, unseren CO2-Fußabdruck zu reduzieren und die Effizienz um 40 % zu steigern.",
+          "author": "CMO, EcoPower Corp.",
+          "button": "Mehr erfahren"
+        }
+      ]
+    },
+    "stats": [
+      {
+        "value": "20+",
+        "title": "Solarenergie-Experten",
+        "description": "Unser Team umfasst über 20 erfahrene Solaringenieure, die auf Reparatur, Installation und Optimierung von Systemen spezialisiert sind."
+      },
+      {
+        "value": "100%",
+        "title": "Kundenzufriedenheit",
+        "description": "Unser Engagement für Exzellenz hat uns eine Kundenzufriedenheitsrate von 100 % bei der Bereitstellung von erneuerbaren Energielösungen eingebracht."
+      },
+      {
+        "value": "5k+",
+        "title": "Abgeschlossene Installationen",
+        "description": "Mit über 5.000 erfolgreichen Solarinstallationen haben wir umfangreiche Erfahrung in der Bereitstellung nachhaltiger und zuverlässiger Energie."
+      }
+    ],
+    "equipments": {
+      "heading": "Wir haben alle Solarausrüstungen",
+      "subHeading": "Solarausrüstungen",
+      "desc": "Alles, was Du benötigst, um ein angeschlossenes, unabhängiges oder hybrides Solarsystem zu bauen, einschließlich Ladestationen für Elektrofahrzeuge:",
+      "buttonText": "Entdecken",
+      "cards": [
+        "Solar-Wechselrichter im Großhandel",
+        "Heimbatteriespeicher",
+        "Anschlussboxen",
+        "Solarpanels",
+        "Ladegeräte für Elektrofahrzeuge",
+        "Großskalige Wechselrichter"
+      ]
+    },
+    "testimonials": {
+      "heading": "Kunden fordern Veränderung",
+      "subHeading": "Kundenstimmen",
+      "desc": "Mehr denn je zeigen Kunden ihre Wertschätzung für Unternehmen, die sich von schmutzigen und schädlichen Energiequellen abwenden. Solar Cellz USA ist stolz darauf, die Veränderung anzuführen und Dir unser Fachwissen zur Verfügung zu stellen.",
+      "cards": [
+        {
+          "name": "John Doe",
+          "comment": "Ich habe Solar Cellz Energy mit der Installation von Solarpanels in meinem Zuhause beauftragt, und der Prozess war von Anfang bis Ende reibungslos. Ihr Expertenteam hat alles mit Professionalität und Liebe zum Detail gehandhabt."
+        },
+        {
+          "name": "Jane Smith",
+          "comment": "Mit Solar Cellz habe ich meine Stromrechnungen erheblich reduziert und trage zu einer grüneren Zukunft bei. Ich würde sie jedem empfehlen."
+        },
+        {
+          "name": "Michael Brown",
+          "comment": "Solar Cellz hat meinen Übergang zur Solarenergie unglaublich einfach gemacht. Ihr Wissen und ihre Kundenbetreuung sind erstklassig."
+        }
+      ]
+    },
+    "highlights": [
+    "✓ Experteninstallation von Solarpanelen",
+    "✓ 100% Kundenzufriedenheit",
+    "✓ Mehr als 20 Jahre Erfahrung",
+    "✓ Premium-Speicherlösungen für Solarenergie",
+    "✓ Maßgeschneiderte Strategien zur Energieoptimierung",
+    "✓ Routinewartung und Support für Solarsysteme",
+    "✓ Nachhaltige, umweltfreundliche Solarenergie",
+    "✓ Umfassende Reparaturservices für Solarsysteme",
+    "✓ Hochmoderne Solartechnologie und Innovation",
+    "✓ Zuverlässige Stromversorgung auch an bewölkten Tagen",
+    "✓ Effiziente und kostengünstige Solarlösungen",
+    "✓ Installation von Solarsystemen in verschiedenen Branchen",
+    "✓ Branchenführende Solarexperten und Techniker",
+    "✓ 24/7 Kundenservice für Solarenergiesysteme"
+    ]
+}
+  

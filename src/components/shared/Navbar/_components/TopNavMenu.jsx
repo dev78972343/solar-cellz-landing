@@ -7,6 +7,9 @@ import {
 } from "@/components/ui/navigation-menu";
 import {
   CanadaFlag,
+  FrenchFlag,
+  GermanFlag,
+  SpanishFlag,
   UnitedStatesFlag,
 } from "@/components/svg logos/CountryFlags";
 import { Link } from "react-router-dom";
@@ -14,29 +17,28 @@ import { useEffect, useState } from "react";
 import { useLanguages } from "@/hook/useLanguage";
 import { LANGUAGES } from "@/constants/supported-languages";
 
-// ------------ Static Data ------------
 // Supported Languages
 const languages = [
   {
-    label: "US English",
-    value: LANGUAGES.enUS,
+    label: "English",
+    value: LANGUAGES.en,
     flag: <UnitedStatesFlag size={20} />,
   },
   {
-    label: "US Español",
+    label: "Español",
     value: LANGUAGES.es,
-    flag: <UnitedStatesFlag size={20} />,
+    flag: <SpanishFlag size={20} />,
   },
   {
-    label: "Canada",
-    value: LANGUAGES.enCA,
-    flag: <CanadaFlag size={20} />,
+    label: "Français",
+    value: LANGUAGES.fr,
+    flag: <FrenchFlag size={20} />,
   },
-  // {
-  //   label: "Canada French",
-  //   value: LANGUAGES.frCA,
-  //   flag: <CanadaFlag size={20} />,
-  // },
+  {
+    label: "Deutsch",
+    value: LANGUAGES.de,
+    flag: <GermanFlag size={20} />,
+  }
 ];
 
 const dropdownMenuItems = [

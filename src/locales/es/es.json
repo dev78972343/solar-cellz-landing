@@ -1,228 +1,219 @@
-{
-  "navbar": {
-  },
-  "hero": {
-    "1": {
-      "title": "Revoluciona tu consumo de energía",
-      "description": "Únete al movimiento hacia un futuro sostenible con soluciones solares de vanguardia.",
-      "buttons": ["Empieza a ahorrar ahora", "Obtén una cotización gratuita"]
+
+  {
+    "navbar": {},
+    "hero": {
+      "1": {
+        "title": "Revoluciona Tu Consumo de Energía",
+        "description": "Únete al movimiento hacia un futuro sostenible con soluciones solares de última generación.",
+        "buttons": ["Empieza a Ahorrar Ahora", "Obtén una Cotización Gratis"]
+      },
+      "2": {
+        "title": "Cambia a Energía Limpia y Renovable",
+        "description": "Descubre los beneficios de la energía solar y reduce tu huella de carbono.",
+        "buttons": ["Más Información", "Empieza Hoy"]
+      },
+      "3": {
+        "title": "Energía Solar Simplificada",
+        "description": "Aprovecha el poder del sol para una solución energética ecológica y rentable.",
+        "buttons": ["Explorar Soluciones", "Ver Casos de Éxito"]
+      },
+      "4": {
+        "title": "Automatización Inteligente y Energía Solar",
+        "description": "Integra sistemas inteligentes para optimizar el uso de tu energía solar.",
+        "buttons": ["Descubre la Automatización", "Mejora tu Hogar"]
+      }
     },
-    "2": {
-      "title": "Cambia a energía limpia y renovable",
-      "description": "Descubre los beneficios de la energía solar y reduce tu huella de carbono.",
-      "buttons": ["Aprende más", "Comienza hoy"]
+    "brands": {
+      "title": "Liquidez Respaldada por"
     },
-    "3": {
-      "title": "Energía solar simplificada",
-      "description": "Aprovecha el poder del sol para una solución energética ecológica y rentable.",
-      "buttons": ["Explora soluciones", "Ver estudios de caso"]
-    },
-    "4": {
-      "title": "Automatización inteligente y energía solar",
-      "description": "Integra sistemas inteligentes para optimizar el uso de tu energía solar.",
-      "buttons": ["Descubre la automatización", "Mejora tu hogar"]
-    }
-  },
-  "brands" : {
-    "title":"Liquidez respaldada por"
-  },
-  "feat": {
-      "1":
-      {
+    "feat": {
+      "1": {
         "title": "Instalación de Paneles Solares",
-        "description": "Servicios eficientes de instalación de paneles solares para aprovechar la energía renovable, con orientación experta desde la evaluación del sitio hasta la instalación final."
+        "description": "Servicios eficientes de instalación de paneles solares para aprovechar la energía renovable, con asesoramiento experto desde la evaluación del sitio hasta la configuración final."
       },
-      "2":
-      {
+      "2": {
         "title": "Almacenamiento de Energía Solar",
-        "description": "Almacene energía solar con baterías de alta calidad para garantizar la disponibilidad de energía incluso durante la noche o en días nublados."
+        "description": "Almacena energía solar con baterías de alta calidad para garantizar la disponibilidad de energía incluso durante la noche o días nublados."
       },
-      "3":
-      {
+      "3": {
         "title": "Mantenimiento y Soporte Solar",
-        "description": "Mantenimiento rutinario y soporte bajo demanda para mantener sus sistemas solares funcionando con un rendimiento óptimo."
+        "description": "Mantenimiento rutinario y soporte bajo demanda para mantener tus sistemas solares funcionando al máximo rendimiento."
       },
-      "4":
-      {
+      "4": {
         "title": "Optimización de Energía",
-        "description": "Soluciones avanzadas para optimizar su uso de energía y reducir costos, garantizando la máxima eficiencia de su sistema solar."
+        "description": "Soluciones avanzadas para optimizar el uso de energía y reducir costos, garantizando la máxima eficiencia de tu sistema solar."
       }
+    },
+    "about": {
+      "title": "Soluciones Solares Completas con Servicios de Mantenimiento",
+      "1": {
+        "title": "Sistemas de Energía Solar",
+        "description": "Reduce los costos de energía e incrementa tu independencia instalando sistemas de energía solar para uso residencial y comercial. Aprovecha el poder del sol para tus necesidades.",
+        "features": [
+          "Sistemas de Respaldo Solar",
+          "Consultoría en Energía Renovable",
+          "Integración de Sistemas Solares"
+        ],
+        "button": {"text": "Más Información"}
+      },
+      "2": {
+        "title": "Instalación de Paneles Solares para el Hogar",
+        "description": "Ahorra en las facturas de electricidad y disfruta de energía sostenible con nuestra instalación experta de paneles solares para el hogar. Aseguramos una configuración eficiente para una conversión máxima de energía.",
+        "features": [
+          "Paneles de Alta Eficiencia",
+          "Reducción de Costos Energéticos",
+          "Durabilidad a Largo Plazo"
+        ],
+        "button": {"text": "Más Información"}
+      },
+      "3": {
+        "title": "Limpieza de Paneles Solares",
+        "description": "Asegura la máxima eficiencia de tus paneles solares con nuestros servicios profesionales de limpieza. Utilizamos agentes no tóxicos y métodos eficientes en el uso del agua para mantener tus paneles solares.",
+        "features": [
+          "Agentes de Limpieza No Tóxicos",
+          "Proceso Eficiente en el Uso del Agua",
+          "Protección de la Integridad de la Superficie del Panel"
+        ],
+        "button": {"text": "Más Información"}
+      },
+      "4": {
+        "title": "Soluciones de Respaldo de Energía Solar",
+        "description": "Nuestras soluciones de respaldo solar proporcionan una fuente de energía confiable durante cortes eléctricos, asegurando que siempre tengas acceso a electricidad.",
+        "features": [
+          "Energía de Respaldo Confiable",
+          "Integración Perfecta",
+          "Sistemas Personalizables"
+        ],
+        "button": {"text": "Más Información"}
+      },
+      "5": {
+        "title": "Consultoría de Energía Solar",
+        "description": "Nuestros servicios de consultoría te ayudan a evaluar las mejores soluciones de energía solar para tu hogar o negocio. Obtén asesoramiento experto adaptado a tus necesidades.",
+        "features": [
+          "Auditorías de Eficiencia Energética",
+          "Soluciones Solares Personalizadas",
+          "Soporte Integral"
+        ],
+        "button": {"text": "Más Información"}
+      },
+      "6": {
+        "title": "Soluciones Solares Comerciales",
+        "description": "Descubre el potencial de la energía solar para tu negocio. Nuestras soluciones solares comerciales reducen los costos operativos y contribuyen a tus metas de sostenibilidad.",
+        "features": [
+          "Instalaciones Comerciales Personalizadas",
+          "Soluciones Rentables",
+          "Mayor Eficiencia Energética"
+        ],
+        "button": {"text": "Más Información"}
+      }
+    },
+    "tryIt": {
+      "sectionTitle": "Comienza Hoy",
+      "buttonText": "Solicita una Consulta Gratis",
+      "introText": "Inicia tu camino hacia una energía limpia y renovable con Solar Cellz. Ofrecemos soluciones de energía solar personalizadas para hogares y negocios.",
+      "cards": {
+        "1": {
+          "title": "Solicita una Consulta Gratis",
+          "description": "¿Necesitas asesoramiento sobre soluciones de energía solar para tu hogar o negocio? Contáctanos para una consulta gratuita y determina el mejor sistema solar para ti.",
+          "buttonText": "Solicitar Consulta"
         },
-  "about": {
-    "title":"Soluciones solares completas con servicios de mantenimiento",
-            "0": {
-              "title": "Sistemas de Energía Solar",
-              "description": "Reduzca los costos de energía y aumente la independencia instalando sistemas de energía solar tanto para uso residencial como comercial. Aproveche el poder del sol para satisfacer sus necesidades.",
-              "features": [
-                "Sistemas de Respaldo Solar",
-                "Consultoría de Energía Renovable",
-                "Integración de Sistemas Solares"
-              ],
-              "button":{"text":"Aprender más"}
-            },
-            "1": {
-              "title": "Instalación de Paneles Solares en el Hogar",
-              "description": "Ahorre en las facturas de electricidad y disfrute de energía sostenible con nuestra instalación experta de paneles solares en el hogar. Aseguramos una configuración eficiente para una conversión máxima de energía.",
-              "features": [
-                "Paneles de Alta Eficiencia",
-                "Reducción de Costos Energéticos",
-                "Durabilidad a Largo Plazo"
-              ],
-              "button":{"text":"Aprender más"}
-            },
-            "2": {
-              "title": "Limpieza de Paneles Solares",
-              "description": "Asegure la máxima eficiencia de sus paneles solares con nuestros servicios de limpieza profesional. Utilizamos agentes no tóxicos y métodos de ahorro de agua para mantener sus paneles solares.",
-              "features": [
-                "Agentes de Limpieza No Tóxicos",
-                "Proceso Eficiente en Agua",
-                "Protege la Integridad de la Superficie del Panel"
-              ],
-              "button":{"text":"Aprender más"}
-            },
-            "3": {
-              "title": "Soluciones de Respaldo de Energía Solar",
-              "description": "Nuestras soluciones de respaldo solar proporcionan una fuente de energía confiable durante cortes de energía, asegurando que siempre tenga acceso a electricidad.",
-              "features": [
-                "Energía de Respaldo Confiable",
-                "Integración Perfecta",
-                "Sistemas Personalizables"
-              ],
-              "button":{"text":"Aprender más"}
-            },
-            "4": {
-              "title": "Consultoría de Energía Solar",
-              "description": "Nuestros servicios de consultoría lo ayudan a evaluar las mejores soluciones de energía solar para su hogar o negocio. Obtenga asesoramiento experto adaptado a sus necesidades.",
-              "features": [
-                "Auditorías de Eficiencia Energética",
-                "Soluciones Solares Personalizadas",
-                "Soporte Integral"
-              ],
-             "button":{"text":"Aprender más"}
-            },
-            "5": {
-              "title": "Soluciones Solares Comerciales",
-              "description": "Desbloquee el potencial de la energía solar para su negocio. Nuestras soluciones solares comerciales reducen los costos operativos y contribuyen a los objetivos de sostenibilidad.",
-              "features": [
-                "Instalaciones Comerciales Personalizadas",
-                "Soluciones Rentables",
-                "Mayor Eficiencia Energética"
-              ],
-              "button":{"text":"Aprender más"}
-            }
-  },
-  "tryIt": {
-  "sectionTitle": "Comienza Hoy",
-  "buttonText": "Solicitar una Consulta Gratuita",
-  "introText": "Inicia tu camino hacia la energía limpia y renovable con Solar Cellz. Ofrecemos soluciones personalizadas de energía solar para hogares y negocios.",
-  "cards": {
-    "1":
-    {
-      "title": "Solicitar una Consulta Gratuita",
-      "description": "¿Necesitas asesoramiento sobre soluciones de energía solar para tu hogar o negocio? Contáctanos para una consulta gratuita y determina el mejor sistema solar para ti.",
-      "buttonText": "Solicitar Consulta"
-    },
-    "2":
-    {
-      "title": "Obtén una Cotización Solar",
-      "description": "Obtén una cotización solar personalizada basada en tus necesidades energéticas y ubicación. Nuestro equipo trabajará contigo para diseñar una solución óptima.",
-      "buttonText": "Obtener Cotización"
-    }
-  }
-},
-  "bestCompanySays": {
-    "heading": "Lo que dicen las mejores empresas sobre nosotros",
-    "companies": [
-      {
-        "stat": "$1M+",
-        "description": "Ahorros energéticos incrementados",
-        "quote": "Solar Cellz ha revolucionado nuestra forma de pensar sobre la energía sostenible. Con su tecnología de vanguardia, hemos reducido nuestros costos energéticos en más del 30%.",
-        "author": "Marcus Jones — COO, Sustainable Energy Inc.",
-        "button": "Leer más"
-      },
-      {
-        "stat": "100+",
-        "description": "Mayor adopción de energía verde",
-        "quote": "Las soluciones innovadoras de Solar Cellz han impulsado nuestra transición hacia la energía verde. Sus productos confiables y eficientes han acelerado nuestros esfuerzos por la sostenibilidad.",
-        "author": "Jenny Thai — Jefa de Operaciones, GreenTech Solutions",
-        "button": "Leer más"
-      },
-      {
-        "stat": "40%",
-        "description": "Crecimiento sostenible a través de la innovación",
-        "quote": "Solar Cellz ha sido un cambio radical para nuestras operaciones. Sus soluciones de energía renovable nos han ayudado a reducir nuestra huella de carbono y a aumentar nuestra eficiencia en un 40%.",
-        "author": "CMO, EcoPower Corp.",
-        "button": "Leer más"
+        "2": {
+          "title": "Obtén una Cotización Solar",
+          "description": "Obtén una cotización solar personalizada según tus necesidades energéticas y ubicación. Nuestro equipo trabajará contigo para diseñar una solución óptima para tus objetivos energéticos.",
+          "buttonText": "Solicitar Cotización"
+        }
       }
-    ]
-  },
-  "stats": [
-    {
-      "value": "20+",
-      "title": "Expertos en energía solar",
-      "description": "Contamos con un equipo de más de 20 ingenieros solares expertos en reparación, instalación y optimización de sistemas."
     },
-    {
-      "value": "100%",
-      "title": "Satisfacción del cliente",
-      "description": "Nuestro compromiso con la excelencia nos ha ganado una tasa de satisfacción del cliente del 100% en la provisión de soluciones de energía renovable."
+    "bestCompanySays": {
+      "heading": "Las mejores empresas opinan sobre nosotros",
+      "companies": [
+        {
+          "stat": "$1M+",
+          "description": "Ahorros energéticos incrementados",
+          "quote": "Solar Cellz revolucionó nuestra forma de pensar sobre energía sostenible. Con su tecnología de vanguardia, hemos reducido nuestros costos energéticos en más del 30%.",
+          "author": "Marcus Jones — COO, Sustainable Energy Inc.",
+          "button": "Leer Más"
+        },
+        {
+          "stat": "100+",
+          "description": "Adopción de energía verde mejorada",
+          "quote": "Las soluciones innovadoras de Solar Cellz han impulsado nuestra transición a la energía verde. Sus productos confiables y eficientes han acelerado nuestros esfuerzos de sostenibilidad.",
+          "author": "Jenny Thai — Jefa de Operaciones, GreenTech Solutions",
+          "button": "Leer Más"
+        },
+        {
+          "stat": "40%",
+          "description": "Crecimiento sostenible a través de la innovación",
+          "quote": "Solar Cellz ha sido un cambio de juego para nuestras operaciones. Sus soluciones de energía renovable nos han ayudado a reducir nuestra huella de carbono y aumentar la eficiencia en un 40%.",
+          "author": "CMO, EcoPower Corp.",
+          "button": "Leer Más"
+        }
+      ]
     },
-    {
-      "value": "5k+",
-      "title": "Instalaciones completadas",
-      "description": "Con más de 5,000 instalaciones exitosas de paneles solares, tenemos una amplia experiencia en la entrega de energía sostenible y confiable."
-    }
-  ],
+    "stats": [
+      {
+        "value": "20+",
+        "title": "Expertos en Energía Solar",
+        "description": "Contamos con un equipo de más de 20 ingenieros solares expertos en reparación, instalación y optimización de sistemas."
+      },
+      {
+        "value": "100%",
+        "title": "Satisfacción del Cliente",
+        "description": "Nuestro compromiso con la excelencia nos ha valido una tasa de satisfacción del cliente del 100% en la provisión de soluciones de energía renovable."
+      },
+      {
+        "value": "5k+",
+        "title": "Instalaciones Completadas",
+        "description": "Con más de 5,000 instalaciones exitosas de paneles solares, tenemos amplia experiencia en ofrecer energía sostenible y confiable."
+      }
+    ],
     "equipments": {
-      "heading": "Llevamos Todo Tipo de Equipos Solares",
+      "heading": "Contamos con Todo el Equipo Solar",
       "subHeading": "Equipos Solares",
-      "desc": "Necesitarías para construir un sistema solar conectado a la red, fuera de la red o híbrido, incluyendo la carga de vehículos eléctricos con lo siguiente:",
+      "desc": "Todo lo necesario para construir un sistema solar conectado, desconectado o híbrido, incluyendo carga de vehículos eléctricos:",
       "buttonText": "Explorar",
       "cards": [
-        "Inversores solares al por mayor",
-        "Bancos de baterías solares para el hogar",
-        "Cajas combinadoras",
-        "Paneles solares",
-        "Cargadores de vehículos eléctricos",
-        "Inversores a escala de utilidad"
+        "Inversores Solares al Por Mayor",
+        "Bancos de Baterías para Hogares",
+        "Cajas de Conexión",
+        "Paneles Solares",
+        "Cargadores para Vehículos Eléctricos",
+        "Inversores a Gran Escala"
       ]
     },
     "testimonials": {
-    "heading": "Clientes Exigiendo Cambio",
-    "subHeading": "Testimonios",
-    "desc": "Ahora más que nunca, los clientes muestran su aprecio a las empresas que se deshacen de la energía sucia que causa enfermedades y la gestión de energía. SolarCellz USA se enorgullece de ser uno de los líderes de la industria en el país y espera llevar su experiencia y conocimientos a usted.",
-    "cards": [
-      {
-        "name": "John Doe",
-        "comment": "Hice que Solar Cellz Energy instalara paneles solares en mi casa, y el proceso fue fluido de principio a fin. Su equipo fue profesional y respondió todas mis preguntas. ¡Los recomiendo mucho!",
-        "position": "Gerente @ XYZ Company"
-      },
-      {
-        "name": "Myrtle Kempton",
-        "comment": "Cambiar a Solar Cellz Energy fue un cambio de juego para mi familia. No solo estamos ahorrando dinero, sino que también estamos contribuyendo a un entorno más limpio. ¡Su atención al cliente es excelente!",
-        "position": "Gerente @ ABC Company"
-      },
-      {
-        "name": "Myrtle Kempton",
-        "comment": "Cambiar a Solar Cellz Energy fue un cambio de juego para mi familia. No solo estamos ahorrando dinero, sino que también estamos contribuyendo a un entorno más limpio. ¡Su atención al cliente es excelente!",
-        "position": "Gerente @ ABC Company"
-      }
-    ]
-  },
-  "highlights": [
-    "✓ Instalación experta de paneles solares",
-    "✓ Satisfacción del cliente al 100%",
-    "✓ Más de 20 años de experiencia",
-    "✓ Soluciones premium de almacenamiento de energía solar",
-    "✓ Estrategias personalizadas de optimización energética",
-    "✓ Mantenimiento y soporte rutinario del sistema solar",
-    "✓ Energía solar sostenible y ecológica",
-    "✓ Servicios completos de reparación de sistemas solares",
-    "✓ Tecnología solar de vanguardia e innovación",
-    "✓ Suministro de energía confiable incluso en días nublados",
-    "✓ Soluciones solares eficientes y rentables",
-    "✓ Instalación de sistemas solares en múltiples industrias",
-    "✓ Expertos y técnicos líderes en la industria solar",
-    "✓ Soporte al cliente 24/7 para soluciones de energía solar"
-  ]  
+      "heading": "Clientes Exigiendo Cambio",
+      "subHeading": "Testimonios",
+      "desc": "Ahora más que nunca, los clientes muestran su aprecio por las empresas que se alejan de las energías sucias y perjudiciales. Solar Cellz USA se enorgullece de liderar el cambio y aportar su experiencia a ti.",
+      "cards": [
+        {
+          "name": "John Doe",
+          "comment": "Contraté a Solar Cellz Energy para instalar paneles solares en mi hogar y el proceso fue fluido de principio a fin. Su equipo de expertos manejó todo con profesionalismo y atención a los detalles."
+        },
+        {
+          "name": "Jane Smith",
+          "comment": "Con Solar Cellz, he reducido mis facturas de electricidad significativamente y estoy contribuyendo a un futuro más verde. Los recomendaría a cualquiera."
+        },
+        {
+          "name": "Michael Brown",
+          "comment": "Solar Cellz hizo que mi transición a la energía solar fuera increíblemente fácil. Su conocimiento y atención al cliente son de primera categoría."
+        }
+      ]
+    },  
+    "highlights": [
+    "✓ Instalación Experta de Paneles Solares",
+    "✓ Satisfacción del Cliente al 100%",
+    "✓ Más de 20 Años de Experiencia",
+    "✓ Soluciones Premium de Almacenamiento de Energía Solar",
+    "✓ Estrategias Personalizadas de Optimización de Energía",
+    "✓ Mantenimiento y Soporte Regular de Sistemas Solares",
+    "✓ Energía Solar Sostenible y Ecológica",
+    "✓ Servicios Completos de Reparación de Sistemas Solares",
+    "✓ Tecnología Solar de Vanguardia e Innovación",
+    "✓ Suministro de Energía Confiable Incluso en Días Nublados",
+    "✓ Soluciones Solares Eficientes y Rentables",
+    "✓ Instalación de Sistemas Solares en Diversos Sectores",
+    "✓ Expertos y Técnicos Solares Líderes en la Industria",
+    "✓ Soporte al Cliente 24/7 para Soluciones de Energía Solar"
+  ]
 }

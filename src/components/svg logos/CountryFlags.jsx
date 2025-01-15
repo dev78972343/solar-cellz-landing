@@ -41,3 +41,48 @@ export const CanadaFlag = ({ size }) => {
     </svg>
   );
 };
+
+export const SpanishFlag = ({ size }) => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      height={size}
+      width={size}
+      viewBox="0 0 640 480"
+    >
+      <path fill="#aa151b" d="M0 0h640v480H0"></path>
+      <path fill="#f1bf00" d="M0 160h640v160H0"></path>
+    </svg>
+  );
+};
+
+export const FrenchFlag = ({ size }) => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      height={size}
+      width={size}
+      viewBox="0 0 640 480"
+    >
+      <path fill="#0055a4" d="M0 0h213.3v480H0"></path>
+      <path fill="#fff" d="M213.3 0h213.3v480H213.3"></path>
+      <path fill="#ef4135" d="M426.6 0H640v480H426.6"></path>
+    </svg>
+  );
+};
+
+export const GermanFlag = ({ size }) => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      height={size}
+      width={size}
+      viewBox="0 0 640 480"
+    >
+      <path fill="#000" d="M0 0h640v160H0"></path>
+      <path fill="#d00" d="M0 160h640v160H0"></path>
+      <path fill="#ffce00" d="M0 320h640v160H0"></path>
+    </svg>
+  );
+};
+
