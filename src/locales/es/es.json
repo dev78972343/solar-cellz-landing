@@ -275,5 +275,10 @@
       "position": "Gerente de Proyecto"
     }
   ]
- }
+ },
+ "demo": {
+  "title": "Energía Solar, Diseñada para el Futuro",
+  "description": "Descubre soluciones solares innovadoras que optimizan la eficiencia energética, sostenibilidad y rendimiento para hogares y empresas.",
+  "buttonText": "Explora Nuestra Demo"
+}
 }

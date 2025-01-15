@@ -274,7 +274,13 @@
       "position": "Projektmanagerin"
     }
   ]
- }
+ },
+ "demo": {
+  "title": "Solarenergie, Für die Zukunft Entwickelt",
+  "description": "Entdecken Sie innovative Solarlösungen, die die Energieeffizienz, Nachhaltigkeit und Leistung für Haushalte und Unternehmen optimieren.",
+  "buttonText": "Unsere Demo Entdecken"
+}
+
 
 }
   

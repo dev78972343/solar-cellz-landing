@@ -282,6 +282,11 @@
         "position":"Project Manager"
       }
     ]
+  },
+  "demo":{
+    "title":"Solar Power, Designed for the Future",
+    "description":" Discover innovative solar solutions that optimize energy efficiency, sustainability, and performance for homes and businesses.",
+    "buttonText":"Explore Our Demo"
   }
 }
 

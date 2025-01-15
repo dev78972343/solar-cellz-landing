@@ -274,6 +274,11 @@
       "position": "Chef de Projet"
     }
   ]
+},
+"demo": {
+  "title": "Énergie Solaire, Conçue pour l'Avenir",
+  "description": "Découvrez des solutions solaires innovantes qui optimisent l'efficacité énergétique, la durabilité et la performance pour les maisons et les entreprises.",
+  "buttonText": "Découvrez notre Démo"
 }
 
 }
