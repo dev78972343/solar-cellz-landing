@@ -280,5 +280,56 @@
   "title": "Energía Solar, Diseñada para el Futuro",
   "description": "Descubre soluciones solares innovadoras que optimizan la eficiencia energética, sostenibilidad y rendimiento para hogares y empresas.",
   "buttonText": "Explora Nuestra Demo"
-}
+},
+  "contact": {
+    "form": {
+      "title": "Rellene el formulario",
+      "fields": [
+        {
+          "label": "Nombre",
+          "placeholder": "Nombre"
+        },
+        {
+          "label": "Apellido",
+          "placeholder": "Apellido"
+        },
+        {
+          "label": "Número de teléfono",
+          "placeholder": "Tu número de teléfono"
+        },
+        {
+          "label": "Dirección de correo electrónico",
+          "placeholder": "Tu dirección de correo electrónico"
+        },
+        {
+          "label": "Mensaje",
+          "placeholder": "Tu mensaje"
+        }
+      ],
+      "submitButton": {
+        "text": "Enviar"
+      }
+    },
+    "contactInfo": {
+      "title": "Contáctanos",
+      "items": [
+        {
+          "label": "Dirección",
+          "content": "3540 Toringdon Way, Suite 200 Charlotte, North Carolina 28277, Estados Unidos"
+        },
+        {
+          "label": "Número de teléfono",
+          "content": "980-729-7442"
+        },
+        {
+          "label": "Correo electrónico",
+          "content": "info@solarcellzusa.com"
+        },
+        {
+          "label": "Showroom",
+          "content": "10924 Granite St Suite 400 Charlotte NC 28273"
+        }
+      ]
+    }
+  }
 }
