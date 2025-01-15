@@ -127,8 +127,8 @@ export default function TopNavMenu() {
 
   return (
     <div className="mt-0.5 flex-center flex-wrap gap-5">
-      <button>{t("navbar.bottomnav.btn")}</button>
-      <NavigationMenu>
+      <button className="hidden sm:block">{t("navbar.bottomnav.btn")}</button>
+      <NavigationMenu className="mr-8 sm:mr-0">
         <NavigationMenuList>
           {/* Language Switcher */}
            <NavigationMenuItem>

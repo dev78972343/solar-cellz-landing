@@ -53,7 +53,7 @@ export default function TryIt({ className }) {
               {t("tryIt.sectionTitle")}
             </motion.h3>
             <motion.div variants={slideUpChildVariants}>
-              <PrimaryButton arrow className="w-fit">
+              <PrimaryButton arrow className="w-fit px-4 text-sm">
                 {t("tryIt.buttonText")}
               </PrimaryButton>
             </motion.div>
