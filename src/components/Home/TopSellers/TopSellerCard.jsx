@@ -2,8 +2,10 @@ import PrimaryButton from "@/components/buttons/PrimaryButton/PrimaryButton";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import textTruncate from "@/utils/textTruncate";
 import { Star } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
-export default function TopSellerCard({ data }) {
+export default function TopSellerCard({ data, idx }) {
+  const { t } = useTranslation();
   return (
     <Card className="max-h-[430px] min-h-[400px] border transition-all duration-300 ease-in-out hover:border-sky-500">
       <CardContent>
@@ -16,13 +18,13 @@ export default function TopSellerCard({ data }) {
         </div>
 
         <h5 className="mt-3 text-xl font-semibold">
-          {textTruncate(data?.name, 40)}
+        {textTruncate(t(`topSellers.items.${idx}.name`), 40)}
         </h5>
 
         <div className="flex-center-start mb-5 mt-1 gap-x-2 text-[#666666]">
           <Star size={20} className="fill-yellow-400 stroke-yellow-400" />
           <span className="-mb-1">
-            {data?.rating} ({data?.reviews} reviews)
+            {data?.rating} ({data?.reviews} {t("topSellers.reviews")})
           </span>
         </div>
 
@@ -33,7 +35,7 @@ export default function TopSellerCard({ data }) {
 
       <CardFooter>
         <PrimaryButton className="h-10 w-full border-none">
-          Buy Now
+          {t("topSellers.buyNow")}
         </PrimaryButton>
       </CardFooter>
     </Card>

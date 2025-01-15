@@ -220,5 +220,31 @@
   "heading": "Nuestros Socios Fabricantes Franquiciados",
   "subHeading": "Franquicias",
   "desc": "Solar Cellz USA es un proveedor líder de soluciones de energía solar de alta calidad, colaborando con una red de socios fabricantes franquiciados de confianza. Juntos, innovamos y entregamos productos solares de vanguardia que permiten a empresas y propietarios de viviendas aprovechar la energía sostenible de manera eficiente."
-  }
+  },
+  "topSellers": {
+  "heading": "Más Vendidos",
+  "buyNow": "Comprar Ahora",
+  "reviews": "Revisadas",
+  "items": [
+    {
+      "name": "Panel Solar Monocristalino"
+    },
+    {
+      "name": "Inversor Solar Híbrido"
+    },
+    {
+      "name": "Generador Solar Portátil"
+    },
+    {
+      "name": "Panel Solar Monocristalino"
+    },
+    {
+      "name": "Inversor Solar Híbrido"
+    },
+    {
+      "name": "Generador Solar Portátil"
+    }
+  ]
+ }
+
 }

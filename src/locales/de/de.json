@@ -219,7 +219,33 @@
     "heading": "Unsere Partner-Franchise-Hersteller",
     "subHeading": "Franchises",
     "desc": "Solar Cellz USA ist ein führender Anbieter von hochwertigen Solarenergie-Lösungen und arbeitet mit einem Netzwerk vertrauenswürdiger Franchise-Herstellerpartner zusammen. Gemeinsam innovieren wir und liefern hochmoderne Solarprodukte, die es Unternehmen und Hausbesitzern ermöglichen, nachhaltige Energie effizient zu nutzen."
+    },
+    "topSellers": {
+  "heading": "Bestseller",
+  "buyNow": "Jetzt kaufen",
+  "reviews": "Bewertungen",
+  "items": [
+    {
+      "name": "Monokristallines Solarpanel"
+    },
+    {
+      "name": "Hybrid-Solarwechselrichter"
+    },
+    {
+      "name": "Tragbarer Solar-Generator"
+    },
+    {
+      "name": "Monokristallines Solarpanel"
+    },
+    {
+      "name": "Hybrid-Solarwechselrichter"
+    },
+    {
+      "name": "Tragbarer Solar-Generator"
     }
+    ]
+ }
+
 
 }
   
