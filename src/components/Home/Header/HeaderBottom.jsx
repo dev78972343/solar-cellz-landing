@@ -40,7 +40,7 @@ export function HeaderBottom() {
       </ul>
 
       {sidebar && (
-        <div className="fixed left-0 top-0 h-screen w-full bg-amazon_blue bg-opacity-50 text-black">
+        <div className="z-[9999] fixed left-0 top-0 h-screen w-full bg-amazon_blue bg-opacity-50 text-black">
           <div className="relative h-full w-full">
             <motion.div
               ref={ref}
