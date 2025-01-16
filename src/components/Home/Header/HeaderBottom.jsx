@@ -57,9 +57,10 @@ export function HeaderBottom() {
               </div>
 
               {!activeMenu &&
-                menuData.map((menu) => (
+                menuData.map((menu, idx) => (
                   <SideNavContent
-                    key={menu.title}
+                    key={idx}
+                    idx={idx}
                     title={menu.title}
                     items={menu.items}
                     setActiveMenu={setActiveMenu}
