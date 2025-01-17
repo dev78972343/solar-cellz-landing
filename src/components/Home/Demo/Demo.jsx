@@ -1,3 +1,4 @@
+import PrimaryButton from "@/components/buttons/PrimaryButton/PrimaryButton";
 import { cn } from "@/lib/utils";
 import {
   slideUpChildVariants,
@@ -28,12 +29,11 @@ export default function Demo({ className }) {
       >
         {t("demo.description")}
       </motion.p>
-      <motion.button
-        variants={slideUpChildVariants}
-        className="mt-8 rounded-3xl bg-primary-button-gradient px-10 py-3 text-white"
-      >
-        {t("demo.buttonText")}
-      </motion.button>
+      <motion.div variants={slideUpChildVariants} className="mt-8">
+        <PrimaryButton className="hover:shadow-lg rounded-3xl bg-primary-button-gradient px-10 py-3 text-white">
+          {t("demo.buttonText")}
+        </PrimaryButton>
+      </motion.div>
     </motion.section>
   );
 }
