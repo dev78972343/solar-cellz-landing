@@ -17,6 +17,8 @@ import { useEffect, useState } from "react";
 import { useLanguages } from "@/hook/useLanguage";
 import { LANGUAGES } from "@/constants/supported-languages";
 import { useTranslation } from "react-i18next";
+import { Check } from "lucide-react";
+import { cn } from "@/lib/utils";
 
 // Supported Languages
 const languages = [
@@ -177,11 +179,16 @@ export default function TopNavMenu() {
               {languages.map((language, idx) => (
                 <button
                   key={idx}
-                  className="flex-center-start text-nowrap w-full gap-x-2 px-4 py-1 text-base hover:bg-slate-100"
+                  className={cn("flex-center-start text-nowrap w-full gap-x-2 px-4 py-1 text-base hover:bg-slate-100",
+                  language.value === currentLanguage && "bg-slate-100"
+                  )}
                   onClick={() => changeLanguage(language?.value)}
                 >
                   {language.flag}
                   <span>{t(`navbar.bottomnav.language.${idx}`)}</span>
+                  {language.value === currentLanguage && (
+                    <Check className="ml-2 h-4 w-4" />
+                  )}
                 </button>
               ))}
             </NavigationMenuContent>
