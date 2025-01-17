@@ -137,7 +137,7 @@ export default function Hero() {
                       <a
                         key={idx}
                         href={button.link}
-                        className={`flex w-fit items-center text-nowrap justify-center rounded-lg px-5 py-2.5 text-sm md:text-lg font-medium ${
+                        className={`flex w-fit max-h-10 items-center text-nowrap justify-center rounded-lg px-5 py-2.5 text-sm md:text-lg font-medium ${
                           idx === 0
                             ? "bg-primary-button-gradient text-white hover:opacity-90"
                             : "border border-white bg-transparent text-white hover:bg-white hover:text-black"
