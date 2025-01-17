@@ -64,7 +64,7 @@ const NavigationMenuContent = React.forwardRef(
     <NavigationMenuPrimitive.Content
       ref={ref}
       className={cn(
-        "right:0 origin-top-center absolute z-[9999] mt-1.5 h-[var(--radix-navigation-menu-viewport-height)] w-auto overflow-hidden rounded-md border border-neutral-200 bg-white text-sm text-neutral-950 shadow duration-1000 ease-smooth-in-out data-[motion^=from-]:animate-in data-[state=open]:animate-in data-[motion^=to-]:animate-out data-[state=closed]:animate-out data-[motion^=from-]:fade-in data-[motion^=to-]:fade-out data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-90 data-[motion=from-end]:slide-in-from-right-52 data-[motion=from-start]:slide-in-from-left-52 data-[motion=to-end]:slide-out-to-right-52 data-[motion=to-start]:slide-out-to-left-52 dark:border-neutral-800 dark:bg-neutral-950 dark:text-neutral-50 md:absolute md:w-auto",
+        "origin-top absolute z-[9999] mt-1.5 h-[var(--radix-navigation-menu-viewport-height)] w-auto overflow-hidden rounded-md border border-neutral-200 bg-white text-sm text-neutral-950 shadow duration-1000 ease-smooth-in-out data-[motion^=from-]:animate-in data-[state=open]:animate-in data-[motion^=to-]:animate-out data-[state=closed]:animate-out data-[motion^=from-]:fade-in data-[motion^=to-]:fade-out data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-90 data-[motion=from-end]:slide-in-from-right-52 data-[motion=from-start]:slide-in-from-left-52 data-[motion=to-end]:slide-out-to-right-52 data-[motion=to-start]:slide-out-to-left-52 dark:border-neutral-800 dark:bg-neutral-950 dark:text-neutral-50 md:absolute md:w-auto",
         className,
       )}
       {...props}

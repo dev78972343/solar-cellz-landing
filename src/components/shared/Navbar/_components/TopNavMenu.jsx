@@ -139,12 +139,12 @@ export default function TopNavMenu() {
                 <NavigationMenuTrigger className="px-0">
                   {t(`navbar.bottomnav.dropdownitems.${pIdx}.title`)}
                 </NavigationMenuTrigger>
-                <NavigationMenuContent className="!min-w-[200px] space-y-1 p-3 text-base">
+                <NavigationMenuContent className="w-fit space-y-1 py-2 min-w-[150px]">
                   {menuItem?.items?.map((item, cIdx) => (
                     <Link
                       key={cIdx}
                       to={item.href}
-                      className="flex-center-start w-full gap-x-2 rounded p-1 hover:bg-slate-100"
+                      className="flex-center-start text-nowrap w-full gap-x-2 px-4 py-1 text-base hover:bg-slate-100"
                     >
                       {t(`navbar.bottomnav.dropdownitems.${pIdx}.items.${cIdx}`)}
                     </Link>
@@ -173,11 +173,11 @@ export default function TopNavMenu() {
               <span>{selectedLanguage?.label}</span>
             </NavigationMenuTrigger>
 
-            <NavigationMenuContent className="w-fit space-y-1 p-3 min-w-[150px] right-0">
+            <NavigationMenuContent className="w-fit space-y-1 py-2 min-w-[150px] right-0">
               {languages.map((language, idx) => (
                 <button
                   key={idx}
-                  className="flex-center-start text-nowrap w-full gap-x-2 rounded p-1 text-base hover:bg-slate-100"
+                  className="flex-center-start text-nowrap w-full gap-x-2 px-4 py-1 text-base hover:bg-slate-100"
                   onClick={() => changeLanguage(language?.value)}
                 >
                   {language.flag}
