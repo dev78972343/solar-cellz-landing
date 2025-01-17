@@ -1,8 +1,10 @@
 export const menuData = [
   {
+    id: 1,
     title: "Solar Products & Services",
     items: [
       {
+        id: 1,
         label: "Solar Operation & Maintenance",
         to: "#",
         subItems: [
@@ -17,6 +19,7 @@ export const menuData = [
         ],
       },
       {
+        id: 2,
         label: "Solar Panels",
         to: "#",
         subItems: [
@@ -31,6 +34,7 @@ export const menuData = [
         ],
       },
       {
+        id: 3,
         label: "Solar Racking Supply",
         to: "#",
         subItems: [
@@ -48,9 +52,11 @@ export const menuData = [
     ],
   },
   {
+    id: 2,
     title: "Energy Solutions",
     items: [
       {
+        id: 1,
         label: "Solar Energy Batteries",
         to: "#",
         subItems: [
@@ -65,6 +71,7 @@ export const menuData = [
         ],
       },
       {
+        id: 2,
         label: "Solar Energy Inverters",
         to: "#",
         subItems: [
@@ -81,9 +88,11 @@ export const menuData = [
     ],
   },
   {
+    id: 3,
     title: "Tools Equipment & Safety",
     items: [
       {
+        id: 1,
         label: "Solar Energy Tools",
         to: "#",
         subItems: [
@@ -95,6 +104,7 @@ export const menuData = [
         ],
       },
       {
+        id: 2,
         label: "Safety",
         to: "#",
         subItems: [
@@ -109,9 +119,11 @@ export const menuData = [
     ],
   },
   {
+    id: 4,
     title: "Hardscapes & Outdoor Living",
     items: [
       {
+        id: 1,
         label: "Pavers",
         to: "#",
         subItems: [
@@ -120,6 +132,7 @@ export const menuData = [
         ],
       },
       {
+        id: 2,
         label: "Retaining Walls",
         to: "#",
         subItems: [
@@ -128,6 +141,7 @@ export const menuData = [
         ],
       },
       {
+        id: 3,
         label: "Outdoor Living",
         to: "#",
         subItems: [

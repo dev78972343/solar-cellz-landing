@@ -120,11 +120,14 @@
     "sidenav":{
       "heading":"Hello",
       "signin":"Sign In",
+      "back":"Back",
         "menus": [
           {
+            "id": 1,
             "title": "Solar Products & Services",
             "items": [
               {
+                "id":1,
                 "label": "Solar Operation & Maintenance",
                 "subItems": [
                   { "label": "Site capture" },
@@ -138,6 +141,7 @@
                 ]
               },
               {
+                "id":2,
                 "label": "Solar Panels",
                 "subItems": [
                   { "label": "Monocrystalline Solar Panels" },
@@ -151,6 +155,7 @@
                 ]
               },
               {
+                "id":3,
                 "label": "Solar Racking Supply",
                 "subItems": [
                   { "label": "Roof Mount Racking" },
@@ -167,9 +172,11 @@
             ]
           },
           {
+            "id": 2,
             "title": "Energy Solutions",
             "items": [
               {
+                "id":1,
                 "label": "Solar Energy Batteries",
                 "subItems": [
                   { "label": "Lithium-lon (li-ion) Batteries" },
@@ -183,6 +190,7 @@
                 ]
               },
               {
+                "id":2,
                 "label": "Solar Energy Inverters",
                 "subItems": [
                   { "label": "String Inverters" },
@@ -198,9 +206,11 @@
             ]
           },
           {
+            "id": 3,
             "title": "Tools Equipment & Safety",
             "items": [
               {
+                "id":1,
                 "label": "Solar Energy Tools",
                 "subItems": [
                   { "label": "Solar Panel Installation Tools" },
@@ -211,6 +221,7 @@
                 ]
               },
               {
+                "id":2,
                 "label": "Safety",
                 "subItems": [
                   { "label": "Personal Protective Equipment (PPE)" },
@@ -224,9 +235,11 @@
             ]
           },
           {
+            "id": 4,
             "title": "Hardscapes & Outdoor Living",
             "items": [
               {
+                "id":1,
                 "label": "Pavers",
                 "subItems": [
                   { "label": "Concreate Pavers" },
@@ -234,6 +247,7 @@
                 ]
               },
               {
+                "id":2,
                 "label": "Retaining Walls",
                 "subItems": [
                   { "label": "Block Retaining Walls" },
@@ -241,6 +255,7 @@
                 ]
               },
               {
+                "id":3,
                 "label": "Outdoor Living",
                 "subItems": [
                   { "label": "Fire Pits" },

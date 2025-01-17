@@ -47,6 +47,7 @@
       "sidenav": {
         "heading": "Hallo",
         "signin": "Anmelden",
+        "back": "Zurück",
         "menus": [
           {
             "title": "Solarprodukte und -dienstleistungen",
