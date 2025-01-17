@@ -1,18 +1,21 @@
 const stats = [
     {
-      value: "20+",
+      value: "20",
+      suffix: "+",
       title: "Solar Experts",
       description:
         "We have a team of 20+ expert solar engineers specializing in repair, installation, and system optimization.",
     },
     {
-      value: "100%",
+      value: "100",
+      suffix: "%",
       title: "Client Satisfaction",
       description:
         "Our commitment to excellence has earned us a 100% client satisfaction rate in providing renewable energy solutions.",
     },
     {
-      value: "5k+",
+      value: "5",
+      suffix: "k+",
       title: "Installations Completed",
       description:
         "With over 5,000 successful solar panel installations, we have extensive experience in delivering reliable, sustainable energy.",

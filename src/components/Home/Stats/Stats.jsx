@@ -6,6 +6,7 @@ import {
 import ResponsiveContainer from "@/components/ResponsiveContainer/ResponsiveContainer";
 import stats from "./constant";
 import { useTranslation } from "react-i18next";
+import CustomCountUp from "@/components/CustomCountUp/CustomCountUp";
 
 export default function Stats({ className }) {
   const { t } = useTranslation();
@@ -22,7 +23,7 @@ export default function Stats({ className }) {
         viewport={{ once: true }}
         className="mx-auto flex max-w-6xl flex-col items-center justify-between border-gray-200 md:flex-row gap-4 md:border-t"
       >
-        {stats.map((_, index) => (
+        {stats.map((stat, index) => (
           <motion.div
             variants={slideUpChildVariants}
             className="relative p-8 text-center md:flex-1 md:text-left"
@@ -38,7 +39,8 @@ export default function Stats({ className }) {
 
             {/* Content */}
             <h2 className="text-3xl font-semibold text-gray-900 md:text-4xl">
-              {t(`stats.${index}.value`)}
+               <CustomCountUp start={0} end={stat.value}/>
+               {stat.suffix}
             </h2>
             <h3 className="text-lg font-medium text-gray-700 md:text-xl">
               {t(`stats.${index}.title`)}
