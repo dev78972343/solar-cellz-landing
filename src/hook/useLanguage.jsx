@@ -8,10 +8,10 @@ export const useLanguages = () => {
     i18n.changeLanguage(lang);
   };
 
-  // Get Current Language Handler
-  const getCurrentLanguage = () => {
-    return i18n.language === "en-US" ? "en" : window.localStorage.i18nextLng;
-  };
+    // Get Current Language Handler
+    const getCurrentLanguage = () => {
+      return i18n.language || window.localStorage.i18nextLng;
+    };
   
   const currentLanguage = getCurrentLanguage();
 
