@@ -3,7 +3,7 @@ import beyGoodLogo from "../../../assets/images/partners/bey-good.png";
 import ncSustainableLogo from "../../../assets/images/partners/nc-sustainable.png";
 import nmsdcLogo from "../../../assets/images/partners/nmsdc.png";
 import seiaLogo from "../../../assets/images/partners/seia.png";
-import bossLogo from "../../../assets/images/partners/boss.jpg";
+import bossLogo from "../../../assets/images/partners/boss.png";
 import Marquee from "react-fast-marquee";
 
 // Static partners logo
