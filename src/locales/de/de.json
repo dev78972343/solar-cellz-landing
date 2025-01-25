@@ -155,28 +155,48 @@
  }
 
     },  
-    "hero": {
-      "1": {
-        "title": "Revolutioniere Deinen Energieverbrauch",
-        "description": "Schließe Dich der Bewegung für eine nachhaltige Zukunft mit modernsten Solarlösungen an.",
-        "buttons": ["Jetzt sparen", "Kostenlose Beratung anfordern"]
-      },
-      "2": {
-        "title": "Wechsle zu sauberer und erneuerbarer Energie",
-        "description": "Entdecke die Vorteile von Solarenergie und reduziere Deinen CO2-Fußabdruck.",
-        "buttons": ["Mehr erfahren", "Heute starten"]
-      },
-      "3": {
-        "title": "Solarenergie leicht gemacht",
-        "description": "Nutze die Kraft der Sonne für eine umweltfreundliche und kosteneffiziente Energielösung.",
-        "buttons": ["Lösungen erkunden", "Erfolgsgeschichten ansehen"]
-      },
-      "4": {
-        "title": "Intelligente Automatisierung und Solarenergie",
-        "description": "Integriere intelligente Systeme, um die Nutzung Deiner Solarenergie zu optimieren.",
-        "buttons": ["Automatisierung entdecken", "Dein Zuhause verbessern"]
-      }
-    },
+   "hero": [
+  {
+    "id": 1,
+    "title": "Revolutionieren Sie Ihren Energieverbrauch",
+    "alt": "Energieverbrauch",
+    "description": "Schließen Sie sich der Bewegung für eine nachhaltige Zukunft mit modernsten Solar-Lösungen an.",
+    "buttons": [
+      { "text": "Jetzt sparen", "url": "#" },
+      { "text": "Kostenloses Angebot einholen", "url": "#" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Wechseln Sie zu sauberer, erneuerbarer Energie",
+    "alt": "Saubere Energie",
+    "description": "Entdecken Sie die Vorteile von Solarenergie und reduzieren Sie Ihren CO2-Fußabdruck.",
+    "buttons": [
+      { "text": "Mehr erfahren", "url": "#" },
+      { "text": "Heute starten", "url": "#" }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Solarenergie leicht gemacht",
+    "alt": "Solarenergie leicht gemacht",
+    "description": "Nutzen Sie die Kraft der Sonne für eine umweltfreundliche, kostengünstige Energiequelle.",
+    "buttons": [
+      { "text": "Lösungen erkunden", "url": "#" },
+      { "text": "Fallstudien ansehen", "url": "#" }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Intelligente Automation trifft Solarenergie",
+    "alt": "Intelligente Automation",
+    "description": "Integrieren Sie smarte Systeme, um Ihre Solarnutzung zu optimieren.",
+    "buttons": [
+      { "text": "Automation entdecken", "url": "#" },
+      { "text": "Ihr Zuhause aufrüsten", "url": "#" }
+    ]
+  }
+   ],
     "brands": {
       "title": "Liquidität unterstützt durch"
     },

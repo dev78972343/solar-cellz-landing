@@ -155,28 +155,48 @@
           ]
       } 
 },    
-    "hero": {
-      "1": {
-        "title": "Revoluciona Tu Consumo de Energía",
-        "description": "Únete al movimiento hacia un futuro sostenible con soluciones solares de última generación.",
-        "buttons": ["Empieza a Ahorrar Ahora", "Obtén una Cotización Gratis"]
-      },
-      "2": {
-        "title": "Cambia a Energía Limpia y Renovable",
-        "description": "Descubre los beneficios de la energía solar y reduce tu huella de carbono.",
-        "buttons": ["Más Información", "Empieza Hoy"]
-      },
-      "3": {
-        "title": "Energía Solar Simplificada",
-        "description": "Aprovecha el poder del sol para una solución energética ecológica y rentable.",
-        "buttons": ["Explorar Soluciones", "Ver Casos de Éxito"]
-      },
-      "4": {
-        "title": "Automatización Inteligente y Energía Solar",
-        "description": "Integra sistemas inteligentes para optimizar el uso de tu energía solar.",
-        "buttons": ["Descubre la Automatización", "Mejora tu Hogar"]
-      }
-    },
+    "hero": [
+  {
+    "id": 1,
+    "title": "Revoluciona tu Consumo de Energía",
+    "alt": "Consumo de Energía",
+    "description": "Únete al movimiento hacia un futuro sostenible con soluciones solares de última generación.",
+    "buttons": [
+      { "text": "Empieza a Ahorrar Ahora", "url": "#" },
+      { "text": "Obtén una Cotización Gratis", "url": "#" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Cambia a Energía Limpia y Renovable",
+    "alt": "Energía Limpia",
+    "description": "Descubre los beneficios de la energía solar y reduce tu huella de carbono.",
+    "buttons": [
+      { "text": "Aprender Más", "url": "#" },
+      { "text": "Empieza Hoy", "url": "#" }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Energía Solar Simplificada",
+    "alt": "Energía Solar Simplificada",
+    "description": "Aprovecha el poder del sol para una solución energética ecológica y rentable.",
+    "buttons": [
+      { "text": "Explorar Soluciones", "url": "#" },
+      { "text": "Ver Estudios de Caso", "url": "#" }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Automatización Inteligente se Une a la Energía Solar",
+    "alt": "Automatización Inteligente",
+    "description": "Integra sistemas inteligentes para optimizar el uso de tu energía solar.",
+    "buttons": [
+      { "text": "Descubrir Automatización", "url": "#" },
+      { "text": "Mejora tu Hogar", "url": "#" }
+    ]
+  }
+],
     "brands": {
       "title": "Liquidez Respaldada por"
     },

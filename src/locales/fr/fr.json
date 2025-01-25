@@ -154,28 +154,48 @@
             ]
         }      
     },  
-    "hero": {
-      "1": {
-        "title": "Révolutionnez Votre Consommation Énergétique",
-        "description": "Rejoignez le mouvement vers un avenir durable avec des solutions solaires de pointe.",
-        "buttons": ["Commencez à Économiser Maintenant", "Obtenez un Devis Gratuit"]
-      },
-      "2": {
-        "title": "Passez à l'Énergie Propre et Renouvelable",
-        "description": "Découvrez les avantages de l'énergie solaire et réduisez votre empreinte carbone.",
-        "buttons": ["En Savoir Plus", "Commencez Aujourd'hui"]
-      },
-      "3": {
-        "title": "L'Énergie Solaire Simplifiée",
-        "description": "Exploitez la puissance du soleil pour une solution énergétique écologique et rentable.",
-        "buttons": ["Explorer les Solutions", "Voir les Études de Cas"]
-      },
-      "4": {
-        "title": "Automatisation Intelligente et Énergie Solaire",
-        "description": "Intégrez des systèmes intelligents pour optimiser l'utilisation de votre énergie solaire.",
-        "buttons": ["Découvrir l'Automatisation", "Améliorez Votre Maison"]
-      }
-    },
+    "hero": [
+  {
+    "id": 1,
+    "title": "Révolutionnez Votre Consommation d'Énergie",
+    "alt": "Consommation d'Énergie",
+    "description": "Rejoignez le mouvement vers un avenir durable avec des solutions solaires de pointe.",
+    "buttons": [
+      { "text": "Commencez à Économiser Maintenant", "url": "#" },
+      { "text": "Obtenez un Devis Gratuit", "url": "#" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Passez à une Énergie Propre et Renouvelable",
+    "alt": "Énergie Propre",
+    "description": "Découvrez les avantages de l'énergie solaire et réduisez votre empreinte carbone.",
+    "buttons": [
+      { "text": "En Savoir Plus", "url": "#" },
+      { "text": "Commencez Aujourd'hui", "url": "#" }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "L'Énergie Solaire Simplifiée",
+    "alt": "L'Énergie Solaire Simplifiée",
+    "description": "Exploitez la puissance du soleil pour une solution énergétique écologique et économique.",
+    "buttons": [
+      { "text": "Explorer les Solutions", "url": "#" },
+      { "text": "Voir des Études de Cas", "url": "#" }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "L'Automatisation Intelligente Rencontre l'Énergie Solaire",
+    "alt": "Automatisation Intelligente",
+    "description": "Intégrez des systèmes intelligents pour optimiser l'utilisation de votre énergie solaire.",
+    "buttons": [
+      { "text": "Découvrir l'Automatisation", "url": "#" },
+      { "text": "Améliorez Votre Maison", "url": "#" }
+    ]
+  }
+],
     "brands": {
       "title": "Soutenu par des Partenaires Fiables"
     },

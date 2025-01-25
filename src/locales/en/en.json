@@ -237,28 +237,48 @@
         ]
       }      
   },
-  "hero": {
-    "1": {
-      "title": "Revolutionize Your Energy Consumption",
-      "description": "Join the movement toward a sustainable future with cutting-edge solar solutions.",
-      "buttons": ["Start Saving Now", "Get a Free Quote"]
-    },
-    "2": {
-      "title": "Switch to Clean, Renewable Energy",
-      "description": "Discover the benefits of solar power and reduce your carbon footprint.",
-      "buttons": ["Learn More", "Get Started Today"]
-    },
-    "3": {
-      "title": "Solar Power Simplified",
-      "description": "Harness the sun's power for an eco-friendly, cost-effective energy solution.",
-      "buttons": ["Explore Solutions", "View Case Studies"]
-    },
-    "4": {
-      "title": "Smart Automation Meets Solar Power",
-      "description": "Integrate smart systems to optimize your solar energy usage.",
-      "buttons": ["Discover Automation", "Upgrade Your Home"]
-    }
+ "hero": [
+  {
+    "id": 1,
+    "title": "Revolutionize Your Energy Consumption",
+    "alt": "Energy Consumption",
+    "description": "Join the movement toward a sustainable future with cutting-edge solar solutions.",
+    "buttons": [
+      { "text": "Start Saving Now", "url": "#" },
+      { "text": "Get a Free Quote", "url": "#" }
+    ]
   },
+  {
+    "id": 2,
+    "title": "Switch to Clean, Renewable Energy",
+    "alt": "Clean Energy",
+    "description": "Discover the benefits of solar power and reduce your carbon footprint.",
+    "buttons": [
+      { "text": "Learn More", "url": "#" },
+      { "text": "Get Started Today", "url": "#" }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Solar Power Simplified",
+    "alt": "Solar Power Simplified",
+    "description": "Harness the sun's power for an eco-friendly, cost-effective energy solution.",
+    "buttons": [
+      { "text": "Explore Solutions", "url": "#" },
+      { "text": "View Case Studies", "url": "#" }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Smart Automation Meets Solar Power",
+    "alt": "Smart Automation ",
+    "description": "Integrate smart systems to optimize your solar energy usage.",
+    "buttons": [
+      { "text": "Discover Automation", "url": "#" },
+      { "text": "Upgrade Your Home", "url": "#" }
+    ]
+  }
+ ],
   "brands": {
     "title": "Liquidity Supported by"
   },
