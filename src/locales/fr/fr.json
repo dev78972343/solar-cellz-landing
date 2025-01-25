@@ -150,32 +150,6 @@
                     ]
                   }
                 ]
-              },
-              {
-                "title": "Aménagements Extérieurs et Vie en Plein Air",
-                "items": [
-                  {
-                    "label": "Pavés",
-                    "subItems": [
-                      { "label": "Pavés en béton" },
-                      { "label": "Pavés en briques" }
-                    ]
-                  },
-                  {
-                    "label": "Murs de Soutènement",
-                    "subItems": [
-                      { "label": "Murs de soutènement en blocs" },
-                      { "label": "Murs en pierres naturelles" }
-                    ]
-                  },
-                  {
-                    "label": "Vie en Plein Air",
-                    "subItems": [
-                      { "label": "Foyers extérieurs" },
-                      { "label": "Cuisines extérieures" }
-                    ]
-                  }
-                ]
               }
             ]
         }      
@@ -246,7 +220,7 @@
         "button": {"text": "En Savoir Plus"}
       },
       "3": {
-        "title": "Nettoyage de Panneaux Solaires",
+        "title": "Fournitures de nettoyage pour panneaux solaires",
         "description": "Assurez une efficacité maximale de vos panneaux solaires grâce à nos services professionnels de nettoyage. Nous utilisons des agents non toxiques et des méthodes économes en eau pour maintenir vos panneaux propres.",
         "features": [
           "Agents de Nettoyage Non Toxiques",

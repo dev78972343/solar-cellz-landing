@@ -118,37 +118,4 @@ export const menuData = [
       },
     ],
   },
-  {
-    id: 4,
-    title: "Hardscapes & Outdoor Living",
-    items: [
-      {
-        id: 1,
-        label: "Pavers",
-        to: "#",
-        subItems: [
-          { label: "Concreate Pavers", to: "#" },
-          { label: "Brick Pavers", to: "#" },
-        ],
-      },
-      {
-        id: 2,
-        label: "Retaining Walls",
-        to: "#",
-        subItems: [
-          { label: "Block Retaining Walls", to: "#" },
-          { label: "Natural Stone Walls", to: "#" },
-        ],
-      },
-      {
-        id: 3,
-        label: "Outdoor Living",
-        to: "#",
-        subItems: [
-          { label: "Fire Pits", to: "#" },
-          { label: "Outdoor Kitchens", to: "#" },
-        ],
-      },
-    ],
-  },
 ];

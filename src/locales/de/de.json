@@ -150,32 +150,6 @@
                 ]
               }
             ]
-          },
-          {
-            "title": "Außenanlagen und Outdoor-Leben",
-            "items": [
-              {
-                "label": "Pflastersteine",
-                "subItems": [
-                  { "label": "Betonpflastersteine" },
-                  { "label": "Ziegelpflastersteine" }
-                ]
-              },
-              {
-                "label": "Stützmauern",
-                "subItems": [
-                  { "label": "Block-Stützmauern" },
-                  { "label": "Natursteinmauern" }
-                ]
-              },
-              {
-                "label": "Outdoor-Leben",
-                "subItems": [
-                  { "label": "Feuerstellen" },
-                  { "label": "Außenküchen" }
-                ]
-              }
-            ]
           }
         ]
  }
@@ -247,7 +221,7 @@
         "button": {"text": "Mehr erfahren"}
       },
       "3": {
-        "title": "Reinigung von Solarpanels",
+        "title": "Reinigungsmaterialien für Solarpanels",
         "description": "Sorge für maximale Effizienz Deiner Solarpanels mit unseren professionellen Reinigungsdiensten. Wir verwenden ungiftige Reinigungsmittel und wasserfreundliche Methoden, um Deine Solarpanels zu pflegen.",
         "features": [
           "Ungiftige Reinigungsmittel",

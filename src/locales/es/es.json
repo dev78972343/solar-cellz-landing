@@ -151,32 +151,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "title": "Jardinería y Vida al Aire Libre",
-              "items": [
-                {
-                  "label": "Adoquines",
-                  "subItems": [
-                    { "label": "Adoquines de concreto" },
-                    { "label": "Adoquines de ladrillo" }
-                  ]
-                },
-                {
-                  "label": "Muros de Contención",
-                  "subItems": [
-                    { "label": "Muros de contención de bloques" },
-                    { "label": "Muros de piedra natural" }
-                  ]
-                },
-                {
-                  "label": "Vida al Aire Libre",
-                  "subItems": [
-                    { "label": "Hogares al aire libre" },
-                    { "label": "Cocinas al aire libre" }
-                  ]
-                }
-              ]
             }
           ]
       } 
@@ -247,7 +221,7 @@
         "button": {"text": "Más Información"}
       },
       "3": {
-        "title": "Limpieza de Paneles Solares",
+        "title": "Suministros para la limpieza de paneles solares",
         "description": "Asegura la máxima eficiencia de tus paneles solares con nuestros servicios profesionales de limpieza. Utilizamos agentes no tóxicos y métodos eficientes en el uso del agua para mantener tus paneles solares.",
         "features": [
           "Agentes de Limpieza No Tóxicos",

@@ -233,36 +233,6 @@
                 ]
               }
             ]
-          },
-          {
-            "id": 4,
-            "title": "Hardscapes & Outdoor Living",
-            "items": [
-              {
-                "id":1,
-                "label": "Pavers",
-                "subItems": [
-                  { "label": "Concreate Pavers" },
-                  { "label": "Brick Pavers" }
-                ]
-              },
-              {
-                "id":2,
-                "label": "Retaining Walls",
-                "subItems": [
-                  { "label": "Block Retaining Walls" },
-                  { "label": "Natural Stone Walls" }
-                ]
-              },
-              {
-                "id":3,
-                "label": "Outdoor Living",
-                "subItems": [
-                  { "label": "Fire Pits" },
-                  { "label": "Outdoor Kitchens" }
-                ]
-              }
-            ]
           }
         ]
       }      
@@ -337,7 +307,7 @@
         "button": {"text":"Learn More"}
       },
       "3": {
-        "title": "Solar Panel Cleaning",
+        "title": "Solar Panel Cleaning Supplies",
         "description": "Ensure maximum efficiency of your solar panels with our professional cleaning services. We use non-toxic agents and water-efficient methods to maintain your solar panels.",
         "features": [
           "Non-Toxic Cleaning Agents",
