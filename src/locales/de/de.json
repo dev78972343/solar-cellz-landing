@@ -200,24 +200,29 @@
     "brands": {
       "title": "Liquidität Unterstützt von"
     },
-    "feat": {
-      "1": {
-        "title": "Installation von Solarpanels",
-        "description": "Effiziente Dienstleistungen für die Installation von Solarpanels, um erneuerbare Energie zu nutzen – von der Standortbewertung bis zur Endkonfiguration."
-      },
-      "2": {
-        "title": "Solarenergiespeicherung",
-        "description": "Speichere Solarenergie mit hochwertigen Batterien, um Energie auch nachts oder bei bewölktem Wetter verfügbar zu haben."
-      },
-      "3": {
-        "title": "Wartung und Support für Solaranlagen",
-        "description": "Regelmäßige Wartung und Unterstützung auf Abruf, um sicherzustellen, dass Deine Solaranlage optimal funktioniert."
-      },
-      "4": {
-        "title": "Energieoptimierung",
-        "description": "Fortschrittliche Lösungen zur Optimierung des Energieverbrauchs und Kostensenkung, um maximale Effizienz Deines Solarsystems zu gewährleisten."
-      }
-    },
+    "features": [
+  {
+    "title": "Solarmodul-Installation",
+    "description": "Effiziente Solarmodul-Installationsdienste zur Nutzung erneuerbarer Energien, mit fachkundiger Unterstützung von der Standortbewertung bis zur Endmontage.",
+    "icon": "🌞"
+  },
+  {
+    "title": "Solarenergie-Speicherung",
+    "description": "Speichern Sie Solarenergie mit hochwertigen Batterien, um auch nachts oder bei bewölktem Wetter Stromverfügbarkeit zu gewährleisten.",
+    "icon": "🔋"
+  },
+  {
+    "title": "Solarwartung und Support",
+    "description": "Regelmäßige Wartung und bedarfsorientierter Support, um Ihre Solarsysteme auf optimaler Leistung zu halten.",
+    "icon": "⚙️"
+  },
+  {
+    "title": "Energieoptimierung",
+    "description": "Fortschrittliche Lösungen zur Optimierung Ihres Energieverbrauchs und Kostensenkung, um maximale Effizienz aus Ihrem Solarsystem zu gewährleisten.",
+    "icon": "💡"
+  }
+],
+
     "about": {
       "title": "Umfassende Solarlösungen mit Wartungsservices",
       "1": {

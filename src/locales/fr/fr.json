@@ -199,24 +199,28 @@
     "brands": {
       "title": "Liquidité Soutenue par"
     },
-    "feat": {
-      "1": {
-        "title": "Installation de Panneaux Solaires",
-        "description": "Services efficaces pour l'installation de panneaux solaires, avec des conseils d'experts, de l'évaluation du site à la configuration finale."
-      },
-      "2": {
-        "title": "Stockage de l'Énergie Solaire",
-        "description": "Stockez l'énergie solaire avec des batteries de haute qualité pour garantir une disponibilité d'énergie même la nuit ou par temps nuageux."
-      },
-      "3": {
-        "title": "Maintenance et Support Solaires",
-        "description": "Maintenance régulière et support à la demande pour assurer un fonctionnement optimal de vos systèmes solaires."
-      },
-      "4": {
-        "title": "Optimisation de l'Énergie",
-        "description": "Solutions avancées pour optimiser l'utilisation de l'énergie et réduire les coûts, garantissant une efficacité maximale de votre système solaire."
-      }
-    },
+    "features": [
+  {
+    "title": "Installation de Panneaux Solaires",
+    "description": "Services d'installation de panneaux solaires efficaces pour exploiter l'énergie renouvelable, avec des conseils d'experts de l'évaluation du site à l'installation finale.",
+    "icon": "🌞"
+  },
+  {
+    "title": "Stockage d'Énergie Solaire",
+    "description": "Stockez l'énergie solaire avec des batteries de haute qualité pour garantir la disponibilité de l'énergie même la nuit ou par temps nuageux.",
+    "icon": "🔋"
+  },
+  {
+    "title": "Maintenance et Support Solaires",
+    "description": "Entretien régulier et assistance à la demande pour maintenir vos systèmes solaires à des performances optimales.",
+    "icon": "⚙️"
+  },
+  {
+    "title": "Optimisation de l'Énergie",
+    "description": "Solutions avancées pour optimiser votre utilisation d'énergie et réduire les coûts, garantissant une efficacité maximale de votre système solaire.",
+    "icon": "💡"
+  }
+],
     "about": {
       "title": "Solutions Solaires Complètes avec Services de Maintenance",
       "1": {

@@ -282,28 +282,28 @@
   "brands": {
     "title": "Liquidity Supported by"
   },
-  "feat": {
-    "1": 
+  "features": [
     {
       "title": "Solar Panel Installation",
-      "description": "Efficient solar panel installation services to harness renewable energy, with expert guidance from site assessment to final setup."
+      "description": "Efficient solar panel installation services to harness renewable energy, with expert guidance from site assessment to final setup.",
+      "icon": "🌞"
     },
-    "2":
     {
       "title": "Solar Energy Storage",
-      "description": "Store solar energy with high-quality batteries to ensure power availability even during the night or cloudy days."
+      "description": "Store solar energy with high-quality batteries to ensure power availability even during the night or cloudy days.",
+      "icon": "🔋"
     },
-    "3":
     {
       "title": "Solar Maintenance & Support",
-      "description": "Routine maintenance and on-demand support to keep your solar systems running at optimal performance."
+      "description": "Routine maintenance and on-demand support to keep your solar systems running at optimal performance.",
+      "icon": "⚙️"
     },
-    "4":
     {
       "title": "Energy Optimization",
-      "description": "Advanced solutions to optimize your energy usage and reduce costs, ensuring maximum efficiency from your solar system."
+      "description": "Advanced solutions to optimize your energy usage and reduce costs, ensuring maximum efficiency from your solar system.",
+      "icon": "💡"
     }
-  },
+  ],
   "about": {
       "title":"Complete Solar Solutions with Maintenance Services",
       "1": {
