@@ -4,12 +4,12 @@ import {
   slideUpParentVariants,
 } from "@/utils/sharedMotionVariants";
 import ResponsiveContainer from "@/components/ResponsiveContainer/ResponsiveContainer";
-import stats from "./constant";
 import { useTranslation } from "react-i18next";
 import CustomCountUp from "@/components/CustomCountUp/CustomCountUp";
 
 export default function Stats({ className }) {
   const { t } = useTranslation();
+  const stats = t("stats", { returnObjects: true });
 
   return (
     <ResponsiveContainer classes={className}>
@@ -43,10 +43,10 @@ export default function Stats({ className }) {
                {stat.suffix}
             </h2>
             <h3 className="text-lg font-medium text-gray-700 md:text-xl">
-              {t(`stats.${index}.title`)}
+              {stat.title}
             </h3>
             <p className="mt-2 text-sm text-gray-600 md:text-base">
-              {t(`stats.${index}.description`)}
+              {stat.description}
             </p>
           </motion.div>
         ))}

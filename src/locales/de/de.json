@@ -351,17 +351,20 @@
     },
     "stats": [
       {
-        "value": "20+",
+        "value": "20",
+        "suffix": "+",
         "title": "Solarenergie-Experten",
         "description": "Unser Team umfasst über 20 erfahrene Solaringenieure, die auf Reparatur, Installation und Optimierung von Systemen spezialisiert sind."
       },
       {
-        "value": "100%",
+        "value": "100",
+        "suffix": "%",
         "title": "Kundenzufriedenheit",
         "description": "Unser Engagement für Exzellenz hat uns eine Kundenzufriedenheitsrate von 100 % bei der Bereitstellung von erneuerbaren Energielösungen eingebracht."
       },
       {
-        "value": "5k+",
+        "value": "5",
+        "suffix": "k+",
         "title": "Abgeschlossene Installationen",
         "description": "Mit über 5.000 erfolgreichen Solarinstallationen haben wir umfangreiche Erfahrung in der Bereitstellung nachhaltiger und zuverlässiger Energie."
       }

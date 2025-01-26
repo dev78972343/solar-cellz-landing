@@ -348,17 +348,20 @@
     },
     "stats": [
       {
-        "value": "20+",
+        "value": "20",
+        "suffix": "+",
         "title": "Experts en Énergie Solaire",
         "description": "Nous avons une équipe de plus de 20 ingénieurs solaires spécialisés dans la réparation, l'installation et l'optimisation de systèmes."
       },
       {
-        "value": "100 %",
+        "value": "100",
+        "suffix": "%",
         "title": "Satisfaction Client",
         "description": "Notre engagement envers l'excellence nous a valu un taux de satisfaction client de 100 % dans la fourniture de solutions d'énergie renouvelable."
       },
       {
-        "value": "5k+",
+        "value": "5",
+        "suffix": "k+",
         "title": "Installations Réussies",
         "description": "Avec plus de 5 000 installations réussies de panneaux solaires, nous avons une vaste expérience dans l'offre d'énergie durable et fiable."
       }
