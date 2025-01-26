@@ -295,21 +295,29 @@
   ]
 },
     "tryIt": {
-      "sectionTitle": "Comienza Hoy",
-      "buttonText": "Solicita una Consulta Gratis",
-      "introText": "Inicia tu camino hacia una energía limpia y renovable con Solar Cellz. Ofrecemos soluciones de energía solar personalizadas para hogares y negocios.",
-      "cards": {
-        "1": {
-          "title": "Solicita una Consulta Gratis",
+     "heading": "Comienza hoy",
+      "button": {"text": "Solicita una consulta gratuita"},
+      "description": "Comienza tu camino hacia la energía limpia y renovable con Solar Cellz. Ofrecemos soluciones personalizadas de energía solar para hogares y negocios.",
+      "cards": [
+        {
+          "id": 1,
+          "title": "Solicita una consulta gratuita",
           "description": "¿Necesitas asesoramiento sobre soluciones de energía solar para tu hogar o negocio? Contáctanos para una consulta gratuita y determina el mejor sistema solar para ti.",
-          "buttonText": "Solicitar Consulta"
+          "button": {
+            "text": "Solicitar consulta",
+            "url": "#"
+          }
         },
-        "2": {
-          "title": "Obtén una Cotización Solar",
-          "description": "Obtén una cotización solar personalizada según tus necesidades energéticas y ubicación. Nuestro equipo trabajará contigo para diseñar una solución óptima para tus objetivos energéticos.",
-          "buttonText": "Solicitar Cotización"
+        {
+          "id": 2,
+          "title": "Obtén una cotización solar",
+          "description": "Obtén una cotización personalizada basada en tus necesidades energéticas y ubicación. Nuestro equipo trabajará contigo para diseñar una solución óptima para tus objetivos energéticos.",
+          "button": {
+            "text": "Obtener cotización",
+            "url": "#"
+          }
         }
-      }
+      ]
     },
     "bestCompanySays": {
       "heading": "Las mejores empresas opinan sobre nosotros",

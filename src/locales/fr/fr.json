@@ -293,21 +293,29 @@
   ]
 },
     "tryIt": {
-      "sectionTitle": "Commencez Aujourd'hui",
-      "buttonText": "Demandez une Consultation Gratuite",
-      "introText": "Entamez votre transition vers une énergie propre et renouvelable avec Solar Cellz. Nous offrons des solutions solaires personnalisées pour les maisons et les entreprises.",
-      "cards": {
-        "1": {
-          "title": "Demandez une Consultation Gratuite",
-          "description": "Vous avez besoin de conseils sur les solutions d'énergie solaire pour votre maison ou votre entreprise ? Contactez-nous pour une consultation gratuite et découvrez le meilleur système solaire pour vous.",
-          "buttonText": "Demander une Consultation"
+      "heading": "Commencez aujourd'hui",
+      "button": {"text": "Demandez une consultation gratuite"},
+      "description": "Commencez votre transition vers une énergie propre et renouvelable avec Solar Cellz. Nous proposons des solutions énergétiques solaires sur mesure pour les maisons et les entreprises.",
+      "cards": [
+        {
+          "id": 1,
+          "title": "Demandez une consultation gratuite",
+          "description": "Besoin de conseils sur les solutions d'énergie solaire pour votre maison ou votre entreprise ? Contactez-nous pour une consultation gratuite afin de déterminer le meilleur système solaire pour vous.",
+          "button": {
+            "text": "Demander une consultation",
+            "url": "#"
+          }
         },
-        "2": {
-          "title": "Obtenez un Devis Solaire",
-          "description": "Recevez un devis solaire personnalisé basé sur vos besoins énergétiques et votre emplacement. Notre équipe travaillera avec vous pour concevoir une solution optimale pour vos objectifs énergétiques.",
-          "buttonText": "Demander un Devis"
+        {
+          "id": 2,
+          "title": "Obtenez un devis solaire",
+          "description": "Obtenez un devis solaire personnalisé en fonction de vos besoins énergétiques et de votre emplacement. Notre équipe travaillera avec vous pour concevoir une solution optimale pour vos objectifs énergétiques.",
+          "button": {
+            "text": "Obtenir un devis",
+            "url": "#"
+          }
         }
-      }
+      ]
     },
     "bestCompanySays": {
       "heading": "Ce Que Disent les Meilleures Entreprises de Nous",

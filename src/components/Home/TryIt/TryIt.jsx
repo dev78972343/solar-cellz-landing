@@ -10,33 +10,11 @@ import { ArrowRight } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useTranslation } from "react-i18next";
 
-const tryItData = [
-  {
-    id:1,
-    title: "Request a Free Consultation",
-    description:
-      "Need advice on solar energy solutions for your home or business? Contact us for a free consultation to determine the best solar system for you.",
-    button: {
-      text: "Request Consultation",
-      link: "#",
-    },
-  },
-  {
-    id:2,
-    title: "Get a Solar Quote",
-    description:
-      "Get a customized solar quote based on your energy needs and location. Our team will work with you to design an optimal solution for your energy goals.",
-    button: {
-      text: "Get Quote",
-      link: "#",
-    },
-  },
-];
-
 export default function TryIt({ className }) {
   const { t } = useTranslation();
+  const tryItContent = t("tryIt", { returnObjects: true });
   return (
-    <div className={cn("", className)}>
+    <div className={className}>
       <ResponsiveContainer>
         <motion.section
           variants={slideUpParentVariants()}
@@ -50,11 +28,11 @@ export default function TryIt({ className }) {
               variants={slideUpChildVariants}
               className="text-center lg:text-left text-3xl font-bold sm:text-4xl lg:text-5xl"
             >
-              {t("tryIt.sectionTitle")}
+              {tryItContent.heading}
             </motion.h3>
             <motion.div variants={slideUpChildVariants}>
               <PrimaryButton arrow className="w-fit px-4 text-sm">
-                {t("tryIt.buttonText")}
+                {tryItContent.button.text}
               </PrimaryButton>
             </motion.div>
           </div>
@@ -64,27 +42,27 @@ export default function TryIt({ className }) {
               variants={slideUpChildVariants}
               className="mb-6 text-lg text-white/80"
             >
-              {t("tryIt.introText")}
+              {tryItContent.description}
             </motion.p>
             <Separator className="my-5 opacity-50" />
 
             <div className="flex flex-col gap-6">
-              {tryItData.map((item, index) => (
+              {tryItContent.cards.map((item, index) => (
                 <motion.div
                   variants={slideUpChildVariants}
-                  key={index}
+                  key={item.id}
                   className="flex flex-col gap-4"
                 >
                   <h4 className="text-xl font-semibold sm:text-2xl">
-                    {t(`tryIt.cards.${item.id}.title`)}
+                    {item.title}
                   </h4>
-                  <p className="text-white/80">{t(`tryIt.cards.${item.id}.description`)}</p>
+                  <p className="text-white/80">{item.description}</p>
                   <a
-                    href={item.button.link}
+                    href={item.button.url}
                     className="group flex items-center gap-2 text-sm font-medium text-white/90 transition hover:text-white"
-                    aria-label={`Navigate to ${item.button.text}`}
+                    aria-label={item.button.text}
                   >
-                    {t(`tryIt.cards.${item.id}.buttonText`)}
+                    {item.button.text}
                     <ArrowRight className="h-5 w-5 transition-transform duration-300 group-hover:translate-x-2" />
                   </a>
                   {index === 0 && <Separator className="my-4 opacity-50" />}

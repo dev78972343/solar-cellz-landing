@@ -296,21 +296,29 @@
 },
 
     "tryIt": {
-      "sectionTitle": "Starte noch heute",
-      "buttonText": "Kostenlose Beratung anfordern",
-      "introText": "Beginne Deine Reise zu sauberer und erneuerbarer Energie mit Solar Cellz. Wir bieten maßgeschneiderte Solarlösungen für Privathaushalte und Unternehmen.",
-      "cards": {
-        "1": {
+      "heading": "Heute loslegen",
+      "button": {"text": "Kostenlose Beratung anfordern"},
+      "description": "Beginnen Sie Ihre Reise zu sauberer und erneuerbarer Energie mit Solar Cellz. Wir bieten maßgeschneiderte Solarenergie-Lösungen für Häuser und Unternehmen an.",
+      "cards": [
+        {
+          "id": 1,
           "title": "Kostenlose Beratung anfordern",
-          "description": "Benötigst Du Beratung zu Solarlösungen für Dein Zuhause oder Unternehmen? Kontaktiere uns für eine kostenlose Beratung und finde das beste Solarsystem für Dich.",
-          "buttonText": "Beratung anfordern"
+          "description": "Benötigen Sie Beratung zu Solarenergielösungen für Ihr Zuhause oder Ihr Unternehmen? Kontaktieren Sie uns für eine kostenlose Beratung, um das beste Solarsystem für Sie zu bestimmen.",
+          "button": {
+            "text": "Beratung anfordern",
+            "url": "#"
+          }
         },
-        "2": {
-          "title": "Solarangebot erhalten",
-          "description": "Erhalte ein maßgeschneidertes Solarangebot basierend auf Deinen Energiebedürfnissen und Deinem Standort. Unser Team arbeitet mit Dir zusammen, um eine optimale Lösung für Deine Energieziele zu entwerfen.",
-          "buttonText": "Angebot anfordern"
+        {
+          "id": 2,
+          "title": "Angebot für Solaranlage erhalten",
+          "description": "Erhalten Sie ein individuelles Solarangebot basierend auf Ihrem Energiebedarf und Standort. Unser Team arbeitet mit Ihnen zusammen, um eine optimale Lösung für Ihre Energieziele zu entwerfen.",
+          "button": {
+            "text": "Angebot erhalten",
+            "url": "#"
+          }
         }
-      }
+      ]
     },
     "bestCompanySays": {
       "heading": "Die besten Unternehmen sprechen über uns",
