@@ -373,7 +373,7 @@
       "heading": "Wir haben alle Solarausrüstungen",
       "subHeading": "Solarausrüstungen",
       "desc": "Alles, was Du benötigst, um ein angeschlossenes, unabhängiges oder hybrides Solarsystem zu bauen, einschließlich Ladestationen für Elektrofahrzeuge:",
-      "buttonText": "Entdecken",
+      "button": {"text": "Entdecken"},
       "cards": [
         "Solar-Wechselrichter im Großhandel",
         "Heimbatteriespeicher",

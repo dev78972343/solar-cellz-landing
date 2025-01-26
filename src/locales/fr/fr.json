@@ -370,7 +370,7 @@
       "heading": "Nous Avons Tout l'Équipement Solaire",
       "subHeading": "Équipements Solaires",
       "desc": "Tout ce dont vous avez besoin pour construire un système solaire connecté, déconnecté ou hybride, y compris la recharge des véhicules électriques :",
-      "buttonText": "Explorer",
+      "button":{"text": "Explorer"},
       "cards": [
         "Inverseurs Solaires en Gros",
         "Banques de Batteries Résidentielles",

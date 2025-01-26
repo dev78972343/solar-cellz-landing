@@ -6,15 +6,15 @@ import equipmentImg5 from "@/assets/images/equipments/equip5.png";
 import equipmentImg6 from "@/assets/images/equipments/equip6.png";
 
 // Static Equipment Data
-const equipmentsData = [
+export const images = [
     {
       id: 1,
-      name: "Wholesale Solar Inverters",
+      name: "Solar Inverters",
       image: equipmentImg1,
     },
     {
       id: 2,
-      name: "Home Solar Battery Banks",
+      name: "Solar Battery Banks",
       image: equipmentImg2,
     },
     {
@@ -38,5 +38,3 @@ const equipmentsData = [
       image: equipmentImg6,
     },
   ];
-
-export default equipmentsData;  

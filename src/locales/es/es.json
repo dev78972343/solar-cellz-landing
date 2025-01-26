@@ -372,7 +372,7 @@
       "heading": "Contamos con Todo el Equipo Solar",
       "subHeading": "Equipos Solares",
       "desc": "Todo lo necesario para construir un sistema solar conectado, desconectado o híbrido, incluyendo carga de vehículos eléctricos:",
-      "buttonText": "Explorar",
+      "button":{"text": "Explorar"},
       "cards": [
         "Inversores Solares al Por Mayor",
         "Bancos de Baterías para Hogares",

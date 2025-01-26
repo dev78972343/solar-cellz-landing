@@ -453,7 +453,7 @@
     "heading":"We Carry Every Piece of Solar Equipments",
     "subHeading":"Solar Equipment",
     "desc":"You would need to build an on-grid, off-grid, or hybrid solar system, EV charging including the following:",
-    "buttonText":"Explore",
+    "button":{"text":"Explore"},
     "cards": ["Wholesale Solar Inverters",
     "Home Solar Battery Banks",
     "Combiner Boxes",
