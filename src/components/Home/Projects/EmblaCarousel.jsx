@@ -8,12 +8,10 @@ import useEmblaCarousel from "embla-carousel-react";
 import SectionHeader from "@/components/shared/SectionHeader/SectionHeader";
 import { ArrowRightIcon } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { COMPANIES, TWEEN_FACTOR_BASE } from "./constant";
 
-const TWEEN_FACTOR_BASE = 0.84;
-
-const EmblaCarousel = (props) => {
+const EmblaCarousel = ({slides, options}) => {
   const { t } = useTranslation();
-  const { slides, options } = props;
   const [emblaRef, emblaApi] = useEmblaCarousel(options);
   const tweenFactor = useRef(0);
 
@@ -84,7 +82,7 @@ const EmblaCarousel = (props) => {
     <section className="embla rounded-xl">
       <div className="embla__controls">
  <SectionHeader
-    heading={t("bestCompanySays.heading")}
+    heading={slides.heading}
     classes={{
       headingClass:"mb-0 mt-0 text-center md:text-left",
     }}
@@ -97,19 +95,19 @@ const EmblaCarousel = (props) => {
 
       <div className="embla__viewport md:overflow-hidden" ref={emblaRef}>
         <div className="embla__container">
-          {slides.map((slide, index) => (
+          {slides.companies.map((slide, index) => (
             <div className="embla__slide" key={index}>
               <img
                 className="embla__slide__img h-[550px] w-full object-cover"
-                src={slide.poster}
-                alt=""
+                src={COMPANIES[slide.id].poster}
+                alt={COMPANIES[slide.id].name}
               />
 
               <div className="embla__slide__inner">
                 <img
                   className="absolute left-4 top-5 w-24 sm:left-14 sm:top-10 sm:block sm:w-24 lg:w-32"
-                  src={slide.logo}
-                  alt=""
+                  src={COMPANIES[slide.id].logo}
+                  alt={COMPANIES[slide.id].name}
                 />
 
                 <div className="bg-[#050f188f]  absolute overflow-hidden bottom-3 md:bottom-4 left-3 md:left-4 right-3 md:right-4 flex flex-col xl:flex-row xl:items-center gap-4 rounded-md border border-gray-300 p-2 text-white sm:bottom-10 sm:left-14 sm:right-10 sm:p-4 lg:p-6">
@@ -118,25 +116,25 @@ const EmblaCarousel = (props) => {
                       {slide.stat}
                     </span>
                     <span className="text-xl md:text-xl text-wrap">
-                      {t(`bestCompanySays.companies.${index}.description`)}
+                      {slide.description}
                     </span>
                   </p>
 
                   <div className="flex flex-col gap-4">
                     <p className="line-clamp-4 lg:line-clamp-3 text-base font-medium md:text-lg">
-                      "{t(`bestCompanySays.companies.${index}.quote`)}"
+                      "{slide.quote}"
                     </p>
 
                     <div className="text-sm md:text-lg flex flex-col gap-2 md:flex-row md:items-center justify-between">
-                      <p className="">{t(`bestCompanySays.companies.${index}.author`)}</p>
+                      <p className="">{slide.author}</p>
 
                       <a
                         className="flex items-center gap-2 group/read text-base font-semibold"
-                        href="#"
+                        href={slide.button.url}
                         target="_blank"
                         rel="noreferrer"
                       >
-                        <span>{t(`bestCompanySays.companies.${index}.button`)}</span>
+                        <span>{slide.button.text}</span>
                         <ArrowRightIcon className="h-4 w-4 group-hover/read:translate-x-1 transition-all duration-300" />
                       </a>
                     </div>

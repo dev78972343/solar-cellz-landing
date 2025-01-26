@@ -14,9 +14,9 @@ import "../../css/embla.css";
 import Stats from "@/components/Home/Stats/Stats";
 import Hero from "@/components/Home/Hero/Hero";
 import Slider from "@/components/Home/Slider/Slider";
-import Projects2 from "@/components/Home/Projects2/Projects2";
 import Highlights from "@/components/Home/Highlights/Highlights";
 import About from "@/components/Home/About/About";
+import Projects from "@/components/Home/Projects/Projects";
 
 export default function Home() {
   return (
@@ -37,7 +37,7 @@ export default function Home() {
 
         <TryIt className="my-10 md:my-28" />
 
-        <Projects2 className="my-10 md:my-28" />
+        <Projects className="my-10 md:my-28" />
 
         <Stats className="my-10 md:my-28" />
 
