@@ -305,8 +305,10 @@
     }
   ],
   "about": {
-      "title":"Complete Solar Solutions with Maintenance Services",
-      "1": {
+      "heading":"Complete Solar Solutions with Maintenance Services",
+      "content": [
+       {
+        "id": 1,
         "title": "Solar Power Systems",
         "description": "Reduce energy costs and increase independence by installing solar power systems for both residential and commercial use. Harness the power of the sun to fuel your needs.",
         "features": [
@@ -314,9 +316,10 @@
           "Renewable Energy Consulting",
           "Solar System Integration"
         ],
-        "button": {"text":"Learn More"}
+        "button": {"text":"Learn More", "url":"#"}
       },
-      "2": {
+       {
+        "id": 2,
         "title": "Home Solar Panel Installation",
         "description": "Save on electricity bills and enjoy sustainable energy with our expert home solar panel installation. We ensure an efficient setup for maximum energy conversion.",
         "features": [
@@ -324,9 +327,10 @@
           "Energy Cost Reduction",
           "Long-Term Durability"
         ],
-        "button": {"text":"Learn More"}
+        "button": {"text":"Learn More", "url":"#"}
       },
-      "3": {
+       {
+        "id": 3,
         "title": "Solar Panel Cleaning Supplies",
         "description": "Ensure maximum efficiency of your solar panels with our professional cleaning services. We use non-toxic agents and water-efficient methods to maintain your solar panels.",
         "features": [
@@ -334,9 +338,10 @@
           "Water-Efficient Process",
           "Protects Panel Surface Integrity"
         ],
-        "button": {"text":"Learn More"}
+        "button": {"text":"Learn More", "url":"#"}
       },
-      "4": {
+       {
+        "id": 4,
         "title": "Solar Power Backup Solutions",
         "description": "Our solar backup solutions provide a reliable energy source during power outages, ensuring that you always have access to electricity.",
         "features": [
@@ -344,9 +349,10 @@
           "Seamless Integration",
           "Customizable Systems"
         ],
-        "button": {"text":"Learn More"}
+        "button": {"text":"Learn More", "url":"#"}
       },
-      "5": {
+       {
+        "id": 5,
         "title": "Solar Energy Consulting",
         "description": "Our consulting services help you evaluate the best solar energy solutions for your home or business. Get expert advice tailored to your needs.",
         "features": [
@@ -354,9 +360,10 @@
           "Tailored Solar Solutions",
           "Comprehensive Support"
         ],
-        "button": {"text":"Learn More"}
+        "button": {"text":"Learn More", "url":"#"}
       },
-      "6": {
+       {
+        "id": 6,
         "title": "Commercial Solar Solutions",
         "description": "Unlock the potential of solar energy for your business. Our commercial solar solutions reduce operational costs and contribute to sustainability goals.",
         "features": [
@@ -364,8 +371,8 @@
           "Cost-Effective Solutions",
           "Increased Energy Efficiency"
         ],
-        "button": {"text":"Learn More"}
-      }
+        "button": {"text":"Learn More", "url":"#"}
+      }]
   },
   "tryIt": {
         "sectionTitle": "Get Started Today",

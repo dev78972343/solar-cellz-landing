@@ -12,11 +12,11 @@ import DynamicHelmet from "@/components/shared/DynamicHelmet/DynamicHelmet";
 
 import "../../css/embla.css";
 import Stats from "@/components/Home/Stats/Stats";
-import About3 from "@/components/Home/About2/About3";
 import Hero from "@/components/Home/Hero/Hero";
 import Slider from "@/components/Home/Slider/Slider";
 import Projects2 from "@/components/Home/Projects2/Projects2";
 import Highlights from "@/components/Home/Highlights/Highlights";
+import About from "@/components/Home/About/About";
 
 export default function Home() {
   return (
@@ -33,7 +33,7 @@ export default function Home() {
 
         <Features className="my-10 md:my-28" />
 
-        <About3 className="my-10 md:my-28" />
+        <About className="my-10 md:my-28" />
 
         <TryIt className="my-10 md:my-28" />
 

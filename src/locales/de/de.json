@@ -224,68 +224,77 @@
 ],
 
     "about": {
-      "title": "Umfassende Solarlösungen mit Wartungsservices",
-      "1": {
-        "title": "Solarenergiesysteme",
-        "description": "Senke Energiekosten und erhöhe Deine Unabhängigkeit durch die Installation von Solarenergiesystemen für private und geschäftliche Nutzung. Nutze die Kraft der Sonne für Deine Bedürfnisse.",
-        "features": [
-          "Solar-Backup-Systeme",
-          "Beratung für erneuerbare Energien",
-          "Integration von Solarsystemen"
-        ],
-        "button": {"text": "Mehr erfahren"}
-      },
-      "2": {
-        "title": "Installation von Solarpanels für Zuhause",
-        "description": "Spare Stromkosten und profitiere von nachhaltiger Energie mit unserer professionellen Installation von Solarpanels für Dein Zuhause. Wir sorgen für eine effiziente Einrichtung für maximale Energieumwandlung.",
-        "features": [
-          "Hocheffiziente Solarpanels",
-          "Reduzierung von Energiekosten",
-          "Langfristige Haltbarkeit"
-        ],
-        "button": {"text": "Mehr erfahren"}
-      },
-      "3": {
-        "title": "Reinigungsmaterialien für Solarpanels",
-        "description": "Sorge für maximale Effizienz Deiner Solarpanels mit unseren professionellen Reinigungsdiensten. Wir verwenden ungiftige Reinigungsmittel und wasserfreundliche Methoden, um Deine Solarpanels zu pflegen.",
-        "features": [
-          "Ungiftige Reinigungsmittel",
-          "Wassereffiziente Prozesse",
-          "Schutz der Oberflächenintegrität der Panels"
-        ],
-        "button": {"text": "Mehr erfahren"}
-      },
-      "4": {
-        "title": "Solar-Backup-Lösungen",
-        "description": "Unsere Solar-Backup-Lösungen bieten eine zuverlässige Energiequelle während Stromausfällen, sodass Du immer Zugang zu Elektrizität hast.",
-        "features": [
-          "Zuverlässige Backup-Energie",
-          "Nahtlose Integration",
-          "Anpassbare Systeme"
-        ],
-        "button": {"text": "Mehr erfahren"}
-      },
-      "5": {
-        "title": "Beratung für Solarenergie",
-        "description": "Unsere Beratungsdienste helfen Dir, die besten Solarlösungen für Dein Zuhause oder Unternehmen zu evaluieren. Erhalte fachkundige Beratung, die auf Deine Bedürfnisse zugeschnitten ist.",
-        "features": [
-          "Energieeffizienz-Audits",
-          "Individuelle Solarlösungen",
-          "Umfassende Unterstützung"
-        ],
-        "button": {"text": "Mehr erfahren"}
-      },
-      "6": {
-        "title": "Solarlösungen für Unternehmen",
-        "description": "Entdecke das Potenzial von Solarenergie für Dein Unternehmen. Unsere kommerziellen Solarlösungen senken Betriebskosten und tragen zu Deinen Nachhaltigkeitszielen bei.",
-        "features": [
-          "Individuelle kommerzielle Installationen",
-          "Kostenwirksame Lösungen",
-          "Höhere Energieeffizienz"
-        ],
-        "button": {"text": "Mehr erfahren"}
-      }
+  "heading": "Komplette Solar-Lösungen mit Wartungsdiensten",
+  "content": [
+    {
+      "id": 1,
+      "title": "Solarenergiesysteme",
+      "description": "Reduzieren Sie Energiekosten und erhöhen Sie Ihre Unabhängigkeit, indem Sie Solarsysteme für den privaten und gewerblichen Einsatz installieren. Nutzen Sie die Kraft der Sonne für Ihre Bedürfnisse.",
+      "features": [
+        "Solar-Backup-Systeme",
+        "Beratung zu erneuerbaren Energien",
+        "Integration von Solarsystemen"
+      ],
+      "button": { "text": "Mehr erfahren", "url": "#" }
     },
+    {
+      "id": 2,
+      "title": "Installation von Solarmodulen für Zuhause",
+      "description": "Sparen Sie Stromkosten und genießen Sie nachhaltige Energie mit unserer professionellen Installation von Solarmodulen für Zuhause. Wir sorgen für eine effiziente Einrichtung für maximale Energieumwandlung.",
+      "features": [
+        "Hocheffiziente Module",
+        "Reduzierung der Energiekosten",
+        "Langlebigkeit"
+      ],
+      "button": { "text": "Mehr erfahren", "url": "#" }
+    },
+    {
+      "id": 3,
+      "title": "Reinigungsmittel für Solarmodule",
+      "description": "Stellen Sie die maximale Effizienz Ihrer Solarmodule sicher mit unseren professionellen Reinigungsdiensten. Wir verwenden ungiftige Mittel und wasser sparende Methoden, um Ihre Solarmodule zu pflegen.",
+      "features": [
+        "Ungiftige Reinigungsmittel",
+        "Wasser sparender Prozess",
+        "Schutz der Oberflächenintegrität"
+      ],
+      "button": { "text": "Mehr erfahren", "url": "#" }
+    },
+    {
+      "id": 4,
+      "title": "Backup-Lösungen für Solarenergie",
+      "description": "Unsere Backup-Lösungen für Solarenergie bieten eine zuverlässige Energiequelle bei Stromausfällen und gewährleisten, dass Sie immer Zugang zu Elektrizität haben.",
+      "features": [
+        "Zuverlässige Backup-Energie",
+        "Nahtlose Integration",
+        "Anpassbare Systeme"
+      ],
+      "button": { "text": "Mehr erfahren", "url": "#" }
+    },
+    {
+      "id": 5,
+      "title": "Beratung zu Solarenergie",
+      "description": "Unsere Beratungsdienste helfen Ihnen, die besten Lösungen für Solarenergie für Ihr Zuhause oder Ihr Unternehmen zu bewerten. Holen Sie sich fachkundige Beratung, die auf Ihre Bedürfnisse zugeschnitten ist.",
+      "features": [
+        "Energieeffizienz-Audits",
+        "Individuelle Solarlösungen",
+        "Umfassender Support"
+      ],
+      "button": { "text": "Mehr erfahren", "url": "#" }
+    },
+    {
+      "id": 6,
+      "title": "Gewerbliche Solarlösungen",
+      "description": "Nutzen Sie das Potenzial der Solarenergie für Ihr Unternehmen. Unsere gewerblichen Solarlösungen senken die Betriebskosten und tragen zu Nachhaltigkeitszielen bei.",
+      "features": [
+        "Maßgeschneiderte gewerbliche Installationen",
+        "Kosteneffiziente Lösungen",
+        "Erhöhte Energieeffizienz"
+      ],
+      "button": { "text": "Mehr erfahren", "url": "#" }
+    }
+  ]
+},
+
     "tryIt": {
       "sectionTitle": "Starte noch heute",
       "buttonText": "Kostenlose Beratung anfordern",

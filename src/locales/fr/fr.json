@@ -222,68 +222,76 @@
   }
 ],
     "about": {
-      "title": "Solutions Solaires Complètes avec Services de Maintenance",
-      "1": {
-        "title": "Systèmes d'Énergie Solaire",
-        "description": "Réduisez vos coûts énergétiques et augmentez votre indépendance avec des systèmes d'énergie solaire pour les résidences et les entreprises. Profitez de la puissance du soleil pour répondre à vos besoins.",
-        "features": [
-          "Systèmes de Secours Solaires",
-          "Consultation en Énergie Renouvelable",
-          "Intégration de Systèmes Solaires"
-        ],
-        "button": {"text": "En Savoir Plus"}
-      },
-      "2": {
-        "title": "Installation de Panneaux Solaires Résidentiels",
-        "description": "Réduisez vos factures d'électricité et adoptez une énergie durable grâce à notre installation experte de panneaux solaires résidentiels. Nous assurons une configuration efficace pour une conversion maximale de l'énergie.",
-        "features": [
-          "Panneaux à Haute Efficacité",
-          "Réduction des Coûts Énergétiques",
-          "Durabilité à Long Terme"
-        ],
-        "button": {"text": "En Savoir Plus"}
-      },
-      "3": {
-        "title": "Fournitures de nettoyage pour panneaux solaires",
-        "description": "Assurez une efficacité maximale de vos panneaux solaires grâce à nos services professionnels de nettoyage. Nous utilisons des agents non toxiques et des méthodes économes en eau pour maintenir vos panneaux propres.",
-        "features": [
-          "Agents de Nettoyage Non Toxiques",
-          "Procédé Économe en Eau",
-          "Protection de la Surface des Panneaux"
-        ],
-        "button": {"text": "En Savoir Plus"}
-      },
-      "4": {
-        "title": "Solutions de Secours Solaire",
-        "description": "Nos solutions de secours solaire offrent une source d'énergie fiable pendant les coupures de courant, garantissant que vous avez toujours accès à l'électricité.",
-        "features": [
-          "Énergie de Secours Fiable",
-          "Intégration Harmonieuse",
-          "Systèmes Personnalisables"
-        ],
-        "button": {"text": "En Savoir Plus"}
-      },
-      "5": {
-        "title": "Consultation en Énergie Solaire",
-        "description": "Nos services de consultation vous aident à évaluer les meilleures solutions d'énergie solaire pour votre maison ou votre entreprise. Obtenez des conseils experts adaptés à vos besoins.",
-        "features": [
-          "Audits d'Efficacité Énergétique",
-          "Solutions Solaires Sur Mesure",
-          "Support Complet"
-        ],
-        "button": {"text": "En Savoir Plus"}
-      },
-      "6": {
-        "title": "Solutions Solaires Commerciales",
-        "description": "Explorez le potentiel de l'énergie solaire pour votre entreprise. Nos solutions commerciales réduisent les coûts opérationnels et contribuent à vos objectifs de durabilité.",
-        "features": [
-          "Installations Commerciales Personnalisées",
-          "Solutions Rentables",
-          "Efficacité Énergétique Accrue"
-        ],
-        "button": {"text": "En Savoir Plus"}
-      }
+  "heading": "Solutions Solaires Complètes avec Services de Maintenance",
+  "content": [
+    {
+      "id": 1,
+      "title": "Systèmes d'Énergie Solaire",
+      "description": "Réduisez vos coûts énergétiques et augmentez votre indépendance en installant des systèmes solaires pour un usage résidentiel et commercial. Exploitez la puissance du soleil pour répondre à vos besoins.",
+      "features": [
+        "Systèmes de Secours Solaires",
+        "Consultation en Énergie Renouvelable",
+        "Intégration de Systèmes Solaires"
+      ],
+      "button": { "text": "En savoir plus", "url": "#" }
     },
+    {
+      "id": 2,
+      "title": "Installation de Panneaux Solaires pour la Maison",
+      "description": "Économisez sur vos factures d'électricité et profitez d'une énergie durable avec notre installation experte de panneaux solaires pour la maison. Nous garantissons une installation efficace pour une conversion maximale de l'énergie.",
+      "features": [
+        "Panneaux à Haute Efficacité",
+        "Réduction des Coûts Énergétiques",
+        "Durabilité à Long Terme"
+      ],
+      "button": { "text": "En savoir plus", "url": "#" }
+    },
+    {
+      "id": 3,
+      "title": "Fournitures de Nettoyage pour Panneaux Solaires",
+      "description": "Assurez l'efficacité maximale de vos panneaux solaires grâce à nos services professionnels de nettoyage. Nous utilisons des agents non toxiques et des méthodes économes en eau pour entretenir vos panneaux solaires.",
+      "features": [
+        "Agents de Nettoyage Non Toxiques",
+        "Processus Économe en Eau",
+        "Protection de l'Intégrité de la Surface"
+      ],
+      "button": { "text": "En savoir plus", "url": "#" }
+    },
+    {
+      "id": 4,
+      "title": "Solutions de Secours pour l'Énergie Solaire",
+      "description": "Nos solutions de secours pour l'énergie solaire fournissent une source d'énergie fiable en cas de panne, garantissant que vous ayez toujours accès à l'électricité.",
+      "features": [
+        "Énergie de Secours Fiable",
+        "Intégration Fluide",
+        "Systèmes Personnalisables"
+      ],
+      "button": { "text": "En savoir plus", "url": "#" }
+    },
+    {
+      "id": 5,
+      "title": "Consultation en Énergie Solaire",
+      "description": "Nos services de consultation vous aident à évaluer les meilleures solutions solaires pour votre maison ou votre entreprise. Obtenez des conseils d'experts adaptés à vos besoins.",
+      "features": [
+        "Audits d'Efficacité Énergétique",
+        "Solutions Solaires Sur Mesure",
+        "Support Complet"
+      ],
+      "button": { "text": "En savoir plus", "url": "#" }
+    },
+    {
+      "id": 6,
+      "title": "Solutions Solaires Commerciales",
+      "description": "Libérez le potentiel de l'énergie solaire pour votre entreprise. Nos solutions solaires commerciales réduisent les coûts opérationnels et contribuent aux objectifs de durabilité.",
+      "features": [
+        "Installations Commerciales Personnalisées",
+        "Solutions Rentables",
+        "Efficacité Énergétique Améliorée"
+      ],
+      "button": { "text": "En savoir plus", "url": "#" }
+    }
+  ]
+},
     "tryIt": {
       "sectionTitle": "Commencez Aujourd'hui",
       "buttonText": "Demandez une Consultation Gratuite",
