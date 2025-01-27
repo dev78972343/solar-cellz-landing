@@ -1,11 +1,10 @@
-// Static partners logo
 import { cn } from "@/lib/utils";
 import Marquee from "react-fast-marquee";
-import highlightsPoints from "./constant";
 import { useTranslation } from "react-i18next";
 
 export default function Partners({ className }) {
   const { t } = useTranslation();
+  const highlights = t("highlights", { returnObjects: true });
   return (
     <div className={cn(className, "py-12 bg-marquee-gradient")}>
       <Marquee
@@ -16,7 +15,7 @@ export default function Partners({ className }) {
         gradientColor="#111722"
         className="overflow-hidden"
       >
-        {highlightsPoints?.map((_, idx) => (
+        {highlights?.map((item, idx) => (
           <div key={idx} className="mr-10">
             <li
               className="uppercase tracking-[1px] text-5xl text-transparent font-bold"
@@ -28,7 +27,7 @@ export default function Partners({ className }) {
                 color: "#02010100",
               }}
             >
-              {t(`highlights.${idx}`)}
+              {item}
             </li>
           </div>
         ))}
