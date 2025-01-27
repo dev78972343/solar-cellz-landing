@@ -432,30 +432,65 @@
   "desc": "Solar Cellz USA es un proveedor líder de soluciones de energía solar de alta calidad, colaborando con una red de socios fabricantes franquiciados de confianza. Juntos, innovamos y entregamos productos solares de vanguardia que permiten a empresas y propietarios de viviendas aprovechar la energía sostenible de manera eficiente."
   },
   "topSellers": {
-  "heading": "Más Vendidos",
-  "buyNow": "Comprar Ahora",
-  "reviews": "Revisadas",
-  "items": [
-    {
-      "name": "Panel Solar Monocristalino"
-    },
-    {
-      "name": "Inversor Solar Híbrido"
-    },
-    {
-      "name": "Generador Solar Portátil"
-    },
-    {
-      "name": "Panel Solar Monocristalino"
-    },
-    {
-      "name": "Inversor Solar Híbrido"
-    },
-    {
-      "name": "Generador Solar Portátil"
-    }
-  ]
- },
+      "heading": "Más Vendidos",
+      "reviews": "Opiniones",
+      "items": [
+        {
+          "id": 1,
+          "name": "Panel Solar Monocristalino",
+          "specs": "400W",
+          "rating": 5.0,
+          "reviews": 14,
+          "price": 299.99,
+          "button": {"text": "Comprar Ahora"}
+        },
+        {
+          "id": 2,
+          "name": "Inversor Solar Híbrido",
+          "specs": "5kW",
+          "rating": 4.6,
+          "reviews": 7,
+          "price": 799.99,
+          "button": {"text": "Comprar Ahora"}
+        },
+        {
+          "id": 3,
+          "name": "Generador Solar Portátil",
+          "specs": "1500Wh",
+          "rating": 4.8,
+          "reviews": 10,
+          "price": 899.99,
+          "button": {"text": "Comprar Ahora"}
+        },
+        {
+          "id": 4,
+          "name": "Panel Solar Monocristalino",
+          "specs": "400W",
+          "rating": 5.0,
+          "reviews": 14,
+          "price": 299.99,
+          "button": {"text": "Comprar Ahora"}
+        },
+        {
+          "id": 5,
+          "name": "Inversor Solar Híbrido",
+          "specs": "5kW",
+          "rating": 4.6,
+          "reviews": 7,
+          "price": 799.99,
+          "button": {"text": "Comprar Ahora"}
+        },
+        {
+          "id": 6,
+          "name": "Generador Solar Portátil",
+          "specs": "1500Wh",
+          "rating": 4.8,
+          "reviews": 10,
+          "price": 899.99,
+          "button": {"text": "Comprar Ahora"}
+        }
+      ]
+  },
  "teams": {
   "heading": "Conoce a Nuestro Equipo",
   "subHeading": "Nuestros Expertos",

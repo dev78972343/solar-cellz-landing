@@ -517,22 +517,58 @@
     "reviews":"Reviews",
     "items": [
       {
-        "name":"Monocrystalline Solar Panel"
+        "id":1,
+        "name":"Monocrystalline Solar Panel",
+        "specs": "400W",
+        "rating": 5.0,
+        "reviews": 14,
+        "price": 299.99,
+        "button": {"text":"Buy Now"}
       },
       {
-        "name":"Hybrid Solar Inverter"
+        "id":2,
+        "name":"Hybrid Solar Inverter",
+        "specs": "5kW",
+        "rating": 4.6,
+        "reviews": 7,
+        "price": 799.99,
+        "button": {"text":"Buy Now"}
       },
       {
-        "name":"Portable Solar Generator"
+        "id":3,
+        "name":"Portable Solar Generator",
+        "specs": "1500Wh",
+        "rating": 4.8,
+        "reviews": 10,
+        "price": 899.99,
+        "button": {"text":"Buy Now"}
       },
       {
-        "name":"Monocrystalline Solar Panel"
+        "id":4,
+        "name":"Monocrystalline Solar Panel",
+        "specs": "400W",
+        "rating": 5.0,
+        "reviews": 14,
+        "price": 299.99,
+        "button": {"text":"Buy Now"}
       },
       {
-        "name":"Hybrid Solar Inverter"
+        "id":5,
+        "name":"Hybrid Solar Inverter",
+        "specs": "5kW",
+        "rating": 4.6,
+        "reviews": 7,
+        "price": 799.99,
+        "button": {"text":"Buy Now"}
       },
       {
-        "name":"Portable Solar Generator"
+        "id":6,
+        "name":"Portable Solar Generator",
+        "specs": "1500Wh",
+        "rating": 4.8,
+        "reviews": 10,
+        "price": 899.99,
+        "button": {"text":"Buy Now"}
       }
     ]
   },

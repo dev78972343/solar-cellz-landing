@@ -14,10 +14,10 @@ import TopSellerCard from "./TopSellerCard";
 import { ArrowRight } from "lucide-react";
 import { ArrowLeft } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import topSellingItems from "./constant";
 
 export default function TopSeller({ className }) {
   const { t } = useTranslation();
+  const topSellItems = t("topSellers", { returnObjects: true });
   return (
     <ResponsiveContainer
       classes={cn(
@@ -41,11 +41,11 @@ export default function TopSeller({ className }) {
           />
         </div>
 
-        <h3 className="mt-3 text-4xl font-thin text-white">{t("topSellers.heading")}</h3>
+        <h3 className="mt-3 text-4xl font-thin text-white">{topSellItems.heading}</h3>
 
         <img
           src={topSellerBanner}
-          alt="Top seller section banner"
+          alt="banner"
           className="absolute -bottom-5 right-0 -z-10"
         />
       </div>
@@ -67,9 +67,9 @@ export default function TopSeller({ className }) {
           ]}
         >
           <CarouselContent className="p-1.5">
-            {topSellingItems?.map((product, idx) => (
-              <CarouselItem key={idx} className="h-full lg:basis-1/3">
-                <TopSellerCard data={product} idx={idx} />
+            {topSellItems?.items.map((product) => (
+              <CarouselItem key={product.id} className="h-full lg:basis-1/3">
+                <TopSellerCard data={product} reviewsText={topSellItems.reviews} />
               </CarouselItem>
             ))}
           </CarouselContent>

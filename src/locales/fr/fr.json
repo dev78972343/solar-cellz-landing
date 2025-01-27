@@ -430,30 +430,65 @@
     "desc": "Solar Cellz USA est un fournisseur de solutions d'énergie solaire de haute qualité, collaborant avec un réseau de partenaires fabricants franchisés de confiance. Ensemble, nous innovons et livrons des produits solaires de pointe qui permettent aux entreprises et aux propriétaires de maisons de tirer parti de l'énergie durable de manière efficace."
     },
     "topSellers": {
-  "heading": "Meilleures Ventes",
-  "buyNow": "Acheter maintenant",
-  "reviews": "Avis",
-  "items": [
-    {
-      "name": "Panneau Solaire Monocristallin"
-    },
-    {
-      "name": "Onduleur Solaire Hybride"
-    },
-    {
-      "name": "Générateur Solaire Portable"
-    },
-    {
-      "name": "Panneau Solaire Monocristallin"
-    },
-    {
-      "name": "Onduleur Solaire Hybride"
-    },
-    {
-      "name": "Générateur Solaire Portable"
-    }
-  ]
- },
+        "heading": "Meilleures Ventes",
+        "reviews": "Avis",
+        "items": [
+          {
+            "id": 1,
+            "name": "Panneau Solaire Monocristallin",
+            "specs": "400W",
+            "rating": 5.0,
+            "reviews": 14,
+            "price": 299.99,
+            "button": {"text": "Acheter Maintenant"}
+          },
+          {
+            "id": 2,
+            "name": "Onduleur Solaire Hybride",
+            "specs": "5kW",
+            "rating": 4.6,
+            "reviews": 7,
+            "price": 799.99,
+            "button": {"text": "Acheter Maintenant"}
+          },
+          {
+            "id": 3,
+            "name": "Générateur Solaire Portable",
+            "specs": "1500Wh",
+            "rating": 4.8,
+            "reviews": 10,
+            "price": 899.99,
+            "button": {"text": "Acheter Maintenant"}
+          },
+          {
+            "id": 4,
+            "name": "Panneau Solaire Monocristallin",
+            "specs": "400W",
+            "rating": 5.0,
+            "reviews": 14,
+            "price": 299.99,
+            "button": {"text": "Acheter Maintenant"}
+          },
+          {
+            "id": 5,
+            "name": "Onduleur Solaire Hybride",
+            "specs": "5kW",
+            "rating": 4.6,
+            "reviews": 7,
+            "price": 799.99,
+            "button": {"text": "Acheter Maintenant"}
+          },
+          {
+            "id": 6,
+            "name": "Générateur Solaire Portable",
+            "specs": "1500Wh",
+            "rating": 4.8,
+            "reviews": 10,
+            "price": 899.99,
+            "button": {"text": "Acheter Maintenant"}
+          }
+        ]
+      },
  "teams": {
   "heading": "Rencontrez Notre Équipe",
   "subHeading": "Nos Experts",
