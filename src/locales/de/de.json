@@ -384,24 +384,33 @@
       ]
     },
     "testimonials": {
-      "heading": "Kunden fordern Veränderung",
-      "subHeading": "Kundenstimmen",
-      "desc": "Mehr denn je zeigen Kunden ihre Wertschätzung für Unternehmen, die sich von schmutzigen und schädlichen Energiequellen abwenden. Solar Cellz USA ist stolz darauf, die Veränderung anzuführen und Dir unser Fachwissen zur Verfügung zu stellen.",
-      "cards": [
-        {
-          "name": "John Doe",
-          "comment": "Ich habe Solar Cellz Energy mit der Installation von Solarpanels in meinem Zuhause beauftragt, und der Prozess war von Anfang bis Ende reibungslos. Ihr Expertenteam hat alles mit Professionalität und Liebe zum Detail gehandhabt."
-        },
-        {
-          "name": "Jane Smith",
-          "comment": "Mit Solar Cellz habe ich meine Stromrechnungen erheblich reduziert und trage zu einer grüneren Zukunft bei. Ich würde sie jedem empfehlen."
-        },
-        {
-          "name": "Michael Brown",
-          "comment": "Solar Cellz hat meinen Übergang zur Solarenergie unglaublich einfach gemacht. Ihr Wissen und ihre Kundenbetreuung sind erstklassig."
-        }
-      ]
-    },
+        "heading": "Kunden verlangen Veränderung",
+        "subHeading": "Kundenbewertungen",
+        "desc": "Jetzt mehr denn je zeigen Kunden ihre Wertschätzung für Unternehmen, die sich von krankheitserregender, schmutziger Energie und Energiemanagement distanzieren. SolarCellz USA ist stolz darauf, als einer der Branchenführer im Landkreis zu gelten, und freut sich darauf, Ihnen ihre Erfahrung und Expertise zu bringen.",
+        "cards": [
+          {
+            "id": 1,
+            "name": "John Doe",
+            "rating": "5",
+            "comment": "Ich habe Solar Cellz Energy beauftragt, Solarpanels auf meinem Haus zu installieren, und der Prozess verlief reibungslos von Anfang bis Ende. Ihr Team war professionell und hat alle meine Fragen beantwortet. Sehr empfehlenswert.",
+            "position": "Manager @ XYZ Company"
+          },
+          {
+            "id": 2,
+            "name": "Myrtle Kempton",
+            "rating": "5",
+            "comment": "Der Wechsel zu Solar Cellz Energy war eine bahnbrechende Entscheidung für meine Familie. Wir sparen nicht nur Geld, sondern tragen auch zu einer saubereren Umwelt bei. Ihr Kundenservice ist erstklassig!",
+            "position": "Manager @ ABC Company"
+          },
+          {
+            "id": 3,
+            "name": "Myrtle Kempton",
+            "rating": "5",
+            "comment": "Der Wechsel zu Solar Cellz Energy war eine bahnbrechende Entscheidung für meine Familie. Wir sparen nicht nur Geld, sondern tragen auch zu einer saubereren Umwelt bei. Ihr Kundenservice ist erstklassig!",
+            "position": "Manager @ ABC Company"
+          }
+        ]
+    },   
     "highlights": [
     "✓ Experteninstallation von Solarpanelen",
     "✓ 100% Kundenzufriedenheit",

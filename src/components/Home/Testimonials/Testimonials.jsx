@@ -10,16 +10,16 @@ import Autoplay from "embla-carousel-autoplay";
 import TestimonialCard from "./TestimonialCard";
 import { cn } from "@/lib/utils";
 import { useTranslation } from "react-i18next";
-import testimonials from "./constant";
 
 export default function Testimonials({ className }) {
   const { t } = useTranslation();
+  const testimonials = t("testimonials", { returnObjects: true });
   return (
     <ResponsiveContainer classes={cn("", className)}>
       <SectionHeader
-        heading={t("testimonials.heading")}
-        subHeading={t("testimonials.subHeading")}
-        desc={t("testimonials.desc")}
+        heading={testimonials.heading}
+        subHeading={testimonials.subHeading}
+        desc={testimonials.desc}
         className="mx-auto w-full px-5 text-center md:w-10/12 md:px-0 lg:w-3/4 2xl:w-2/3"
       />
 
@@ -40,9 +40,9 @@ export default function Testimonials({ className }) {
           ]}
         >
           <CarouselContent>
-            {testimonials?.map((testimonial, idx) => (
-              <CarouselItem key={idx} className="lg:basis-1/2">
-                <TestimonialCard data={testimonial} idx={idx} />
+            {testimonials?.cards?.map((testimonial) => (
+              <CarouselItem key={testimonial?.id} className="lg:basis-1/2">
+                <TestimonialCard data={testimonial} />
               </CarouselItem>
             ))}
           </CarouselContent>
