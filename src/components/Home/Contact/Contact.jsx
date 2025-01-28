@@ -8,69 +8,70 @@ import { useTranslation } from "react-i18next";
 
 export default function Contact({ className }) {
   const { t } = useTranslation();
+  const contactData = t("contact", { returnObjects: true });
   return (
     <ResponsiveContainer
       classes={cn(className, "flex flex-col items-start justify-center gap-10 md:flex-row")}
     >
       {/* Form Section */}
       <div className="w-full rounded-lg bg-[#dff2fe] p-4 lg:p-8 shadow md:w-1/2">
-        <h2 className="mb-4 text-2xl font-bold">{t("contact.form.title")}</h2>
+        <h2 className="mb-4 text-2xl font-bold">{contactData.form.title}</h2>
 
         <form className="grid grid-cols-2 gap-4">
           {/* First Name */}
-          <InputField label={t(`contact.form.fields.0.label`)} id="firstName" type="text" placeholder={t(`contact.form.fields.0.placeholder`)} />
+          <InputField label={contactData.form.fields[0].label} id="firstName" type="text" placeholder={contactData.form.fields[0].placeholder} />
 
           {/* Last Name */}
-          <InputField label={t(`contact.form.fields.1.label`)} id="lastName" type="text" placeholder={t(`contact.form.fields.1.placeholder`)} />
+          <InputField label={contactData.form.fields[1].label} id="lastName" type="text" placeholder={contactData.form.fields[1].placeholder} />
 
           {/* Phone Number */}
-          <InputField label={t(`contact.form.fields.2.label`)} id="phone" type="text" placeholder={t(`contact.form.fields.2.placeholder`)} />
+          <InputField label={contactData.form.fields[2].label} id="phone" type="text" placeholder={contactData.form.fields[2].placeholder} />
 
           {/* Email */}
-          <InputField label={t(`contact.form.fields.3.label`)} id="email" type="email" placeholder={t(`contact.form.fields.3.placeholder`)} />
+          <InputField label={contactData.form.fields[3].label} id="email" type="email" placeholder={contactData.form.fields[3].placeholder} />
 
           {/* Message */}
           <div className="col-span-2">
             <label htmlFor="message" className="mb-1 block text-sm text-gray-700">
-              {t(`contact.form.fields.4.label`)}
+              {contactData.form.fields[4].label}
             </label>
             <Textarea
               id="message"
               rows="4"
-              placeholder={t(`contact.form.fields.4.placeholder`)}
+              placeholder={contactData.form.fields[4].placeholder}
               className="w-full resize-none border-[#545454] bg-white text-black"
             />
           </div>
 
           {/* Submit Button */}
           <div className="col-span-2">
-            <PrimaryButton className="h-11 w-full">{t("contact.form.submitButton.text")}</PrimaryButton>
+            <PrimaryButton className="h-11 w-full">{contactData.form.submitButton.text}</PrimaryButton>
           </div>
         </form>
       </div>
 
       {/* Contact Info Section */}
       <div className="self-center w-full space-y-5 md:w-1/2">
-        <h2 className="text-2xl font-bold">{t("contact.contactInfo.title")}</h2>
+        <h2 className="text-2xl font-bold">{contactData.contactInfo.title}</h2>
         <ContactInfo
           icon={<MapPin className="size-5 text-white" />}
-          label={t(`contact.contactInfo.items.0.label`)}
-          content={t(`contact.contactInfo.items.0.content`)}
+          label={contactData.contactInfo.items[0].label}
+          content={contactData.contactInfo.items[0].content}
         />
         <ContactInfo
           icon={<PhoneCall className="size-5 text-white" />}
-          label={t(`contact.contactInfo.items.1.label`)}
-          content={t(`contact.contactInfo.items.1.content`)}
+          label={contactData.contactInfo.items[1].label}
+          content={contactData.contactInfo.items[1].content}
         />
         <ContactInfo
           icon={<MailsIcon className="size-5 text-white" />}
-          label={t(`contact.contactInfo.items.2.label`)}
-          content={t(`contact.contactInfo.items.2.content`)}
+          label={contactData.contactInfo.items[2].label}
+          content={contactData.contactInfo.items[2].content}
         />
         <ContactInfo
           icon={<Home className="size-5 text-white" />}
-          label={t(`contact.contactInfo.items.3.label`)}
-          content={t(`contact.contactInfo.items.3.content`)}
+          label={contactData.contactInfo.items[3].label}
+          content={contactData.contactInfo.items[3].content}
         />
       </div>
     </ResponsiveContainer>
