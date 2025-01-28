@@ -577,74 +577,70 @@
       ]
     }
   },
-    "footer": {
-      "logoAltText": "Logo",
-      "subscribeInputPlaceholder": "Ingresa tu correo electrónico",
-      "subscribeButton": "Suscribirse",
-      "companyService": {
-        "title": "Servicio de la Empresa",
+  "footer": {
+    "logoAltText": "Logo",
+    "subscribeInputPlaceholder": "Ingrese su dirección de correo electrónico",
+    "subscribeButton": "Suscribirse",
+    "companyService": {
+        "title": "Servicios de la Empresa",
         "links": [
-          "Contáctanos",
-          "Ventas Directas",
-          "Devoluciones",
-          "Política de Privacidad",
-          "Fabricantes",
-          "Solicitar una Cuenta en Línea",
-          "Testimonios",
-          "Declaración de Accesibilidad",
-          "Aplicación Móvil"
+            { "text": "Contáctenos", "url": "#" },
+            { "text": "Ventas Directas", "url": "#" },
+            { "text": "Devoluciones", "url": "#" },
+            { "text": "Política de Privacidad", "url": "#" },
+            { "text": "Fabricantes", "url": "#" },
+            { "text": "Solicitar una Cuenta en Línea", "url": "#" },
+            { "text": "Testimonios", "url": "#" },
+            { "text": "Declaración de Accesibilidad", "url": "#" },
+            { "text": "Aplicación Móvil", "url": "#" }
         ]
-      },
-      "solarElectricalContractorServices": {
-        "title": "Servicios del Contratista Eléctrico Solar",
+    },
+    "solarElectricalContractorServices": {
+        "title": "Servicios de Contratistas Solares y Eléctricos",
         "links": [
-          "Sobre Nosotros",
-          "Servicios de Diseño de Ingenieros",
-          "Línea de Crédito",
-          "Formulario W-9 de Solar Cellz",
-          "Tecnología Verde",
-          "Energía Solar Directa",
-          "Portal de Autoservicio para Proveedores",
-          "Programa de Socios"
+            { "text": "Sobre Nosotros", "url": "#" },
+            { "text": "Servicios de Diseño de Ingeniería", "url": "#" },
+            { "text": "Línea de Crédito", "url": "#" },
+            { "text": "Formulario W-9 de Solar Cellz", "url": "#" },
+            { "text": "Tecnología Verde", "url": "#" },
+            { "text": "Energía Solar Directa", "url": "#" },
+            { "text": "Portal de Autoservicio para Proveedores", "url": "#" },
+            { "text": "Programa de Socios", "url": "#" }
         ]
-      },
-      "toolsResources": {
+    },
+    "toolsResources": {
         "title": "Herramientas y Recursos",
         "links": [
-          "Tienda en Línea",
-          "Recurso Empresarial",
-          "Configuraciones de Calibración del Multímetro",
-          "Eventos",
-          "Propietarios de Viviendas",
-          "Búsqueda de Manuales de Instalación",
-          "Centro de Aprendizaje de Energía Solar",
-          "Productos de Almacenamiento",
-          "Serie de Videos de Instalación",
-          "Calculadoras de Proyectos Solares",
-          "Calendarios de Mantenimiento de Sistemas Solares"
+            { "text": "Tienda en Línea", "url": "#" },
+            { "text": "Recursos Empresariales", "url": "#" },
+            { "text": "Configuración de Calibración de Multímetro", "url": "#" },
+            { "text": "Eventos", "url": "#" },
+            { "text": "Propietarios de Viviendas", "url": "#" },
+            { "text": "Búsqueda de Manuales de Instalación", "url": "#" },
+            { "text": "Centro de Aprendizaje de Energía Solar", "url": "#" },
+            { "text": "Productos de Almacenamiento", "url": "#" },
+            { "text": "Serie de Videos de Instalación", "url": "#" },
+            { "text": "Calculadoras de Proyectos Solares", "url": "#" },
+            { "text": "Calendarios de Mantenimiento de Sistemas Solares", "url": "#" }
         ]
-      },
-      "companyInfo": {
+    },
+    "companyInfo": {
         "title": "Información de la Empresa",
         "links": [
-          "Relaciones con Inversores",
-          "Carreras",
-          "Fabricantes Franquiciados",
-          "Financiamiento",
-          "Términos y Condiciones"
+            { "text": "Relaciones con Inversores", "url": "#" },
+            { "text": "Carreras", "url": "#" },
+            { "text": "Fabricantes Franquiciados", "url": "#" },
+            { "text": "Financiamiento", "url": "#" },
+            { "text": "Términos y Condiciones", "url": "#" }
         ]
-      },
-      "downloadApp": {
-        "title": "Descarga Nuestra App",
+    },
+    "downloadApp": {
+        "title": "Descargue Nuestra Aplicación",
         "badges": [
-          {
-            "platform": "Play Store"
-          },
-          {
-            "platform": "App Store"
-          }
+            { "platform": "Play Store", "url": "#" },
+            { "platform": "App Store", "url": "#" }
         ]
-      },
-      "copyright": "Solar Cellz USA, TODOS LOS DERECHOS RESERVADOS."
-    }  
+    },
+    "copyright": "Solar Cellz USA, TODOS LOS DERECHOS RESERVADOS."
+}
 }

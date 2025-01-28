@@ -578,75 +578,71 @@
         ]
       }
     },
-        "footer": {
-          "logoAltText": "Logo",
-          "subscribeInputPlaceholder": "Geben Sie Ihre E-Mail-Adresse ein",
-          "subscribeButton": "Abonnieren",
-          "companyService": {
-            "title": "Unternehmensservice",
-            "links": [
-              "Kontaktieren Sie uns",
-              "Direktverkauf",
-              "Rücksendungen",
-              "Datenschutzbestimmungen",
-              "Hersteller",
-              "Fordern Sie ein Online-Konto an",
-              "Kundenerfahrungen",
-              "Erklärung zur Barrierefreiheit",
-              "Mobile App"
-            ]
-          },
-          "solarElectricalContractorServices": {
-            "title": "Solar Elektriker Dienstleistungen",
-            "links": [
-              "Über uns",
-              "Ingenieurdienstleistungen",
-              "Kreditlinie",
-              "Solar Cellz W-9 Formular",
-              "Grüne Technologie",
-              "Direkte Solarenergie",
-              "Self-Service-Portal für Lieferanten",
-              "Partnerprogramm"
-            ]
-          },
-          "toolsResources": {
-            "title": "Werkzeuge & Ressourcen",
-            "links": [
-              "Online-Shop",
-              "Geschäftsressourcen",
-              "Multimeter-Kalibrierungseinstellungen",
-              "Veranstaltungen",
-              "Hausbesitzer",
-              "Installationshandbuch-Suche",
-              "Solarenergie-Lernzentrum",
-              "Speicherprodukte",
-              "Installationsvideo-Serie",
-              "Solarprojekt-Rechner",
-              "Wartungskalender für Solarsysteme"
-            ]
-          },
-          "companyInfo": {
-            "title": "Unternehmensinformationen",
-            "links": [
-              "Investor Relations",
-              "Karriere",
-              "Franchisenehmer",
-              "Finanzierung",
-              "Allgemeine Geschäftsbedingungen"
-            ]
-          },
-          "downloadApp": {
-            "title": "Laden Sie unsere App herunter",
-            "badges": [
-              {
-                "platform": "Play Store"
-              },
-              {
-                "platform": "App Store"
-              }
-            ]
-          },
-          "copyright": "Solar Cellz USA, ALLE RECHTE VORBEHALTEN."
-        }      
+    "footer": {
+    "logoAltText": "Logo",
+    "subscribeInputPlaceholder": "Geben Sie Ihre E-Mail-Adresse ein",
+    "subscribeButton": "Abonnieren",
+    "companyService": {
+        "title": "Unternehmensdienstleistungen",
+        "links": [
+            { "text": "Kontaktieren Sie uns", "url": "#" },
+            { "text": "Direktverkauf", "url": "#" },
+            { "text": "Rückgaben", "url": "#" },
+            { "text": "Datenschutzrichtlinie", "url": "#" },
+            { "text": "Hersteller", "url": "#" },
+            { "text": "Online-Konto anfordern", "url": "#" },
+            { "text": "Kundenbewertungen", "url": "#" },
+            { "text": "Barrierefreiheitserklärung", "url": "#" },
+            { "text": "Mobile App", "url": "#" }
+        ]
+    },
+    "solarElectricalContractorServices": {
+        "title": "Solar- und Elektroinstallateur-Dienstleistungen",
+        "links": [
+            { "text": "Über uns", "url": "#" },
+            { "text": "Ingenieurdesign-Dienstleistungen", "url": "#" },
+            { "text": "Kreditlinie", "url": "#" },
+            { "text": "Solar Cellz W-9 Formular", "url": "#" },
+            { "text": "Grüne Technologie", "url": "#" },
+            { "text": "Solar Energy Direct", "url": "#" },
+            { "text": "Lieferanten-Self-Service-Portal", "url": "#" },
+            { "text": "Partnerprogramm", "url": "#" }
+        ]
+    },
+    "toolsResources": {
+        "title": "Tools & Ressourcen",
+        "links": [
+            { "text": "Online-Shop", "url": "#" },
+            { "text": "Geschäftsressourcen", "url": "#" },
+            { "text": "Multimeter-Kalibrierungseinstellungen", "url": "#" },
+            { "text": "Veranstaltungen", "url": "#" },
+            { "text": "Hauseigentümer", "url": "#" },
+            { "text": "Installationshandbuch-Suche", "url": "#" },
+            { "text": "Solar-Energie-Lernzentrum", "url": "#" },
+            { "text": "Lagerprodukte", "url": "#" },
+            { "text": "Installationsvideo-Serie", "url": "#" },
+            { "text": "Solarprojekt-Rechner", "url": "#" },
+            { "text": "Solaranlagen-Wartungskalender", "url": "#" }
+        ]
+    },
+    "companyInfo": {
+        "title": "Unternehmensinformationen",
+        "links": [
+            { "text": "Investor Relations", "url": "#" },
+            { "text": "Karriere", "url": "#" },
+            { "text": "Franchise-Hersteller", "url": "#" },
+            { "text": "Finanzierung", "url": "#" },
+            { "text": "Allgemeine Geschäftsbedingungen", "url": "#" }
+        ]
+    },
+    "downloadApp": {
+        "title": "Laden Sie unsere App herunter",
+        "badges": [
+            { "platform": "Play Store", "url": "#" },
+            { "platform": "App Store", "url": "#" }
+        ]
+    },
+    "copyright": "Solar Cellz USA, ALLE RECHTE VORBEHALTEN."
+}     
 }
   

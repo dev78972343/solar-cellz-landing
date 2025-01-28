@@ -659,74 +659,70 @@
       }
     },
       "footer": {
-        "logoAltText":"Logo",
-        "subscribeInputPlaceholder": "Enter your email address",
-        "subscribeButton": "Subscribe",
-        "companyService": {
-          "title": "Company Service",
-          "links": [
-            "Contact Us",
-            "Direct Sales",
-            "Returns",
-            "Privacy Policy",
-            "Manufacturers",
-            "Request an Online Account",
-            "Testimonials",
-            "Accessibility Statement",
-            "Mobile App"
-          ]
-        },
-        "solarElectricalContractorServices": {
-          "title": "Solar Electrical Contractor Services",
-          "links": [
-            "About Us",
-            "Engineer Design Services",
-            "Line of Credit",
-            "Solar Cellz W-9 Form",
-            "Green Technology",
-            "Solar Energy Direct",
-            "Supplier Self Service Portal",
-            "Partners Program"
-          ]
-        },
-        "toolsResources": {
-          "title": "Tools & Resources",
-          "links": [
-            "Online Store",
-            "Business Resource",
-            "Multimeter Calibration Settings",
-            "Events",
-            "Homeowners",
-            "Installation Manual Search",
-            "Solar Energy Learning Center",
-            "Storage Products",
-            "Installation Video Series",
-            "Solar Project Calculators",
-            "Solar System Maintenance Calendars"
-          ]
-        },
-        "companyInfo": {
-          "title": "Company Info",
-          "links": [
-            "Investor Relations",
-            "Careers",
-            "Franchised Manufacturers",
-            "Financing",
-            "Terms & Conditions"
-          ]
-        },
-        "downloadApp": {
-          "title": "Download Our App",
-          "badges": [
-            {
-              "platform": "Play Store"
-            },
-            {
-              "platform": "App Store"
-            }
-          ]
-        },
-        "copyright": "Solar Cellz USA, ALL RIGHTS RESERVED."
-      }    
+    "logoAltText": "Logo",
+    "subscribeInputPlaceholder": "Enter your email address",
+    "subscribeButton": "Subscribe",
+    "companyService": {
+        "title": "Company Service",
+        "links": [
+            { "text": "Contact Us", "url": "#" },
+            { "text": "Direct Sales", "url": "#" },
+            { "text": "Returns", "url": "#" },
+            { "text": "Privacy Policy", "url": "#" },
+            { "text": "Manufacturers", "url": "#" },
+            { "text": "Request an Online Account", "url": "#" },
+            { "text": "Testimonials", "url": "#" },
+            { "text": "Accessibility Statement", "url": "#" },
+            { "text": "Mobile App", "url": "#" }
+        ]
+    },
+    "solarElectricalContractorServices": {
+        "title": "Solar Electrical Contractor Services",
+        "links": [
+            { "text": "About Us", "url": "#" },
+            { "text": "Engineer Design Services", "url": "#" },
+            { "text": "Line of Credit", "url": "#" },
+            { "text": "Solar Cellz W-9 Form", "url": "#" },
+            { "text": "Green Technology", "url": "#" },
+            { "text": "Solar Energy Direct", "url": "#" },
+            { "text": "Supplier Self Service Portal", "url": "#" },
+            { "text": "Partners Program", "url": "#" }
+        ]
+    },
+    "toolsResources": {
+        "title": "Tools & Resources",
+        "links": [
+            { "text": "Online Store", "url": "#" },
+            { "text": "Business Resource", "url": "#" },
+            { "text": "Multimeter Calibration Settings", "url": "#" },
+            { "text": "Events", "url": "#" },
+            { "text": "Homeowners", "url": "#" },
+            { "text": "Installation Manual Search", "url": "#" },
+            { "text": "Solar Energy Learning Center", "url": "#" },
+            { "text": "Storage Products", "url": "#" },
+            { "text": "Installation Video Series", "url": "#" },
+            { "text": "Solar Project Calculators", "url": "#" },
+            { "text": "Solar System Maintenance Calendars", "url": "#" }
+        ]
+    },
+    "companyInfo": {
+        "title": "Company Info",
+        "links": [
+            { "text": "Investor Relations", "url": "#" },
+            { "text": "Careers", "url": "#" },
+            { "text": "Franchised Manufacturers", "url": "#" },
+            { "text": "Financing", "url": "#" },
+            { "text": "Terms & Conditions", "url": "#" }
+        ]
+    },
+    "downloadApp": {
+        "title": "Download Our App",
+        "badges": [
+            { "platform": "Play Store", "url": "#" },
+            { "platform": "App Store", "url": "#" }
+        ]
+    },
+    "copyright": "Solar Cellz USA, ALL RIGHTS RESERVED."
+}   
   }
 

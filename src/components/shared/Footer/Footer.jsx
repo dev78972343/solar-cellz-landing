@@ -11,27 +11,27 @@ import { Instagram } from "lucide-react";
 import { Facebook } from "lucide-react";
 import { Youtube } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import footerDatas from "./constant";
 
 export default function Footer() {
-  const { companyServiceLinks , solarElectricalContractorServicesLinks, toolsResourcesLinks, companyInfoLinks} = footerDatas
   const { t } = useTranslation();
+  const footerDatas = t("footer", { returnObjects: true });
+  const { companyService , solarElectricalContractorServices, toolsResources, companyInfo, downloadApp} = footerDatas
   return (
     <footer className="py-12 bg-black">
       <ResponsiveContainer>
         <div className="flex-start-between w-full flex-col gap-y-5 lg:flex-row">
           <Link to="/">
-            <img src={logo} alt={t("logo.logoAltText")} />
+            <img src={logo} alt={footerDatas.logoAltText} />
           </Link>
 
           <div className="relative w-full lg:w-[90%] 2xl:w-1/3">
             <Input
-              placeholder={t("footer.subscribeInputPlaceholder")}
+              placeholder={footerDatas.subscribeInputPlaceholder}
               className="h-14 w-full rounded-lg border-none bg-white text-black placeholder:text-black/50"
             />
 
             <PrimaryButton className="absolute right-2 top-1/2 h-10 -translate-y-1/2">
-              {t("footer.subscribeButton")}
+              {footerDatas.subscribeButton}
             </PrimaryButton>
           </div>
         </div>
@@ -39,11 +39,11 @@ export default function Footer() {
         <div className="mx-auto mt-8 grid grid-cols-1 gap-8 text-sm text-gray-100 md:grid-cols-4 lg:mt-16">
           {/* Column 1 - Company Service */}
           <div>
-            <h3 className="mb-4 text-xl font-bold">{t("footer.companyService.title")}</h3>
+            <h3 className="mb-4 text-xl font-bold">{companyService.title}</h3>
             <ul className="space-y-2">
-              {companyServiceLinks.map((_, index) => (
-                <Link to="#" className="block hover:underline" key={index}>
-                  {t(`footer.companyService.links.${index}`)}
+              {companyService.links.map((item, index) => (
+                <Link to={item.url} className="block hover:underline" key={index}>
+                  {item.text}
                 </Link>
               ))}
             </ul>
@@ -52,12 +52,12 @@ export default function Footer() {
           {/* Column 2 - Solar Electrical Contractor Services */}
           <div>
             <h3 className="mb-4 text-xl font-bold">
-              {t("footer.solarElectricalContractorServices.title")}
+              {solarElectricalContractorServices.title}
             </h3>
             <ul className="space-y-2">
-              {solarElectricalContractorServicesLinks.map((_, index) => (
-                <Link to="#" className="block hover:underline" key={index}>
-                 {t(`footer.solarElectricalContractorServices.links.${index}`)}
+              {solarElectricalContractorServices.links.map((item, index) => (
+                <Link to={item.url} className="block hover:underline" key={index}>
+                 {item.text}
                 </Link>
               ))}
             </ul>
@@ -65,11 +65,11 @@ export default function Footer() {
 
           {/* Column 3 - Tools & Resources */}
           <div>
-            <h3 className="mb-4 text-xl font-bold">{t("footer.toolsResources.title")}</h3>
+            <h3 className="mb-4 text-xl font-bold">{toolsResources.title}</h3>
             <ul className="space-y-2">
-              {toolsResourcesLinks.map((_, index) => (
-                <Link to="#" className="block hover:underline" key={index}>
-                  {t(`footer.toolsResources.links.${index}`)}
+              {toolsResources.links.map((item, index) => (
+                <Link to={item.url} className="block hover:underline" key={index}>
+                  {item.text}
                 </Link>
               ))}
             </ul>
@@ -77,22 +77,22 @@ export default function Footer() {
 
           {/* Column 4 - Company Info */}
           <div>
-            <h3 className="mb-4 text-xl font-bold">{t("footer.companyInfo.title")}</h3>
+            <h3 className="mb-4 text-xl font-bold">{companyInfo.title}</h3>
             <ul className="space-y-2">
-              {companyInfoLinks.map((_, index) => (
-                <Link to="#" className="block hover:underline" key={index}>
-                {t(`footer.companyInfo.links.${index}`)}
+              {companyInfo.links.map((item, index) => (
+                <Link to={item.url} className="block hover:underline" key={index}>
+                {item.text}
                 </Link>
               ))}
             </ul>
 
-            <h3 className="mb-4 mt-6 text-xl font-bold">{t("footer.downloadApp.title")}</h3>
+            <h3 className="mb-4 mt-6 text-xl font-bold">{downloadApp.title}</h3>
             <div className="flex-center-start mt-3 gap-x-3">
-              <a href="#">
-                <img src={playStoreBadge} alt={t("footer.downloadApp.badges.0.platform")}/>
+              <a href={downloadApp.badges[0].url}>
+                <img src={playStoreBadge} alt={downloadApp.badges[0].platform}/>
               </a>
-              <a href="#">
-                <img src={appStoreBadge} alt={t("footer.downloadApp.badges.1.platform")} />
+              <a href={downloadApp.badges[1].url}>
+                <img src={appStoreBadge} alt={downloadApp.badges[1].platform} />
               </a>
             </div>
           </div>
@@ -102,7 +102,7 @@ export default function Footer() {
       <Separator className="mb-4 mt-10 bg-gray-400" />
 
       <ResponsiveContainer classes="text-white text-sm font-medium flex-center-between flex-col lg:flex-row gap-y-4">
-        <p>&copy; {new Date().getFullYear()} {t(`footer.copyright`)}</p>
+        <p>&copy; {new Date().getFullYear()} {footerDatas.copyright}</p>
 
         {/* Social Links */}
         <div className="flex-center-start gap-x-3">
