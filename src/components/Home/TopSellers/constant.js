@@ -12,6 +12,15 @@ const productImages = {
   3: {
     image: item3Img,
   },
+  4: {
+    image: item1Img,
+  },
+  5: {
+    image: item2Img,
+  },
+  6: {
+    image: item3Img,
+  },
 }
 
 export default productImages;
