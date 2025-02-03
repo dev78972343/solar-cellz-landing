@@ -1,7 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import logo from "@/assets/logos/SolarCellz-logo.svg";
 import smLogo from "@/assets/logos/sm-logo.png";
-import { allItems } from "@/constants/items";
 import { HeaderBottom } from "./HeaderBottom";
 import SearchIcon from "@mui/icons-material/Search";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
@@ -11,6 +10,7 @@ import { useTranslation } from "react-i18next";
 
 export default function Header() {
   const { t } = useTranslation();
+  const navData = t("navbar", { returnObjects: true });
   const [showAll, setShowAll] = useState(false);
   const dropdownRef = useRef(null);
 
@@ -37,12 +37,12 @@ export default function Header() {
         <a href="/" className="">
         <div className="hidden md:block headerHover">
           <img
-            className="mt-2 w-full min-w-[100px] max-w-48"
+            className="mt-2 w-full min-w-24 max-w-48"
             src={logo}
             alt={t("navbar.topnav.logoAltText")}
           />
         </div>
-        <img className="md:hidden w-12" src={smLogo} alt={t("navbar.topnav.logoAltText")}/>
+        <img className="md:hidden w-12" src={smLogo} alt={navData.topnav.logoAltText}/>
         </a>
         {/* ============ Image End here ================== */}
         
@@ -53,7 +53,7 @@ export default function Header() {
             onClick={() => setShowAll(!showAll)}
             className="flex w-16 cursor-pointer items-center px-1.5 justify-center rounded-bl-md rounded-tl-md bg-gray-100 text-sm text-dark-blue-500 hover:bg-gray-200 duration-200"
           >
-            {t("navbar.topnav.search.all")}
+            {navData.topnav.search.all}
             <ArrowDropDownOutlinedIcon />
           </span>
 
@@ -65,12 +65,12 @@ export default function Header() {
               onClick={(e) => e.stopPropagation()} 
               onWheel={(e) => e.stopPropagation()} 
             >
-              {allItems.map((item, idx) => (
+              {navData.topnav.allmenus.map((item, idx) => (
                 <li
-                  key={item.id}
-                  className="cursor-pointer rounded-md px-2 py-1 text-sm text-gray-700 hover:bg-gray-100 hover:text-dark-blue-500"
+                  key={idx}
+                  className="cursor-pointer rounded-md px-2 py-1 text-sm text-gray-700 hover:bg-slate-100 hover:text-dark-blue-500"
                 >
-                  {t(`navbar.topnav.allmenus.${idx}`)}
+                  {item}
                 </li>
               ))}
             </ul>
@@ -79,7 +79,7 @@ export default function Header() {
           <input
             className="h-full w-full flex-grow border-none px-2 text-base text-dark-blue-500 outline-none"
             type="text"
-            placeholder={t("navbar.topnav.search.placeholder")}
+            placeholder={navData.topnav.search.placeholder}
           />
           <span className="flex shrink-0 h-full w-10 md:w-12 cursor-pointer items-center justify-center rounded-br-md rounded-tr-md bg-primary-button-gradient text-white duration-300">
             <SearchIcon />
@@ -90,9 +90,9 @@ export default function Header() {
         {/* ============ Signin Start here =============== */}
         <div className="flex items-center gap-2">
           <div className="headerHover hidden flex-col items-start justify-center md:flex">
-            <p className="text-xs font-light text-lightText">{t("navbar.topnav.account.hello")}, {t("navbar.topnav.account.signin")}</p>
+            <p className="text-xs font-light text-lightText">{navData.topnav.account.hello}, {navData.topnav.account.signin}</p>
             <p className="-mt-1 text-sm font-semibold text-whiteText">
-              {t("navbar.topnav.account.title")}
+              {navData.topnav.account.title}
               <span>
                 <ArrowDropDownOutlinedIcon />
               </span>
@@ -104,7 +104,7 @@ export default function Header() {
           <div className="headerHover relative flex items-start justify-center">
             <ShoppingCartIcon />
             <p className="mt-3 text-xs font-semibold text-whiteText">
-             {t("navbar.topnav.cart.title")}
+             {navData.topnav.cart.title}
               <span className="absolute -top-1 left-6 flex h-4 items-center justify-center rounded-full bg-[#f3a847] p-1 text-xs font-semibold text-dark-blue-500">
                 0
               </span>
