@@ -7,6 +7,7 @@ import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import ArrowDropDownOutlinedIcon from "@mui/icons-material/ArrowDropDownOutlined";
 import ResponsiveContainer from "@/components/ResponsiveContainer/ResponsiveContainer";
 import { useTranslation } from "react-i18next";
+import { cn } from "@/lib/utils";
 
 export default function Header() {
   const { t } = useTranslation();
@@ -51,7 +52,7 @@ export default function Header() {
           {/* Dropdown Button */}
           <span
             onClick={() => setShowAll(!showAll)}
-            className="flex w-16 cursor-pointer items-center px-1.5 justify-center rounded-bl-md rounded-tl-md bg-gray-100 text-sm text-dark-blue-500 hover:bg-gray-200 duration-200"
+            className={cn("flex w-16 cursor-pointer items-center px-1.5 justify-center rounded-bl-md rounded-tl-md bg-gray-100 text-sm text-dark-blue-500 hover:bg-gray-200 duration-200", showAll && "ring-2 ring-primary bg-gray-200")}
           >
             {navData.topnav.search.all}
             <ArrowDropDownOutlinedIcon />
@@ -61,8 +62,7 @@ export default function Header() {
           {showAll && (
             <ul
               ref={dropdownRef}
-              className="absolute left-0 top-full z-50 mt-1 w-56 max-h-80 overflow-y-auto rounded-md border border-gray-300 bg-white p-2 shadow-lg"
-              onClick={(e) => e.stopPropagation()} 
+              className="absolute left-0 top-full z-50 mt-1 min-w-60 max-h-80 overflow-y-auto rounded-md border border-gray-300 bg-white p-2 shadow-lg" 
               onWheel={(e) => e.stopPropagation()} 
             >
               {navData.topnav.allmenus.map((item, idx) => (
@@ -77,7 +77,7 @@ export default function Header() {
           )}
           {/* Search Input */}
           <input
-            className="h-full w-full flex-grow border-none px-2 text-base text-dark-blue-500 outline-none"
+            className="h-full w-full flex-grow border-none px-2 text-base text-dark-blue-500 outline-none focus:ring-2 focus:ring-primary"
             type="text"
             placeholder={navData.topnav.search.placeholder}
           />
