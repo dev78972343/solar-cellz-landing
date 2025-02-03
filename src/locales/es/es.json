@@ -46,14 +46,17 @@
           ]
         },
         "sidenav": {
+          "all": "Todo",
           "heading": "Hola",
           "signin": "Iniciar Sesión",
           "back": "Atrás",
           "menus": [
             {
+              "id": 1,
               "title": "Productos y Servicios Solares",
               "items": [
                 {
+                  "id": 1,
                   "label": "Operación y Mantenimiento Solar",
                   "subItems": [
                     { "label": "Captura del sitio" },
@@ -67,6 +70,7 @@
                   ]
                 },
                 {
+                  "id": 2,
                   "label": "Paneles Solares",
                   "subItems": [
                     { "label": "Paneles solares monocristalinos" },
@@ -80,6 +84,7 @@
                   ]
                 },
                 {
+                  "id": 3,
                   "label": "Suministro de Estructuras Solares",
                   "subItems": [
                     { "label": "Estructuras para techos" },
@@ -96,6 +101,7 @@
               ]
             },
             {
+              "id": 2,
               "title": "Soluciones Energéticas",
               "items": [
                 {
@@ -127,6 +133,7 @@
               ]
             },
             {
+              "id": 3,
               "title": "Herramientas, Equipos y Seguridad",
               "items": [
                 {

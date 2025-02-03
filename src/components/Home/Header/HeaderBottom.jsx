@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import MenuIcon from "@mui/icons-material/Menu";
-import { menuData } from "@/constants/menu-data";
 import CloseIcon from "@mui/icons-material/Close";
 import { SideNavContent } from "./SideNavContent";
 import { useEffect, useRef, useState } from "react";
@@ -12,6 +11,7 @@ import { useTranslation } from "react-i18next";
 
 export function HeaderBottom() {
   const { t } = useTranslation();
+  const sidebarData = t("navbar.sidenav", { returnObjects: true });
   const ref = useRef();
   const [sidebar, setSidebar] = useState(false);
   const [activeMenu, setActiveMenu] = useState(null);
@@ -34,7 +34,7 @@ export function HeaderBottom() {
           className="headerHover flex items-center gap-1 cursor-pointer"
         >
           <MenuIcon />
-         {t("navbar.bottomnav.all")}
+         {sidebarData.all}
         </li>
         <TopNavMenu/>
       </ul>
@@ -52,12 +52,12 @@ export function HeaderBottom() {
               <div className="flex w-full items-center gap-4 bg-dark-blue-400 px-6 py-2 text-white">
                 <AccountCircleIcon />
                 <h3 className="font-titleFont text-lg font-bold tracking-wide">
-                  {t("navbar.sidenav.heading")}, {t("navbar.sidenav.signin")}
+                  {sidebarData.heading}, {sidebarData.signin}
                 </h3>
               </div>
 
               {!activeMenu &&
-                menuData.map((menu, idx) => (
+                sidebarData.menus.map((menu, idx) => (
                   <SideNavContent
                     key={idx}
                     idx={idx}
@@ -68,7 +68,7 @@ export function HeaderBottom() {
                 ))}
 
               {activeMenu &&
-                menuData.map((menu) =>
+                sidebarData.menus.map((menu) =>
                   menu.items
                     .filter((item) => item.label === activeMenu)
                     .map((subMenu) => (
@@ -83,7 +83,7 @@ export function HeaderBottom() {
 
               <span
                 onClick={() => setSidebar(false)}
-                className="absolute -right-12 top-1 flex h-10 w-10 cursor-pointer items-center justify-center rounded-md border-2 bg-transparent text-white duration-300"
+                className="absolute right-2 top-2 flex size-7 cursor-pointer items-center justify-center rounded-md border-2 bg-transparent text-white duration-300"
               >
                 <CloseIcon />
               </span>

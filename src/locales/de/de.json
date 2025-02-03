@@ -45,14 +45,17 @@
         ]
       },
       "sidenav": {
+        "all": "Alle",
         "heading": "Hallo",
         "signin": "Anmelden",
         "back": "Zurück",
         "menus": [
           {
+            "id": 1,
             "title": "Solarprodukte und -dienstleistungen",
             "items": [
               {
+                "id": 1,
                 "label": "Solarbetrieb und -wartung",
                 "subItems": [
                   { "label": "Standorterfassung" },
@@ -66,6 +69,7 @@
                 ]
               },
               {
+                "id": 2,
                 "label": "Solarmodule",
                 "subItems": [
                   { "label": "Monokristalline Solarmodule" },
@@ -79,6 +83,7 @@
                 ]
               },
               {
+                "id": 3,
                 "label": "Solar-Montagesysteme",
                 "subItems": [
                   { "label": "Dachmontagesysteme" },
@@ -95,9 +100,11 @@
             ]
           },
           {
+            "id": 2,
             "title": "Energielösungen",
             "items": [
               {
+                "id": 1,
                 "label": "Solarbatterien",
                 "subItems": [
                   { "label": "Lithium-Ionen-Batterien (Li-Ion)" },
@@ -111,6 +118,7 @@
                 ]
               },
               {
+                "id": 2,
                 "label": "Solar-Wechselrichter",
                 "subItems": [
                   { "label": "String-Wechselrichter" },
@@ -126,9 +134,11 @@
             ]
           },
           {
+            "id": 3,
             "title": "Werkzeuge, Ausrüstung und Sicherheit",
             "items": [
               {
+                "id": 1,
                 "label": "Solarwerkzeuge",
                 "subItems": [
                   { "label": "Werkzeuge für die Installation von Solarmodulen" },
@@ -139,6 +149,7 @@
                 ]
               },
               {
+                "id": 2,
                 "label": "Sicherheit",
                 "subItems": [
                   { "label": "Persönliche Schutzausrüstung (PSA)" },

@@ -45,14 +45,17 @@
         ]
       },
         "sidenav": {
+          "all": "Tout",
             "heading": "Bonjour",
             "signin": "Se Connecter",
             "back": "Retour",
             "menus": [
               {
+                "id": 1,
                 "title": "Produits et Services Solaires",
                 "items": [
                   {
+                    "id": 1,
                     "label": "Exploitation et Maintenance Solaires",
                     "subItems": [
                       { "label": "Capture de site" },
@@ -66,6 +69,7 @@
                     ]
                   },
                   {
+                    "id": 2,
                     "label": "Panneaux Solaires",
                     "subItems": [
                       { "label": "Panneaux solaires monocristallins" },
@@ -79,6 +83,7 @@
                     ]
                   },
                   {
+                    "id": 3,
                     "label": "Approvisionnement en Supports Solaires",
                     "subItems": [
                       { "label": "Supports pour toit" },
@@ -95,9 +100,11 @@
                 ]
               },
               {
+                "id": 2,
                 "title": "Solutions Énergétiques",
                 "items": [
                   {
+                    "id": 1,
                     "label": "Batteries d'Énergie Solaire",
                     "subItems": [
                       { "label": "Batteries Lithium-ion (li-ion)" },
@@ -111,6 +118,7 @@
                     ]
                   },
                   {
+                    "id": 2,
                     "label": "Onduleurs Solaires",
                     "subItems": [
                       { "label": "Onduleurs en chaîne" },
@@ -126,9 +134,11 @@
                 ]
               },
               {
+                "id": 3,
                 "title": "Outils, Équipements et Sécurité",
                 "items": [
                   {
+                    "id": 1,
                     "label": "Outils d'Énergie Solaire",
                     "subItems": [
                       { "label": "Outils d'installation de panneaux solaires" },
@@ -139,6 +149,7 @@
                     ]
                   },
                   {
+                    "id": 2,
                     "label": "Sécurité",
                     "subItems": [
                       { "label": "Équipement de protection individuelle (EPI)" },

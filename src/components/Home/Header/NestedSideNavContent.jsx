@@ -1,7 +1,10 @@
 import { ArrowLeft } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 
 export function NestedSideNavContent({ title, items, setActiveMenu }) {
+  const { t } = useTranslation();
+  const back = t("navbar.sidenav.back");
   return (
     <div>
       <div className="mb-3 border-b-[1px] border-b-gray-300 px-6 py-2.5">
@@ -12,7 +15,7 @@ export function NestedSideNavContent({ title, items, setActiveMenu }) {
           <span className="text-amazon_blue">
             <ArrowLeft size={16} className="text-gray-700" />
           </span>
-          <span>MAIN MENU</span>
+          <span>{back}</span>
         </button>
       </div>
 

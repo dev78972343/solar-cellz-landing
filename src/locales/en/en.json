@@ -118,6 +118,7 @@
       ]
     },
     "sidenav":{
+      "all":"All",
       "heading":"Hello",
       "signin":"Sign In",
       "back":"Back",
